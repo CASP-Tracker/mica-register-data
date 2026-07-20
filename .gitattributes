@@ -1,0 +1,3 @@
+# Never convert line endings: source/ must stay byte-identical to the ESMA
+# originals (the refresh routine compares SHA-256 hashes byte for byte).
+* -text

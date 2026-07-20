@@ -1,0 +1,844 @@
+{
+  "generatedAt": "2026-07-20T07:44:19.225Z",
+  "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
+  "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
+  "count": 21,
+  "wpCount": 41,
+  "countries": 12,
+  "items": [
+    {
+      "lei": "743700KYSSTKZYGEUF50",
+      "leiName": "Paxos Issuance Europe Oy",
+      "name": "Paxos EU",
+      "homeState": "FI",
+      "authority": "Finanssivalvonta (FIN-FSA)",
+      "address": "Meritullinkatu 1 B 00170 HELSINKI",
+      "website": "paxos.com",
+      "websiteHref": "https://www.paxos.com/eu",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "USDG",
+        "EUROe",
+        "eUSD"
+      ],
+      "entityAuthDate": "2022-11-23",
+      "firstWpDate": "2024-06-29",
+      "lastUpdate": "2026-04-28",
+      "whitepapers": [
+        {
+          "url": "https://www.membrane.fi/whitepapers/EUROe.html",
+          "date": "2024-06-29",
+          "note": "EUROe"
+        },
+        {
+          "url": "https://www.membrane.fi/whitepapers/eUSD.html",
+          "date": "2024-06-29",
+          "note": "eUSD"
+        },
+        {
+          "url": "https://www.paxos.com/terms-and-conditions/usdg-eu-whitepaper",
+          "date": "2025-12-19",
+          "note": "Added the functionality to use USDG on X layer blockchain"
+        },
+        {
+          "url": "https://www.paxos.com/white-paper",
+          "date": "2025-06-09",
+          "note": "machine-readable version made available"
+        }
+      ],
+      "dti": [
+        "2VT5W3GH7"
+      ],
+      "dtiFfg": [
+        "R9MZCNWS4"
+      ],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "969500OYUDADGZKCR583",
+      "leiName": "Circle Internet Financial Europe SAS",
+      "name": "Circle",
+      "homeState": "FR",
+      "authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "address": "4 Rue de Marivaux 75002 Paris",
+      "website": "circle.com",
+      "websiteHref": "https://www.circle.com/fr/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "USDC",
+        "EURC"
+      ],
+      "entityAuthDate": "2024-07-01",
+      "firstWpDate": "2024-07-01",
+      "lastUpdate": "2025-12-24",
+      "whitepapers": [
+        {
+          "url": "https://www.circle.com/fr/legal/mica-eurc-whitepaper",
+          "date": "2024-07-01",
+          "note": "EURC"
+        },
+        {
+          "url": "https://www.circle.com/fr/legal/mica-usdc-whitepaper",
+          "date": "2024-07-01",
+          "note": "USDC"
+        }
+      ],
+      "dti": [
+        "FJM594L0V",
+        "T1J8XQBSD",
+        "FZQ4WZNHC",
+        "FMXXP963M",
+        "M8G59S1ZR",
+        "6BGZTT6GF",
+        "4ZSZS1F4F",
+        "45J6XJX7H",
+        "CP6817N4B",
+        "2ZTG3NNVB",
+        "VXJX1WW6V",
+        "CK9PW1MFH",
+        "P7H2X1B9H",
+        "XTS66R22W",
+        "GN9M0Z238",
+        "R3SV04GX9",
+        "RWPZZPR7C",
+        "S28NDWCSX",
+        "W2PQJJCPM",
+        "7NZRGQZ87",
+        "898NNTPZJ",
+        "N064ZKXDM",
+        "J2TPM5RFQ",
+        "LS71LQK3L",
+        "RN81GQLBH",
+        "5R3XFPZSM",
+        "MKC04VFBQ",
+        "DWBBXD2F1",
+        "TSLS4S9R8",
+        "FXZLG37L6",
+        "T6TQ8GN7L",
+        "56V43DKZ3",
+        "QQKDMF6N9",
+        "SKXZGD4J8",
+        "54VFN74B3"
+      ],
+      "dtiFfg": [
+        "13XTMPZT3",
+        "TJWK5QTRK"
+      ],
+      "caspSlug": "circle",
+      "caspWebsite": "www.circle.com/en"
+    },
+    {
+      "lei": "969500FX8K40ZDW4F377",
+      "leiName": "Société Générale - Forge",
+      "name": "Société Générale Forge",
+      "homeState": "FR",
+      "authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "address": "17 Cours Valmy 92800 Puteaux",
+      "website": "sgforge.com",
+      "websiteHref": "https://www.sgforge.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EURCV",
+        "USDCV"
+      ],
+      "entityAuthDate": "2024-07-01",
+      "firstWpDate": "2024-07-01",
+      "lastUpdate": "2025-10-14",
+      "whitepapers": [
+        {
+          "url": "https://www.sgforge.com/wp-content/uploads/2025/10/EURCV-WP-Ethereum-Solana_XRPL_Stellar_2025.10.14.pdf",
+          "date": "2024-07-01",
+          "note": "EURCV"
+        },
+        {
+          "url": "https://www.sgforge.com/wp-content/uploads/2025/08/SG-Forge-USDCV-White-Paper_V2.0_Ethereum_Solana_11082025.pdf",
+          "date": "2024-07-16",
+          "note": "USDCV"
+        }
+      ],
+      "dti": [
+        "HF8RCHVWW",
+        "3NG1PDSJM",
+        "LTJP3BH2R",
+        "24QFRJ6Q9",
+        "9XDHG5RZQ",
+        "8TF1FZX7H"
+      ],
+      "dtiFfg": [
+        "9W5C49FJV",
+        "LD6JM2JN2"
+      ],
+      "caspSlug": "societe-generale-forge",
+      "caspWebsite": "www.sgforge.com"
+    },
+    {
+      "lei": "984500A64C0EA64BC554",
+      "leiName": "Stable mint Ltd",
+      "name": "Stable mint",
+      "homeState": "MT",
+      "authority": "Malta Financial Services Authority",
+      "address": "Trident Park notabile gardens no 2 level 3, Central business district, Birkirkara, Malta",
+      "website": "stablemint.io",
+      "websiteHref": "https://www.stablemint.io/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2024-08-05",
+      "firstWpDate": "2024-08-08",
+      "lastUpdate": "2025-03-24",
+      "whitepapers": [
+        {
+          "url": "https://stablemintpublicdocs.blob.core.windows.net/docs/StableMint_Whitepaper_EUR.html",
+          "date": "2024-08-08",
+          "note": ""
+        },
+        {
+          "url": "https://stablemintpublicdocs.blob.core.windows.net/docs/StableMint_Whitepaper_USD.html",
+          "date": "2024-11-27",
+          "note": ""
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": "stable-mint-ltd",
+      "caspWebsite": "stablemint.io"
+    },
+    {
+      "lei": "213800W1NGBLERUS6M39",
+      "leiName": "Banking Circle S.A.",
+      "name": "Banking Circle",
+      "homeState": "LU",
+      "authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "2 Boulevard de la Foire, L-1528 Luxembourg",
+      "website": "bankingcircle.com",
+      "websiteHref": "https://www.bankingcircle.com/",
+      "type": "credit",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EURI"
+      ],
+      "entityAuthDate": "2019-10-29",
+      "firstWpDate": "2024-08-28",
+      "lastUpdate": null,
+      "whitepapers": [
+        {
+          "url": "https://www.eurite.com/download-whitepaper/",
+          "date": "2024-08-28",
+          "note": "EURI"
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": "banking-circle",
+      "caspWebsite": "bankingcircle.com"
+    },
+    {
+      "lei": "969500SGAEBRXYUAJ739",
+      "leiName": "SALVUS",
+      "name": "Schuman Financial (SALVUS)",
+      "homeState": "FR",
+      "authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "address": "9 Rue du Quatre Septembre, 75002 PARIS",
+      "website": "schuman.io",
+      "websiteHref": "https://schuman.io/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EURØP"
+      ],
+      "entityAuthDate": "2024-11-22",
+      "firstWpDate": "2024-11-22",
+      "lastUpdate": "2026-03-23",
+      "whitepapers": [
+        {
+          "url": "https://schuman.io/wp-content/uploads/EUROP-White-Paper.pdf",
+          "date": "2024-11-22",
+          "note": ""
+        }
+      ],
+      "dti": [
+        "KR4DF4ZJ2",
+        "BNTTMH9HK"
+      ],
+      "dtiFfg": [
+        "2BKLSP3D6"
+      ],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "724500GVWT7QULV8CR59",
+      "leiName": "Fiat Republic Netherlands",
+      "name": "Fiat Republic",
+      "homeState": "NL",
+      "authority": "De Nederlandsche Bank (DNB)",
+      "address": "Strawinskylaan 4117 - room 05-116 - 1077 ZX - Amsterdam",
+      "website": "fiatrepublic.com",
+      "websiteHref": "https://fiatrepublic.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "ENEUR",
+        "ENGBP",
+        "ENUSD"
+      ],
+      "entityAuthDate": "2021-11-29",
+      "firstWpDate": "2024-12-02",
+      "lastUpdate": "2025-03-24",
+      "whitepapers": [
+        {
+          "url": "https://fiatrepublic.com/about/eaglenetcoin/",
+          "date": "2024-12-02",
+          "note": "ENEUR white paper"
+        },
+        {
+          "url": "https://fiatrepublic.com/about/eaglenetcoin/",
+          "date": "2024-12-02",
+          "note": "ENGBP white paper"
+        },
+        {
+          "url": "https://fiatrepublic.com/about/eaglenetcoin/",
+          "date": "2025-03-24",
+          "note": "ENUSD white paper"
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": "fiat-republic-netherlands-b-v",
+      "caspWebsite": "fiatrepublic.com"
+    },
+    {
+      "lei": "7245008P1HPUPVM7XL94",
+      "leiName": "Quantoz Payments B.V",
+      "name": "Quantoz Payments",
+      "homeState": "NL",
+      "authority": "De Nederlandsche Bank (DNB)",
+      "address": "Europalaan 100 - 3526 KS Utrecht",
+      "website": "quantoz.com",
+      "websiteHref": "https://quantoz.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EURQ",
+        "USDQ",
+        "EURD",
+        "PLNQ",
+        "GBPQ",
+        "RONQ"
+      ],
+      "entityAuthDate": "2023-10-13",
+      "firstWpDate": "2025-03-24",
+      "lastUpdate": "2026-04-15",
+      "whitepapers": [
+        {
+          "url": "https://www.quantoz.com/resources",
+          "date": "2025-03-24",
+          "note": "EURQ white paper"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "date": "2025-03-24",
+          "note": "USDQ white paper"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "date": "2025-08-01",
+          "note": "EURD EMT white paper"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "date": "2026-04-07",
+          "note": "PLNQ white paper"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "date": "2026-04-07",
+          "note": "GBPQ white paper"
+        },
+        {
+          "url": "https://www.quantoz.com/resources",
+          "date": "2026-04-15",
+          "note": "RONQ white paper"
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "8945001XWFMRUTCAK575",
+      "leiName": "Eurodollar ApS",
+      "name": "Eurodollar",
+      "homeState": "DK",
+      "authority": "Finanstilsynet",
+      "address": "Gammel Kongevej 120, 1. tv, KØBENHAVN ,DK",
+      "website": "eurodollar.fi",
+      "websiteHref": "https://www.eurodollar.fi/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2025-02-17",
+      "firstWpDate": "2025-04-10",
+      "lastUpdate": null,
+      "whitepapers": [],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "315700IJDQF91J9C8B68",
+      "leiName": "Payment Corporation SE",
+      "name": "Stable Labs",
+      "homeState": "CZ",
+      "authority": "Czech National Bank (CNB)",
+      "address": "Krizikova 710/30, Karlin, 18600 Prague 8, Czech Republic",
+      "website": "stablelabs.co",
+      "websiteHref": "https://stablelabs.co/",
+      "type": "emi",
+      "ex484": true,
+      "ex485": true,
+      "exempt": true,
+      "tokens": [],
+      "entityAuthDate": "2017-04-26",
+      "firstWpDate": "2025-05-17",
+      "lastUpdate": "2025-10-30",
+      "whitepapers": [
+        {
+          "url": "https://stablelabs.co/whitepaper0.pdf",
+          "date": "2025-05-17",
+          "note": ""
+        },
+        {
+          "url": "https://stablelabs.co/whitepaper.pdf",
+          "date": "2025-09-20",
+          "note": ""
+        },
+        {
+          "url": "https://stablelabs.co/whitepaper1.pdf",
+          "date": "2025-10-16",
+          "note": ""
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "3912007G8L8CD3HFIV26",
+      "leiName": "AllUnity GmbH",
+      "name": "AllUnity GmbH",
+      "homeState": "DE",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Sandweg 94, 60316 Frankfurt am Main",
+      "website": "allunity.com",
+      "websiteHref": "https://allunity.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EURAU",
+        "CHFAU",
+        "SEKAU"
+      ],
+      "entityAuthDate": "2026-01-19",
+      "firstWpDate": "2025-06-20",
+      "lastUpdate": "2026-06-11",
+      "whitepapers": [
+        {
+          "url": "https://allunity.com/whitepaper",
+          "date": "2025-06-20",
+          "note": "EURAU"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "date": "2026-01-19",
+          "note": "CHFAU"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "date": "2026-05-06",
+          "note": "SEKAU"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "date": "2026-06-09",
+          "note": "CHFAU, V1.2"
+        }
+      ],
+      "dti": [
+        "8F9FV1RW0",
+        "4T8Q7PXDR",
+        "72FFN7360",
+        "R21VFQH41",
+        "DP8LJM6WW",
+        "VP84J2JSS",
+        "D1PFLVZDZ",
+        "HTKFL04WZ",
+        "6TR5F3KKF",
+        "X10CDHLZQ",
+        "7BN8BLGZH",
+        "VTFCC12GK",
+        "35PTC5Z63",
+        "GCN4ZMN5R",
+        "PGBKBZRH2",
+        "5Z0LL4J7S"
+      ],
+      "dtiFfg": [],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "254900XFMACGD0L7AI73",
+      "leiName": "UAB BLUE EMI LT",
+      "name": "BLUE EMI LT",
+      "homeState": "LT",
+      "authority": "Bank of Lithuania (LSC)",
+      "address": "Žalgirio str. 92, LT-09303, Vilnius, Republic of Lithuania",
+      "website": "blueemi.com",
+      "websiteHref": "https://blueemi.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2022-10-11",
+      "firstWpDate": "2025-08-01",
+      "lastUpdate": "2025-04-18",
+      "whitepapers": [
+        {
+          "url": "https://blueemi.com/policies/emt-white-paper/",
+          "date": "2025-08-01",
+          "note": ""
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": "blue-emi",
+      "caspWebsite": "blueemi.com"
+    },
+    {
+      "lei": "9695002I9DJHZ3449O66",
+      "leiName": "Oddo BHF SCA",
+      "name": "Oddo BHF",
+      "homeState": "FR",
+      "authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "address": "12 boulevard de la Madeleine 75009 PARIS",
+      "website": "oddo-bhf.com",
+      "websiteHref": "https://www.oddo-bhf.com/fr/",
+      "type": "credit",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EUROD"
+      ],
+      "entityAuthDate": "2007-06-26",
+      "firstWpDate": "2025-10-15",
+      "lastUpdate": "2026-01-27",
+      "whitepapers": [
+        {
+          "url": "https://www.oddo-bhf.com/eurod-stablecoin/",
+          "date": "2025-10-15",
+          "note": "EUROD"
+        }
+      ],
+      "dti": [
+        "H1LDKQR5B"
+      ],
+      "dtiFfg": [
+        "WJV6THJ2D"
+      ],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "254900VUR90QF0G3T387",
+      "leiName": "AIEU Services Limited S.A.",
+      "name": "AIEU Services Limited S.A.",
+      "homeState": "LU",
+      "authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "9, rue du Laboratoire, L-1911 Luxembourg, Grand Duchy of Luxembourg",
+      "website": "bettrsettlementtoken.com",
+      "websiteHref": "https://www.bettrsettlementtoken.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2018-12-21",
+      "firstWpDate": "2025-10-22",
+      "lastUpdate": "2025-12-18",
+      "whitepapers": [
+        {
+          "url": "https://www.bettrsettlementtoken.com/policy",
+          "date": "2025-10-22",
+          "note": ""
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "2594008EL5UN8RIA8P23",
+      "leiName": "StaBillon sp. z o.o.",
+      "name": "StaBillon",
+      "homeState": "PL",
+      "authority": "Polish Financial Supervision Authority (KNF)",
+      "address": "Atlas Tower Aleje Jerozolimskie 123A, 02-017 Warszawa - Poland",
+      "website": "stabillon.com",
+      "websiteHref": "https://stabillon.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2019-04-23",
+      "firstWpDate": "2025-10-30",
+      "lastUpdate": "2025-09-08",
+      "whitepapers": [],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "984500AA0OCA9CE0D796",
+      "leiName": "StablR Ltd",
+      "name": "StablR Ltd",
+      "homeState": "MT",
+      "authority": "Malta Financial Services Authority",
+      "address": "Level 1, BusinessLabs, Dun Karm Street, Birkirkara, Malta",
+      "website": "stablr.com",
+      "websiteHref": "https://www.stablr.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EURR",
+        "USDR"
+      ],
+      "entityAuthDate": "2024-06-21",
+      "firstWpDate": "2025-11-14",
+      "lastUpdate": "2025-12-03",
+      "whitepapers": [
+        {
+          "url": "https://www.stablr.com/whitepapers",
+          "date": "2025-11-14",
+          "note": ""
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "2549003QDNZWASSSCY31",
+      "leiName": "Monerium ehf",
+      "name": "Monerium",
+      "homeState": "IS",
+      "authority": "Central Bank of Iceland",
+      "address": "Bjargargotu 1",
+      "website": "monerium.com",
+      "websiteHref": "https://monerium.com/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EURe"
+      ],
+      "entityAuthDate": "2019-09-25",
+      "firstWpDate": "2026-01-09",
+      "lastUpdate": "2026-01-09",
+      "whitepapers": [
+        {
+          "url": "https://monerium.com/assets/whitepapers/eure/EURe-WP-static.xhtml",
+          "date": "2026-01-09",
+          "note": "EURe"
+        }
+      ],
+      "dti": [
+        "81PTSP744",
+        "JVM0S87GB",
+        "3P9X6K6P2",
+        "S45L7172C",
+        "ZHKQJ78VZ",
+        "6KL7TK20G",
+        "5LN265K07"
+      ],
+      "dtiFfg": [
+        "N7B1L2FBK"
+      ],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "875500AX7AO0XVYSQD64",
+      "leiName": "Newrails, UAB",
+      "name": "Newrails",
+      "homeState": "LT",
+      "authority": "Bank of Lithuania",
+      "address": "Kauno str. 16-305, LT 03212. Vilnius",
+      "website": "newrails.xyz",
+      "websiteHref": "https://www.newrails.xyz/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [
+        "EURW"
+      ],
+      "entityAuthDate": "2020-06-04",
+      "firstWpDate": "2026-01-26",
+      "lastUpdate": "2026-01-13",
+      "whitepapers": [
+        {
+          "url": "https://www.newrails.xyz/docs/newrails-whitepaper-eurw.xhtml",
+          "date": "2026-01-26",
+          "note": "EURW"
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "984500DB91E5A48E7F26",
+      "leiName": "HEURO SAS",
+      "name": "OuiTrust",
+      "homeState": "FR",
+      "authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "address": "1 rue de la bourse, 75002 Paris - France",
+      "website": "heuro.com",
+      "websiteHref": "https://www.heuro.com/home",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2021-12-02",
+      "firstWpDate": "2026-02-26",
+      "lastUpdate": "2026-03-02",
+      "whitepapers": [
+        {
+          "url": "https://www.heuro.com/about",
+          "date": "2026-02-26",
+          "note": ""
+        }
+      ],
+      "dti": [
+        "4ZTHF0N0H",
+        "DP1R488SF"
+      ],
+      "dtiFfg": [
+        "TFGXFRD1J"
+      ],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "6488GKH17O8XT1326F66",
+      "leiName": "SIA GR8 PAY",
+      "name": "GR8.money",
+      "homeState": "LV",
+      "authority": "Latvijas Banka",
+      "address": "Latvia, Malduguņu iela 2, Mārupe, Mārupes nov., LV-2167",
+      "website": "gr8.money",
+      "websiteHref": "https://gr8.money/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2025-12-10",
+      "firstWpDate": "2026-04-21",
+      "lastUpdate": "2026-03-21",
+      "whitepapers": [
+        {
+          "url": "https://gr8.money/eur.pa/wp",
+          "date": "2026-04-21",
+          "note": ""
+        },
+        {
+          "url": "https://gr8.money/usd.pa/wp",
+          "date": "2026-04-21",
+          "note": ""
+        }
+      ],
+      "dti": [
+        "5X779H3M3",
+        "PJM1C1PM6"
+      ],
+      "dtiFfg": [
+        "9JDH8QBV2",
+        "FFBSF3LWN"
+      ],
+      "caspSlug": null,
+      "caspWebsite": ""
+    },
+    {
+      "lei": "96950023SCR9X9F3L662",
+      "leiName": "CACEIS BANK SA",
+      "name": "CACEIS BANK",
+      "homeState": "FR",
+      "authority": "Autorité de Contrôle Prudentiel et de Resolution (ACPR)",
+      "address": "89-91 rue Gabriel Peri 92120 Montrouge",
+      "website": "caceis.com",
+      "websiteHref": "https://www.caceis.com/fr/",
+      "type": "credit",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "1979-05-19",
+      "firstWpDate": "2026-06-30",
+      "lastUpdate": "2026-06-30",
+      "whitepapers": [
+        {
+          "url": "https://stable-xt.io",
+          "date": "2026-06-30",
+          "note": ""
+        }
+      ],
+      "dti": [
+        "2GPH3VZ45"
+      ],
+      "dtiFfg": [
+        "JTSXN8VGH"
+      ],
+      "caspSlug": "caceis-bank",
+      "caspWebsite": "www.caceis.com"
+    }
+  ]
+}

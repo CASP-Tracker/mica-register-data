@@ -1,0 +1,2370 @@
+{
+  "generatedAt": "2026-07-20T07:44:18.925Z",
+  "source": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
+  "note": "Entities flagged by national competent authorities (CONSOB/IT, AFM/NL, NBS/SK only) as providing crypto-asset services without MiCA authorisation. NOT a complete EU blacklist: absence does not imply authorisation.",
+  "count": 164,
+  "items": [
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Dobibo",
+      "commercialName": "Dobibo",
+      "website": "https://dobibo.com|https://dobibo1.com|https://dobibo2.com",
+      "domains": [
+        "dobibo.com",
+        "dobibo1.com",
+        "dobibo2.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-02-12",
+      "comments": "",
+      "lastUpdate": "2025-02-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Fameexn",
+      "commercialName": "Fameexn",
+      "website": "https://fameexn.top|https://fameexn.com",
+      "domains": [
+        "fameexn.top",
+        "fameexn.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-02-12",
+      "comments": "",
+      "lastUpdate": "2025-02-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Spazio Finanziario",
+      "commercialName": "Spazio Finanziario",
+      "website": "www.spaziofinanziario.com",
+      "domains": [
+        "spaziofinanziario.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-04",
+      "comments": "",
+      "lastUpdate": "2025-03-06"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "HTXcoin-az",
+      "commercialName": "HTXcoin-az",
+      "website": "https://m.htxcoin-az.com",
+      "domains": [
+        "m.htxcoin-az.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-04",
+      "comments": "",
+      "lastUpdate": "2025-03-06"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Stock Credit Wallet",
+      "commercialName": "Stock Credit Wallet",
+      "website": "https://stockcreditwallet.com",
+      "domains": [
+        "stockcreditwallet.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-04",
+      "comments": "",
+      "lastUpdate": "2025-03-06"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Paycraftv.top - Paycraftn.top",
+      "commercialName": "Paycraftv.top - Paycraftn.top",
+      "website": "https://paycraftv.top|https://paycraftn.top",
+      "domains": [
+        "paycraftv.top",
+        "paycraftn.top"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-04",
+      "comments": "",
+      "lastUpdate": "2025-03-06"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "CoinBank Exchange",
+      "commercialName": "CoinBank Exchange",
+      "website": "https://coinbankexchange.icu",
+      "domains": [
+        "coinbankexchange.icu"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-04",
+      "comments": "",
+      "lastUpdate": "2025-03-06"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "AKQ",
+      "commercialName": "AKQ",
+      "website": "https://akqa715.it|https://AKQ1181.it",
+      "domains": [
+        "akqa715.it",
+        "akq1181.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-19",
+      "comments": "",
+      "lastUpdate": "2025-03-20"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Fameexn",
+      "commercialName": "Fameexn",
+      "website": "https://fameexe.top|https://fameexj.top",
+      "domains": [
+        "fameexe.top",
+        "fameexj.top"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-19",
+      "comments": "",
+      "lastUpdate": "2025-03-20"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "ArgonInternational",
+      "commercialName": "ArgonInternational",
+      "website": "https://argonintgroup.com|https://cfd.argonintgroup.com",
+      "domains": [
+        "argonintgroup.com",
+        "cfd.argonintgroup.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-19",
+      "comments": "",
+      "lastUpdate": "2025-03-20"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Deroka UAB",
+      "commercialName": "Deroka UAB",
+      "website": "https://dtcoin.tech|https://dtwallet.io|https://forcedmarketcap.tech",
+      "domains": [
+        "dtcoin.tech",
+        "dtwallet.io",
+        "forcedmarketcap.tech"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-26",
+      "comments": "",
+      "lastUpdate": "2025-03-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DTSocialize Holding PLC",
+      "commercialName": "DTSocialize Holding PLC",
+      "website": "https://dtsmoney.com|https://portal.dtsmoney.com",
+      "domains": [
+        "dtsmoney.com",
+        "portal.dtsmoney.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-03-26",
+      "comments": "",
+      "lastUpdate": "2025-03-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Caa871",
+      "commercialName": "Caa871",
+      "website": "https://caa871.it",
+      "domains": [
+        "caa871.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-04-01",
+      "comments": "",
+      "lastUpdate": "2025-04-03"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Sdf837",
+      "commercialName": "Sdf837",
+      "website": "https://sdf837.it",
+      "domains": [
+        "sdf837.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-04-01",
+      "comments": "",
+      "lastUpdate": "2025-04-03"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "SYBZ",
+      "commercialName": "SYBZ",
+      "website": "https://sybzgroup.co",
+      "domains": [
+        "sybzgroup.co"
+      ],
+      "reason": "",
+      "decisionDate": "2025-04-01",
+      "comments": "",
+      "lastUpdate": "2025-04-03"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Egplus.vip",
+      "commercialName": "Egplus.vip",
+      "website": "https://egplus.vip",
+      "domains": [
+        "egplus.vip"
+      ],
+      "reason": "",
+      "decisionDate": "2025-04-30",
+      "comments": "",
+      "lastUpdate": "2025-05-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Egalite.bond",
+      "commercialName": "Egalite.bond",
+      "website": "https://egalite.bond",
+      "domains": [
+        "egalite.bond"
+      ],
+      "reason": "",
+      "decisionDate": "2025-04-30",
+      "comments": "",
+      "lastUpdate": "2025-05-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Arbismart UAB",
+      "commercialName": "Arbismart UAB",
+      "website": "https://arbismart.com|https://dashboard.arbismart.com",
+      "domains": [
+        "arbismart.com",
+        "dashboard.arbismart.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-04-30",
+      "comments": "",
+      "lastUpdate": "2025-05-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Blockbyteq",
+      "commercialName": "Blockbyteq",
+      "website": "https://blockbyteq.top",
+      "domains": [
+        "blockbyteq.top"
+      ],
+      "reason": "",
+      "decisionDate": "2025-04-30",
+      "comments": "",
+      "lastUpdate": "2025-05-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Bvoxed",
+      "commercialName": "Bvoxed",
+      "website": "https://bvoxed.com",
+      "domains": [
+        "bvoxed.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-05-21",
+      "comments": "",
+      "lastUpdate": "2025-05-22"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "BeratCoin",
+      "commercialName": "BeratCoin",
+      "website": "https://btc6688.com",
+      "domains": [
+        "btc6688.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-05-21",
+      "comments": "",
+      "lastUpdate": "2025-05-22"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Interersos-Interesosf",
+      "commercialName": "Interersos-Interesosf",
+      "website": "https://interersosf.org|https://interersos.org",
+      "domains": [
+        "interersosf.org",
+        "interersos.org"
+      ],
+      "reason": "",
+      "decisionDate": "2025-05-21",
+      "comments": "",
+      "lastUpdate": "2025-05-22"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Cfw896",
+      "commercialName": "Cfw896",
+      "website": "https://cfw896.it",
+      "domains": [
+        "cfw896.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-04",
+      "comments": "",
+      "lastUpdate": "2025-06-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Lumex",
+      "commercialName": "Lumex",
+      "website": "https://stratoslumex.com|https://stratoslumex.net",
+      "domains": [
+        "stratoslumex.com",
+        "stratoslumex.net"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-04",
+      "comments": "",
+      "lastUpdate": "2025-06-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Tmxa",
+      "commercialName": "Tmxa",
+      "website": "https://60yg.com",
+      "domains": [
+        "60yg.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-04",
+      "comments": "",
+      "lastUpdate": "2025-06-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Uyr968|Fwq367",
+      "commercialName": "Uyr968|Fwq367",
+      "website": "https://uyr968.it|https://fwq367.it",
+      "domains": [
+        "uyr968.it",
+        "fwq367.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-04",
+      "comments": "",
+      "lastUpdate": "2025-06-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Syk755",
+      "commercialName": "Syk755",
+      "website": "www.syk755.it",
+      "domains": [
+        "syk755.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-04",
+      "comments": "",
+      "lastUpdate": "2025-06-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Pxm266",
+      "commercialName": "Pxm266",
+      "website": "https://pxm266.it",
+      "domains": [
+        "pxm266.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-04",
+      "comments": "",
+      "lastUpdate": "2025-06-05"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Hct685",
+      "commercialName": "Hct685",
+      "website": "https://hct685.it",
+      "domains": [
+        "hct685.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-12",
+      "comments": "",
+      "lastUpdate": "2025-06-13"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Sdh878",
+      "commercialName": "Sdh878",
+      "website": "https://sdh878.it",
+      "domains": [
+        "sdh878.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-12",
+      "comments": "",
+      "lastUpdate": "2025-06-13"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Skillnexp",
+      "commercialName": "Skillnexp",
+      "website": "https://skillnexp.top",
+      "domains": [
+        "skillnexp.top"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-12",
+      "comments": "",
+      "lastUpdate": "2025-06-13"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Ymg686",
+      "commercialName": "Ymg686",
+      "website": "https://ymg686.it",
+      "domains": [
+        "ymg686.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-12",
+      "comments": "",
+      "lastUpdate": "2025-06-13"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Coingridr.top",
+      "commercialName": "Coingridr.top",
+      "website": "https://coingridr.top",
+      "domains": [
+        "coingridr.top"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-25",
+      "comments": "",
+      "lastUpdate": "2025-06-26"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Gigtaskr",
+      "commercialName": "Gigtaskr",
+      "website": "https://gigtaskr.top",
+      "domains": [
+        "gigtaskr.top"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-25",
+      "comments": "",
+      "lastUpdate": "2025-06-26"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Sxr922",
+      "commercialName": "Sxr922",
+      "website": "https://sxr922.it",
+      "domains": [
+        "sxr922.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-06-25",
+      "comments": "",
+      "lastUpdate": "2025-06-26"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "09pqws",
+      "commercialName": "09pqws",
+      "website": "https://09pqws.it",
+      "domains": [
+        "09pqws.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-10",
+      "comments": "",
+      "lastUpdate": "2025-07-11"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DSS776",
+      "commercialName": "DSS776",
+      "website": "https://dss776.it",
+      "domains": [
+        "dss776.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-10",
+      "comments": "",
+      "lastUpdate": "2025-07-11"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "ERY357",
+      "commercialName": "ERY357",
+      "website": "https://ery357.it",
+      "domains": [
+        "ery357.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-10",
+      "comments": "",
+      "lastUpdate": "2025-07-11"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "TNT882",
+      "commercialName": "TNT882",
+      "website": "https://tnt882.it",
+      "domains": [
+        "tnt882.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-10",
+      "comments": "",
+      "lastUpdate": "2025-07-11"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "ZeroTrillionWorld",
+      "commercialName": "ZeroTrillionWorld",
+      "website": "https://zerotrillionworld.it",
+      "domains": [
+        "zerotrillionworld.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-10",
+      "comments": "",
+      "lastUpdate": "2025-07-11"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "ZGV796",
+      "commercialName": "ZGV796",
+      "website": "https://zgv796.it",
+      "domains": [
+        "zgv796.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-10",
+      "comments": "",
+      "lastUpdate": "2025-07-11"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "78DEF",
+      "commercialName": "78DEF",
+      "website": "https://78def.it",
+      "domains": [
+        "78def.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-10",
+      "comments": "",
+      "lastUpdate": "2025-07-11"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Atomic Wallet",
+      "commercialName": "Atomic Wallet",
+      "website": "https://atomicwallet.io",
+      "domains": [
+        "atomicwallet.io"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-16",
+      "comments": "",
+      "lastUpdate": "2025-07-17"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Cexrqw.com",
+      "commercialName": "Cexrqw.com",
+      "website": "https://cexrqw.com",
+      "domains": [
+        "cexrqw.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-16",
+      "comments": "",
+      "lastUpdate": "2025-07-17"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Interersos.it",
+      "commercialName": "Interersos.it",
+      "website": "https://interersos.it",
+      "domains": [
+        "interersos.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-16",
+      "comments": "",
+      "lastUpdate": "2025-07-17"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "YUI236",
+      "commercialName": "YUI236",
+      "website": "https://yui236.it",
+      "domains": [
+        "yui236.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-30",
+      "comments": "",
+      "lastUpdate": "2025-07-31"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DRST78",
+      "commercialName": "DRST78",
+      "website": "https://drst78.it",
+      "domains": [
+        "drst78.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-30",
+      "comments": "",
+      "lastUpdate": "2025-07-31"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "GDY733",
+      "commercialName": "GDY733",
+      "website": "https://gdy733.it",
+      "domains": [
+        "gdy733.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-30",
+      "comments": "",
+      "lastUpdate": "2025-07-31"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "XUR652",
+      "commercialName": "XUR652",
+      "website": "https://xur652.it",
+      "domains": [
+        "xur652.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-30",
+      "comments": "",
+      "lastUpdate": "2025-07-31"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "YZA335",
+      "commercialName": "YZA335",
+      "website": "https://yza335.it",
+      "domains": [
+        "yza335.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-30",
+      "comments": "",
+      "lastUpdate": "2025-07-31"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "BHP536",
+      "commercialName": "BHP536",
+      "website": "https://bhp536.it",
+      "domains": [
+        "bhp536.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-30",
+      "comments": "",
+      "lastUpdate": "2025-07-31"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "MJU567",
+      "commercialName": "MJU567",
+      "website": "https://mju567.it",
+      "domains": [
+        "mju567.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-30",
+      "comments": "",
+      "lastUpdate": "2025-07-31"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "TNT788",
+      "commercialName": "TNT788",
+      "website": "https://tnt788.it",
+      "domains": [
+        "tnt788.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-07-30",
+      "comments": "",
+      "lastUpdate": "2025-07-31"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "YTT975",
+      "commercialName": "YTT975",
+      "website": "https://ytt975.it",
+      "domains": [
+        "ytt975.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "YQZ585",
+      "commercialName": "YQZ585",
+      "website": "https://yqz585.it",
+      "domains": [
+        "yqz585.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "EWQ778",
+      "commercialName": "EWQ778",
+      "website": "https://ewq778.it",
+      "domains": [
+        "ewq778.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "AWE818",
+      "commercialName": "AWE818",
+      "website": "https://awe818.it",
+      "domains": [
+        "awe818.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "GRT325",
+      "commercialName": "GRT325",
+      "website": "https://grt325.it",
+      "domains": [
+        "grt325.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "TUT551",
+      "commercialName": "TUT551",
+      "website": "https://tut551.it",
+      "domains": [
+        "tut551.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "SFS854",
+      "commercialName": "SFS854",
+      "website": "https://sfs854.it",
+      "domains": [
+        "sfs854.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "12DEF",
+      "commercialName": "12DEF",
+      "website": "https://12def.it",
+      "domains": [
+        "12def.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "YTH937",
+      "commercialName": "YTH937",
+      "website": "https://yth937.it",
+      "domains": [
+        "yth937.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "C7VIZ",
+      "commercialName": "C7VIZ",
+      "website": "https://c7viz.it",
+      "domains": [
+        "c7viz.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-16",
+      "comments": "",
+      "lastUpdate": "2025-09-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Spazio Finanziario",
+      "commercialName": "Spazio Finanziario",
+      "website": "www.spaziofinanziario.pro|https://clients.spaziofinanziario.pro",
+      "domains": [
+        "spaziofinanziario.pro",
+        "clients.spaziofinanziario.pro"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-24",
+      "comments": "",
+      "lastUpdate": "2025-09-29"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Ynln.com",
+      "commercialName": "Ynln.com",
+      "website": "www.ynln.com",
+      "domains": [
+        "ynln.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-09-24",
+      "comments": "",
+      "lastUpdate": "2025-09-29"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "NETWORK CAPITAL LTD",
+      "commercialName": "NETWORK CAPITAL LTD",
+      "website": "https://network-capital-partners.com|https://web.networkcapital-partnersltd.com",
+      "domains": [
+        "network-capital-partners.com",
+        "web.networkcapital-partnersltd.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-09",
+      "comments": "",
+      "lastUpdate": "2025-10-10"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Lucrumiagroup.co",
+      "commercialName": "Lucrumiagroup.co",
+      "website": "https://lucrumiagroup.co",
+      "domains": [
+        "lucrumiagroup.co"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-09",
+      "comments": "",
+      "lastUpdate": "2025-10-10"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Dobibo",
+      "commercialName": "Dobibo",
+      "website": "https://dbbddrb.com",
+      "domains": [
+        "dbbddrb.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-09",
+      "comments": "",
+      "lastUpdate": "2025-10-10"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Jzmor",
+      "commercialName": "Jzmor",
+      "website": "www.jzmor.com|www.jzmor-it57659.com|www.jzmor-it33583.com|www.jzmor-it99518.com|www.jzmor-it52337.com",
+      "domains": [
+        "jzmor.com",
+        "jzmor-it57659.com",
+        "jzmor-it33583.com",
+        "jzmor-it99518.com",
+        "jzmor-it52337.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-09",
+      "comments": "",
+      "lastUpdate": "2025-10-10"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "ZZCoin",
+      "commercialName": "ZZCoin",
+      "website": "https://zzcoingy.com",
+      "domains": [
+        "zzcoingy.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-15",
+      "comments": "",
+      "lastUpdate": "2025-10-20"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Ofuyc",
+      "commercialName": "Ofuyc",
+      "website": "www.ofuyc.com|www.ofuyc-32516it.com|www.ofuyc-55337it.com|www.ofuyc-23166it.com|www.ofuyc-33111it.com|www.ofuyc-83255it.com",
+      "domains": [
+        "ofuyc.com",
+        "ofuyc-32516it.com",
+        "ofuyc-55337it.com",
+        "ofuyc-23166it.com",
+        "ofuyc-33111it.com",
+        "ofuyc-83255it.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-15",
+      "comments": "",
+      "lastUpdate": "2025-10-20"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Veltrixmax-invest.com - Ayquozeber.com",
+      "commercialName": "Veltrixmax-invest.com - Ayquozeber.com",
+      "website": "https://veltrixmax-invest.com|https://ayquozeber.com",
+      "domains": [
+        "veltrixmax-invest.com",
+        "ayquozeber.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-15",
+      "comments": "",
+      "lastUpdate": "2025-10-20"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Orolonix-invest.com - Cyberirfy.icu",
+      "commercialName": "Orolonix-invest.com - Cyberirfy.icu",
+      "website": "https://orolonix-invest.com|https://cyberirfy.icu",
+      "domains": [
+        "orolonix-invest.com",
+        "cyberirfy.icu"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-15",
+      "comments": "",
+      "lastUpdate": "2025-10-20"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "RYR888",
+      "commercialName": "RYR888",
+      "website": "https://ryr888.it",
+      "domains": [
+        "ryr888.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DFH258",
+      "commercialName": "DFH258",
+      "website": "https://dfh258.it",
+      "domains": [
+        "dfh258.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DXZ175",
+      "commercialName": "DXZ175",
+      "website": "https://dxz175.it",
+      "domains": [
+        "dxz175.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "JMY999",
+      "commercialName": "JMY999",
+      "website": "https://jmy999.it",
+      "domains": [
+        "jmy999.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DSG158",
+      "commercialName": "DSG158",
+      "website": "https://dsg158.it",
+      "domains": [
+        "dsg158.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "WES218",
+      "commercialName": "WES218",
+      "website": "https://wes218.it",
+      "domains": [
+        "wes218.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "GJG258",
+      "commercialName": "GJG258",
+      "website": "https://gjg258.it",
+      "domains": [
+        "gjg258.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "CFSD123",
+      "commercialName": "CFSD123",
+      "website": "https://cfsd123.it",
+      "domains": [
+        "cfsd123.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "R4MOX",
+      "commercialName": "R4MOX",
+      "website": "https://r4mox.it",
+      "domains": [
+        "r4mox.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DFG789",
+      "commercialName": "DFG789",
+      "website": "https://dfg789.it",
+      "domains": [
+        "dfg789.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DFG789",
+      "commercialName": "DFG789",
+      "website": "https://dfg789.it",
+      "domains": [
+        "dfg789.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-10-22",
+      "comments": "",
+      "lastUpdate": "2025-10-27"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Niufo",
+      "commercialName": "Niufo",
+      "website": "www.niufo.co",
+      "domains": [
+        "niufo.co"
+      ],
+      "reason": "",
+      "decisionDate": "2025-11-20",
+      "comments": "",
+      "lastUpdate": "2025-11-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "AlphaCapital",
+      "commercialName": "AlphaCapital",
+      "website": "https://alpha-capital.finance|https://cfd.alpha-capital.finance",
+      "domains": [
+        "alpha-capital.finance",
+        "cfd.alpha-capital.finance"
+      ],
+      "reason": "",
+      "decisionDate": "2025-11-20",
+      "comments": "",
+      "lastUpdate": "2025-11-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Cryptoin24",
+      "commercialName": "Cryptoin24",
+      "website": "ttps://cryptoin24.io|https://cryptoin24.com|https://clients.cryptoin24.com|https://trading.cryptoin24.com",
+      "domains": [
+        "cryptoin24.com",
+        "clients.cryptoin24.com",
+        "trading.cryptoin24.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-11-20",
+      "comments": "",
+      "lastUpdate": "2025-11-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "RYE036",
+      "commercialName": "RYE036",
+      "website": "https://rye026.it",
+      "domains": [
+        "rye026.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "RYE326",
+      "commercialName": "RYE326",
+      "website": "https://rye326.it",
+      "domains": [
+        "rye326.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "03WAKIH",
+      "commercialName": "03WAKIH",
+      "website": "https://03wakih.it",
+      "domains": [
+        "03wakih.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "SJCJ11",
+      "commercialName": "SJCJ11",
+      "website": "https://sjcj11.it",
+      "domains": [
+        "sjcj11.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "01LUHAR",
+      "commercialName": "01LUHAR",
+      "website": "https://01luhar.it",
+      "domains": [
+        "01luhar.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "GKJ159",
+      "commercialName": "GKJ159",
+      "website": "https://gkj159.it",
+      "domains": [
+        "gkj159.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DSHS82",
+      "commercialName": "DSHS82",
+      "website": "https://dshs82.it",
+      "domains": [
+        "dshs82.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "GFJ123",
+      "commercialName": "GFJ123",
+      "website": "https://gfj123.it",
+      "domains": [
+        "gfj123.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "L88159",
+      "commercialName": "L88159",
+      "website": "https://l88159.it",
+      "domains": [
+        "l88159.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "FGJ329",
+      "commercialName": "FGJ329",
+      "website": "https://fgj329.it",
+      "domains": [
+        "fgj329.it"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-03",
+      "comments": "",
+      "lastUpdate": "2025-12-09"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Druvaxio",
+      "commercialName": "Druvaxio",
+      "website": "https://druvaxio-invest.com",
+      "domains": [
+        "druvaxio-invest.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-12",
+      "comments": "",
+      "lastUpdate": "2025-12-16"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Lucrumiagroup",
+      "commercialName": "Lucrumiagroup",
+      "website": "https://www.lucrumiaofficial.co|https://www.lucrumiamode.co|https://wap.lucrumiaofficial.co|https://wap.lucrumiamode.co",
+      "domains": [
+        "lucrumiaofficial.co",
+        "lucrumiamode.co",
+        "wap.lucrumiaofficial.co",
+        "wap.lucrumiamode.co"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-12",
+      "comments": "",
+      "lastUpdate": "2025-12-16"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Lucrumiagroup",
+      "commercialName": "Lucrumiagroup",
+      "website": "https://www.lucrumiaofficial.co|https://www.lucrumiamode.co|https://wap.lucrumiaofficial.co|https://wap.lucrumiamode.co",
+      "domains": [
+        "lucrumiaofficial.co",
+        "lucrumiamode.co",
+        "wap.lucrumiaofficial.co",
+        "wap.lucrumiamode.co"
+      ],
+      "reason": "",
+      "decisionDate": "2025-12-12",
+      "comments": "",
+      "lastUpdate": "2025-12-16"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "GFF612",
+      "commercialName": "GFF612",
+      "website": "https://gff612.it",
+      "domains": [
+        "gff612.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "ADAN82",
+      "commercialName": "ADAN82",
+      "website": "https://adan82.it",
+      "domains": [
+        "adan82.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "SDS031",
+      "commercialName": "SDS031",
+      "website": "https://sds031.it",
+      "domains": [
+        "sds031.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "YUU369",
+      "commercialName": "YUU369",
+      "website": "https://yuu369.it",
+      "domains": [
+        "yuu369.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "TYU105",
+      "commercialName": "TYU105",
+      "website": "https://tyu105.it",
+      "domains": [
+        "tyu105.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "HGJ258",
+      "commercialName": "HGJ258",
+      "website": "https://hgj258.it",
+      "domains": [
+        "hgj258.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "FHD016",
+      "commercialName": "FHD016",
+      "website": "https://fhd016.it",
+      "domains": [
+        "fhd016.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "TUU158",
+      "commercialName": "TUU158",
+      "website": "https://tuu158.it",
+      "domains": [
+        "tuu158.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DFW222",
+      "commercialName": "DFW222",
+      "website": "https://dfw222.it",
+      "domains": [
+        "dfw222.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "BNG373",
+      "commercialName": "BNG373",
+      "website": "https://bng373.it",
+      "domains": [
+        "bng373.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "ERE316",
+      "commercialName": "ERE316",
+      "website": "https://ere316.it",
+      "domains": [
+        "ere316.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-01-28",
+      "comments": "",
+      "lastUpdate": "2026-02-02"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Rer221",
+      "commercialName": "Rer221",
+      "website": "https://rer221.it",
+      "domains": [
+        "rer221.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Cdx818",
+      "commercialName": "Cdx818",
+      "website": "https://cdx818.it",
+      "domains": [
+        "cdx818.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "78Yzb",
+      "commercialName": "78Yzb",
+      "website": "https://78yzb.it",
+      "domains": [
+        "78yzb.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Uiu258",
+      "commercialName": "Uiu258",
+      "website": "https://uiu258.it",
+      "domains": [
+        "uiu258.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "M1gqv",
+      "commercialName": "M1gqv",
+      "website": "https://m1gqv.it",
+      "domains": [
+        "m1gqv.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Dfh226",
+      "commercialName": "Dfh226",
+      "website": "https://dfh226.it",
+      "domains": [
+        "dfh226.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Yuy257",
+      "commercialName": "Yuy257",
+      "website": "https://yuy257.it",
+      "domains": [
+        "yuy257.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Fgd326",
+      "commercialName": "Fgd326",
+      "website": "https://fgd326.it",
+      "domains": [
+        "fgd326.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "AsdD952",
+      "commercialName": "AsdD952",
+      "website": "https://asd952.it",
+      "domains": [
+        "asd952.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Aes332",
+      "commercialName": "Aes332",
+      "website": "https://aes332.it",
+      "domains": [
+        "aes332.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-03-24",
+      "comments": "",
+      "lastUpdate": "2026-03-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Oxelvian",
+      "commercialName": "Oxelvian",
+      "website": "https://oxelvian.it|https://oxelvian.net|https://oxelvian.io|https://oxelvian.tech|https://oxelvian-it.net",
+      "domains": [
+        "oxelvian.it",
+        "oxelvian.net",
+        "oxelvian.io",
+        "oxelvian.tech",
+        "oxelvian-it.net"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-02",
+      "comments": "",
+      "lastUpdate": "2026-04-07"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Eryxavin",
+      "commercialName": "Eryxavin",
+      "website": "https://eryxavin.net|https://eryxavin.org|https://eryxavinit.com",
+      "domains": [
+        "eryxavin.net",
+        "eryxavin.org",
+        "eryxavinit.com"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-02",
+      "comments": "",
+      "lastUpdate": "2026-04-07"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Kapidex Nx",
+      "commercialName": "Kapidex Nx",
+      "website": "https://kapidexnx.net|https://kapidexnx",
+      "domains": [
+        "kapidexnx.net"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-02",
+      "comments": "",
+      "lastUpdate": "2026-04-07"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Entratezza",
+      "commercialName": "Entratezza",
+      "website": "https://entratezza.com|https://entratezza-ia.com",
+      "domains": [
+        "entratezza.com",
+        "entratezza-ia.com"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-02",
+      "comments": "",
+      "lastUpdate": "2026-04-07"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Fortunezza",
+      "commercialName": "Fortunezza",
+      "website": "https://fortunezza.com|https://fortunezza.org",
+      "domains": [
+        "fortunezza.com",
+        "fortunezza.org"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-02",
+      "comments": "",
+      "lastUpdate": "2026-04-07"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Frame 2U Avapro",
+      "commercialName": "Frame 2U Avapro",
+      "website": "https://frame-2u-avapro.com|https:/frame-2u-avapro.org",
+      "domains": [
+        "frame-2u-avapro.com"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-02",
+      "comments": "",
+      "lastUpdate": "2026-04-07"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Valoranco",
+      "commercialName": "Valoranco",
+      "website": "https://valoranco.com|https://valoranco.org",
+      "domains": [
+        "valoranco.com",
+        "valoranco.org"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-02",
+      "comments": "",
+      "lastUpdate": "2026-04-07"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Rango Opularis",
+      "commercialName": "Rango Opularis",
+      "website": "https://rangoopularis.net|https://rangoopularis.com|https://rangoopularis-ai.com|https://rango-opularis.com",
+      "domains": [
+        "rangoopularis.net",
+        "rangoopularis.com",
+        "rangoopularis-ai.com",
+        "rango-opularis.com"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-02",
+      "comments": "",
+      "lastUpdate": "2026-04-07"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Erw326",
+      "commercialName": "Erw326",
+      "website": "https://erw326.it",
+      "domains": [
+        "erw326.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "EwdS66",
+      "commercialName": "EwdS66",
+      "website": "https://ewds66.it",
+      "domains": [
+        "ewds66.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Hjk172",
+      "commercialName": "Hjk172",
+      "website": "https://hjk172.it",
+      "domains": [
+        "hjk172.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Sdd316",
+      "commercialName": "Sdd316",
+      "website": "https://sdd316.it",
+      "domains": [
+        "sdd316.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Yue157",
+      "commercialName": "Yue157",
+      "website": "https://yue157.it",
+      "domains": [
+        "yue157.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Yyt369",
+      "commercialName": "Yyt369",
+      "website": "https://yyt369.it",
+      "domains": [
+        "yyt369.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Asd967",
+      "commercialName": "Asd967",
+      "website": "https://asd967.it",
+      "domains": [
+        "asd967.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Etww78",
+      "commercialName": "Etww78",
+      "website": "https://etww78.it",
+      "domains": [
+        "etww78.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Zzx726",
+      "commercialName": "Zzx726",
+      "website": "https://zzx726.it",
+      "domains": [
+        "zzx726.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Rtut62",
+      "commercialName": "Rtut62",
+      "website": "https://rtut62.it",
+      "domains": [
+        "rtut62.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-04-30",
+      "comments": "",
+      "lastUpdate": "2026-05-04"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Patrimera",
+      "commercialName": "Patrimera",
+      "website": "https://bircholtless.top|https://econmilanozone88.pro|https://romatrendix.xyz",
+      "domains": [
+        "bircholtless.top",
+        "econmilanozone88.pro",
+        "romatrendix.xyz"
+      ],
+      "reason": "",
+      "decisionDate": "2026-05-06",
+      "comments": "",
+      "lastUpdate": "2026-05-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Stream Herplex Nx",
+      "commercialName": "Stream Herplex Nx",
+      "website": "https://shaftdwke.com",
+      "domains": [
+        "shaftdwke.com"
+      ],
+      "reason": "",
+      "decisionDate": "2026-05-06",
+      "comments": "",
+      "lastUpdate": "2026-05-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Aziovale",
+      "commercialName": "Aziovale",
+      "website": "https://fintrendtrackerq.info|https://zenithad.top|https://marketflowgridz.top",
+      "domains": [
+        "fintrendtrackerq.info",
+        "zenithad.top",
+        "marketflowgridz.top"
+      ],
+      "reason": "",
+      "decisionDate": "2026-05-06",
+      "comments": "",
+      "lastUpdate": "2026-05-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Portafica",
+      "commercialName": "Portafica",
+      "website": "https://rowanbarrowty.pro|https://synthiumd.pro|https://florentiad.info|https://designlabyu.top|https://marketpulsehubx.top|https://italinsightpro.top|https://marketpulserf.info|https://travelnetty.pro|https://meridianad.info|https://borealhub.pro|https://clariseline.top|https://truewarmheartedpath.pro|https://truelightbeamd.pro|https://mindsparklety.info|https://spiritsweetbalanceup.top",
+      "domains": [
+        "rowanbarrowty.pro",
+        "synthiumd.pro",
+        "florentiad.info",
+        "designlabyu.top",
+        "marketpulsehubx.top",
+        "italinsightpro.top",
+        "marketpulserf.info",
+        "travelnetty.pro",
+        "meridianad.info",
+        "borealhub.pro",
+        "clariseline.top",
+        "truewarmheartedpath.pro",
+        "truelightbeamd.pro",
+        "mindsparklety.info",
+        "spiritsweetbalanceup.top"
+      ],
+      "reason": "",
+      "decisionDate": "2026-05-06",
+      "comments": "",
+      "lastUpdate": "2026-05-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Epic Maxalt Neo",
+      "commercialName": "Epic Maxalt Neo",
+      "website": "https://elapidpcsf.cc",
+      "domains": [
+        "elapidpcsf.cc"
+      ],
+      "reason": "",
+      "decisionDate": "2026-05-06",
+      "comments": "",
+      "lastUpdate": "2026-05-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Jgcmgs",
+      "commercialName": "Jgcmgs",
+      "website": "https://jgcmgs.co",
+      "domains": [
+        "jgcmgs.co"
+      ],
+      "reason": "",
+      "decisionDate": "2026-05-14",
+      "comments": "",
+      "lastUpdate": "2026-05-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Forte Valbit",
+      "commercialName": "Forte Valbit",
+      "website": "https://fortevalbit.it",
+      "domains": [
+        "fortevalbit.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-05-14",
+      "comments": "",
+      "lastUpdate": "2026-05-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "BitGptApp",
+      "commercialName": "BitGptApp",
+      "website": "https://lagrovine.com",
+      "domains": [
+        "lagrovine.com"
+      ],
+      "reason": "",
+      "decisionDate": "2026-05-14",
+      "comments": "",
+      "lastUpdate": "2026-05-18"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "RER885",
+      "commercialName": "RER885",
+      "website": "https://rer885.it",
+      "domains": [
+        "rer885.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "TRUT88",
+      "commercialName": "TRUT88",
+      "website": "https://trut88.it",
+      "domains": [
+        "trut88.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "REG775",
+      "commercialName": "REG775",
+      "website": "https://reg775.it",
+      "domains": [
+        "reg775.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "SDTG99",
+      "commercialName": "SDTG99",
+      "website": "https://sdtg99.it",
+      "domains": [
+        "sdtg99.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "XZD316",
+      "commercialName": "XZD316",
+      "website": "https://xzd316.it",
+      "domains": [
+        "xzd316.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "RSD996",
+      "commercialName": "RSD996",
+      "website": "https://rsd996.it",
+      "domains": [
+        "rsd996.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "FHF326",
+      "commercialName": "FHF326",
+      "website": "https://fhf326.it",
+      "domains": [
+        "fhf326.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "TYT827",
+      "commercialName": "TYT827",
+      "website": "https://tyt827.it",
+      "domains": [
+        "tyt827.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "EWTD55",
+      "commercialName": "EWTD55",
+      "website": "https://ewtd55.it",
+      "domains": [
+        "ewtd55.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "DXGE85",
+      "commercialName": "DXGE85",
+      "website": "https://dxge85.it",
+      "domains": [
+        "dxge85.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "3VK1O5",
+      "commercialName": "3VK1O5",
+      "website": "https://3vk1o5.it",
+      "domains": [
+        "3vk1o5.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "SDS323",
+      "commercialName": "SDS323",
+      "website": "https://sds323.it",
+      "domains": [
+        "sds323.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "KSDF12",
+      "commercialName": "KSDF12",
+      "website": "https://ksdf12.it",
+      "domains": [
+        "ksdf12.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-06-24",
+      "comments": "",
+      "lastUpdate": "2026-06-25"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Reversal Investment Group",
+      "commercialName": "Reversal Investment Group",
+      "website": "www.reversalsimgroup.com",
+      "domains": [
+        "reversalsimgroup.com"
+      ],
+      "reason": "",
+      "decisionDate": "2026-07-08",
+      "comments": "",
+      "lastUpdate": "2026-07-13"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Kortex",
+      "commercialName": "Kortex",
+      "website": "https://kortexbit.com",
+      "domains": [
+        "kortexbit.com"
+      ],
+      "reason": "",
+      "decisionDate": "2026-07-08",
+      "comments": "",
+      "lastUpdate": "2026-07-13"
+    },
+    {
+      "authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "homeState": "NL",
+      "leiName": "MEXC Global",
+      "commercialName": "MEXC",
+      "website": "https://www.mexc.com/",
+      "domains": [
+        "mexc.com"
+      ],
+      "reason": "MEXC Global provides crypto-asset services in the Netherlands without the required MiCAR license. MEXC is in breach of section 59 MiCAR.",
+      "decisionDate": "2025-09-16",
+      "comments": "The AFM issued a public warning against MEXC: https://www.afm.nl/en/sector/actueel/2025/sep/pb-mexc",
+      "lastUpdate": "2025-09-25"
+    },
+    {
+      "authority": "National Bank of Slovakia (NBS)",
+      "homeState": "SK",
+      "leiName": "LWEX",
+      "commercialName": "LWEX",
+      "website": "https://lwex.com/",
+      "domains": [
+        "lwex.com"
+      ],
+      "reason": "",
+      "decisionDate": "2025-02-10",
+      "comments": "",
+      "lastUpdate": "2025-05-30"
+    }
+  ]
+}
