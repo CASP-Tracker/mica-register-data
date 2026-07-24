@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T07:44:19.225Z",
+  "generatedAt": "2026-07-24T14:17:05.133Z",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
   "count": 21,
@@ -77,7 +77,7 @@
       ],
       "entityAuthDate": "2024-07-01",
       "firstWpDate": "2024-07-01",
-      "lastUpdate": "2025-12-24",
+      "lastUpdate": "2026-07-10",
       "whitepapers": [
         {
           "url": "https://www.circle.com/fr/legal/mica-eurc-whitepaper",
@@ -125,7 +125,12 @@
         "56V43DKZ3",
         "QQKDMF6N9",
         "SKXZGD4J8",
-        "54VFN74B3"
+        "54VFN74B3",
+        "T9F5C3ZCC",
+        "GGMLHMDVQ",
+        "6TNZQDKZK",
+        "DWCZ3239L",
+        "9F3G4V14R"
       ],
       "dtiFfg": [
         "13XTMPZT3",

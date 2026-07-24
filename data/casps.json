@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-20T07:44:18.635Z",
+  "generatedAt": "2026-07-24T14:17:04.552Z",
   "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
-  "lastDataUpdate": "2026-07-13",
-  "count": 294,
+  "lastDataUpdate": "2026-07-23",
+  "count": 309,
   "items": [
     {
       "slug": "21bitcoin",
@@ -263,6 +263,33 @@
       "comments": "Altarius Asset Management Limited has been licensed as an AIF Manager in terms of Directive 2011/61/EU (“the AIFMD”) and the Investment Services Act since 21 June 2005, and is currently authorised to provide Management of Alternative Investment Funds (Core), Individual Portfolio Management (Non-Core), and Reception and Transmission of Orders (Non-Core) in relation to all financial instruments listed under Section C of Annex 1 of Directive 2014/65/EU (“MiFID II”).No passporting notifications in terms of MiCA have been submitted by Altarius Asset Management Limited to date. DE and LU are the intended countries as notified in terms of Article 60 of MiCA Regulation.",
       "lastUpdate": "2025-03-24",
       "lastUpdateRaw": "24/03/2025"
+    },
+    {
+      "slug": "altcoins",
+      "name": "Altcoins",
+      "legalName": "Altcoins BG EООD",
+      "authority": "Financial Supervision Commission (FSC)",
+      "homeState": "BG",
+      "lei": "984500FBAE2EDEF1C317",
+      "leiCountry": "BG",
+      "address": "Office 1, 1st Floor, 81 Vladislav Varnenchik Blvd., Varna 9000, Bulgaria",
+      "website": "altcoins.bg",
+      "websiteHref": "https://altcoins.bg",
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "countries": [
+        "BG"
+      ],
+      "authDate": "2026-07-21",
+      "authDateRaw": "21/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-21",
+      "lastUpdateRaw": "21/07/2026"
     },
     {
       "slug": "altlift-s-r-o",
@@ -1063,9 +1090,9 @@
       "legalName": "Belayer ООD",
       "authority": "Financial Supervision Commission (FSC)",
       "homeState": "BG",
-      "lei": "",
+      "lei": "64882N0ABXS71817AI18",
       "leiCountry": "BG",
-      "address": "7 Industrialna St., 3th floor, office 1, Serdika District, Sofia , 1202, Bulgaria",
+      "address": "Office 1, 3rd Floor, 7 Industrialna St., Serdika District,",
       "website": "www.belayer.bg",
       "websiteHref": "https://www.belayer.bg",
       "services": [
@@ -1736,6 +1763,31 @@
       "lastUpdateRaw": "06/02/2025"
     },
     {
+      "slug": "bitpay-b-v",
+      "name": "BitPay B.V.",
+      "legalName": "BitPay B.V.",
+      "authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "homeState": "NL",
+      "lei": "724500F2THLY5MHEIM78",
+      "leiCountry": "NL",
+      "address": "Keizersgracht 520H - 1017EK AMSTERDAM -The Netherlands",
+      "website": "www.bitpay.com",
+      "websiteHref": "https://www.bitpay.com",
+      "services": [
+        "c",
+        "j"
+      ],
+      "countries": [
+        "NL"
+      ],
+      "authDate": "2026-07-15",
+      "authDateRaw": "15/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-16",
+      "lastUpdateRaw": "16/07/2026"
+    },
+    {
       "slug": "bitstack",
       "name": "BITSTACK",
       "legalName": "BITSTACK DIGITAL ASSETS SAS",
@@ -1949,6 +2001,60 @@
       "comments": "",
       "lastUpdate": "2025-06-30",
       "lastUpdateRaw": "30/06/2025"
+    },
+    {
+      "slug": "bleap",
+      "name": "Bleap",
+      "legalName": "Bleap SIA",
+      "authority": "Latvijas Banka",
+      "homeState": "LV",
+      "lei": "2549005P20R5UTQWNB80",
+      "leiCountry": "LV",
+      "address": "Roberta Hirša iela 1, Rīga, LV-1045",
+      "website": "www.bleap.finance",
+      "websiteHref": "https://www.bleap.finance",
+      "services": [
+        "c",
+        "d"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-06-25",
+      "authDateRaw": "25/06/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-14",
+      "lastUpdateRaw": "14/07/2026"
     },
     {
       "slug": "blockben",
@@ -2169,6 +2275,31 @@
       "comments": "CASP services are provided under Article 60(4) of MiCA, in relation to own issued EMT called BLUEUR",
       "lastUpdate": "2026-03-26",
       "lastUpdateRaw": "26/03/2026"
+    },
+    {
+      "slug": "bny",
+      "name": "BNY",
+      "legalName": "BNY SA/NV",
+      "authority": "National Bank of Belgium (NBB)",
+      "homeState": "BE",
+      "lei": "MMYX0N4ZEZ13Z4XCG897",
+      "leiCountry": "BE",
+      "address": "Anspachlaan 1, 1000 Brussels",
+      "website": "www.bny.com",
+      "websiteHref": "https://www.bny.com",
+      "services": [
+        "a",
+        "j"
+      ],
+      "countries": [
+        "BE"
+      ],
+      "authDate": "2026-07-20",
+      "authDateRaw": "20/07/2026",
+      "endDate": null,
+      "comments": "1: The NBB has expressly confimed the completeness of the information file received by BNY SA/NV. This confirmation has been given on 20/07, after which BNY SA/NV, as soon as 27/7 could start to offer its crypto-asset services",
+      "lastUpdate": "2026-07-20",
+      "lastUpdateRaw": "20/07/2026"
     },
     {
       "slug": "boerse-stuttgart-digital-custody-gmbh",
@@ -2605,14 +2736,42 @@
         "e"
       ],
       "countries": [
-        "MT"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
       "authDate": "2026-03-03",
       "authDateRaw": "03/03/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-03-03",
-      "lastUpdateRaw": "03/03/2026"
+      "lastUpdate": "2026-07-06",
+      "lastUpdateRaw": "06/07/2026"
     },
     {
       "slug": "capital-com",
@@ -3160,6 +3319,62 @@
       "lastUpdateRaw": "07/05/2026"
     },
     {
+      "slug": "coinify",
+      "name": "Coinify",
+      "legalName": "Coinify ApS",
+      "authority": "Finanstilsynet",
+      "homeState": "DK",
+      "lei": "9845009Q9DDAE03FDE38",
+      "leiCountry": "DK",
+      "address": "Vesterbrogade 1C, 5. 1620 København V",
+      "website": "www.coinify.com",
+      "websiteHref": "https://www.coinify.com",
+      "services": [
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-05-29",
+      "authDateRaw": "29/05/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-17",
+      "lastUpdateRaw": "17/07/2026"
+    },
+    {
       "slug": "coinjar",
       "name": "CoinJar",
       "legalName": "CoinJar Europe Limited",
@@ -3480,13 +3695,15 @@
         "g",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "CY"
+      ],
       "authDate": "2026-06-29",
       "authDateRaw": "29/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "concedus-gmbh",
@@ -3656,7 +3873,7 @@
     {
       "slug": "criptan",
       "name": "CRIPTAN",
-      "legalName": "CRIPTAN TRADE, S.L.",
+      "legalName": "CRIPTAN TRADE S.L.",
       "authority": "Comisión Nacional del Mercado de Valores (CNMV)",
       "homeState": "ES",
       "lei": "959800AZN23P7F30C189",
@@ -3671,14 +3888,40 @@
         "j"
       ],
       "countries": [
-        "ES"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
       "authDate": "2026-06-26",
       "authDateRaw": "26/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdate": "2026-07-09",
+      "lastUpdateRaw": "09/07/2026"
     },
     {
       "slug": "crossmint",
@@ -4104,16 +4347,16 @@
       "lastUpdateRaw": "18/06/2026"
     },
     {
-      "slug": "dask-capital",
-      "name": "DASK CAPITAL",
+      "slug": "dask-krypto",
+      "name": "DASK KRYPTO",
       "legalName": "S.K. DASK KRYPTO LTD",
       "authority": "Cyprus Securities and Exchange Commission (CySEC)",
       "homeState": "CY",
       "lei": "254900K8AF5VMJFMZN69",
       "leiCountry": "",
       "address": "18 Kyriakou Matsi Victorty Tower 3rd Floor 1082 Nicosia Cyprus",
-      "website": "www.daskcapital.io",
-      "websiteHref": "https://www.daskcapital.io",
+      "website": "www.daskkrypto.eu",
+      "websiteHref": "https://www.daskkrypto.eu",
       "services": [
         "a",
         "c",
@@ -4122,13 +4365,15 @@
         "g",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "CY"
+      ],
       "authDate": "2026-06-08",
       "authDateRaw": "08/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-16",
-      "lastUpdateRaw": "16/06/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "dcs-happycoins",
@@ -4374,6 +4619,30 @@
       "comments": "",
       "lastUpdate": "2025-08-18",
       "lastUpdateRaw": "18/08/2025"
+    },
+    {
+      "slug": "digital-assist",
+      "name": "Digital Assist",
+      "legalName": "Digital Assist OOD",
+      "authority": "Financial Supervision Commission (FSC)",
+      "homeState": "BG",
+      "lei": "8755007GZKOS1VJ6BZ82",
+      "leiCountry": "BG",
+      "address": "Apartment 1, 1st Floor, Entr. A, 13 Pencho Slaveykov Blvd., Sofia 1606, Bulgaria",
+      "website": "digitalassist.bg",
+      "websiteHref": "https://digitalassist.bg",
+      "services": [
+        "c"
+      ],
+      "countries": [
+        "BG"
+      ],
+      "authDate": "2026-07-21",
+      "authDateRaw": "21/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-21",
+      "lastUpdateRaw": "21/07/2026"
     },
     {
       "slug": "dlt-securities-gmbh",
@@ -4754,14 +5023,42 @@
         "j"
       ],
       "countries": [
-        "MT"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
       "authDate": "2026-06-30",
       "authDateRaw": "30/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-01",
-      "lastUpdateRaw": "01/07/2026"
+      "lastUpdate": "2026-07-17",
+      "lastUpdateRaw": "17/07/2026"
     },
     {
       "slug": "falconx",
@@ -5799,12 +6096,12 @@
         "SI",
         "SK"
       ],
-      "authDate": null,
-      "authDateRaw": "25.06.2026.",
+      "authDate": "2026-06-25",
+      "authDateRaw": "25/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": null,
-      "lastUpdateRaw": "30.06.2026."
+      "lastUpdate": "2026-06-30",
+      "lastUpdateRaw": "30/06/2026"
     },
     {
       "slug": "hodli",
@@ -5822,14 +6119,30 @@
         "i"
       ],
       "countries": [
-        "IT"
+        "AT",
+        "CY",
+        "CZ",
+        "DE",
+        "EE",
+        "ES",
+        "FR",
+        "GR",
+        "IE",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT"
       ],
       "authDate": "2026-06-30",
       "authDateRaw": "30/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdate": "2026-07-23",
+      "lastUpdateRaw": "23/07/2026"
     },
     {
       "slug": "hpb-d-d",
@@ -5851,7 +6164,7 @@
       "authDate": "2026-06-16",
       "authDateRaw": "16/06/2026",
       "endDate": null,
-      "comments": "Authorisation is limited servicing the authorised AIF, Passive Digital Assets (PDA) AIF",
+      "comments": "The crypto-asset services are limited solely to a Passive Digital Assets (PDA) AIF",
       "lastUpdate": "2026-07-13",
       "lastUpdateRaw": "13/07/2026"
     },
@@ -6354,6 +6667,56 @@
       "lastUpdateRaw": "21/05/2026"
     },
     {
+      "slug": "januar",
+      "name": "Januar",
+      "legalName": "Januar ApS",
+      "authority": "Finanstilsynet",
+      "homeState": "DK",
+      "lei": "984500A43E7FFC73CR76",
+      "leiCountry": "DK",
+      "address": "Gothersgade 14, 4., 1123 København K",
+      "website": "www.januar.com",
+      "websiteHref": "https://www.januar.com",
+      "services": [
+        "a",
+        "e",
+        "j"
+      ],
+      "countries": [
+        "BE",
+        "BG",
+        "CY",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-06-29",
+      "authDateRaw": "29/06/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-17",
+      "lastUpdateRaw": "17/07/2026"
+    },
+    {
       "slug": "joh-berenberg-gossler-co-kg",
       "name": "Joh. Berenberg, Gossler & Co. KG",
       "legalName": "Joh. Berenberg, Gossler & Co. KG",
@@ -6381,6 +6744,31 @@
       "comments": "",
       "lastUpdate": "2026-03-06",
       "lastUpdateRaw": "06/03/2026"
+    },
+    {
+      "slug": "justtrade",
+      "name": "justTRADE",
+      "legalName": "JT Technologies GmbH",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900YERL5TV5YJCR45",
+      "leiCountry": "DE",
+      "address": "Hamburger Allee 14, 60486 Frankfurt am Main",
+      "website": "www.justtrade.com",
+      "websiteHref": "https://www.justtrade.com",
+      "services": [
+        "e",
+        "g"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-07-14",
+      "authDateRaw": "14/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-14",
+      "lastUpdateRaw": "14/07/2026"
     },
     {
       "slug": "k33-markets-as",
@@ -6457,12 +6845,12 @@
         "SI",
         "SK"
       ],
-      "authDate": "2026-06-30",
-      "authDateRaw": "30/06/2026",
+      "authDate": "2026-06-29",
+      "authDateRaw": "29/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-06",
-      "lastUpdateRaw": "06/07/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "kbc",
@@ -6673,13 +7061,44 @@
         "g",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
       "authDate": "2026-06-15",
       "authDateRaw": "15/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "kucoin-eu",
@@ -7596,13 +8015,15 @@
         "i",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "CY"
+      ],
       "authDate": "2026-06-08",
       "authDateRaw": "08/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-16",
-      "lastUpdateRaw": "16/06/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "nbx",
@@ -7828,6 +8249,29 @@
       "lastUpdateRaw": "11/12/2025"
     },
     {
+      "slug": "nodu-digital",
+      "name": "Nodu Digital",
+      "legalName": "Nodu Digital, SIA",
+      "authority": "Latvijas Banka",
+      "homeState": "LV",
+      "lei": "98450065E59FDCD93R40",
+      "leiCountry": "LV",
+      "address": "Aspazijas bulvāris 20, Rīga, LV-1050",
+      "website": "",
+      "websiteHref": "",
+      "services": [
+        "c",
+        "j"
+      ],
+      "countries": [],
+      "authDate": "2026-07-08",
+      "authDateRaw": "08/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-14",
+      "lastUpdateRaw": "14/07/2026"
+    },
+    {
       "slug": "noemon-finance-ltd",
       "name": "Noemon Finance Ltd",
       "legalName": "Noemon Finance Ltd",
@@ -7908,13 +8352,44 @@
         "i",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
       "authDate": "2026-06-29",
       "authDateRaw": "29/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "northcrypto",
@@ -8532,6 +9007,60 @@
       "lastUpdateRaw": "22/06/2026"
     },
     {
+      "slug": "paymonade",
+      "name": "Paymonade",
+      "legalName": "Damoon Technology (Europe) AG",
+      "authority": "Finanzmarktaufsicht (FMA)",
+      "homeState": "LI",
+      "lei": "529900AAZRC5LYVR7134",
+      "leiCountry": "LI",
+      "address": "Dr. Grass-Strasse 12 - 9490 Vaduz",
+      "website": "www.paymonade.tech",
+      "websiteHref": "https://www.paymonade.tech",
+      "services": [
+        "c",
+        "j"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-07-10",
+      "authDateRaw": "10/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
+    },
+    {
       "slug": "paytop",
       "name": "PAYTOP",
       "legalName": "PAYTOP SAS",
@@ -8883,6 +9412,30 @@
       "comments": "",
       "lastUpdate": "2026-06-19",
       "lastUpdateRaw": "19/06/2026"
+    },
+    {
+      "slug": "raiffeisenbank-falkenstein-worth",
+      "name": "Raiffeisenbank Falkenstein-Wörth",
+      "legalName": "Raiffeisenbank Falkenstein-Wörth",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "391200236O6D9SGBE882",
+      "leiCountry": "DE",
+      "address": "Dr.-Götz-Str. 1, 93167 Falkenstein",
+      "website": "www.rbfalkenstein-woerth.de",
+      "websiteHref": "https://www.rbfalkenstein-woerth.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-07-13",
+      "authDateRaw": "13/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-13",
+      "lastUpdateRaw": "13/07/2026"
     },
     {
       "slug": "raiffeisenbank-kreis-kelheim-eg",
@@ -9275,13 +9828,15 @@
         "g",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "CY"
+      ],
       "authDate": "2026-06-22",
       "authDateRaw": "22/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "rufiji",
@@ -9380,6 +9935,59 @@
       "comments": "",
       "lastUpdate": "2025-11-12",
       "lastUpdateRaw": "12/11/2025"
+    },
+    {
+      "slug": "safelynx",
+      "name": "SafeLynx",
+      "legalName": "SafeLynx Technologies ApS",
+      "authority": "Finanstilsynet",
+      "homeState": "DK",
+      "lei": "9845003F777K7DFF4E96",
+      "leiCountry": "DK",
+      "address": "Kålundsvej 18, 3520 Farum",
+      "website": "www.safelynx.io",
+      "websiteHref": "https://www.safelynx.io",
+      "services": [
+        "c"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-07-08",
+      "authDateRaw": "08/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-17",
+      "lastUpdateRaw": "17/07/2026"
     },
     {
       "slug": "scalable-capital-bank-gmbh",
@@ -9755,6 +10363,59 @@
       "comments": "",
       "lastUpdate": "2025-09-11",
       "lastUpdateRaw": "11/09/2025"
+    },
+    {
+      "slug": "solidgate-sg-digital-assets",
+      "name": "Solidgate , SG Digital Assets",
+      "legalName": "SG Digital Assets Limited",
+      "authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "homeState": "CY",
+      "lei": "254900YI6BJ1QQQZIY62",
+      "leiCountry": "",
+      "address": "Diogenous 1 , Block A, 2nd floor, Office 24, 2404, Nicosia, Cyprus",
+      "website": "solidgate.com/casp",
+      "websiteHref": "https://solidgate.com/casp",
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "countries": [
+        "CY"
+      ],
+      "authDate": "2026-07-13",
+      "authDateRaw": "13/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-17",
+      "lastUpdateRaw": "17/07/2026"
+    },
+    {
+      "slug": "spar-und-kreditbank-rheinstetten-eg",
+      "name": "Spar- und Kreditbank Rheinstetten eG",
+      "legalName": "Spar- und Kreditbank Rheinstetten eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900793U3P5C6YYC70",
+      "leiCountry": "DE",
+      "address": "Badener Straße 3, 76287 Rheinstetten",
+      "website": "www.skb-rheinstetten.de",
+      "websiteHref": "https://www.skb-rheinstetten.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-07-27",
+      "authDateRaw": "27/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "stable-mint-ltd",
@@ -10381,13 +11042,15 @@
         "g",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "CY"
+      ],
       "authDate": "2026-06-29",
       "authDateRaw": "29/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-10",
-      "lastUpdateRaw": "10/07/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "trade-republic-bank-gmbh",
@@ -10768,13 +11431,15 @@
         "i",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "CY"
+      ],
       "authDate": "2026-06-29",
       "authDateRaw": "29/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "twino",
@@ -10860,13 +11525,15 @@
         "g",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "CY"
+      ],
       "authDate": "2026-06-29",
       "authDateRaw": "29/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdate": "2026-07-15",
+      "lastUpdateRaw": "15/07/2026"
     },
     {
       "slug": "v-bank-ag",
@@ -11232,6 +11899,30 @@
       "comments": "",
       "lastUpdate": "2025-12-12",
       "lastUpdateRaw": "12/12/2025"
+    },
+    {
+      "slug": "vr-bank-augsburg-ostallgau-eg",
+      "name": "VR-Bank Augsburg-Ostallgäu eG",
+      "legalName": "VR-Bank Augsburg-Ostallgäu eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900CG5HHEUT0AHK10",
+      "leiCountry": "DE",
+      "address": "Schießgrabenstraße 10, 86150 Augsburg",
+      "website": "www.vrbank-augsburg-ostallgaeu.de",
+      "websiteHref": "https://www.vrbank-augsburg-ostallgaeu.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-07-21",
+      "authDateRaw": "21/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-21",
+      "lastUpdateRaw": "21/07/2026"
     },
     {
       "slug": "vr-bank-rottal-inn-eg",
