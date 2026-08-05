@@ -2,16 +2,16 @@
 
 Cleaned, machine-readable datasets from the European Securities and Markets Authority (ESMA) interim registers under the EU's **MiCA** regulation (Markets in Crypto-Assets, Regulation (EU) 2023/1114). Maintained by [CASP Tracker](https://casptracker.eu), a searchable directory of MiCA-licensed crypto-asset service providers.
 
-- Last verified against the live ESMA source: **2026-07-24**
-- Newest record date inside the CASP register: **2026-07-23**
+- Last verified against the live ESMA source: **2026-08-05**
+- Newest record date inside the CASP register: **2026-08-04**
 
 ## Datasets
 
 | File | Register | Entries | Description |
 |---|---|---|---|
-| [`data/casps.json`](data/casps.json) | Authorised CASPs | **309** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
-| [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **164** | Non-compliant entities flagged by national regulators |
-| [`data/emts.json`](data/emts.json) | EMT issuers | **21** issuers (41 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
+| [`data/casps.json`](data/casps.json) | Authorised CASPs | **324** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
+| [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **167** | Non-compliant entities flagged by national regulators |
+| [`data/emts.json`](data/emts.json) | EMT issuers | **22** issuers (42 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
 
 `source/` holds the raw ESMA CSV snapshots the datasets are built from (`CASPS.csv`, `NCASP.csv`, `EMTWP.csv`, `ARTZZ.csv`). Filenames are stable, so **the git history of this repository doubles as a changelog of the ESMA registers**: every refresh commit shows exactly which entries were added or changed. ESMA itself does not publish register history.
@@ -83,7 +83,7 @@ The 10 MiCA crypto-asset services (Art. 3(1)(16) MiCA):
 | `reason`, `comments` | Free text from the register |
 | `decisionDate`, `lastUpdate` | ISO dates |
 
-Note: the warning list is fed by a small number of national authorities (currently 162 of 164 entries come from Italy's CONSOB, plus one each from the Dutch AFM and Slovakia's NBS). It is **not** a complete EU-wide blacklist, and absence from it is not a clean bill of health.
+Note: the warning list is fed by a small number of national authorities (currently 165 of 167 entries come from Italy's CONSOB, plus one each from the Dutch AFM and Slovakia's NBS). It is **not** a complete EU-wide blacklist, and absence from it is not a clean bill of health.
 
 ### `data/emts.json` (e-money token issuers)
 

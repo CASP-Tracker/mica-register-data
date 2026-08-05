@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-24T14:17:04.552Z",
+  "generatedAt": "2026-08-05T15:17:25.712Z",
   "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
-  "lastDataUpdate": "2026-07-23",
-  "count": 309,
+  "lastDataUpdate": "2026-08-04",
+  "count": 324,
   "items": [
     {
       "slug": "21bitcoin",
@@ -488,6 +488,33 @@
       "comments": "",
       "lastUpdate": "2026-06-30",
       "lastUpdateRaw": "30/06/2026"
+    },
+    {
+      "slug": "aquilla-nummus-ltd",
+      "name": "Aquilla Nummus Ltd",
+      "legalName": "Aquilla Nummus Ltd",
+      "authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "homeState": "CY",
+      "lei": "549300ZCGZNVDA6R3Y84",
+      "leiCountry": "",
+      "address": "26 Lordou Vyronos, 1096, Nicosia",
+      "website": "www.aquillanummus.com",
+      "websiteHref": "https://www.aquillanummus.com",
+      "services": [
+        "a",
+        "e",
+        "g",
+        "i"
+      ],
+      "countries": [
+        "CY"
+      ],
+      "authDate": "2026-07-20",
+      "authDateRaw": "20/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-24",
+      "lastUpdateRaw": "24/07/2026"
     },
     {
       "slug": "ari10-ari10-nl-web3-technology-b-v",
@@ -1057,6 +1084,30 @@
       "comments": "",
       "lastUpdate": "2026-06-30",
       "lastUpdateRaw": "30/06/2026"
+    },
+    {
+      "slug": "basque-pay-s-l",
+      "name": "BASQUE PAY S.L.",
+      "legalName": "BASQUE PAY S.L.",
+      "authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "homeState": "ES",
+      "lei": "",
+      "leiCountry": "ES",
+      "address": "Calle Villa de Plentzia 42-5 C. Getxeo Bizcaia.",
+      "website": "fazilcrypto.com/es",
+      "websiteHref": "https://fazilcrypto.com/es",
+      "services": [
+        "g"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "authDate": "2026-07-31",
+      "authDateRaw": "31/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-31",
+      "lastUpdateRaw": "31/07/2026"
     },
     {
       "slug": "bbva",
@@ -3119,6 +3170,64 @@
       "lastUpdateRaw": "06/06/2025"
     },
     {
+      "slug": "cloverum",
+      "name": "Cloverum",
+      "legalName": "Cloverum Finance (CY) Limited",
+      "authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "homeState": "CY",
+      "lei": "213800IWLH982X74LO71",
+      "leiCountry": "",
+      "address": "Kypranoros 13, Evi Building, Floor 2, Office 201, 1061 Nicosia, Cyprus",
+      "website": "www.cloverum.com",
+      "websiteHref": "https://www.cloverum.com",
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-07-06",
+      "authDateRaw": "06/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-24",
+      "lastUpdateRaw": "24/07/2026"
+    },
+    {
       "slug": "coinbase",
       "name": "Coinbase",
       "legalName": "Coinbase Luxembourg S.A.",
@@ -3888,40 +3997,14 @@
         "j"
       ],
       "countries": [
-        "AT",
-        "BE",
-        "BG",
-        "CY",
-        "CZ",
-        "DE",
-        "DK",
-        "EE",
-        "ES",
-        "FI",
-        "FR",
-        "GR",
-        "HR",
-        "HU",
-        "IE",
-        "IT",
-        "LT",
-        "LU",
-        "LV",
-        "MT",
-        "NL",
-        "PL",
-        "PT",
-        "RO",
-        "SE",
-        "SI",
-        "SK"
+        "ES"
       ],
       "authDate": "2026-06-26",
       "authDateRaw": "26/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-09",
-      "lastUpdateRaw": "09/07/2026"
+      "lastUpdate": "2026-06-26",
+      "lastUpdateRaw": "26/06/2026"
     },
     {
       "slug": "crossmint",
@@ -4583,7 +4666,11 @@
       "website": "dwpbank.de",
       "websiteHref": "https://dwpbank.de",
       "services": [
-        "e"
+        "a",
+        "c",
+        "d",
+        "e",
+        "j"
       ],
       "countries": [
         "DE"
@@ -4592,8 +4679,8 @@
       "authDateRaw": "04/12/2025",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2025-11-27",
-      "lastUpdateRaw": "27/11/2025"
+      "lastUpdate": "2026-07-30",
+      "lastUpdateRaw": "30/07/2026"
     },
     {
       "slug": "dietrich-richter-private-asset-management-ag",
@@ -5117,6 +5204,34 @@
       "lastUpdateRaw": "01/07/2026"
     },
     {
+      "slug": "feel-mining-wigl-et-othila",
+      "name": "FEEL MINING / WIGL ET OTHILA",
+      "legalName": "BLOCKCHAIN PROCESS SECURITY (B.P.S.) SAS",
+      "authority": "Autorité des Marchés Financiers (AMF)",
+      "homeState": "FR",
+      "lei": "9695000VFDEG5Z4JIY48",
+      "leiCountry": "FR",
+      "address": "18 rue de la Tuilerie, 38170 Seyssinet-Pariset, France",
+      "website": "feel-mining.com",
+      "websiteHref": "https://feel-mining.com",
+      "services": [
+        "a",
+        "c",
+        "e",
+        "i",
+        "j"
+      ],
+      "countries": [
+        "BE"
+      ],
+      "authDate": "2026-07-24",
+      "authDateRaw": "24/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-24",
+      "lastUpdateRaw": "24/07/2026"
+    },
+    {
       "slug": "fels-wealth-gmbh",
       "name": "Fels wealth GmbH",
       "legalName": "Fels wealth GmbH",
@@ -5225,6 +5340,57 @@
       "lastUpdateRaw": "19/12/2025"
     },
     {
+      "slug": "finary",
+      "name": "FINARY",
+      "legalName": "FINARY SAS",
+      "authority": "Autorité des Marchés Financiers (AMF)",
+      "homeState": "FR",
+      "lei": "969500RQH18PU24DM081",
+      "leiCountry": "FR",
+      "address": "31 ter Rue Vivienne, 75002 Paris, France",
+      "website": "finary.com/en",
+      "websiteHref": "https://finary.com/en",
+      "services": [
+        "a",
+        "g",
+        "j"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-07-06",
+      "authDateRaw": "06/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-06",
+      "lastUpdateRaw": "06/07/2026"
+    },
+    {
       "slug": "finctek",
       "name": "FINCTEK",
       "legalName": "FINCTEK UE SAS",
@@ -5315,6 +5481,55 @@
       "lastUpdateRaw": "24/07/2025"
     },
     {
+      "slug": "fintech-payments-psc-s-l",
+      "name": "FINTECH PAYMENTS PSC S.L.",
+      "legalName": "FINTECH PAYMENTS PSC S.L.",
+      "authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "homeState": "ES",
+      "lei": "549300746K71T6YJCV41",
+      "leiCountry": "ES",
+      "address": "Calle San Juan de Ortega núm. 10 esc 1 puerta B local Correoslabs. 28050 Madrid",
+      "website": "cryptopocket.io",
+      "websiteHref": "https://cryptopocket.io",
+      "services": [
+        "c"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-07-31",
+      "authDateRaw": "31/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-31",
+      "lastUpdateRaw": "31/07/2026"
+    },
+    {
       "slug": "fipto",
       "name": "FIPTO",
       "legalName": "FIPTO PI SAS",
@@ -5387,15 +5602,43 @@
         "j"
       ],
       "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
         "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
         "SK"
       ],
       "authDate": "2026-01-02",
       "authDateRaw": "02/01/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-01-05",
-      "lastUpdateRaw": "05/01/2026"
+      "lastUpdate": "2026-07-29",
+      "lastUpdateRaw": "29/07/2026"
     },
     {
       "slug": "firi-as",
@@ -7721,7 +7964,7 @@
     {
       "slug": "minos-global",
       "name": "MINOS GLOBAL",
-      "legalName": "MINOS GLOBAL, S.L.",
+      "legalName": "MINOS GLOBAL S.L.",
       "authority": "Comisión Nacional del Mercado de Valores (CNMV)",
       "homeState": "ES",
       "lei": "959800U0R44NN5DJC930",
@@ -8257,19 +8500,50 @@
       "lei": "98450065E59FDCD93R40",
       "leiCountry": "LV",
       "address": "Aspazijas bulvāris 20, Rīga, LV-1050",
-      "website": "",
-      "websiteHref": "",
+      "website": "nodu.fi",
+      "websiteHref": "https://nodu.fi",
       "services": [
         "c",
         "j"
       ],
-      "countries": [],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
       "authDate": "2026-07-08",
       "authDateRaw": "08/07/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-14",
-      "lastUpdateRaw": "14/07/2026"
+      "lastUpdate": "2026-07-24",
+      "lastUpdateRaw": "24/07/2026"
     },
     {
       "slug": "noemon-finance-ltd",
@@ -8739,7 +9013,7 @@
       "homeState": "ES",
       "lei": "5493000LM0MZ4JPMGM90",
       "leiCountry": "ES",
-      "address": "Avenida de Cantabria s/n. 28660 Boadilla del Monte (Madrid)",
+      "address": "Avenida de Cantabria s/n. 28660 Boadilla del Monte (Madrid).",
       "website": "www.openbank.es",
       "websiteHref": "https://www.openbank.es",
       "services": [
@@ -9281,6 +9555,62 @@
       "comments": "",
       "lastUpdate": "2026-02-25",
       "lastUpdateRaw": "25/02/2026"
+    },
+    {
+      "slug": "pm-mtf-ltd",
+      "name": "PM MTF LTD",
+      "legalName": "PM MTF LTD",
+      "authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "homeState": "CY",
+      "lei": "2138005EFA978Y43G944",
+      "leiCountry": "",
+      "address": "21 kasou, 1086 Nicosia, Cyprus",
+      "website": "mtf.perpetuals.com/,",
+      "websiteHref": "https://mtf.perpetuals.com/,",
+      "services": [
+        "a",
+        "b",
+        "e",
+        "g",
+        "j"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-07-20",
+      "authDateRaw": "20/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-24",
+      "lastUpdateRaw": "24/07/2026"
     },
     {
       "slug": "prosegur-crypto",
@@ -9829,14 +10159,43 @@
         "j"
       ],
       "countries": [
-        "CY"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
       "authDate": "2026-06-22",
       "authDateRaw": "22/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdate": "2026-08-04",
+      "lastUpdateRaw": "04/08/2026"
     },
     {
       "slug": "rufiji",
@@ -10012,6 +10371,45 @@
       "comments": "",
       "lastUpdate": "2026-03-02",
       "lastUpdateRaw": "02/03/2026"
+    },
+    {
+      "slug": "shares",
+      "name": "SHARES",
+      "legalName": "SHARES FINANCIAL ASSETS SAS",
+      "authority": "Autorité des Marchés Financiers (AMF)",
+      "homeState": "FR",
+      "lei": "9695001LQMTTVPIIQI05",
+      "leiCountry": "FR",
+      "address": "6 Rue Abel Truchet - 75017 Paris, France",
+      "website": "www.shares.io",
+      "websiteHref": "https://www.shares.io",
+      "services": [
+        "a",
+        "g",
+        "j"
+      ],
+      "countries": [
+        "BE",
+        "DE",
+        "DK",
+        "ES",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "PL",
+        "PT",
+        "SE",
+        "SI"
+      ],
+      "authDate": "2026-07-28",
+      "authDateRaw": "28/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-28",
+      "lastUpdateRaw": "28/07/2026"
     },
     {
       "slug": "simple-coin-s-r-o",
@@ -11427,19 +11825,49 @@
         "c",
         "d",
         "e",
+        "g",
         "h",
         "i",
         "j"
       ],
       "countries": [
-        "CY"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
       "authDate": "2026-06-29",
       "authDateRaw": "29/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdate": "2026-07-31",
+      "lastUpdateRaw": "31/07/2026"
     },
     {
       "slug": "twino",
@@ -11599,6 +12027,30 @@
       "lastUpdateRaw": "15/04/2026"
     },
     {
+      "slug": "vbu-volksbank-im-unterland-eg",
+      "name": "VBU Volksbank im Unterland eG",
+      "legalName": "VBU Volksbank im Unterland eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "52990053QE1M1V4P6U87",
+      "leiCountry": "DE",
+      "address": "Georg-Kohl-Straße 34, 74336 Brackenheim",
+      "website": "www.vbu-volksbank.de",
+      "websiteHref": "https://www.vbu-volksbank.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-08-03",
+      "authDateRaw": "03/08/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-08-03",
+      "lastUpdateRaw": "03/08/2026"
+    },
+    {
       "slug": "vermogensbutler-gmbh",
       "name": "Vermögensbutler GmbH",
       "legalName": "Vermögensbutler GmbH",
@@ -11732,6 +12184,30 @@
       "lastUpdateRaw": "05/07/2025"
     },
     {
+      "slug": "volksbank-eg-die-gestalterbank",
+      "name": "Volksbank eG - Die Gestalterbank",
+      "legalName": "Volksbank eG - Die Gestalterbank",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "52990093INYLJNWHQ228",
+      "leiCountry": "DE",
+      "address": "Am Riettor 1, 78048 Villingen-Schwenningen",
+      "website": "www.gestalterbank.de",
+      "websiteHref": "https://www.gestalterbank.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-07-27",
+      "authDateRaw": "27/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-27",
+      "lastUpdateRaw": "27/07/2026"
+    },
+    {
       "slug": "volksbank-heiden-eg",
       "name": "Volksbank Heiden eG",
       "legalName": "Volksbank Heiden eG",
@@ -11805,6 +12281,30 @@
       "lastUpdateRaw": "05/11/2025"
     },
     {
+      "slug": "volksbank-raiffeisenbank-oberbayern-sudost-eg",
+      "name": "Volksbank Raiffeisenbank Oberbayern Südost eG",
+      "legalName": "Volksbank Raiffeisenbank Oberbayern Südost eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "5299005O2LPWV9IP2Z21",
+      "leiCountry": "DE",
+      "address": "Münchner Allee 2, 83435 Bad Reichenhall",
+      "website": "www.vrbank-obb-so.de",
+      "websiteHref": "https://www.vrbank-obb-so.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-07-24",
+      "authDateRaw": "24/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-24",
+      "lastUpdateRaw": "24/07/2026"
+    },
+    {
       "slug": "volksbank-raiffeisenbank-wurzburg-eg",
       "name": "Volksbank Raiffeisenbank Würzburg eG",
       "legalName": "Volksbank Raiffeisenbank Würzburg eG",
@@ -11851,6 +12351,30 @@
       "comments": "",
       "lastUpdate": "2026-07-02",
       "lastUpdateRaw": "02/07/2026"
+    },
+    {
+      "slug": "vr-bank-schleswig-holstein-mitte-eg",
+      "name": "VR Bank Schleswig-Holstein Mitte eG",
+      "legalName": "VR Bank Schleswig-Holstein Mitte eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "52990017DZKEH3Q6PV63",
+      "leiCountry": "DE",
+      "address": "Werner-von-Siemens-Str. 44-48, 24783 Osterrönfeld",
+      "website": "www.vrbank-sh-mitte.de",
+      "websiteHref": "https://www.vrbank-sh-mitte.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-07-21",
+      "authDateRaw": "21/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-21",
+      "lastUpdateRaw": "21/07/2026"
     },
     {
       "slug": "vr-bank-sudpfalz-eg",
@@ -11923,6 +12447,54 @@
       "comments": "",
       "lastUpdate": "2026-07-21",
       "lastUpdateRaw": "21/07/2026"
+    },
+    {
+      "slug": "vr-bank-erding-eg",
+      "name": "VR-Bank Erding eG",
+      "legalName": "VR-Bank Erding eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900IAZ7K53LG7BT89",
+      "leiCountry": "DE",
+      "address": "Zollnerstraße 4, 85435 Erding",
+      "website": "www.vr-bank-erding.de",
+      "websiteHref": "https://www.vr-bank-erding.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-08-04",
+      "authDateRaw": "04/08/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-08-04",
+      "lastUpdateRaw": "04/08/2026"
+    },
+    {
+      "slug": "vr-bank-landau-mengkofen-eg",
+      "name": "VR-Bank Landau-Mengkofen eG",
+      "legalName": "VR-Bank Landau-Mengkofen eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900E9AS5RG8YBF660",
+      "leiCountry": "DE",
+      "address": "Marienplatz 1, 94405 Landau a. d. Isar",
+      "website": "www.vrbanklm.de",
+      "websiteHref": "https://www.vrbanklm.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-07-29",
+      "authDateRaw": "29/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-29",
+      "lastUpdateRaw": "29/07/2026"
     },
     {
       "slug": "vr-bank-rottal-inn-eg",
@@ -12135,6 +12707,56 @@
       "comments": "",
       "lastUpdate": "2026-06-18",
       "lastUpdateRaw": "18/06/2026"
+    },
+    {
+      "slug": "woorton",
+      "name": "WOORTON",
+      "legalName": "WOORTON SAS",
+      "authority": "Autorité des Marchés Financiers (AMF)",
+      "homeState": "FR",
+      "lei": "213800RF9FDNJ92AE175",
+      "leiCountry": "FR",
+      "address": "81 Rue Réaumur, 75002 Paris, France",
+      "website": "www.woorton.com",
+      "websiteHref": "https://www.woorton.com",
+      "services": [
+        "c",
+        "e"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "authDate": "2026-07-23",
+      "authDateRaw": "23/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-07-23",
+      "lastUpdateRaw": "23/07/2026"
     },
     {
       "slug": "wsw-portfoliomanagement-ag",

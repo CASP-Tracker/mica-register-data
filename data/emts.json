@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-24T14:17:05.133Z",
+  "generatedAt": "2026-08-05T15:17:26.301Z",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
-  "count": 21,
-  "wpCount": 41,
+  "count": 22,
+  "wpCount": 42,
   "countries": 12,
   "items": [
     {
@@ -844,6 +844,46 @@
       ],
       "caspSlug": "caceis-bank",
       "caspWebsite": "www.caceis.com"
+    },
+    {
+      "lei": "254900MVWQXMF77YZP65",
+      "leiName": "Bridge Building S.A.",
+      "name": "Bridge Building S.A.",
+      "homeState": "LU",
+      "authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "33, Boulevard Prince Henri, 1724 Luxembourg, Grand Duchy of Luxembourg",
+      "website": "bridge.xyz",
+      "websiteHref": "https://www.bridge.xyz/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2026-07-23",
+      "firstWpDate": "2026-07-23",
+      "lastUpdate": "2026-07-29",
+      "whitepapers": [
+        {
+          "url": "https://bridge.xyz/transparency/EURR",
+          "date": "2026-07-23",
+          "note": "N/A"
+        }
+      ],
+      "dti": [
+        "TD3BGWM5Z",
+        "LP00X1Q54",
+        "9J1RXQWBK",
+        "GR77N4VQN",
+        "R79DN2VHD",
+        "8KV3CMVM5",
+        "KHWWMMF9T",
+        "H81G32M97"
+      ],
+      "dtiFfg": [
+        "4ZD0FM2VG"
+      ],
+      "caspSlug": "bridge",
+      "caspWebsite": "www.bridge.xyz"
     }
   ]
 }
