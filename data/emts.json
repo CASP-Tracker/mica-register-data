@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-05T15:17:26.301Z",
+  "generatedAt": "2026-08-12T14:11:38.117Z",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
-  "count": 22,
-  "wpCount": 42,
-  "countries": 12,
+  "count": 23,
+  "wpCount": 43,
+  "countries": 13,
   "items": [
     {
       "lei": "743700KYSSTKZYGEUF50",
@@ -884,6 +884,39 @@
       ],
       "caspSlug": "bridge",
       "caspWebsite": "www.bridge.xyz"
+    },
+    {
+      "lei": "48510062OP64BYKPNO22",
+      "leiName": "DINARO company for electronic money issuing and payment services Ltd.",
+      "name": "Dinaro",
+      "homeState": "SI",
+      "authority": "Bank of Slovenia",
+      "address": "Bravničarjeva ulica 13, 1000 Ljubljana, Slovenia",
+      "website": "dinaro.si",
+      "websiteHref": "https://www.dinaro.si/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2021-11-02",
+      "firstWpDate": "2026-09-01",
+      "lastUpdate": "2026-08-07",
+      "whitepapers": [
+        {
+          "url": "https://dinaro.si/mica-eurgh-whitepaper",
+          "date": "2026-09-01",
+          "note": ""
+        }
+      ],
+      "dti": [
+        "M5ZR1C4B3"
+      ],
+      "dtiFfg": [
+        "2682FMR4J"
+      ],
+      "caspSlug": null,
+      "caspWebsite": ""
     }
   ]
 }

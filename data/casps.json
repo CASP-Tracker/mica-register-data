@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T15:17:25.712Z",
+  "generatedAt": "2026-08-12T14:11:37.292Z",
   "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
-  "lastDataUpdate": "2026-08-04",
-  "count": 324,
+  "lastDataUpdate": "2026-08-10",
+  "count": 325,
   "items": [
     {
       "slug": "21bitcoin",
@@ -57,7 +57,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-27",
-      "lastUpdateRaw": "27/11/2025"
+      "lastUpdateRaw": "27/11/2025",
+      "companyRegisterNumber": "556789h",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "acheron-acheron-trading",
@@ -111,7 +117,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-05-26",
-      "lastUpdateRaw": "26/05/2025"
+      "lastUpdateRaw": "26/05/2025",
+      "companyRegisterNumber": "94878153",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000007",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "ak-jensen-norway-as",
@@ -138,7 +150,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-02",
-      "lastUpdateRaw": "02/02/2026"
+      "lastUpdateRaw": "02/02/2026",
+      "companyRegisterNumber": "925510246",
+      "companyRegisterName": "The Register of Business Enterprises (Foretaksregisteret)",
+      "companyRegisterCountry": "NO",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "alaric-securities",
@@ -170,7 +188,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-22",
-      "lastUpdateRaw": "22/12/2025"
+      "lastUpdateRaw": "22/12/2025",
+      "companyRegisterNumber": "201482151",
+      "companyRegisterName": "Commercial Register (Търговски регистър)",
+      "companyRegisterCountry": "BG",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "alphacap",
@@ -197,7 +221,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-25",
-      "lastUpdateRaw": "25/06/2026"
+      "lastUpdateRaw": "25/06/2026",
+      "companyRegisterNumber": "908913114",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-021",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "alpharoute",
@@ -236,7 +266,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "26/06/2026",
+      "companyRegisterNumber": "50203687631",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "27-55/2026/13",
+      "ncaNumberLabel": "Latvijas Banka licence number"
     },
     {
       "slug": "altarius-asset-management-limited",
@@ -262,7 +298,13 @@
       "endDate": null,
       "comments": "Altarius Asset Management Limited has been licensed as an AIF Manager in terms of Directive 2011/61/EU (“the AIFMD”) and the Investment Services Act since 21 June 2005, and is currently authorised to provide Management of Alternative Investment Funds (Core), Individual Portfolio Management (Non-Core), and Reception and Transmission of Orders (Non-Core) in relation to all financial instruments listed under Section C of Annex 1 of Directive 2014/65/EU (“MiFID II”).No passporting notifications in terms of MiCA have been submitted by Altarius Asset Management Limited to date. DE and LU are the intended countries as notified in terms of Article 60 of MiCA Regulation.",
       "lastUpdate": "2025-03-24",
-      "lastUpdateRaw": "24/03/2025"
+      "lastUpdateRaw": "24/03/2025",
+      "companyRegisterNumber": "C 33168",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "altcoins",
@@ -289,33 +331,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-21",
-      "lastUpdateRaw": "21/07/2026"
-    },
-    {
-      "slug": "altlift-s-r-o",
-      "name": "Altlift s.r.o.",
-      "legalName": "Altlift s.r.o.",
-      "authority": "Czech National Bank (CNB)",
-      "homeState": "CZ",
-      "lei": "8945004PZEJSSPTTVB16",
-      "leiCountry": "CZ",
-      "address": "Korunní 2569/108, 101 00 Praha",
-      "website": "",
-      "websiteHref": "",
-      "services": [
-        "e",
-        "g",
-        "h"
-      ],
-      "countries": [
-        "CZ"
-      ],
-      "authDate": "2026-06-30",
-      "authDateRaw": "30/06/2026",
-      "endDate": null,
-      "comments": "",
-      "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "21/07/2026",
+      "companyRegisterNumber": "205491943",
+      "companyRegisterName": "Commercial Register (Търговски регистър)",
+      "companyRegisterCountry": "BG",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "499-ДУКА",
+      "ncaNumberLabel": "FSC decision number"
     },
     {
       "slug": "amdax-b-v-amdax-group-novelist",
@@ -371,7 +393,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-30",
-      "lastUpdateRaw": "30/06/2025"
+      "lastUpdateRaw": "30/06/2025",
+      "companyRegisterNumber": "74458477",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000012",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "amina-eu",
@@ -428,7 +456,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-28",
-      "lastUpdateRaw": "28/05/2026"
+      "lastUpdateRaw": "28/05/2026",
+      "companyRegisterNumber": "631729p",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "anceka-vermogensbetreuungs-aktiengesellschaft",
@@ -454,7 +488,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-04",
-      "lastUpdateRaw": "04/03/2026"
+      "lastUpdateRaw": "04/03/2026",
+      "companyRegisterNumber": "HRB 7508",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "aplo",
@@ -487,7 +527,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "878929405",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-023",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "aquilla-nummus-ltd",
@@ -514,7 +560,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-24",
-      "lastUpdateRaw": "24/07/2026"
+      "lastUpdateRaw": "24/07/2026",
+      "companyRegisterNumber": "ΗΕ 353286",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "ari10-ari10-nl-web3-technology-b-v",
@@ -522,7 +574,7 @@
       "legalName": "WEB3 Technology B.V.",
       "authority": "Netherlands Authority for the Financial Markets (AFM)",
       "homeState": "NL",
-      "lei": "724500YJVIN0Q94ZZG5",
+      "lei": "724500YJVIN0Q94ZZG58",
       "leiCountry": "NL",
       "address": "Prins Hendrikkade 21E - 1012TL - The Netherlands",
       "website": "ari10.com/en",
@@ -570,7 +622,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-19",
-      "lastUpdateRaw": "19/02/2026"
+      "lastUpdateRaw": "19/02/2026",
+      "companyRegisterNumber": "95206604",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000022",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "as-lhv-pank",
@@ -595,7 +653,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-02",
-      "lastUpdateRaw": "02/06/2026"
+      "lastUpdateRaw": "02/06/2026",
+      "companyRegisterNumber": "10539549",
+      "companyRegisterName": "Commercial Register (Äriregister)",
+      "companyRegisterCountry": "EE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "avianlabs-netherlands-b-v",
@@ -650,7 +714,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2024-04-15",
-      "lastUpdateRaw": "15/04/2024"
+      "lastUpdateRaw": "15/04/2024",
+      "companyRegisterNumber": "91273323",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000005",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "b2c2",
@@ -704,7 +774,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000007",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "baader-bank-ag",
@@ -756,7 +832,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-05-16",
-      "lastUpdateRaw": "16/05/2025"
+      "lastUpdateRaw": "16/05/2025",
+      "companyRegisterNumber": "HRB 121537",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "backpack-eu",
@@ -813,7 +895,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-28",
-      "lastUpdateRaw": "28/05/2026"
+      "lastUpdateRaw": "28/05/2026",
+      "companyRegisterNumber": "40203613537",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "baden-wurttembergische-wertpapierborse-gmbh",
@@ -837,7 +925,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-07-04",
-      "lastUpdateRaw": "04/07/2025"
+      "lastUpdateRaw": "04/07/2025",
+      "companyRegisterNumber": "HRB 18609",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "banca-sella",
@@ -862,7 +956,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "02224410023",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bank-frick-ag",
@@ -915,7 +1015,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-24",
-      "lastUpdateRaw": "24/02/2026"
+      "lastUpdateRaw": "24/02/2026",
+      "companyRegisterNumber": "FL-0001.548.501-4",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bankhaus-scheich-wertpapierspezialist-ag",
@@ -945,7 +1051,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-14",
-      "lastUpdateRaw": "14/10/2025"
+      "lastUpdateRaw": "14/10/2025",
+      "companyRegisterNumber": "HRB 103196",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "banking-circle",
@@ -1000,7 +1112,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-24",
-      "lastUpdateRaw": "24/03/2026"
+      "lastUpdateRaw": "24/03/2026",
+      "companyRegisterNumber": "B222310",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000001",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "banque-delubac",
@@ -1057,7 +1175,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-24",
-      "lastUpdateRaw": "24/10/2025"
+      "lastUpdateRaw": "24/10/2025",
+      "companyRegisterNumber": "305776890",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N2025-004",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "bare-bitcoin-as",
@@ -1083,7 +1207,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "927 393 204",
+      "companyRegisterName": "The Register of Business Enterprises (Foretaksregisteret)",
+      "companyRegisterCountry": "NO",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "221791",
+      "ncaNumberLabel": "Finanstilsynet registry ID"
     },
     {
       "slug": "basque-pay-s-l",
@@ -1107,7 +1237,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-31",
-      "lastUpdateRaw": "31/07/2026"
+      "lastUpdateRaw": "31/07/2026",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bbva",
@@ -1133,7 +1269,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-07",
-      "lastUpdateRaw": "07/03/2026"
+      "lastUpdateRaw": "07/03/2026",
+      "companyRegisterNumber": "A48265169",
+      "companyRegisterName": "RA000535",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "belayer",
@@ -1159,7 +1301,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-28",
-      "lastUpdateRaw": "28/04/2026"
+      "lastUpdateRaw": "28/04/2026",
+      "companyRegisterNumber": "204792388",
+      "companyRegisterName": "Commercial Register (Търговски регистър)",
+      "companyRegisterCountry": "BG",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "276-ДУКА",
+      "ncaNumberLabel": "FSC decision number"
     },
     {
       "slug": "bequant",
@@ -1214,7 +1362,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-01",
-      "lastUpdateRaw": "01/07/2026"
+      "lastUpdateRaw": "01/07/2026",
+      "companyRegisterNumber": "C 88065",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bison-bank",
@@ -1250,7 +1404,13 @@
       "endDate": null,
       "comments": "Bison Bank is a credit institution authorized to operate in Portugal since 2001. Bison Bank was authorized to provide criptoasset services by Banco de Portugal and Comissão do Mercado de Valores Mobiliários.",
       "lastUpdate": "2026-05-19",
-      "lastUpdateRaw": "19/05/2026"
+      "lastUpdateRaw": "19/05/2026",
+      "companyRegisterNumber": "502261722",
+      "companyRegisterName": "Commercial Register (Registo Comercial)",
+      "companyRegisterCountry": "PT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bit2me",
@@ -1309,7 +1469,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-03",
-      "lastUpdateRaw": "03/11/2025"
+      "lastUpdateRaw": "03/11/2025",
+      "companyRegisterNumber": "A-143230-8",
+      "companyRegisterName": "Commercial Registry (Registro Mercantil)",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bitcoin-store",
@@ -1367,7 +1533,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-03",
-      "lastUpdateRaw": "03/06/2026"
+      "lastUpdateRaw": "03/06/2026",
+      "companyRegisterNumber": "060297216",
+      "companyRegisterName": "Croatian Court Registry (Sudski registrar)",
+      "companyRegisterCountry": "HR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "R101065",
+      "ncaNumberLabel": "HANFA register number"
     },
     {
       "slug": "bitcoin-suisse-europe-ag",
@@ -1417,7 +1589,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-24",
-      "lastUpdateRaw": "24/06/2026"
+      "lastUpdateRaw": "24/06/2026",
+      "companyRegisterNumber": "FL-0002.600.023-9",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bitcoinmat",
@@ -1471,7 +1649,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-19",
-      "lastUpdateRaw": "19/12/2025"
+      "lastUpdateRaw": "19/12/2025",
+      "companyRegisterNumber": "54500923",
+      "companyRegisterName": "Business Register (Obchodný register)",
+      "companyRegisterCountry": "SK",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bitflyer-europe",
@@ -1527,7 +1711,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-29",
-      "lastUpdateRaw": "29/06/2026"
+      "lastUpdateRaw": "29/06/2026",
+      "companyRegisterNumber": "B211897",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000011",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "bitgo-europe-gmbh",
@@ -1585,7 +1775,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-02",
-      "lastUpdateRaw": "02/09/2025"
+      "lastUpdateRaw": "02/09/2025",
+      "companyRegisterNumber": "HRB 125175",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bitmymoney-b-v",
@@ -1613,7 +1809,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-24",
-      "lastUpdateRaw": "24/11/2025"
+      "lastUpdateRaw": "24/11/2025",
+      "companyRegisterNumber": "67547893",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000013",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "bitonic-b-v",
@@ -1669,7 +1871,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-24",
-      "lastUpdateRaw": "24/11/2025"
+      "lastUpdateRaw": "24/11/2025",
+      "companyRegisterNumber": "58276149",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000024",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "bitpanda",
@@ -1728,7 +1936,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-04-18",
-      "lastUpdateRaw": "18/04/2025"
+      "lastUpdateRaw": "18/04/2025",
+      "companyRegisterNumber": "569240v",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bitpanda-mt",
@@ -1755,7 +1969,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-05",
-      "lastUpdateRaw": "05/06/2025"
+      "lastUpdateRaw": "05/06/2025",
+      "companyRegisterNumber": "C 106261",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bitpanda-asset-management-gmbh",
@@ -1811,7 +2031,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-02-06",
-      "lastUpdateRaw": "06/02/2025"
+      "lastUpdateRaw": "06/02/2025",
+      "companyRegisterNumber": "HRB 258842",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bitpay-b-v",
@@ -1836,7 +2062,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-16",
-      "lastUpdateRaw": "16/07/2026"
+      "lastUpdateRaw": "16/07/2026",
+      "companyRegisterNumber": "58655891",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000045",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "bitstack",
@@ -1889,7 +2121,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-30",
-      "lastUpdateRaw": "30/06/2025"
+      "lastUpdateRaw": "30/06/2025",
+      "companyRegisterNumber": "899125090",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2025-003",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "bitstaete-b-v",
@@ -1913,7 +2151,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2024-12-30",
-      "lastUpdateRaw": "30/12/2024"
+      "lastUpdateRaw": "30/12/2024",
+      "companyRegisterNumber": "82045666",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000003",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "bitstamp",
@@ -1972,7 +2216,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-05-16",
-      "lastUpdateRaw": "16/05/2025"
+      "lastUpdateRaw": "16/05/2025",
+      "companyRegisterNumber": "B19685600",
+      "companyRegisterName": "CSSF - Supervised Entities (CSSF - Entités Surveillées)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000003",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "bittimaatti",
@@ -1996,7 +2246,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-17",
-      "lastUpdateRaw": "17/09/2025"
+      "lastUpdateRaw": "17/09/2025",
+      "companyRegisterNumber": "2946626-9",
+      "companyRegisterName": "The Business Information System (BIS) (Yritys- ja yhteisötietojärjestelmä (YTJ))",
+      "companyRegisterCountry": "FI",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bitvavo-b-v",
@@ -2051,7 +2307,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-30",
-      "lastUpdateRaw": "30/06/2025"
+      "lastUpdateRaw": "30/06/2025",
+      "companyRegisterNumber": "68743424",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000010",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "bleap",
@@ -2105,7 +2367,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-14",
-      "lastUpdateRaw": "14/07/2026"
+      "lastUpdateRaw": "14/07/2026",
+      "companyRegisterNumber": "40203714425",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "blockben",
@@ -2162,7 +2430,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-04",
-      "lastUpdateRaw": "04/12/2025"
+      "lastUpdateRaw": "04/12/2025",
+      "companyRegisterNumber": "50203650041",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "blockchain-com",
@@ -2218,7 +2492,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-17",
-      "lastUpdateRaw": "17/11/2025"
+      "lastUpdateRaw": "17/11/2025",
+      "companyRegisterNumber": "C 112722",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "blockrise",
@@ -2274,7 +2554,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-10",
-      "lastUpdateRaw": "10/12/2025"
+      "lastUpdateRaw": "10/12/2025",
+      "companyRegisterNumber": "74879782",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000029",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "blox-b-v",
@@ -2303,7 +2589,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-01",
-      "lastUpdateRaw": "01/10/2025"
+      "lastUpdateRaw": "01/10/2025",
+      "companyRegisterNumber": "71663533",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000020",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "blue-emi",
@@ -2325,7 +2617,13 @@
       "endDate": null,
       "comments": "CASP services are provided under Article 60(4) of MiCA, in relation to own issued EMT called BLUEUR",
       "lastUpdate": "2026-03-26",
-      "lastUpdateRaw": "26/03/2026"
+      "lastUpdateRaw": "26/03/2026",
+      "companyRegisterNumber": "305682465",
+      "companyRegisterName": "Register of Legal Entities (Juridinių asmenų registras)",
+      "companyRegisterCountry": "LT",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bny",
@@ -2350,7 +2648,13 @@
       "endDate": null,
       "comments": "1: The NBB has expressly confimed the completeness of the information file received by BNY SA/NV. This confirmation has been given on 20/07, after which BNY SA/NV, as soon as 27/7 could start to offer its crypto-asset services",
       "lastUpdate": "2026-07-20",
-      "lastUpdateRaw": "20/07/2026"
+      "lastUpdateRaw": "20/07/2026",
+      "companyRegisterNumber": "0806.743.159",
+      "companyRegisterName": "Crossroad Bank of Enterprises",
+      "companyRegisterCountry": "BE",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "boerse-stuttgart-digital-custody-gmbh",
@@ -2404,7 +2708,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-16",
-      "lastUpdateRaw": "16/04/2026"
+      "lastUpdateRaw": "16/04/2026",
+      "companyRegisterNumber": "HRB 766353",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bpifrance-investissement",
@@ -2428,7 +2738,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-18",
-      "lastUpdateRaw": "18/06/2026"
+      "lastUpdateRaw": "18/06/2026",
+      "companyRegisterNumber": "433975224",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N2026-006",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "bridge",
@@ -2484,7 +2800,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-01",
-      "lastUpdateRaw": "01/07/2026"
+      "lastUpdateRaw": "01/07/2026",
+      "companyRegisterNumber": "B298785",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000012",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "btc-direct-europe-b-v",
@@ -2516,7 +2838,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-30",
-      "lastUpdateRaw": "30/04/2026"
+      "lastUpdateRaw": "30/04/2026",
+      "companyRegisterNumber": "59383607",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000009",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "bullish-europe-gmbh",
@@ -2573,7 +2901,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-04",
-      "lastUpdateRaw": "04/09/2025"
+      "lastUpdateRaw": "04/09/2025",
+      "companyRegisterNumber": "HRB 128487",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bv-p-vermogen-ag",
@@ -2598,7 +2932,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-13",
-      "lastUpdateRaw": "13/03/2026"
+      "lastUpdateRaw": "13/03/2026",
+      "companyRegisterNumber": "HRB 9340",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bvnk",
@@ -2654,7 +2994,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-13",
-      "lastUpdateRaw": "13/05/2026"
+      "lastUpdateRaw": "13/05/2026",
+      "companyRegisterNumber": "C 66961",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "bybit",
@@ -2710,7 +3056,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-05-28",
-      "lastUpdateRaw": "28/05/2025"
+      "lastUpdateRaw": "28/05/2025",
+      "companyRegisterNumber": "636180i",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "caceis-bank",
@@ -2742,7 +3094,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-23",
-      "lastUpdateRaw": "23/06/2025"
+      "lastUpdateRaw": "23/06/2025",
+      "companyRegisterNumber": "692024722",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N2025-001",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "caixabank",
@@ -2769,7 +3127,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-27",
-      "lastUpdateRaw": "27/03/2026"
+      "lastUpdateRaw": "27/03/2026",
+      "companyRegisterNumber": "V-178351-8",
+      "companyRegisterName": "Commercial Registry (Registro Mercantil)",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "calamatta-cuschieri-investment-services-limited",
@@ -2822,7 +3186,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-06",
-      "lastUpdateRaw": "06/07/2026"
+      "lastUpdateRaw": "06/07/2026",
+      "companyRegisterNumber": "C 13729",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "capital-com",
@@ -2878,7 +3248,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": "ΗΕ 471499",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "cecabank",
@@ -2904,7 +3280,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-08-07",
-      "lastUpdateRaw": "07/08/2025"
+      "lastUpdateRaw": "07/08/2025",
+      "companyRegisterNumber": "M-547250-8",
+      "companyRegisterName": "Commercial Registry (Registro Mercantil)",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "celsion-bank-ag",
@@ -2960,7 +3342,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-15",
-      "lastUpdateRaw": "15/04/2026"
+      "lastUpdateRaw": "15/04/2026",
+      "companyRegisterNumber": "FL-0002.718.985-5",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "change",
@@ -2986,7 +3374,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-20",
-      "lastUpdateRaw": "20/04/2026"
+      "lastUpdateRaw": "20/04/2026",
+      "companyRegisterNumber": "50755854",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000082",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "checksig",
@@ -3014,7 +3408,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": null,
-      "lastUpdateRaw": ""
+      "lastUpdateRaw": "",
+      "companyRegisterNumber": "11028330964",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "circle",
@@ -3067,7 +3467,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-23",
-      "lastUpdateRaw": "23/04/2026"
+      "lastUpdateRaw": "23/04/2026",
+      "companyRegisterNumber": "953990934",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N2026-005",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "clearbank-europe-b-v",
@@ -3114,7 +3520,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-03",
-      "lastUpdateRaw": "03/04/2026"
+      "lastUpdateRaw": "03/04/2026",
+      "companyRegisterNumber": "89463366",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000085",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "clearstream",
@@ -3167,7 +3579,13 @@
       "endDate": null,
       "comments": "Clearstream Banking S.A. has notified the CSSF on 07/02/2025 of its intention to provide custody and administration of crypto-assets on behalf of clients.",
       "lastUpdate": "2025-06-06",
-      "lastUpdateRaw": "06/06/2025"
+      "lastUpdateRaw": "06/06/2025",
+      "companyRegisterNumber": "B9248",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000002",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "cloverum",
@@ -3225,7 +3643,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-24",
-      "lastUpdateRaw": "24/07/2026"
+      "lastUpdateRaw": "24/07/2026",
+      "companyRegisterNumber": "ΗΕ 474703",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "coinbase",
@@ -3284,7 +3708,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-01-22",
-      "lastUpdateRaw": "22/01/2026"
+      "lastUpdateRaw": "22/01/2026",
+      "companyRegisterNumber": "B292147",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000004",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "coinfinity",
@@ -3315,7 +3745,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-19",
-      "lastUpdateRaw": "19/12/2025"
+      "lastUpdateRaw": "19/12/2025",
+      "companyRegisterNumber": "415803a",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "coinflip",
@@ -3339,7 +3775,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-05",
-      "lastUpdateRaw": "05/06/2026"
+      "lastUpdateRaw": "05/06/2026",
+      "companyRegisterNumber": "17079791004",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "coingate",
@@ -3394,7 +3836,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "303423510",
+      "companyRegisterName": "Register of Legal Entities (Juridinių asmenų registras)",
+      "companyRegisterCountry": "LT",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "LB002323 / LB002324",
+      "ncaNumberLabel": "Lietuvos bankas licence number"
     },
     {
       "slug": "coinhouse",
@@ -3425,7 +3873,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-07",
-      "lastUpdateRaw": "07/05/2026"
+      "lastUpdateRaw": "07/05/2026",
+      "companyRegisterNumber": "815254545",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-013",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "coinify",
@@ -3481,7 +3935,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-17",
-      "lastUpdateRaw": "17/07/2026"
+      "lastUpdateRaw": "17/07/2026",
+      "companyRegisterNumber": "35847995",
+      "companyRegisterName": "Central Business Register (Centrale Virksomhedsregister)",
+      "companyRegisterCountry": "DK",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10907",
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
     },
     {
       "slug": "coinjar",
@@ -3537,7 +3997,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-09",
-      "lastUpdateRaw": "09/12/2025"
+      "lastUpdateRaw": "09/12/2025",
+      "companyRegisterNumber": "720832",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "coinmate-a-s",
@@ -3565,7 +4031,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "14071711",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "coinmerce-b-v",
@@ -3597,7 +4069,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-10",
-      "lastUpdateRaw": "10/12/2025"
+      "lastUpdateRaw": "10/12/2025",
+      "companyRegisterNumber": "70036969",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000019",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "coinmotion",
@@ -3625,7 +4103,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-07-16",
-      "lastUpdateRaw": "16/07/2025"
+      "lastUpdateRaw": "16/07/2025",
+      "companyRegisterNumber": "2469683-1",
+      "companyRegisterName": "The Business Information System (BIS) (Yritys- ja yhteisötietojärjestelmä (YTJ))",
+      "companyRegisterCountry": "FI",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "coinshares-asset-management",
@@ -3656,7 +4140,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-07-17",
-      "lastUpdateRaw": "17/07/2025"
+      "lastUpdateRaw": "17/07/2025",
+      "companyRegisterNumber": "847811544",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N2025-002",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "collect-exchange-cy-ltd",
@@ -3712,7 +4202,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-29",
-      "lastUpdateRaw": "29/09/2025"
+      "lastUpdateRaw": "29/09/2025",
+      "companyRegisterNumber": "ΗΕ 456884",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "cometh",
@@ -3757,7 +4253,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-04",
-      "lastUpdateRaw": "04/12/2025"
+      "lastUpdateRaw": "04/12/2025",
+      "companyRegisterNumber": "892021577",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2025-008",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "commerzbank-aktiengesellschaft",
@@ -3783,7 +4285,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-20",
-      "lastUpdateRaw": "20/10/2025"
+      "lastUpdateRaw": "20/10/2025",
+      "companyRegisterNumber": "HRB 32000",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "complycrypto-depository-eu-limited",
@@ -3812,7 +4320,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "ΗΕ 461709",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "concedus-gmbh",
@@ -3837,7 +4351,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-19",
-      "lastUpdateRaw": "19/03/2026"
+      "lastUpdateRaw": "19/03/2026",
+      "companyRegisterNumber": "HRB 45003",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "confirmo-limited",
@@ -3892,7 +4412,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-16",
-      "lastUpdateRaw": "16/12/2025"
+      "lastUpdateRaw": "16/12/2025",
+      "companyRegisterNumber": "793312",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "conio",
@@ -3921,7 +4447,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-16",
-      "lastUpdateRaw": "16/06/2026"
+      "lastUpdateRaw": "16/06/2026",
+      "companyRegisterNumber": "09112900965",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "cps",
@@ -3977,7 +4509,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-03",
-      "lastUpdateRaw": "03/07/2026"
+      "lastUpdateRaw": "03/07/2026",
+      "companyRegisterNumber": "B267039",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000013",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "criptan",
@@ -4004,7 +4542,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "26/06/2026",
+      "companyRegisterNumber": "V-182811-8",
+      "companyRegisterName": "Commercial Registry (Registro Mercantil)",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "crossmint",
@@ -4057,7 +4601,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "26/06/2026",
+      "companyRegisterNumber": "M-771435-8",
+      "companyRegisterName": "Commercial Registry (Registro Mercantil)",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "crypto-finance-deutschland-gmbh",
@@ -4096,7 +4646,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-05-23",
-      "lastUpdateRaw": "23/05/2025"
+      "lastUpdateRaw": "23/05/2025",
+      "companyRegisterNumber": "HRB 117999",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "crypto-am",
@@ -4126,7 +4682,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "894424902",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-025",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "crypto-com",
@@ -4183,7 +4745,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-02-06",
-      "lastUpdateRaw": "06/02/2025"
+      "lastUpdateRaw": "06/02/2025",
+      "companyRegisterNumber": "C 88392",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "cryptonow",
@@ -4239,7 +4807,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-04",
-      "lastUpdateRaw": "04/02/2026"
+      "lastUpdateRaw": "04/02/2026",
+      "companyRegisterNumber": "619454m",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "cryptosmart",
@@ -4268,7 +4842,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "03775010543",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "cryptovoucher",
@@ -4323,7 +4903,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-19",
-      "lastUpdateRaw": "19/12/2025"
+      "lastUpdateRaw": "19/12/2025",
+      "companyRegisterNumber": "47956925",
+      "companyRegisterName": "Business Register (Obchodný register)",
+      "companyRegisterCountry": "SK",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "d2x",
@@ -4347,7 +4933,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-26",
-      "lastUpdateRaw": "26/03/2026"
+      "lastUpdateRaw": "26/03/2026",
+      "companyRegisterNumber": "82248915",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000072",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "dadat",
@@ -4371,7 +4963,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-19",
-      "lastUpdateRaw": "19/12/2025"
+      "lastUpdateRaw": "19/12/2025",
+      "companyRegisterNumber": "656642a",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "damex",
@@ -4427,7 +5025,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-18",
-      "lastUpdateRaw": "18/06/2026"
+      "lastUpdateRaw": "18/06/2026",
+      "companyRegisterNumber": "C 110325",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "dask-krypto",
@@ -4456,7 +5060,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "ΗΕ 476140",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "dcs-happycoins",
@@ -4482,7 +5092,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "58556974",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000071",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "deblock",
@@ -4536,7 +5152,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-05-23",
-      "lastUpdateRaw": "23/05/2025"
+      "lastUpdateRaw": "23/05/2025",
+      "companyRegisterNumber": "948 264 163",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2025-001",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "decubate-b-v",
@@ -4591,7 +5213,13 @@
       "endDate": "2026-03-26",
       "comments": "Voluntary request to revoke authorisation by the entity",
       "lastUpdate": "2026-04-30",
-      "lastUpdateRaw": "30/04/2026"
+      "lastUpdateRaw": "30/04/2026",
+      "companyRegisterNumber": "82541442",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000018",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "dekabank-deutsche-girozentrale",
@@ -4618,7 +5246,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-25",
-      "lastUpdateRaw": "25/06/2026"
+      "lastUpdateRaw": "25/06/2026",
+      "companyRegisterNumber": "HRA 16068",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10100426",
+      "ncaNumberLabel": "BaFin-ID"
     },
     {
       "slug": "deskoin",
@@ -4652,7 +5286,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-28",
-      "lastUpdateRaw": "28/04/2026"
+      "lastUpdateRaw": "28/04/2026",
+      "companyRegisterNumber": "842129785",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-012",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "deutsche-wertpapierservice-bank-ag-dwpbank",
@@ -4680,7 +5320,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-30",
-      "lastUpdateRaw": "30/07/2026"
+      "lastUpdateRaw": "30/07/2026",
+      "companyRegisterNumber": "HRB 56913",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "dietrich-richter-private-asset-management-ag",
@@ -4705,7 +5351,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-08-18",
-      "lastUpdateRaw": "18/08/2025"
+      "lastUpdateRaw": "18/08/2025",
+      "companyRegisterNumber": "HRB 208321",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "digital-assist",
@@ -4729,7 +5381,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-21",
-      "lastUpdateRaw": "21/07/2026"
+      "lastUpdateRaw": "21/07/2026",
+      "companyRegisterNumber": "206079266",
+      "companyRegisterName": "Commercial Register (Търговски регистър)",
+      "companyRegisterCountry": "BG",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "500-ДУКА",
+      "ncaNumberLabel": "FSC decision number"
     },
     {
       "slug": "dlt-securities-gmbh",
@@ -4759,7 +5417,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-01",
-      "lastUpdateRaw": "01/04/2026"
+      "lastUpdateRaw": "01/04/2026",
+      "companyRegisterNumber": "HRB 130132",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "donau-iller-bank-eg",
@@ -4783,7 +5447,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-01",
-      "lastUpdateRaw": "01/07/2026"
+      "lastUpdateRaw": "01/07/2026",
+      "companyRegisterNumber": "GnR 490120",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "donaucapital-wertpapier-gmbh",
@@ -4807,7 +5477,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-27",
-      "lastUpdateRaw": "27/10/2025"
+      "lastUpdateRaw": "27/10/2025",
+      "companyRegisterNumber": "HRB 221691",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "due",
@@ -4861,7 +5537,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-15",
-      "lastUpdateRaw": "15/06/2026"
+      "lastUpdateRaw": "15/06/2026",
+      "companyRegisterNumber": "B16407272",
+      "companyRegisterName": "RA000535",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "dz-bank-ag-deutsche-zentral-genossenschaftsbank",
@@ -4887,7 +5569,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "HRB 45651",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "e-toro",
@@ -4946,7 +5634,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-10",
-      "lastUpdateRaw": "10/09/2025"
+      "lastUpdateRaw": "10/09/2025",
+      "companyRegisterNumber": "ΗΕ 200585",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "109/10",
+      "ncaNumberLabel": "CySEC licence number"
     },
     {
       "slug": "electrocoin",
@@ -5001,7 +5695,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-25",
-      "lastUpdateRaw": "25/06/2026"
+      "lastUpdateRaw": "25/06/2026",
+      "companyRegisterNumber": "080893710",
+      "companyRegisterName": "Croatian Court Registry (Sudski registrar)",
+      "companyRegisterCountry": "HR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "R30483",
+      "ncaNumberLabel": "HANFA register number"
     },
     {
       "slug": "eu-internet-ventures-euiv-bnxa",
@@ -5056,7 +5756,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-14",
-      "lastUpdateRaw": "14/10/2025"
+      "lastUpdateRaw": "14/10/2025",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000017",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "euwax-ag",
@@ -5089,7 +5795,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-21",
-      "lastUpdateRaw": "21/11/2025"
+      "lastUpdateRaw": "21/11/2025",
+      "companyRegisterNumber": "HRB 19972",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "everest",
@@ -5145,7 +5857,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-17",
-      "lastUpdateRaw": "17/07/2026"
+      "lastUpdateRaw": "17/07/2026",
+      "companyRegisterNumber": "C 89123",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "falconx",
@@ -5201,7 +5919,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-01",
-      "lastUpdateRaw": "01/07/2026"
+      "lastUpdateRaw": "01/07/2026",
+      "companyRegisterNumber": "C 88950",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "feel-mining-wigl-et-othila",
@@ -5229,7 +5953,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-24",
-      "lastUpdateRaw": "24/07/2026"
+      "lastUpdateRaw": "24/07/2026",
+      "companyRegisterNumber": "835275090",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-029",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "fels-wealth-gmbh",
@@ -5256,7 +5986,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-10",
-      "lastUpdateRaw": "10/12/2025"
+      "lastUpdateRaw": "10/12/2025",
+      "companyRegisterNumber": "HRB 10236",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "fiat-republic-netherlands-b-v",
@@ -5310,7 +6046,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-08-07",
-      "lastUpdateRaw": "07/08/2025"
+      "lastUpdateRaw": "07/08/2025",
+      "companyRegisterNumber": "84625791",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000041",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "fidus-finanz-ag",
@@ -5337,7 +6079,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-19",
-      "lastUpdateRaw": "19/12/2025"
+      "lastUpdateRaw": "19/12/2025",
+      "companyRegisterNumber": "HRB 115588",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "finary",
@@ -5388,7 +6136,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-06",
-      "lastUpdateRaw": "06/07/2026"
+      "lastUpdateRaw": "06/07/2026",
+      "companyRegisterNumber": "892357724",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-026 / N2026-008",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "finctek",
@@ -5422,7 +6176,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-11",
-      "lastUpdateRaw": "11/09/2025"
+      "lastUpdateRaw": "11/09/2025",
+      "companyRegisterNumber": "930641055",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2025-005",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "finst-b-v",
@@ -5478,7 +6238,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-07-24",
-      "lastUpdateRaw": "24/07/2025"
+      "lastUpdateRaw": "24/07/2025",
+      "companyRegisterNumber": "85668117",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000015",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "fintech-payments-psc-s-l",
@@ -5527,7 +6293,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-31",
-      "lastUpdateRaw": "31/07/2026"
+      "lastUpdateRaw": "31/07/2026",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "fipto",
@@ -5582,7 +6354,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-01-23",
-      "lastUpdateRaw": "23/01/2026"
+      "lastUpdateRaw": "23/01/2026",
+      "companyRegisterNumber": "929508893",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-009",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "firefish",
@@ -5638,7 +6416,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-29",
-      "lastUpdateRaw": "29/07/2026"
+      "lastUpdateRaw": "29/07/2026",
+      "companyRegisterNumber": "55912974",
+      "companyRegisterName": "Business Register (Obchodný register)",
+      "companyRegisterCountry": "SK",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "firi-as",
@@ -5669,7 +6453,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-29",
-      "lastUpdateRaw": "29/05/2026"
+      "lastUpdateRaw": "29/05/2026",
+      "companyRegisterNumber": "919932465",
+      "companyRegisterName": "The Register of Business Enterprises (Foretaksregisteret)",
+      "companyRegisterCountry": "NO",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "flatexdegiro-bank-ag",
@@ -5707,7 +6497,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-04-04",
-      "lastUpdateRaw": "04/04/2025"
+      "lastUpdateRaw": "04/04/2025",
+      "companyRegisterNumber": "HRB 141330",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "flatexdegiro-bank-ag-de",
@@ -5759,7 +6555,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-04-10",
-      "lastUpdateRaw": "10/04/2025"
+      "lastUpdateRaw": "10/04/2025",
+      "companyRegisterNumber": "HRB 49874",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "floin-ag",
@@ -5787,7 +6589,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-12",
-      "lastUpdateRaw": "12/06/2026"
+      "lastUpdateRaw": "12/06/2026",
+      "companyRegisterNumber": "FL-0002.652.200-0",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "flowdesk-europe",
@@ -5823,7 +6631,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-25",
-      "lastUpdateRaw": "25/06/2026"
+      "lastUpdateRaw": "25/06/2026",
+      "companyRegisterNumber": "998 951 883",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-022",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "fumbi",
@@ -5878,7 +6692,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "55651232",
+      "companyRegisterName": "Business Register (Obchodný register)",
+      "companyRegisterCountry": "SK",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "gate",
@@ -5935,7 +6755,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-21",
-      "lastUpdateRaw": "21/10/2025"
+      "lastUpdateRaw": "21/10/2025",
+      "companyRegisterNumber": "C 89337",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "gcex-gc-exchange",
@@ -5955,6 +6781,7 @@
         "j"
       ],
       "countries": [
+        "DK",
         "NL"
       ],
       "authDate": "2025-12-12",
@@ -5962,7 +6789,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-09",
-      "lastUpdateRaw": "09/03/2026"
+      "lastUpdateRaw": "09/03/2026",
+      "companyRegisterNumber": "43088777",
+      "companyRegisterName": "Central Business Register (Centrale Virksomhedsregister)",
+      "companyRegisterCountry": "DK",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10901",
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
     },
     {
       "slug": "gemini",
@@ -6020,7 +6853,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-08-21",
-      "lastUpdateRaw": "21/08/2025"
+      "lastUpdateRaw": "21/08/2025",
+      "companyRegisterNumber": "C 110029",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "gg-digital-a-s",
@@ -6048,7 +6887,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-18",
-      "lastUpdateRaw": "18/05/2026"
+      "lastUpdateRaw": "18/05/2026",
+      "companyRegisterNumber": "09206663",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "goin",
@@ -6103,7 +6948,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-19",
-      "lastUpdateRaw": "19/06/2025"
+      "lastUpdateRaw": "19/06/2025",
+      "companyRegisterNumber": "839009669",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2025-002",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "hannoversche-volksbank-eg",
@@ -6127,7 +6978,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-12",
-      "lastUpdateRaw": "12/12/2025"
+      "lastUpdateRaw": "12/12/2025",
+      "companyRegisterNumber": "GnR 263",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "hauck-aufhauser-digital-custody-gmbh",
@@ -6152,7 +7009,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-03",
-      "lastUpdateRaw": "03/12/2025"
+      "lastUpdateRaw": "03/12/2025",
+      "companyRegisterNumber": "HRB 129618",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "hercle",
@@ -6205,7 +7068,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-10",
-      "lastUpdateRaw": "10/07/2026"
+      "lastUpdateRaw": "10/07/2026",
+      "companyRegisterNumber": "10942550962",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "hexarq",
@@ -6233,7 +7102,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-05",
-      "lastUpdateRaw": "05/02/2026"
+      "lastUpdateRaw": "05/02/2026",
+      "companyRegisterNumber": "908501919",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-010",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "hidden-road-partners-civ-nl-b-v",
@@ -6288,7 +7163,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2024-12-30",
-      "lastUpdateRaw": "30/12/2024"
+      "lastUpdateRaw": "30/12/2024",
+      "companyRegisterNumber": "83214941",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000008",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "hodleris",
@@ -6344,7 +7225,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "40203747303",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "hodli",
@@ -6385,7 +7272,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-23",
-      "lastUpdateRaw": "23/07/2026"
+      "lastUpdateRaw": "23/07/2026",
+      "companyRegisterNumber": "02862500994",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "hpb-d-d",
@@ -6409,7 +7302,13 @@
       "endDate": null,
       "comments": "The crypto-asset services are limited solely to a Passive Digital Assets (PDA) AIF",
       "lastUpdate": "2026-07-13",
-      "lastUpdateRaw": "13/07/2026"
+      "lastUpdateRaw": "13/07/2026",
+      "companyRegisterNumber": "080010698",
+      "companyRegisterName": "Croatian Court Registry (Sudski registrar)",
+      "companyRegisterCountry": "HR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "huddlestock-gmbh",
@@ -6433,7 +7332,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-06",
-      "lastUpdateRaw": "06/11/2025"
+      "lastUpdateRaw": "06/11/2025",
+      "companyRegisterNumber": "HRB 177226",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "hyphe-markets-gmbh",
@@ -6467,7 +7372,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-25",
-      "lastUpdateRaw": "25/11/2025"
+      "lastUpdateRaw": "25/11/2025",
+      "companyRegisterNumber": "HRB 272346",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "iceblock",
@@ -6493,7 +7404,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "902774728",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-024",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "ig-europe-gmbh",
@@ -6546,7 +7463,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-12",
-      "lastUpdateRaw": "12/12/2025"
+      "lastUpdateRaw": "12/12/2025",
+      "companyRegisterNumber": "HRB 115624",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "ilavo-group-a-s",
@@ -6577,7 +7500,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "22377301",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "ilirika",
@@ -6633,7 +7562,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-22",
-      "lastUpdateRaw": "22/10/2025"
+      "lastUpdateRaw": "22/10/2025",
+      "companyRegisterNumber": "5831652000",
+      "companyRegisterName": "Slovenian Business Register (Poslovni register)",
+      "companyRegisterCountry": "SI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "in-kapital",
@@ -6657,7 +7592,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-18",
-      "lastUpdateRaw": "18/06/2026"
+      "lastUpdateRaw": "18/06/2026",
+      "companyRegisterNumber": "080126435",
+      "companyRegisterName": "Croatian Court Registry (Sudski registrar)",
+      "companyRegisterCountry": "HR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "incrementum",
@@ -6685,7 +7626,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-04",
-      "lastUpdateRaw": "04/03/2026"
+      "lastUpdateRaw": "04/03/2026",
+      "companyRegisterNumber": "8305676000",
+      "companyRegisterName": "Slovenian Business Register (Poslovni register)",
+      "companyRegisterCountry": "SI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "interactive-brokers-ireland-limited",
@@ -6738,7 +7685,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-01-22",
-      "lastUpdateRaw": "22/01/2026"
+      "lastUpdateRaw": "22/01/2026",
+      "companyRegisterNumber": "657406",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "invity-finance-s-r-o",
@@ -6770,7 +7723,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-13",
-      "lastUpdateRaw": "13/02/2026"
+      "lastUpdateRaw": "13/02/2026",
+      "companyRegisterNumber": "22369775",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "ip-wbtcb-solutions-s-r-o",
@@ -6797,7 +7756,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "26/06/2026",
+      "companyRegisterNumber": "03058417",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "iqana-technologies-s-l",
@@ -6823,7 +7788,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-10",
-      "lastUpdateRaw": "10/07/2026"
+      "lastUpdateRaw": "10/07/2026",
+      "companyRegisterNumber": "B-622221-8",
+      "companyRegisterName": "Commercial Registry (Registro Mercantil)",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "isf-institut-deutsch-schweizer-finanzdienstleistungen-gmbh",
@@ -6847,7 +7818,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-01-28",
-      "lastUpdateRaw": "28/01/2026"
+      "lastUpdateRaw": "28/01/2026",
+      "companyRegisterNumber": "HRB 55738",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "j2tx-ltd",
@@ -6907,7 +7884,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": "ΗΕ 422703",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "januar",
@@ -6957,7 +7940,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-17",
-      "lastUpdateRaw": "17/07/2026"
+      "lastUpdateRaw": "17/07/2026",
+      "companyRegisterNumber": "38891294",
+      "companyRegisterName": "Central Business Register (Centrale Virksomhedsregister)",
+      "companyRegisterCountry": "DK",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10908",
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
     },
     {
       "slug": "joh-berenberg-gossler-co-kg",
@@ -6986,7 +7975,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-06",
-      "lastUpdateRaw": "06/03/2026"
+      "lastUpdateRaw": "06/03/2026",
+      "companyRegisterNumber": "HRA 42659",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "justtrade",
@@ -7011,7 +8006,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-14",
-      "lastUpdateRaw": "14/07/2026"
+      "lastUpdateRaw": "14/07/2026",
+      "companyRegisterNumber": "HRB 112915",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10164769",
+      "ncaNumberLabel": "BaFin-ID"
     },
     {
       "slug": "k33-markets-as",
@@ -7037,7 +8038,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-16",
-      "lastUpdateRaw": "16/06/2026"
+      "lastUpdateRaw": "16/06/2026",
+      "companyRegisterNumber": "919 578 998",
+      "companyRegisterName": "The Register of Business Enterprises (Foretaksregisteret)",
+      "companyRegisterCountry": "NO",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "kaiser-partner-privatbank",
@@ -7093,7 +8100,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "FL-0001.018.213-7",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "kbc",
@@ -7119,7 +8132,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-13",
-      "lastUpdateRaw": "13/05/2026"
+      "lastUpdateRaw": "13/05/2026",
+      "companyRegisterNumber": "0462.920.226",
+      "companyRegisterName": "Crossroad Bank of Enterprises",
+      "companyRegisterCountry": "BE",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "keyrock",
@@ -7174,7 +8193,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-12",
-      "lastUpdateRaw": "12/06/2026"
+      "lastUpdateRaw": "12/06/2026",
+      "companyRegisterNumber": "928248566",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-017",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "kraken-digital-asset-exchange-kraken",
@@ -7234,7 +8259,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-25",
-      "lastUpdateRaw": "25/06/2025"
+      "lastUpdateRaw": "25/06/2025",
+      "companyRegisterNumber": "711781",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "C468360",
+      "ncaNumberLabel": "Central Bank of Ireland reference (C-number)"
     },
     {
       "slug": "kraken-kraken-digital-asset-exchange",
@@ -7259,7 +8290,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-25",
-      "lastUpdateRaw": "25/06/2025"
+      "lastUpdateRaw": "25/06/2025",
+      "companyRegisterNumber": "744768",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "C559106",
+      "ncaNumberLabel": "Central Bank of Ireland reference (C-number)"
     },
     {
       "slug": "kriptomat",
@@ -7283,7 +8320,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-18",
-      "lastUpdateRaw": "18/06/2026"
+      "lastUpdateRaw": "18/06/2026",
+      "companyRegisterNumber": "081312432",
+      "companyRegisterName": "Croatian Court Registry (Sudski registrar)",
+      "companyRegisterCountry": "HR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "R102212",
+      "ncaNumberLabel": "HANFA register number"
     },
     {
       "slug": "krypto-knight",
@@ -7341,7 +8384,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "ΗΕ 434989",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "kucoin-eu",
@@ -7397,7 +8446,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-27",
-      "lastUpdateRaw": "27/11/2025"
+      "lastUpdateRaw": "27/11/2025",
+      "companyRegisterNumber": "641084x",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "kutxabank",
@@ -7423,7 +8478,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-27",
-      "lastUpdateRaw": "27/03/2026"
+      "lastUpdateRaw": "27/03/2026",
+      "companyRegisterNumber": "BI-58729-8",
+      "companyRegisterName": "Commercial Registry (Registro Mercantil)",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "kvarn-x",
@@ -7479,7 +8540,13 @@
       "endDate": null,
       "comments": "Passporting information updated",
       "lastUpdate": "2026-05-28",
-      "lastUpdateRaw": "28/05/2026"
+      "lastUpdateRaw": "28/05/2026",
+      "companyRegisterNumber": "3288803-2",
+      "companyRegisterName": "The Business Information System (BIS) (Yritys- ja yhteisötietojärjestelmä (YTJ))",
+      "companyRegisterCountry": "FI",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "lang-schwarz-tradecenter-ag-co-kg",
@@ -7504,7 +8571,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-22",
-      "lastUpdateRaw": "22/10/2025"
+      "lastUpdateRaw": "22/10/2025",
+      "companyRegisterNumber": "HRA 21180",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "legend-trading",
@@ -7558,7 +8631,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-10",
-      "lastUpdateRaw": "10/10/2025"
+      "lastUpdateRaw": "10/10/2025",
+      "companyRegisterNumber": "760874",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "legion",
@@ -7585,7 +8664,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "26/06/2026",
+      "companyRegisterNumber": "C 110620",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "leonod",
@@ -7636,7 +8721,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-22",
-      "lastUpdateRaw": "22/06/2026"
+      "lastUpdateRaw": "22/06/2026",
+      "companyRegisterNumber": "849566559",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-019",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "lgt-bank-ag",
@@ -7676,7 +8767,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-01-27",
-      "lastUpdateRaw": "27/01/2026"
+      "lastUpdateRaw": "27/01/2026",
+      "companyRegisterNumber": "FL-0001.122.356-7",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "lightspark-payments-europe-as",
@@ -7732,7 +8829,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-18",
-      "lastUpdateRaw": "18/06/2026"
+      "lastUpdateRaw": "18/06/2026",
+      "companyRegisterNumber": "16298772",
+      "companyRegisterName": "Commercial Register (Äriregister)",
+      "companyRegisterCountry": "EE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "lightyear-europe-as",
@@ -7787,7 +8890,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-05",
-      "lastUpdateRaw": "05/12/2025"
+      "lastUpdateRaw": "05/12/2025",
+      "companyRegisterNumber": "16235024",
+      "companyRegisterName": "Commercial Register (Äriregister)",
+      "companyRegisterCountry": "EE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "lunar-block",
@@ -7805,6 +8914,7 @@
         "e"
       ],
       "countries": [
+        "DK",
         "NO",
         "SE"
       ],
@@ -7813,7 +8923,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-04",
-      "lastUpdateRaw": "04/03/2026"
+      "lastUpdateRaw": "04/03/2026",
+      "companyRegisterNumber": "38808117",
+      "companyRegisterName": "Central Business Register (Centrale Virksomhedsregister)",
+      "companyRegisterCountry": "DK",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10900",
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
     },
     {
       "slug": "madison-six-crypto4me",
@@ -7871,7 +8987,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "56856229",
+      "companyRegisterName": "Business Register (Obchodný register)",
+      "companyRegisterCountry": "SK",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "meatal-gear",
@@ -7923,7 +9045,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-07-04",
-      "lastUpdateRaw": "04/07/2025"
+      "lastUpdateRaw": "04/07/2025",
+      "companyRegisterNumber": "914975388",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2025-004",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "meria",
@@ -7959,7 +9087,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-22",
-      "lastUpdateRaw": "22/06/2026"
+      "lastUpdateRaw": "22/06/2026",
+      "companyRegisterNumber": "829840735",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-020",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "minos-global",
@@ -7989,7 +9123,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "B88104062",
+      "companyRegisterName": "RA000535",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "mipsoftware-s-r-o",
@@ -8015,7 +9155,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "24667021",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "mlp-banking-ag",
@@ -8039,7 +9185,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-11",
-      "lastUpdateRaw": "11/03/2026"
+      "lastUpdateRaw": "11/03/2026",
+      "companyRegisterNumber": "HRB 335755",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "monflo",
@@ -8068,7 +9220,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-04",
-      "lastUpdateRaw": "04/12/2025"
+      "lastUpdateRaw": "04/12/2025",
+      "companyRegisterNumber": "86115294",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000025",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "moonpay-europe-b-v",
@@ -8123,7 +9281,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2024-12-30",
-      "lastUpdateRaw": "30/12/2024"
+      "lastUpdateRaw": "30/12/2024",
+      "companyRegisterNumber": "93501153",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000002",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "mp-developers-s-r-o",
@@ -8151,7 +9315,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-13",
-      "lastUpdateRaw": "13/02/2026"
+      "lastUpdateRaw": "13/02/2026",
+      "companyRegisterNumber": "07055285",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "myntkaup",
@@ -8178,7 +9348,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-25",
-      "lastUpdateRaw": "25/06/2026"
+      "lastUpdateRaw": "25/06/2026",
+      "companyRegisterNumber": "5207170800",
+      "companyRegisterName": "Register of Enterprises (Fyrirtækjaskrá RSK)",
+      "companyRegisterCountry": "IS",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "myriad-capital",
@@ -8205,7 +9381,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": null,
-      "lastUpdateRaw": ""
+      "lastUpdateRaw": "",
+      "companyRegisterNumber": "306987772",
+      "companyRegisterName": "Register of Legal Entities (Juridinių asmenų registras)",
+      "companyRegisterCountry": "LT",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "n26-bank-se",
@@ -8235,7 +9417,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-05-14",
-      "lastUpdateRaw": "14/05/2025"
+      "lastUpdateRaw": "14/05/2025",
+      "companyRegisterNumber": "HRB 271697 B",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "naga-x",
@@ -8266,7 +9454,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "ΗΕ 424746",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "nbx",
@@ -8324,7 +9518,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-02",
-      "lastUpdateRaw": "02/07/2026"
+      "lastUpdateRaw": "02/07/2026",
+      "companyRegisterNumber": "920 245 676",
+      "companyRegisterName": "The Register of Business Enterprises (Foretaksregisteret)",
+      "companyRegisterCountry": "NO",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "201280",
+      "ncaNumberLabel": "Finanstilsynet registry ID"
     },
     {
       "slug": "neverless",
@@ -8381,7 +9581,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-25",
-      "lastUpdateRaw": "25/05/2026"
+      "lastUpdateRaw": "25/05/2026",
+      "companyRegisterNumber": "40203638969",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "newrails",
@@ -8434,7 +9640,13 @@
       "endDate": null,
       "comments": "CASP services are provided under Article 60(4) of MiCA, in relation to own issued EMT called AMBR EURO (EURW)",
       "lastUpdate": "2026-03-26",
-      "lastUpdateRaw": "26/03/2026"
+      "lastUpdateRaw": "26/03/2026",
+      "companyRegisterNumber": "305270426",
+      "companyRegisterName": "Register of Legal Entities (Juridinių asmenų registras)",
+      "companyRegisterCountry": "LT",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "nexdesk",
@@ -8489,7 +9701,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-11",
-      "lastUpdateRaw": "11/12/2025"
+      "lastUpdateRaw": "11/12/2025",
+      "companyRegisterNumber": "40203611803",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "nodu-digital",
@@ -8543,7 +9761,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-24",
-      "lastUpdateRaw": "24/07/2026"
+      "lastUpdateRaw": "24/07/2026",
+      "companyRegisterNumber": "40203662782",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "noemon-finance-ltd",
@@ -8602,7 +9826,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-13",
-      "lastUpdateRaw": "13/03/2026"
+      "lastUpdateRaw": "13/03/2026",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "noemon-tech-ltd",
@@ -8663,7 +9893,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "ΗΕ 427232",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "northcrypto",
@@ -8692,17 +9928,23 @@
       "endDate": null,
       "comments": "Passporting information updated",
       "lastUpdate": "2026-06-17",
-      "lastUpdateRaw": "17/06/2026"
+      "lastUpdateRaw": "17/06/2026",
+      "companyRegisterNumber": "2918254-9",
+      "companyRegisterName": "The Business Information System (BIS) (Yritys- ja yhteisötietojärjestelmä (YTJ))",
+      "companyRegisterCountry": "FI",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
-      "slug": "northstake-aps",
-      "name": "Northstake ApS",
+      "slug": "northstake",
+      "name": "Northstake",
       "legalName": "Northstake ApS",
       "authority": "Finanstilsynet",
       "homeState": "DK",
       "lei": "98450010C0CB6A4E8A79",
       "leiCountry": "DK",
-      "address": "Amaliegade 45 st, 1256 Kopenhavn K",
+      "address": "Amaliegade 45 st, 1256 København K",
       "website": "www.northstake.dk",
       "websiteHref": "https://www.northstake.dk",
       "services": [
@@ -8747,7 +9989,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-07",
-      "lastUpdateRaw": "07/04/2026"
+      "lastUpdateRaw": "07/04/2026",
+      "companyRegisterNumber": "42818739",
+      "companyRegisterName": "Central Business Register (Centrale Virksomhedsregister)",
+      "companyRegisterCountry": "DK",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10905",
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
     },
     {
       "slug": "okazio",
@@ -8804,7 +10052,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-01-16",
-      "lastUpdateRaw": "16/01/2026"
+      "lastUpdateRaw": "16/01/2026",
+      "companyRegisterNumber": "54724732",
+      "companyRegisterName": "Business Register (Obchodný register)",
+      "companyRegisterCountry": "SK",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "okx",
@@ -8864,7 +10118,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-28",
-      "lastUpdateRaw": "28/11/2025"
+      "lastUpdateRaw": "28/11/2025",
+      "companyRegisterNumber": "C 88193",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "olmipay",
@@ -8892,7 +10152,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-29",
-      "lastUpdateRaw": "29/05/2026"
+      "lastUpdateRaw": "29/05/2026",
+      "companyRegisterNumber": "C 112662",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "one-trading-exchange-b-v",
@@ -8946,7 +10212,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-05-20",
-      "lastUpdateRaw": "20/05/2025"
+      "lastUpdateRaw": "20/05/2025",
+      "companyRegisterNumber": "88528766",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000034",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "op-digital",
@@ -9003,7 +10275,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-24",
-      "lastUpdateRaw": "24/06/2026"
+      "lastUpdateRaw": "24/06/2026",
+      "companyRegisterNumber": "C 110012",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "openbank",
@@ -9029,7 +10307,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-14",
-      "lastUpdateRaw": "14/05/2026"
+      "lastUpdateRaw": "14/05/2026",
+      "companyRegisterNumber": "A28122570",
+      "companyRegisterName": "RA000535",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "orcabay",
@@ -9052,7 +10336,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-10",
-      "lastUpdateRaw": "10/11/2025"
+      "lastUpdateRaw": "10/11/2025",
+      "companyRegisterNumber": "8206520000",
+      "companyRegisterName": "Slovenian Business Register (Poslovni register)",
+      "companyRegisterCountry": "SI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "osl-eu",
@@ -9108,7 +10398,43 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-13",
-      "lastUpdateRaw": "13/07/2026"
+      "lastUpdateRaw": "13/07/2026",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
+    },
+    {
+      "slug": "partners-banka-a-s",
+      "name": "Partners Banka, a.s.",
+      "legalName": "Partners Banka, a.s.",
+      "authority": "Czech National Bank (CNB)",
+      "homeState": "CZ",
+      "lei": "315700J0QGFRKN11MF15",
+      "leiCountry": "CZ",
+      "address": "Türkova 2319/5b, 149 00 Praha",
+      "website": "www.partnersbanka.cz",
+      "websiteHref": "https://www.partnersbanka.cz",
+      "services": [
+        "g"
+      ],
+      "countries": [
+        "CZ"
+      ],
+      "authDate": "2026-07-29",
+      "authDateRaw": "29/07/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-08-04",
+      "lastUpdateRaw": "04/08/2026",
+      "companyRegisterNumber": "09727094",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "paybis",
@@ -9166,7 +10492,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-28",
-      "lastUpdateRaw": "28/05/2026"
+      "lastUpdateRaw": "28/05/2026",
+      "companyRegisterNumber": "40203730951",
+      "companyRegisterName": "Databases of enterprises",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "payhound",
@@ -9222,7 +10554,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-04",
-      "lastUpdateRaw": "04/12/2025"
+      "lastUpdateRaw": "04/12/2025",
+      "companyRegisterNumber": "C 86493",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "paymium",
@@ -9278,7 +10616,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-22",
-      "lastUpdateRaw": "22/06/2026"
+      "lastUpdateRaw": "22/06/2026",
+      "companyRegisterNumber": "533264800",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-018",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "paymonade",
@@ -9332,7 +10676,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "FL-0002.682.952-0",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "paytop",
@@ -9389,7 +10739,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": "487568446",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-015",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "pelican-exchange-europe-cy-ltd",
@@ -9445,7 +10801,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": "ΗΕ 426432",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "penning",
@@ -9474,6 +10836,7 @@
         "CY",
         "CZ",
         "DE",
+        "DK",
         "EE",
         "ES",
         "FI",
@@ -9503,7 +10866,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-04",
-      "lastUpdateRaw": "04/03/2026"
+      "lastUpdateRaw": "04/03/2026",
+      "companyRegisterNumber": "44645971",
+      "companyRegisterName": "Central Business Register (Centrale Virksomhedsregister)",
+      "companyRegisterCountry": "DK",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10902",
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
     },
     {
       "slug": "pluso-a-s",
@@ -9530,7 +10899,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "06523269",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "plutos-vermogensverwaltung-ag",
@@ -9554,7 +10929,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-25",
-      "lastUpdateRaw": "25/02/2026"
+      "lastUpdateRaw": "25/02/2026",
+      "companyRegisterNumber": "HRB 119459",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "pm-mtf-ltd",
@@ -9610,7 +10991,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-24",
-      "lastUpdateRaw": "24/07/2026"
+      "lastUpdateRaw": "24/07/2026",
+      "companyRegisterNumber": "ΗΕ 452207",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "prosegur-crypto",
@@ -9636,7 +11023,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "push-aave-push",
@@ -9689,7 +11082,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-12",
-      "lastUpdateRaw": "12/11/2025"
+      "lastUpdateRaw": "12/11/2025",
+      "companyRegisterNumber": "751166",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "qwarks",
@@ -9717,7 +11116,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": "920795606",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-014",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "raiffeisebank-auerbach-freihung-eg",
@@ -9741,7 +11146,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-19",
-      "lastUpdateRaw": "19/06/2026"
+      "lastUpdateRaw": "19/06/2026",
+      "companyRegisterNumber": "GnR 84",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "raiffeisenbank-falkenstein-worth",
@@ -9765,7 +11176,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-13",
-      "lastUpdateRaw": "13/07/2026"
+      "lastUpdateRaw": "13/07/2026",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "raiffeisenbank-kreis-kelheim-eg",
@@ -9789,7 +11206,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-13",
-      "lastUpdateRaw": "13/05/2026"
+      "lastUpdateRaw": "13/05/2026",
+      "companyRegisterNumber": "GnR 513",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "ramp-network",
@@ -9842,7 +11265,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-02",
-      "lastUpdateRaw": "02/12/2025"
+      "lastUpdateRaw": "02/12/2025",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "rcube-asset-management",
@@ -9872,7 +11301,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-18",
-      "lastUpdateRaw": "18/06/2026"
+      "lastUpdateRaw": "18/06/2026",
+      "companyRegisterNumber": "794460949",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N2026-007",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "relai",
@@ -9921,7 +11356,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-24",
-      "lastUpdateRaw": "24/10/2025"
+      "lastUpdateRaw": "24/10/2025",
+      "companyRegisterNumber": "934814062",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2025-006",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "renta-4",
@@ -9947,7 +11388,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-25",
-      "lastUpdateRaw": "25/11/2025"
+      "lastUpdateRaw": "25/11/2025",
+      "companyRegisterNumber": "A82473018",
+      "companyRegisterName": "RA000535",
+      "companyRegisterCountry": "ES",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "revolut",
@@ -10004,7 +11451,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": "ΗΕ 430310",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "ripple-payments-europe-s-a",
@@ -10058,7 +11511,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-07",
-      "lastUpdateRaw": "07/07/2026"
+      "lastUpdateRaw": "07/07/2026",
+      "companyRegisterNumber": "B295187",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000014",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "riv-digital",
@@ -10084,7 +11543,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-10",
-      "lastUpdateRaw": "10/06/2026"
+      "lastUpdateRaw": "10/06/2026",
+      "companyRegisterNumber": "05421350280",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "robinhood",
@@ -10139,7 +11604,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-06-16",
-      "lastUpdateRaw": "16/06/2025"
+      "lastUpdateRaw": "16/06/2025",
+      "companyRegisterNumber": "306377915",
+      "companyRegisterName": "Register of Legal Entities (Juridinių asmenų registras)",
+      "companyRegisterCountry": "LT",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "LB002294",
+      "ncaNumberLabel": "Lietuvos bankas licence number"
     },
     {
       "slug": "ronin-em-ltd",
@@ -10195,7 +11666,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-08-04",
-      "lastUpdateRaw": "04/08/2026"
+      "lastUpdateRaw": "04/08/2026",
+      "companyRegisterNumber": "ΗΕ 400137",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "rufiji",
@@ -10231,7 +11708,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-12",
-      "lastUpdateRaw": "12/06/2026"
+      "lastUpdateRaw": "12/06/2026",
+      "companyRegisterNumber": "948416813",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-016",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "rulematch",
@@ -10266,7 +11749,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-15",
-      "lastUpdateRaw": "15/06/2026"
+      "lastUpdateRaw": "15/06/2026",
+      "companyRegisterNumber": "FL-0002.734.664-4",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "safello-ab",
@@ -10293,7 +11782,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-12",
-      "lastUpdateRaw": "12/11/2025"
+      "lastUpdateRaw": "12/11/2025",
+      "companyRegisterNumber": "5569544165",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "SE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "55632",
+      "ncaNumberLabel": "Finansinspektionen institution number"
     },
     {
       "slug": "safelynx",
@@ -10341,12 +11836,18 @@
         "SI",
         "SK"
       ],
-      "authDate": "2026-07-08",
-      "authDateRaw": "08/07/2026",
+      "authDate": "2026-06-30",
+      "authDateRaw": "30/06/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-17",
-      "lastUpdateRaw": "17/07/2026"
+      "lastUpdate": "2026-08-10",
+      "lastUpdateRaw": "10/08/2026",
+      "companyRegisterNumber": "42941514",
+      "companyRegisterName": "Central Business Register (Centrale Virksomhedsregister)",
+      "companyRegisterCountry": "DK",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10909",
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
     },
     {
       "slug": "scalable-capital-bank-gmbh",
@@ -10370,7 +11871,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "HRB 217778",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "shares",
@@ -10409,7 +11916,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-28",
-      "lastUpdateRaw": "28/07/2026"
+      "lastUpdateRaw": "28/07/2026",
+      "companyRegisterNumber": "914036793",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-028 / N2026-009",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "simple-coin-s-r-o",
@@ -10436,7 +11949,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "26/06/2026",
+      "companyRegisterNumber": "01516558",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "simplex",
@@ -10491,7 +12010,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-02",
-      "lastUpdateRaw": "02/03/2026"
+      "lastUpdateRaw": "02/03/2026",
+      "companyRegisterNumber": "306127160",
+      "companyRegisterName": "Register of Legal Entities (Juridinių asmenų registras)",
+      "companyRegisterCountry": "LT",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "sino-aktiengesellschaft",
@@ -10515,7 +12040,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-24",
-      "lastUpdateRaw": "24/11/2025"
+      "lastUpdateRaw": "24/11/2025",
+      "companyRegisterNumber": "HRB 39572",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "skrill-neteller",
@@ -10571,7 +12102,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-03",
-      "lastUpdateRaw": "03/12/2025"
+      "lastUpdateRaw": "03/12/2025",
+      "companyRegisterNumber": "626665",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "smart-valor",
@@ -10628,7 +12165,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-03",
-      "lastUpdateRaw": "03/07/2026"
+      "lastUpdateRaw": "03/07/2026",
+      "companyRegisterNumber": "FL-0002.596.088-9",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "smartbroker-ag",
@@ -10652,7 +12195,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-08-11",
-      "lastUpdateRaw": "11/08/2025"
+      "lastUpdateRaw": "11/08/2025",
+      "companyRegisterNumber": "HRB 99126",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "societe-generale-forge",
@@ -10705,7 +12254,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-24",
-      "lastUpdateRaw": "24/10/2025"
+      "lastUpdateRaw": "24/10/2025",
+      "companyRegisterNumber": "882696628",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2025-007 / N2025-003",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "socios-com",
@@ -10760,7 +12315,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-11",
-      "lastUpdateRaw": "11/09/2025"
+      "lastUpdateRaw": "11/09/2025",
+      "companyRegisterNumber": "C 108717",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "solidgate-sg-digital-assets",
@@ -10789,7 +12350,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-17",
-      "lastUpdateRaw": "17/07/2026"
+      "lastUpdateRaw": "17/07/2026",
+      "companyRegisterNumber": "ΗΕ 471078",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "spar-und-kreditbank-rheinstetten-eg",
@@ -10813,7 +12380,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "GnR 100028",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "stable-mint-ltd",
@@ -10838,7 +12411,13 @@
       "endDate": null,
       "comments": "CASP services are provided under Article 60(4) of MiCA",
       "lastUpdate": "2026-06-03",
-      "lastUpdateRaw": "03/06/2026"
+      "lastUpdateRaw": "03/06/2026",
+      "companyRegisterNumber": "C 109060",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "standard-chartered",
@@ -10892,7 +12471,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "26/06/2026",
+      "companyRegisterNumber": "B289829",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000010",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "stokr",
@@ -10945,7 +12530,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-25",
-      "lastUpdateRaw": "25/06/2026"
+      "lastUpdateRaw": "25/06/2026",
+      "companyRegisterNumber": "B226662",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000009",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "stonex",
@@ -11003,7 +12594,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-19",
-      "lastUpdateRaw": "19/12/2025"
+      "lastUpdateRaw": "19/12/2025",
+      "companyRegisterNumber": "751872",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "strike",
@@ -11059,7 +12656,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-25",
-      "lastUpdateRaw": "25/06/2026"
+      "lastUpdateRaw": "25/06/2026",
+      "companyRegisterNumber": null,
+      "companyRegisterName": null,
+      "companyRegisterCountry": null,
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "sutor-bank-gmbh",
@@ -11083,7 +12686,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-18",
-      "lastUpdateRaw": "18/12/2025"
+      "lastUpdateRaw": "18/12/2025",
+      "companyRegisterNumber": "HRB 178357",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "swissborg",
@@ -11140,7 +12749,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-05",
-      "lastUpdateRaw": "05/03/2026"
+      "lastUpdateRaw": "05/03/2026",
+      "companyRegisterNumber": "929022002",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-011",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "swissquote",
@@ -11194,7 +12809,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-30",
-      "lastUpdateRaw": "30/04/2026"
+      "lastUpdateRaw": "30/04/2026",
+      "companyRegisterNumber": "B78729",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000008",
+      "ncaNumberLabel": "CSSF licence number"
     },
     {
       "slug": "sygnum-europe",
@@ -11250,7 +12871,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "FL-0002.722.200-8",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "tangany-gmbh",
@@ -11301,7 +12928,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-08-08",
-      "lastUpdateRaw": "08/08/2025"
+      "lastUpdateRaw": "08/08/2025",
+      "companyRegisterNumber": "HRB 246113",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "teroxx-digital-asset-ltd",
@@ -11361,7 +12994,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": "ΗΕ 471601",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "tesseract",
@@ -11418,7 +13057,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-10-20",
-      "lastUpdateRaw": "20/10/2025"
+      "lastUpdateRaw": "20/10/2025",
+      "companyRegisterNumber": "3476334-8",
+      "companyRegisterName": "The Business Information System (BIS) (Yritys- ja yhteisötietojärjestelmä (YTJ))",
+      "companyRegisterCountry": "FI",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "tothemoon",
@@ -11448,7 +13093,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "ΗΕ 424435",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "023/26",
+      "ncaNumberLabel": "CySEC licence number"
     },
     {
       "slug": "trade-republic-bank-gmbh",
@@ -11504,7 +13155,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-04-24",
-      "lastUpdateRaw": "24/04/2025"
+      "lastUpdateRaw": "24/04/2025",
+      "companyRegisterNumber": "HRB 244347B",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "10150368",
+      "ncaNumberLabel": "BaFin-ID"
     },
     {
       "slug": "traders-place-gmbh-co-kgaa",
@@ -11528,7 +13185,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-07-21",
-      "lastUpdateRaw": "21/07/2025"
+      "lastUpdateRaw": "21/07/2025",
+      "companyRegisterNumber": "HRB 31263",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "tradevest",
@@ -11553,7 +13216,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-19",
-      "lastUpdateRaw": "19/12/2025"
+      "lastUpdateRaw": "19/12/2025",
+      "companyRegisterNumber": "HRB 304803",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "tradevest-markets-ag",
@@ -11582,7 +13251,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-01",
-      "lastUpdateRaw": "01/04/2026"
+      "lastUpdateRaw": "01/04/2026",
+      "companyRegisterNumber": "HRB 298093",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "tradias-gmbh",
@@ -11638,7 +13313,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-04-08",
-      "lastUpdateRaw": "08/04/2025"
+      "lastUpdateRaw": "08/04/2025",
+      "companyRegisterNumber": "HRB 122176",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "trading-212",
@@ -11694,7 +13375,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-29",
-      "lastUpdateRaw": "29/09/2025"
+      "lastUpdateRaw": "29/09/2025",
+      "companyRegisterNumber": "ΗΕ 409763",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "trading-com",
@@ -11752,7 +13439,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-03",
-      "lastUpdateRaw": "03/04/2026"
+      "lastUpdateRaw": "03/04/2026",
+      "companyRegisterNumber": "ΗΕ 328593",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "tradu",
@@ -11807,7 +13500,13 @@
       "endDate": "2026-04-24",
       "comments": "",
       "lastUpdate": "2026-05-21",
-      "lastUpdateRaw": "21/05/2026"
+      "lastUpdateRaw": "21/05/2026",
+      "companyRegisterNumber": "ΗΕ 405643",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "tria-bridge",
@@ -11867,7 +13566,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-31",
-      "lastUpdateRaw": "31/07/2026"
+      "lastUpdateRaw": "31/07/2026",
+      "companyRegisterNumber": "ΗΕ 429492",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "twino",
@@ -11904,7 +13609,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-05",
-      "lastUpdateRaw": "05/06/2026"
+      "lastUpdateRaw": "05/06/2026",
+      "companyRegisterNumber": "44103143823",
+      "companyRegisterName": "Commerce Register",
+      "companyRegisterCountry": "LV",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "27-55/2025/7",
+      "ncaNumberLabel": "Latvijas Banka licence number"
     },
     {
       "slug": "tyr-markets-as",
@@ -11931,7 +13642,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-19",
-      "lastUpdateRaw": "19/05/2026"
+      "lastUpdateRaw": "19/05/2026",
+      "companyRegisterNumber": "933 052 826",
+      "companyRegisterName": "The Register of Business Enterprises (Foretaksregisteret)",
+      "companyRegisterCountry": "NO",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "unlimit-crypto-ltd-ex-stable-defi-ltd",
@@ -11961,7 +13678,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-15",
-      "lastUpdateRaw": "15/07/2026"
+      "lastUpdateRaw": "15/07/2026",
+      "companyRegisterNumber": "ΗΕ437355",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "v-bank-ag",
@@ -11987,7 +13710,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-09-19",
-      "lastUpdateRaw": "19/09/2025"
+      "lastUpdateRaw": "19/09/2025",
+      "companyRegisterNumber": "HRB 167737",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "validvent",
@@ -12024,7 +13753,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-15",
-      "lastUpdateRaw": "15/04/2026"
+      "lastUpdateRaw": "15/04/2026",
+      "companyRegisterNumber": "586540i",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vbu-volksbank-im-unterland-eg",
@@ -12048,7 +13783,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-08-03",
-      "lastUpdateRaw": "03/08/2026"
+      "lastUpdateRaw": "03/08/2026",
+      "companyRegisterNumber": "GnR 100206",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vermogensbutler-gmbh",
@@ -12073,7 +13814,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-05-12",
-      "lastUpdateRaw": "12/05/2026"
+      "lastUpdateRaw": "12/05/2026",
+      "companyRegisterNumber": "HRB 789088",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "virtu-financial-ireland-limited",
@@ -12127,7 +13874,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-04-28",
-      "lastUpdateRaw": "28/04/2026"
+      "lastUpdateRaw": "28/04/2026",
+      "companyRegisterNumber": "471719",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vivid-money-b-v",
@@ -12181,7 +13934,43 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-07-05",
-      "lastUpdateRaw": "05/07/2025"
+      "lastUpdateRaw": "05/07/2025",
+      "companyRegisterNumber": "78219159",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000035",
+      "ncaNumberLabel": "AFM authorisation number"
+    },
+    {
+      "slug": "volksbank-beilstein-ilsfeld-abstatt-eg",
+      "name": "Volksbank Beilstein-Ilsfeld-Abstatt eG",
+      "legalName": "Volksbank Beilstein-Ilsfeld-Abstatt eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "5299002RCY3D5M211G35",
+      "leiCountry": "DE",
+      "address": "Hauptstraß3 20, 71717 Beilstein",
+      "website": "www.vb-bia.de",
+      "websiteHref": "https://www.vb-bia.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-08-06",
+      "authDateRaw": "06/08/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-08-06",
+      "lastUpdateRaw": "06/08/2026",
+      "companyRegisterNumber": "GnR 100110",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "volksbank-eg-die-gestalterbank",
@@ -12205,7 +13994,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-27",
-      "lastUpdateRaw": "27/07/2026"
+      "lastUpdateRaw": "27/07/2026",
+      "companyRegisterNumber": "GnR 600001",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "volksbank-heiden-eg",
@@ -12229,7 +14024,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-02",
-      "lastUpdateRaw": "02/06/2026"
+      "lastUpdateRaw": "02/06/2026",
+      "companyRegisterNumber": "GnR 148",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "volksbank-mittlerer-schwarzwald-eg",
@@ -12253,7 +14054,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-05",
-      "lastUpdateRaw": "05/11/2025"
+      "lastUpdateRaw": "05/11/2025",
+      "companyRegisterNumber": "GnR 680006",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "volksbank-raiffeisenbank-bayern-mitte-eg",
@@ -12278,7 +14085,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-11-05",
-      "lastUpdateRaw": "05/11/2025"
+      "lastUpdateRaw": "05/11/2025",
+      "companyRegisterNumber": "GnR 12",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "volksbank-raiffeisenbank-oberbayern-sudost-eg",
@@ -12302,7 +14115,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-24",
-      "lastUpdateRaw": "24/07/2026"
+      "lastUpdateRaw": "24/07/2026",
+      "companyRegisterNumber": "GnR 1",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "volksbank-raiffeisenbank-wurzburg-eg",
@@ -12326,7 +14145,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-17",
-      "lastUpdateRaw": "17/12/2025"
+      "lastUpdateRaw": "17/12/2025",
+      "companyRegisterNumber": "GnR 171",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "volksbank-schwarzwald-donau-neckar-eg",
@@ -12350,7 +14175,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-02",
-      "lastUpdateRaw": "02/07/2026"
+      "lastUpdateRaw": "02/07/2026",
+      "companyRegisterNumber": "GnR 450001",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vr-bank-schleswig-holstein-mitte-eg",
@@ -12374,7 +14205,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-21",
-      "lastUpdateRaw": "21/07/2026"
+      "lastUpdateRaw": "21/07/2026",
+      "companyRegisterNumber": "GnR 604",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vr-bank-sudpfalz-eg",
@@ -12398,7 +14235,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-12",
-      "lastUpdateRaw": "12/12/2025"
+      "lastUpdateRaw": "12/12/2025",
+      "companyRegisterNumber": "GnR 202",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vr-teilhaberbank-metropolregion-nurnberg-eg",
@@ -12422,7 +14265,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-12",
-      "lastUpdateRaw": "12/12/2025"
+      "lastUpdateRaw": "12/12/2025",
+      "companyRegisterNumber": "GnR 159",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vr-bank-augsburg-ostallgau-eg",
@@ -12446,7 +14295,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-21",
-      "lastUpdateRaw": "21/07/2026"
+      "lastUpdateRaw": "21/07/2026",
+      "companyRegisterNumber": "GnR 1698",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vr-bank-erding-eg",
@@ -12470,7 +14325,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-08-04",
-      "lastUpdateRaw": "04/08/2026"
+      "lastUpdateRaw": "04/08/2026",
+      "companyRegisterNumber": "GnR 2308",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vr-bank-landau-mengkofen-eg",
@@ -12494,7 +14355,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-29",
-      "lastUpdateRaw": "29/07/2026"
+      "lastUpdateRaw": "29/07/2026",
+      "companyRegisterNumber": "GnR 305",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "vr-bank-rottal-inn-eg",
@@ -12518,7 +14385,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-16",
-      "lastUpdateRaw": "16/12/2025"
+      "lastUpdateRaw": "16/12/2025",
+      "companyRegisterNumber": "GnR 217",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "wbtcb-cz-s-r-o",
@@ -12542,7 +14415,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-26",
-      "lastUpdateRaw": "26/06/2026"
+      "lastUpdateRaw": "26/06/2026",
+      "companyRegisterNumber": "02918030",
+      "companyRegisterName": "Commercial Register (Obchodní rejstřík)",
+      "companyRegisterCountry": "CZ",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "webot",
@@ -12572,7 +14451,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-18",
-      "lastUpdateRaw": "18/12/2025"
+      "lastUpdateRaw": "18/12/2025",
+      "companyRegisterNumber": "723206",
+      "companyRegisterName": "Companies Register",
+      "companyRegisterCountry": "IE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "webull-webull-europe",
@@ -12597,7 +14482,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "87019175",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000091",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "westerwald-bank-eg-volks-und-raiffeisenbank",
@@ -12621,7 +14512,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-11",
-      "lastUpdateRaw": "11/12/2025"
+      "lastUpdateRaw": "11/12/2025",
+      "companyRegisterNumber": "GnR 210",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "white-tech-ltd",
@@ -12650,7 +14547,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-03",
-      "lastUpdateRaw": "03/06/2026"
+      "lastUpdateRaw": "03/06/2026",
+      "companyRegisterNumber": "060486036",
+      "companyRegisterName": "Croatian Court Registry (Sudski registrar)",
+      "companyRegisterCountry": "HR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "R118357",
+      "ncaNumberLabel": "HANFA register number"
     },
     {
       "slug": "whitebit-eu",
@@ -12706,7 +14609,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-18",
-      "lastUpdateRaw": "18/06/2026"
+      "lastUpdateRaw": "18/06/2026",
+      "companyRegisterNumber": "649506g",
+      "companyRegisterName": "Commercial Register (Firmenbuch)",
+      "companyRegisterCountry": "AT",
+      "ncaNumberStatus": "none",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "woorton",
@@ -12756,7 +14665,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-23",
-      "lastUpdateRaw": "23/07/2026"
+      "lastUpdateRaw": "23/07/2026",
+      "companyRegisterNumber": "838089167",
+      "companyRegisterName": "Register of Companies (Sirene)",
+      "companyRegisterCountry": "FR",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "A2026-027",
+      "ncaNumberLabel": "AMF authorisation/notification number"
     },
     {
       "slug": "wsw-portfoliomanagement-ag",
@@ -12780,7 +14695,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-19",
-      "lastUpdateRaw": "19/12/2025"
+      "lastUpdateRaw": "19/12/2025",
+      "companyRegisterNumber": "HRB 131344B",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "wyden-capital-ag",
@@ -12804,7 +14725,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-02-25",
-      "lastUpdateRaw": "25/02/2026"
+      "lastUpdateRaw": "25/02/2026",
+      "companyRegisterNumber": "FL-0002.637.675-2",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "xcoins",
@@ -12831,7 +14758,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-07-01",
-      "lastUpdateRaw": "01/07/2026"
+      "lastUpdateRaw": "01/07/2026",
+      "companyRegisterNumber": "C 87860",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "xtb-limited",
@@ -12886,7 +14819,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-03-13",
-      "lastUpdateRaw": "13/03/2026"
+      "lastUpdateRaw": "13/03/2026",
+      "companyRegisterNumber": "ΗΕ 296794",
+      "companyRegisterName": "Companies Section",
+      "companyRegisterCountry": "CY",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "young-platform",
@@ -12918,7 +14857,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2026-06-30",
-      "lastUpdateRaw": "30/06/2026"
+      "lastUpdateRaw": "30/06/2026",
+      "companyRegisterNumber": "11931440017",
+      "companyRegisterName": "Business Register (Registro Delle Imprese)",
+      "companyRegisterCountry": "IT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "zbx",
@@ -12977,7 +14922,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-03-28",
-      "lastUpdateRaw": "28/03/2025"
+      "lastUpdateRaw": "28/03/2025",
+      "companyRegisterNumber": "C 88757",
+      "companyRegisterName": "Registry of Companies (Registru tal-Kumpaniji ta'Malta)",
+      "companyRegisterCountry": "MT",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "zebedee-europe-b-v",
@@ -13032,7 +14983,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2024-12-30",
-      "lastUpdateRaw": "30/12/2024"
+      "lastUpdateRaw": "30/12/2024",
+      "companyRegisterNumber": "90944127",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000001",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "zerohash-europe",
@@ -13089,7 +15046,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-10",
-      "lastUpdateRaw": "10/12/2025"
+      "lastUpdateRaw": "10/12/2025",
+      "companyRegisterNumber": "89099060",
+      "companyRegisterName": "Business Register (Handelsregister)",
+      "companyRegisterCountry": "NL",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "41000042",
+      "ncaNumberLabel": "AFM authorisation number"
     },
     {
       "slug": "zeus-anstalt-fur-vermogensverwaltung",
@@ -13113,7 +15076,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-02",
-      "lastUpdateRaw": "02/12/2025"
+      "lastUpdateRaw": "02/12/2025",
+      "companyRegisterNumber": "FL-0002.130.590-7",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "LI",
+      "ncaNumberStatus": "informal",
+      "ncaNumber": null,
+      "ncaNumberLabel": null
     },
     {
       "slug": "zodia",
@@ -13167,7 +15136,13 @@
       "endDate": null,
       "comments": "",
       "lastUpdate": "2025-12-12",
-      "lastUpdateRaw": "12/12/2025"
+      "lastUpdateRaw": "12/12/2025",
+      "companyRegisterNumber": "B289268",
+      "companyRegisterName": "Trade and Company Register (Registre de Commerce et des Sociétés)",
+      "companyRegisterCountry": "LU",
+      "ncaNumberStatus": "register",
+      "ncaNumber": "N00000006",
+      "ncaNumberLabel": "CSSF licence number"
     }
   ]
 }

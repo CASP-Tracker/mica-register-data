@@ -2,16 +2,16 @@
 
 Cleaned, machine-readable datasets from the European Securities and Markets Authority (ESMA) interim registers under the EU's **MiCA** regulation (Markets in Crypto-Assets, Regulation (EU) 2023/1114). Maintained by [CASP Tracker](https://casptracker.eu), a searchable directory of MiCA-licensed crypto-asset service providers.
 
-- Last verified against the live ESMA source: **2026-08-05**
-- Newest record date inside the CASP register: **2026-08-04**
+- Last verified against the live ESMA source: **2026-08-12**
+- Newest record date inside the CASP register: **2026-08-10**
 
 ## Datasets
 
 | File | Register | Entries | Description |
 |---|---|---|---|
-| [`data/casps.json`](data/casps.json) | Authorised CASPs | **324** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
+| [`data/casps.json`](data/casps.json) | Authorised CASPs | **325** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
 | [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **167** | Non-compliant entities flagged by national regulators |
-| [`data/emts.json`](data/emts.json) | EMT issuers | **22** issuers (42 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
+| [`data/emts.json`](data/emts.json) | EMT issuers | **23** issuers (43 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
 
 `source/` holds the raw ESMA CSV snapshots the datasets are built from (`CASPS.csv`, `NCASP.csv`, `EMTWP.csv`, `ARTZZ.csv`). Filenames are stable, so **the git history of this repository doubles as a changelog of the ESMA registers**: every refresh commit shows exactly which entries were added or changed. ESMA itself does not publish register history.
@@ -55,6 +55,11 @@ All JSON files share the same top level: `generatedAt` (build timestamp), `sourc
 | `endDate` | End of authorisation, `null` while active |
 | `comments` | Free-text comments from the register |
 | `lastUpdate`, `lastUpdateRaw` | Last update date of the record |
+| `companyRegisterNumber`, `companyRegisterName`, `companyRegisterCountry` | The entity's national commercial-register identifier (e.g. a German Handelsregister number, a Dutch KvK number), resolved from [GLEIF](https://www.gleif.org)'s public API by LEI. This is **not** the LEI and **not** a MiCA-specific number: every company has one, licensed or not. Present for most, but not all, entries. |
+| `ncaNumberStatus` | Whether the home regulator assigns a MiCA-specific reference number at all: `register` (a public, browsable register exists), `informal` (only per-decision references exist, no browsable register), or `none` (confirmed not to assign a separate number). |
+| `ncaNumber`, `ncaNumberLabel` | The regulator-assigned MiCA reference number and its label (e.g. `"41000007"` / `"AFM authorisation number"`), where known. An entity in a `register`-status country without a value here simply means we have not sourced that specific number yet, not that one doesn't exist. |
+
+ESMA's own register carries only the LEI (MiCA Art. 109(5)(a)); the two extra identifier fields above are purely national artifacts, researched and joined by CASP Tracker per-country. See `scripts/fetch-register-numbers.mjs` and `scripts/fetch-nca-numbers.mjs` below.
 
 The 10 MiCA crypto-asset services (Art. 3(1)(16) MiCA):
 
@@ -111,9 +116,11 @@ Same top-level shape; `items` is empty because no ART issuer has been authorised
 
 `scripts/` contains the cleaning scripts exactly as used in the casptracker.eu build pipeline, published for transparency of the methodology:
 
-- `clean-data.mjs`: `CASPS.csv` to `casps.json`
+- `clean-data.mjs`: `CASPS.csv` to `casps.json` (also joins in the company-register and NCA-reference numbers below)
 - `clean-ncasp.mjs`: `NCASP.csv` to `ncasps.json`
 - `clean-token-issuers.mjs`: `EMTWP.csv` + `ARTZZ.csv` to `emts.json` + `arts.json`
+- `fetch-register-numbers.mjs`: resolves every CASP's national company-register number from the free public GLEIF API by LEI
+- `fetch-nca-numbers.mjs`: fetches MiCA-specific regulator reference numbers in bulk from the five national sources confirmed machine-readable so far (Netherlands/AFM, France/AMF, Luxembourg/CSSF, Croatia/HANFA, Denmark/Finanstilsynet); prints a diff against the hand-curated overrides in `clean-data.mjs` rather than writing data directly, so each new number gets a sanity check before it ships
 
 They expect the website project's directory layout (input CSVs in the project root under their local names, output to `src/data/`), so they are reference material here rather than a ready-to-run toolchain.
 
