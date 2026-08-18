@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-12T14:11:38.119Z",
+  "generatedAt": "2026-08-18T06:35:00.701Z",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/ARTZZ.csv",
   "note": "Issuers of asset-referenced tokens (ART) under MiCA Title III from ESMA's interim register. The register has been empty since launch: no ART issuer has been authorised in the EU yet.",
+  "attribution": {
+    "source": "CASP Tracker",
+    "url": "https://casptracker.eu",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseNote": "CC BY 4.0: reuse requires attribution to CASP Tracker with a link to https://casptracker.eu.",
+    "citation": "Source: CASP Tracker (casptracker.eu), based on the ESMA MiCA interim registers.",
+    "methodology": "https://casptracker.eu/about/#methodology",
+    "terms": "https://casptracker.eu/llms.txt",
+    "repository": "https://github.com/CASP-Tracker/mica-register-data"
+  },
   "count": 0,
   "items": []
 }

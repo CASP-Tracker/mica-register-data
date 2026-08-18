@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { detectServices } from "../src/lib/services.js";
 import { normalizeCountry } from "../src/lib/countries.js";
+import { DATASET_ATTRIBUTION, ctId } from "../src/lib/provenance.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -335,14 +336,15 @@ export const NCA_NUMBER_BY_LEI = {
   // Lithuania - Lietuvos bankas entity pages (official, live 2026-08-12)
   "254900GTP4UXQO1UMI36": "LB002294", // Robinhood Europe UAB
   "6488907MV9XAA08E4E40": "LB002323 / LB002324", // UAB "Decentralized" (Coingate)
-  // Croatia - HANFA register XML export (official, live 2026-08-12; the
-  // export lists exactly these 4 entities - complete coverage of the
+  // Croatia - HANFA register XML export (official, live 2026-08-18; the
+  // export lists exactly these 5 entities - complete coverage of the
   // HANFA-supervised side. HR's other 2 CASPs, incl. HPB, are supervised by
   // the Croatian National Bank, which has no public list - see NCA_NUMBER_POLICY).
   "747800R015JVW1T4WZ71": "R30483", // ELECTROCOIN Ltd for services
   "9845006A6CAABE4C0347": "R102212", // Bitblock Ltd. for Services (Kriptomat)
   "984500NB7D12BC5B4A79": "R101065", // DIGITAL ASSETS ... (Bitcoin Store)
   "254900S52YR70F0BK713": "R118357", // WHITE TECH ... for services
+  "747800O0P6DFI8RSKT10": "R90921", // IN KAPITAL ... for trade and services
   // Bulgaria - FSC register (official, live 2026-08-12)
   "984500FBAE2EDEF1C317": "499-ДУКА", // Altcoins BG EOOD
   "8755007GZKOS1VJ6BZ82": "500-ДУКА", // Digital Assist OOD
@@ -533,6 +535,16 @@ for (const it of items) {
 
 items.sort((a, b) => a.name.localeCompare(b.name, "en"));
 
+// Per-record provenance key, derived from the (stable) slug so it survives a
+// data refresh and a re-sort. See ctId() in src/lib/provenance.js.
+for (const it of items) it.ctId = ctId(it.slug);
+const ctIds = new Set(items.map((i) => i.ctId));
+if (ctIds.size !== items.length) {
+  throw new Error(
+    `ctId collision: ${items.length} records produced ${ctIds.size} ids. Widen the hash in src/lib/provenance.js.`,
+  );
+}
+
 const lastDataUpdate = items
   .map((i) => i.lastUpdate)
   .filter(Boolean)
@@ -543,7 +555,14 @@ const out = {
   generatedAt: new Date().toISOString(),
   source:
     "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+  attribution: DATASET_ATTRIBUTION,
   lastDataUpdate,
+  // Raw data rows in ESMA's CSV vs distinct entities after our LEI + legal-name
+  // merge. The gap is the clearest provenance marker this project has: anyone
+  // parsing the official CSV directly gets `sourceRows`, so a third party
+  // publishing `count` is publishing OUR derived figure. Surfaced in
+  // public/llms.txt (scripts/build-llms.mjs) so the distinction is on the record.
+  sourceRows: parsed.length,
   count: items.length,
   items,
 };

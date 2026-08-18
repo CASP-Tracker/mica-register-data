@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-12T14:11:38.117Z",
+  "generatedAt": "2026-08-18T06:35:00.699Z",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
+  "attribution": {
+    "source": "CASP Tracker",
+    "url": "https://casptracker.eu",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseNote": "CC BY 4.0: reuse requires attribution to CASP Tracker with a link to https://casptracker.eu.",
+    "citation": "Source: CASP Tracker (casptracker.eu), based on the ESMA MiCA interim registers.",
+    "methodology": "https://casptracker.eu/about/#methodology",
+    "terms": "https://casptracker.eu/llms.txt",
+    "repository": "https://github.com/CASP-Tracker/mica-register-data"
+  },
   "count": 23,
   "wpCount": 43,
   "countries": 13,
@@ -56,7 +66,8 @@
         "R9MZCNWS4"
       ],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-14EFBZK"
     },
     {
       "lei": "969500OYUDADGZKCR583",
@@ -137,7 +148,8 @@
         "TJWK5QTRK"
       ],
       "caspSlug": "circle",
-      "caspWebsite": "www.circle.com/en"
+      "caspWebsite": "www.circle.com/en",
+      "ctId": "CT-1FW5KOV"
     },
     {
       "lei": "969500FX8K40ZDW4F377",
@@ -184,7 +196,8 @@
         "LD6JM2JN2"
       ],
       "caspSlug": "societe-generale-forge",
-      "caspWebsite": "www.sgforge.com"
+      "caspWebsite": "www.sgforge.com",
+      "ctId": "CT-18B74MJ"
     },
     {
       "lei": "984500A64C0EA64BC554",
@@ -218,7 +231,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": "stable-mint-ltd",
-      "caspWebsite": "stablemint.io"
+      "caspWebsite": "stablemint.io",
+      "ctId": "CT-12IJOX2"
     },
     {
       "lei": "213800W1NGBLERUS6M39",
@@ -249,7 +263,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": "banking-circle",
-      "caspWebsite": "bankingcircle.com"
+      "caspWebsite": "bankingcircle.com",
+      "ctId": "CT-032G5H8"
     },
     {
       "lei": "969500SGAEBRXYUAJ739",
@@ -285,7 +300,8 @@
         "2BKLSP3D6"
       ],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-02DIZSM"
     },
     {
       "lei": "724500GVWT7QULV8CR59",
@@ -328,7 +344,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": "fiat-republic-netherlands-b-v",
-      "caspWebsite": "fiatrepublic.com"
+      "caspWebsite": "fiatrepublic.com",
+      "ctId": "CT-17U0VPX"
     },
     {
       "lei": "7245008P1HPUPVM7XL94",
@@ -389,7 +406,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-0QMXSUU"
     },
     {
       "lei": "8945001XWFMRUTCAK575",
@@ -412,7 +430,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-1YKT237"
     },
     {
       "lei": "315700IJDQF91J9C8B68",
@@ -451,7 +470,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-04I5D6B"
     },
     {
       "lei": "3912007G8L8CD3HFIV26",
@@ -516,7 +536,8 @@
       ],
       "dtiFfg": [],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-1T3LXHP"
     },
     {
       "lei": "254900XFMACGD0L7AI73",
@@ -545,7 +566,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": "blue-emi",
-      "caspWebsite": "blueemi.com"
+      "caspWebsite": "blueemi.com",
+      "ctId": "CT-1EELBL0"
     },
     {
       "lei": "9695002I9DJHZ3449O66",
@@ -580,7 +602,8 @@
         "WJV6THJ2D"
       ],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-14G969P"
     },
     {
       "lei": "254900VUR90QF0G3T387",
@@ -609,7 +632,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-1OI8E6W"
     },
     {
       "lei": "2594008EL5UN8RIA8P23",
@@ -632,7 +656,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-1T10Z85"
     },
     {
       "lei": "984500AA0OCA9CE0D796",
@@ -664,7 +689,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-1CDPIHB"
     },
     {
       "lei": "2549003QDNZWASSSCY31",
@@ -705,7 +731,8 @@
         "N7B1L2FBK"
       ],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-0URNU68"
     },
     {
       "lei": "875500AX7AO0XVYSQD64",
@@ -736,7 +763,8 @@
       "dti": [],
       "dtiFfg": [],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-15KRRA5"
     },
     {
       "lei": "984500DB91E5A48E7F26",
@@ -770,7 +798,8 @@
         "TFGXFRD1J"
       ],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-0QXVQ36"
     },
     {
       "lei": "6488GKH17O8XT1326F66",
@@ -810,7 +839,8 @@
         "FFBSF3LWN"
       ],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-1YVVXCE"
     },
     {
       "lei": "96950023SCR9X9F3L662",
@@ -843,7 +873,8 @@
         "JTSXN8VGH"
       ],
       "caspSlug": "caceis-bank",
-      "caspWebsite": "www.caceis.com"
+      "caspWebsite": "www.caceis.com",
+      "ctId": "CT-10GEJGU"
     },
     {
       "lei": "254900MVWQXMF77YZP65",
@@ -883,7 +914,8 @@
         "4ZD0FM2VG"
       ],
       "caspSlug": "bridge",
-      "caspWebsite": "www.bridge.xyz"
+      "caspWebsite": "www.bridge.xyz",
+      "ctId": "CT-0LB1VBR"
     },
     {
       "lei": "48510062OP64BYKPNO22",
@@ -916,7 +948,8 @@
         "2682FMR4J"
       ],
       "caspSlug": null,
-      "caspWebsite": ""
+      "caspWebsite": "",
+      "ctId": "CT-06V103N"
     }
   ]
 }

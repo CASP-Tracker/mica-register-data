@@ -1,8 +1,19 @@
 {
-  "generatedAt": "2026-08-12T14:11:37.292Z",
+  "generatedAt": "2026-08-18T15:04:13.989Z",
   "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
-  "lastDataUpdate": "2026-08-10",
-  "count": 325,
+  "attribution": {
+    "source": "CASP Tracker",
+    "url": "https://casptracker.eu",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseNote": "CC BY 4.0: reuse requires attribution to CASP Tracker with a link to https://casptracker.eu.",
+    "citation": "Source: CASP Tracker (casptracker.eu), based on the ESMA MiCA interim registers.",
+    "methodology": "https://casptracker.eu/about/#methodology",
+    "terms": "https://casptracker.eu/llms.txt",
+    "repository": "https://github.com/CASP-Tracker/mica-register-data"
+  },
+  "lastDataUpdate": "2026-08-17",
+  "sourceRows": 330,
+  "count": 326,
   "items": [
     {
       "slug": "21bitcoin",
@@ -63,7 +74,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1CC3VGQ"
     },
     {
       "slug": "acheron-acheron-trading",
@@ -123,7 +135,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000007",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1Y0KCEY"
     },
     {
       "slug": "ak-jensen-norway-as",
@@ -156,7 +169,8 @@
       "companyRegisterCountry": "NO",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-03E1VOT"
     },
     {
       "slug": "alaric-securities",
@@ -194,7 +208,8 @@
       "companyRegisterCountry": "BG",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-162FVSK"
     },
     {
       "slug": "alphacap",
@@ -227,7 +242,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-021",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0U8QQDT"
     },
     {
       "slug": "alpharoute",
@@ -272,7 +288,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": "27-55/2026/13",
-      "ncaNumberLabel": "Latvijas Banka licence number"
+      "ncaNumberLabel": "Latvijas Banka licence number",
+      "ctId": "CT-02GRSYG"
     },
     {
       "slug": "altarius-asset-management-limited",
@@ -304,7 +321,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1C6THDI"
     },
     {
       "slug": "altcoins",
@@ -337,7 +355,8 @@
       "companyRegisterCountry": "BG",
       "ncaNumberStatus": "register",
       "ncaNumber": "499-ДУКА",
-      "ncaNumberLabel": "FSC decision number"
+      "ncaNumberLabel": "FSC decision number",
+      "ctId": "CT-0GY4DN2"
     },
     {
       "slug": "amdax-b-v-amdax-group-novelist",
@@ -399,7 +418,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000012",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0BBQ1BH"
     },
     {
       "slug": "amina-eu",
@@ -462,7 +482,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-00BTV7S"
     },
     {
       "slug": "anceka-vermogensbetreuungs-aktiengesellschaft",
@@ -494,7 +515,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-12PUTUF"
     },
     {
       "slug": "aplo",
@@ -533,7 +555,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-023",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1F0LVLX"
     },
     {
       "slug": "aquilla-nummus-ltd",
@@ -566,17 +589,18 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1VHYND5"
     },
     {
-      "slug": "ari10-ari10-nl-web3-technology-b-v",
-      "name": "Ari10 | Ari10 NL | WEB3 Technology B.V.",
+      "slug": "ari10-ari10-nl-web3-technology-b-v-rgltd-cashify",
+      "name": "Ari10 | Ari10 NL | WEB3 Technology B.V. | RGLTD Cashify",
       "legalName": "WEB3 Technology B.V.",
       "authority": "Netherlands Authority for the Financial Markets (AFM)",
       "homeState": "NL",
       "lei": "724500YJVIN0Q94ZZG58",
       "leiCountry": "NL",
-      "address": "Prins Hendrikkade 21E - 1012TL - The Netherlands",
+      "address": "Prins Hendrikkade 21E - 1012TL Amsterdam - The Netherlands",
       "website": "ari10.com/en",
       "websiteHref": "https://ari10.com/en",
       "services": [
@@ -621,14 +645,15 @@
       "authDateRaw": "12/02/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-02-19",
-      "lastUpdateRaw": "19/02/2026",
+      "lastUpdate": "2026-07-17",
+      "lastUpdateRaw": "17/07/2026",
       "companyRegisterNumber": "95206604",
       "companyRegisterName": "Business Register (Handelsregister)",
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000022",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1YJ1MO4"
     },
     {
       "slug": "as-lhv-pank",
@@ -659,7 +684,8 @@
       "companyRegisterCountry": "EE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0KPVQI1"
     },
     {
       "slug": "avianlabs-netherlands-b-v",
@@ -720,7 +746,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000005",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1RBFU6B"
     },
     {
       "slug": "b2c2",
@@ -780,7 +807,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000007",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-0K7TIGG"
     },
     {
       "slug": "baader-bank-ag",
@@ -838,7 +866,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-10E0KQU"
     },
     {
       "slug": "backpack-eu",
@@ -901,7 +930,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0J4G3MO"
     },
     {
       "slug": "baden-wurttembergische-wertpapierborse-gmbh",
@@ -931,7 +961,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1701RW4"
     },
     {
       "slug": "banca-sella",
@@ -962,7 +993,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-18GR9CS"
     },
     {
       "slug": "bank-frick-ag",
@@ -1021,7 +1053,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1L4COY2"
     },
     {
       "slug": "bankhaus-scheich-wertpapierspezialist-ag",
@@ -1057,7 +1090,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-156SPVT"
     },
     {
       "slug": "banking-circle",
@@ -1118,7 +1152,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000001",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-1Q8W94O"
     },
     {
       "slug": "banque-delubac",
@@ -1181,7 +1216,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "N2025-004",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1PMP3XG"
     },
     {
       "slug": "bare-bitcoin-as",
@@ -1213,7 +1249,8 @@
       "companyRegisterCountry": "NO",
       "ncaNumberStatus": "register",
       "ncaNumber": "221791",
-      "ncaNumberLabel": "Finanstilsynet registry ID"
+      "ncaNumberLabel": "Finanstilsynet registry ID",
+      "ctId": "CT-1E9S2QP"
     },
     {
       "slug": "basque-pay-s-l",
@@ -1221,7 +1258,7 @@
       "legalName": "BASQUE PAY S.L.",
       "authority": "Comisión Nacional del Mercado de Valores (CNMV)",
       "homeState": "ES",
-      "lei": "",
+      "lei": "9598005WW6HZ4V82BZ26",
       "leiCountry": "ES",
       "address": "Calle Villa de Plentzia 42-5 C. Getxeo Bizcaia.",
       "website": "fazilcrypto.com/es",
@@ -1236,14 +1273,15 @@
       "authDateRaw": "31/07/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-31",
-      "lastUpdateRaw": "31/07/2026",
-      "companyRegisterNumber": null,
-      "companyRegisterName": null,
-      "companyRegisterCountry": null,
+      "lastUpdate": "2026-08-17",
+      "lastUpdateRaw": "17/08/2026",
+      "companyRegisterNumber": "1000072141545",
+      "companyRegisterName": "Commercial Registry (Registro Mercantil)",
+      "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1YN5BE4"
     },
     {
       "slug": "bbva",
@@ -1275,7 +1313,8 @@
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-100408O"
     },
     {
       "slug": "belayer",
@@ -1307,7 +1346,8 @@
       "companyRegisterCountry": "BG",
       "ncaNumberStatus": "register",
       "ncaNumber": "276-ДУКА",
-      "ncaNumberLabel": "FSC decision number"
+      "ncaNumberLabel": "FSC decision number",
+      "ctId": "CT-16MUYF9"
     },
     {
       "slug": "bequant",
@@ -1368,7 +1408,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0IQW6AB"
     },
     {
       "slug": "bison-bank",
@@ -1410,7 +1451,8 @@
       "companyRegisterCountry": "PT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0WURJGL"
     },
     {
       "slug": "bit2me",
@@ -1475,7 +1517,8 @@
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-194EUFW"
     },
     {
       "slug": "bitcoin-store",
@@ -1539,7 +1582,8 @@
       "companyRegisterCountry": "HR",
       "ncaNumberStatus": "register",
       "ncaNumber": "R101065",
-      "ncaNumberLabel": "HANFA register number"
+      "ncaNumberLabel": "HANFA register number",
+      "ctId": "CT-11HNOJ5"
     },
     {
       "slug": "bitcoin-suisse-europe-ag",
@@ -1595,7 +1639,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1G66AC0"
     },
     {
       "slug": "bitcoinmat",
@@ -1655,7 +1700,8 @@
       "companyRegisterCountry": "SK",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1AFE8D1"
     },
     {
       "slug": "bitflyer-europe",
@@ -1717,7 +1763,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000011",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-1GAJ81B"
     },
     {
       "slug": "bitgo-europe-gmbh",
@@ -1781,7 +1828,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0BI5GQ4"
     },
     {
       "slug": "bitmymoney-b-v",
@@ -1815,7 +1863,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000013",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0Q5EBOY"
     },
     {
       "slug": "bitonic-b-v",
@@ -1877,7 +1926,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000024",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1NGZRJD"
     },
     {
       "slug": "bitpanda",
@@ -1942,7 +1992,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-022EPMW"
     },
     {
       "slug": "bitpanda-mt",
@@ -1975,7 +2026,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1FJG8AU"
     },
     {
       "slug": "bitpanda-asset-management-gmbh",
@@ -2037,11 +2089,12 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1I1HPW8"
     },
     {
-      "slug": "bitpay-b-v",
-      "name": "BitPay B.V.",
+      "slug": "bitpay-b-v-cashify-rgltd",
+      "name": "BitPay B.V. | Cashify | RGLTD",
       "legalName": "BitPay B.V.",
       "authority": "Netherlands Authority for the Financial Markets (AFM)",
       "homeState": "NL",
@@ -2055,20 +2108,50 @@
         "j"
       ],
       "countries": [
-        "NL"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "authDate": "2026-07-15",
-      "authDateRaw": "15/07/2026",
+      "authDate": "2026-07-16",
+      "authDateRaw": "16/07/2026",
       "endDate": null,
       "comments": "",
-      "lastUpdate": "2026-07-16",
-      "lastUpdateRaw": "16/07/2026",
+      "lastUpdate": "2026-08-13",
+      "lastUpdateRaw": "13/08/2026",
       "companyRegisterNumber": "58655891",
       "companyRegisterName": "Business Register (Handelsregister)",
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000045",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1NO155W"
     },
     {
       "slug": "bitstack",
@@ -2127,7 +2210,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2025-003",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1HVZYCO"
     },
     {
       "slug": "bitstaete-b-v",
@@ -2157,7 +2241,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000003",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0S0OI5U"
     },
     {
       "slug": "bitstamp",
@@ -2222,7 +2307,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000003",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-1HNCWUV"
     },
     {
       "slug": "bittimaatti",
@@ -2252,7 +2338,8 @@
       "companyRegisterCountry": "FI",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1VXA5DJ"
     },
     {
       "slug": "bitvavo-b-v",
@@ -2313,7 +2400,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000010",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1K89AXA"
     },
     {
       "slug": "bleap",
@@ -2373,7 +2461,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-02PX1HV"
     },
     {
       "slug": "blockben",
@@ -2436,7 +2525,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-09Y6SSJ"
     },
     {
       "slug": "blockchain-com",
@@ -2498,7 +2588,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-06ORFTJ"
     },
     {
       "slug": "blockrise",
@@ -2560,7 +2651,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000029",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1R7LRDZ"
     },
     {
       "slug": "blox-b-v",
@@ -2595,7 +2687,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000020",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0PB8478"
     },
     {
       "slug": "blue-emi",
@@ -2623,7 +2716,8 @@
       "companyRegisterCountry": "LT",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-02QQJ0T"
     },
     {
       "slug": "bny",
@@ -2654,7 +2748,8 @@
       "companyRegisterCountry": "BE",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0S8OV3S"
     },
     {
       "slug": "boerse-stuttgart-digital-custody-gmbh",
@@ -2714,7 +2809,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1LBRW28"
     },
     {
       "slug": "bpifrance-investissement",
@@ -2744,7 +2840,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "N2026-006",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-07JL7G5"
     },
     {
       "slug": "bridge",
@@ -2806,7 +2903,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000012",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-1T4JH8W"
     },
     {
       "slug": "btc-direct-europe-b-v",
@@ -2844,7 +2942,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000009",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0S5A80J"
     },
     {
       "slug": "bullish-europe-gmbh",
@@ -2907,7 +3006,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0G1YSV2"
     },
     {
       "slug": "bv-p-vermogen-ag",
@@ -2938,7 +3038,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0GINNM5"
     },
     {
       "slug": "bvnk",
@@ -3000,7 +3101,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-17FTEZU"
     },
     {
       "slug": "bybit",
@@ -3062,7 +3164,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1BPFXUN"
     },
     {
       "slug": "caceis-bank",
@@ -3100,7 +3203,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "N2025-001",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-19GQBDM"
     },
     {
       "slug": "caixabank",
@@ -3128,12 +3232,13 @@
       "comments": "",
       "lastUpdate": "2026-03-27",
       "lastUpdateRaw": "27/03/2026",
-      "companyRegisterNumber": "V-178351-8",
+      "companyRegisterNumber": "1000166489994",
       "companyRegisterName": "Commercial Registry (Registro Mercantil)",
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1WE4AN5"
     },
     {
       "slug": "calamatta-cuschieri-investment-services-limited",
@@ -3192,7 +3297,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1B3JFL5"
     },
     {
       "slug": "capital-com",
@@ -3254,7 +3360,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1UX966J"
     },
     {
       "slug": "cecabank",
@@ -3281,12 +3388,13 @@
       "comments": "",
       "lastUpdate": "2025-08-07",
       "lastUpdateRaw": "07/08/2025",
-      "companyRegisterNumber": "M-547250-8",
+      "companyRegisterNumber": "1000288498389",
       "companyRegisterName": "Commercial Registry (Registro Mercantil)",
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-04GU07N"
     },
     {
       "slug": "celsion-bank-ag",
@@ -3348,7 +3456,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-05J0RAA"
     },
     {
       "slug": "change",
@@ -3380,7 +3489,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000082",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0VSU94T"
     },
     {
       "slug": "checksig",
@@ -3414,7 +3524,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0SCTAMW"
     },
     {
       "slug": "circle",
@@ -3473,7 +3584,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "N2026-005",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0B4UQA1"
     },
     {
       "slug": "clearbank-europe-b-v",
@@ -3526,7 +3638,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000085",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-07VN0OT"
     },
     {
       "slug": "clearstream",
@@ -3585,7 +3698,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000002",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-0K364MY"
     },
     {
       "slug": "cloverum",
@@ -3649,7 +3763,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1WXKXDA"
     },
     {
       "slug": "coinbase",
@@ -3714,7 +3829,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000004",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-0SC3PJT"
     },
     {
       "slug": "coinfinity",
@@ -3751,7 +3867,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-12M3VK7"
     },
     {
       "slug": "coinflip",
@@ -3781,7 +3898,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1P841MV"
     },
     {
       "slug": "coingate",
@@ -3842,7 +3960,8 @@
       "companyRegisterCountry": "LT",
       "ncaNumberStatus": "register",
       "ncaNumber": "LB002323 / LB002324",
-      "ncaNumberLabel": "Lietuvos bankas licence number"
+      "ncaNumberLabel": "Lietuvos bankas licence number",
+      "ctId": "CT-1W7WAQ3"
     },
     {
       "slug": "coinhouse",
@@ -3879,7 +3998,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-013",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-01ZCUY8"
     },
     {
       "slug": "coinify",
@@ -3941,7 +4061,8 @@
       "companyRegisterCountry": "DK",
       "ncaNumberStatus": "register",
       "ncaNumber": "10907",
-      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)",
+      "ctId": "CT-0LV0LC6"
     },
     {
       "slug": "coinjar",
@@ -4003,7 +4124,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1IK05CX"
     },
     {
       "slug": "coinmate-a-s",
@@ -4037,7 +4159,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0K0A5QV"
     },
     {
       "slug": "coinmerce-b-v",
@@ -4075,7 +4198,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000019",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0OCUC5O"
     },
     {
       "slug": "coinmotion",
@@ -4109,7 +4233,8 @@
       "companyRegisterCountry": "FI",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0C6RHHI"
     },
     {
       "slug": "coinshares-asset-management",
@@ -4146,7 +4271,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "N2025-002",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-19PELXF"
     },
     {
       "slug": "collect-exchange-cy-ltd",
@@ -4208,7 +4334,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1XSI7O5"
     },
     {
       "slug": "cometh",
@@ -4259,7 +4386,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2025-008",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-17BY145"
     },
     {
       "slug": "commerzbank-aktiengesellschaft",
@@ -4291,7 +4419,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1CGSBXU"
     },
     {
       "slug": "complycrypto-depository-eu-limited",
@@ -4326,7 +4455,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1UZBPXD"
     },
     {
       "slug": "concedus-gmbh",
@@ -4357,7 +4487,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-05G5ZOA"
     },
     {
       "slug": "confirmo-limited",
@@ -4418,7 +4549,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-18CASGZ"
     },
     {
       "slug": "conio",
@@ -4453,7 +4585,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0MI31ZF"
     },
     {
       "slug": "cps",
@@ -4515,7 +4648,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000013",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-1XQ3EZZ"
     },
     {
       "slug": "criptan",
@@ -4543,12 +4677,13 @@
       "comments": "",
       "lastUpdate": "2026-06-26",
       "lastUpdateRaw": "26/06/2026",
-      "companyRegisterNumber": "V-182811-8",
+      "companyRegisterNumber": "1000171901644",
       "companyRegisterName": "Commercial Registry (Registro Mercantil)",
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1BXE8H8"
     },
     {
       "slug": "crossmint",
@@ -4602,12 +4737,13 @@
       "comments": "",
       "lastUpdate": "2026-06-26",
       "lastUpdateRaw": "26/06/2026",
-      "companyRegisterNumber": "M-771435-8",
+      "companyRegisterNumber": "1000310865765",
       "companyRegisterName": "Commercial Registry (Registro Mercantil)",
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1PPP7JV"
     },
     {
       "slug": "crypto-finance-deutschland-gmbh",
@@ -4652,7 +4788,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0XV9JBS"
     },
     {
       "slug": "crypto-am",
@@ -4688,7 +4825,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-025",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1ARUX4D"
     },
     {
       "slug": "crypto-com",
@@ -4751,7 +4889,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1S0S870"
     },
     {
       "slug": "cryptonow",
@@ -4813,7 +4952,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1MJNQBS"
     },
     {
       "slug": "cryptosmart",
@@ -4848,7 +4988,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-10NUNPD"
     },
     {
       "slug": "cryptovoucher",
@@ -4909,7 +5050,8 @@
       "companyRegisterCountry": "SK",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1Q334C6"
     },
     {
       "slug": "d2x",
@@ -4939,7 +5081,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000072",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1PJ50OH"
     },
     {
       "slug": "dadat",
@@ -4969,7 +5112,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0PFH6DV"
     },
     {
       "slug": "damex",
@@ -5031,7 +5175,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0FOSXGC"
     },
     {
       "slug": "dask-krypto",
@@ -5066,7 +5211,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-01ML0VE"
     },
     {
       "slug": "dcs-happycoins",
@@ -5098,7 +5244,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000071",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1U5VCAG"
     },
     {
       "slug": "deblock",
@@ -5158,7 +5305,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2025-001",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0TXHE13"
     },
     {
       "slug": "decubate-b-v",
@@ -5219,7 +5367,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000018",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0Z89ZI8"
     },
     {
       "slug": "dekabank-deutsche-girozentrale",
@@ -5252,7 +5401,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": "10100426",
-      "ncaNumberLabel": "BaFin-ID"
+      "ncaNumberLabel": "BaFin-ID",
+      "ctId": "CT-1MYHBPL"
     },
     {
       "slug": "deskoin",
@@ -5292,7 +5442,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-012",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1A3W1E6"
     },
     {
       "slug": "deutsche-wertpapierservice-bank-ag-dwpbank",
@@ -5326,7 +5477,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1BJZKEB"
     },
     {
       "slug": "dietrich-richter-private-asset-management-ag",
@@ -5357,7 +5509,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0KRB8XD"
     },
     {
       "slug": "digital-assist",
@@ -5387,7 +5540,8 @@
       "companyRegisterCountry": "BG",
       "ncaNumberStatus": "register",
       "ncaNumber": "500-ДУКА",
-      "ncaNumberLabel": "FSC decision number"
+      "ncaNumberLabel": "FSC decision number",
+      "ctId": "CT-0VFJVPP"
     },
     {
       "slug": "dlt-securities-gmbh",
@@ -5423,7 +5577,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-14YOI99"
     },
     {
       "slug": "donau-iller-bank-eg",
@@ -5453,7 +5608,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1G8DW9D"
     },
     {
       "slug": "donaucapital-wertpapier-gmbh",
@@ -5483,7 +5639,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0QQIGIB"
     },
     {
       "slug": "due",
@@ -5543,7 +5700,8 @@
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1SFAQET"
     },
     {
       "slug": "dz-bank-ag-deutsche-zentral-genossenschaftsbank",
@@ -5575,7 +5733,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-05PLRX7"
     },
     {
       "slug": "e-toro",
@@ -5640,7 +5799,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": "109/10",
-      "ncaNumberLabel": "CySEC licence number"
+      "ncaNumberLabel": "CySEC licence number",
+      "ctId": "CT-1FV624T"
     },
     {
       "slug": "electrocoin",
@@ -5701,7 +5861,8 @@
       "companyRegisterCountry": "HR",
       "ncaNumberStatus": "register",
       "ncaNumber": "R30483",
-      "ncaNumberLabel": "HANFA register number"
+      "ncaNumberLabel": "HANFA register number",
+      "ctId": "CT-1KZ88UQ"
     },
     {
       "slug": "eu-internet-ventures-euiv-bnxa",
@@ -5762,7 +5923,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "register",
       "ncaNumber": "41000017",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1R57MLC"
     },
     {
       "slug": "euwax-ag",
@@ -5801,7 +5963,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1GIDQC0"
     },
     {
       "slug": "everest",
@@ -5863,7 +6026,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-16TCGWN"
     },
     {
       "slug": "falconx",
@@ -5925,7 +6089,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1DALFU8"
     },
     {
       "slug": "feel-mining-wigl-et-othila",
@@ -5959,7 +6124,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-029",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1G2D016"
     },
     {
       "slug": "fels-wealth-gmbh",
@@ -5992,7 +6158,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-17VCQTE"
     },
     {
       "slug": "fiat-republic-netherlands-b-v",
@@ -6052,7 +6219,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000041",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0ZINRSD"
     },
     {
       "slug": "fidus-finanz-ag",
@@ -6085,7 +6253,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0F3FK3A"
     },
     {
       "slug": "finary",
@@ -6142,7 +6311,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-026 / N2026-008",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1IKN4DS"
     },
     {
       "slug": "finctek",
@@ -6182,7 +6352,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2025-005",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0VF9G3D"
     },
     {
       "slug": "finst-b-v",
@@ -6244,7 +6415,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000015",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-030X0CL"
     },
     {
       "slug": "fintech-payments-psc-s-l",
@@ -6299,7 +6471,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1OVCEV4"
     },
     {
       "slug": "fipto",
@@ -6360,7 +6533,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-009",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0VLMJC9"
     },
     {
       "slug": "firefish",
@@ -6422,7 +6596,8 @@
       "companyRegisterCountry": "SK",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0Z4TJOF"
     },
     {
       "slug": "firi-as",
@@ -6459,7 +6634,8 @@
       "companyRegisterCountry": "NO",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-11ZHP3K"
     },
     {
       "slug": "flatexdegiro-bank-ag",
@@ -6503,7 +6679,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-03VFVIB"
     },
     {
       "slug": "flatexdegiro-bank-ag-de",
@@ -6561,7 +6738,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0Y5TLDP"
     },
     {
       "slug": "floin-ag",
@@ -6595,7 +6773,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1M23Q2E"
     },
     {
       "slug": "flowdesk-europe",
@@ -6637,7 +6816,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-022",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1LZBWS9"
     },
     {
       "slug": "fumbi",
@@ -6698,7 +6878,8 @@
       "companyRegisterCountry": "SK",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1K0KVUU"
     },
     {
       "slug": "gate",
@@ -6761,7 +6942,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-067J7DE"
     },
     {
       "slug": "gcex-gc-exchange",
@@ -6795,7 +6977,8 @@
       "companyRegisterCountry": "DK",
       "ncaNumberStatus": "register",
       "ncaNumber": "10901",
-      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)",
+      "ctId": "CT-1QU30R3"
     },
     {
       "slug": "gemini",
@@ -6859,7 +7042,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-147607I"
     },
     {
       "slug": "gg-digital-a-s",
@@ -6893,7 +7077,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0QRNZ6O"
     },
     {
       "slug": "goin",
@@ -6954,7 +7139,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2025-002",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1VSTOVS"
     },
     {
       "slug": "hannoversche-volksbank-eg",
@@ -6984,7 +7170,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-08SXBSS"
     },
     {
       "slug": "hauck-aufhauser-digital-custody-gmbh",
@@ -7015,7 +7202,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1D34MOE"
     },
     {
       "slug": "hercle",
@@ -7074,7 +7262,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1DEM0IA"
     },
     {
       "slug": "hexarq",
@@ -7108,7 +7297,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-010",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1HZXSM0"
     },
     {
       "slug": "hidden-road-partners-civ-nl-b-v",
@@ -7169,7 +7359,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000008",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1RLER9I"
     },
     {
       "slug": "hodleris",
@@ -7231,7 +7422,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1XUAQ4Z"
     },
     {
       "slug": "hodli",
@@ -7278,7 +7470,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1J5WO0Z"
     },
     {
       "slug": "hpb-d-d",
@@ -7308,7 +7501,8 @@
       "companyRegisterCountry": "HR",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-078X0UL"
     },
     {
       "slug": "huddlestock-gmbh",
@@ -7338,7 +7532,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-19NC5R2"
     },
     {
       "slug": "hyphe-markets-gmbh",
@@ -7378,7 +7573,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1Y691F2"
     },
     {
       "slug": "iceblock",
@@ -7410,7 +7606,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-024",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0S933W1"
     },
     {
       "slug": "ig-europe-gmbh",
@@ -7469,7 +7666,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1RGP4NR"
     },
     {
       "slug": "ilavo-group-a-s",
@@ -7506,7 +7704,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0SP59TO"
     },
     {
       "slug": "ilirika",
@@ -7568,7 +7767,8 @@
       "companyRegisterCountry": "SI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1PCXRQI"
     },
     {
       "slug": "in-kapital",
@@ -7597,8 +7797,9 @@
       "companyRegisterName": "Croatian Court Registry (Sudski registrar)",
       "companyRegisterCountry": "HR",
       "ncaNumberStatus": "register",
-      "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumber": "R90921",
+      "ncaNumberLabel": "HANFA register number",
+      "ctId": "CT-0QS8SSF"
     },
     {
       "slug": "incrementum",
@@ -7632,7 +7833,8 @@
       "companyRegisterCountry": "SI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0PYMAES"
     },
     {
       "slug": "interactive-brokers-ireland-limited",
@@ -7691,7 +7893,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0BJB97D"
     },
     {
       "slug": "invity-finance-s-r-o",
@@ -7729,7 +7932,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1C81530"
     },
     {
       "slug": "ip-wbtcb-solutions-s-r-o",
@@ -7762,7 +7966,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0214QK1"
     },
     {
       "slug": "iqana-technologies-s-l",
@@ -7794,7 +7999,8 @@
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0DZKH3X"
     },
     {
       "slug": "isf-institut-deutsch-schweizer-finanzdienstleistungen-gmbh",
@@ -7824,7 +8030,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0VJJA9Z"
     },
     {
       "slug": "j2tx-ltd",
@@ -7890,7 +8097,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-05C7FOO"
     },
     {
       "slug": "januar",
@@ -7946,7 +8154,8 @@
       "companyRegisterCountry": "DK",
       "ncaNumberStatus": "register",
       "ncaNumber": "10908",
-      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)",
+      "ctId": "CT-0MFM27Q"
     },
     {
       "slug": "joh-berenberg-gossler-co-kg",
@@ -7981,7 +8190,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-07HKTYZ"
     },
     {
       "slug": "justtrade",
@@ -8012,7 +8222,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": "10164769",
-      "ncaNumberLabel": "BaFin-ID"
+      "ncaNumberLabel": "BaFin-ID",
+      "ctId": "CT-1T7BLKJ"
     },
     {
       "slug": "k33-markets-as",
@@ -8044,7 +8255,8 @@
       "companyRegisterCountry": "NO",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0G7XI4B"
     },
     {
       "slug": "kaiser-partner-privatbank",
@@ -8106,7 +8318,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1HY7SFA"
     },
     {
       "slug": "kbc",
@@ -8138,7 +8351,8 @@
       "companyRegisterCountry": "BE",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0XUSXPD"
     },
     {
       "slug": "keyrock",
@@ -8199,7 +8413,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-017",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0S99ZZX"
     },
     {
       "slug": "kraken-digital-asset-exchange-kraken",
@@ -8265,7 +8480,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": "C468360",
-      "ncaNumberLabel": "Central Bank of Ireland reference (C-number)"
+      "ncaNumberLabel": "Central Bank of Ireland reference (C-number)",
+      "ctId": "CT-0JMROIW"
     },
     {
       "slug": "kraken-kraken-digital-asset-exchange",
@@ -8296,7 +8512,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": "C559106",
-      "ncaNumberLabel": "Central Bank of Ireland reference (C-number)"
+      "ncaNumberLabel": "Central Bank of Ireland reference (C-number)",
+      "ctId": "CT-1PJ6CMU"
     },
     {
       "slug": "kriptomat",
@@ -8326,7 +8543,8 @@
       "companyRegisterCountry": "HR",
       "ncaNumberStatus": "register",
       "ncaNumber": "R102212",
-      "ncaNumberLabel": "HANFA register number"
+      "ncaNumberLabel": "HANFA register number",
+      "ctId": "CT-1RLE6DM"
     },
     {
       "slug": "krypto-knight",
@@ -8390,7 +8608,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-19KGGQA"
     },
     {
       "slug": "kucoin-eu",
@@ -8452,7 +8671,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0U2W7M5"
     },
     {
       "slug": "kutxabank",
@@ -8484,7 +8704,8 @@
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0IHY97A"
     },
     {
       "slug": "kvarn-x",
@@ -8546,7 +8767,8 @@
       "companyRegisterCountry": "FI",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1PR5FZY"
     },
     {
       "slug": "lang-schwarz-tradecenter-ag-co-kg",
@@ -8577,7 +8799,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1FZ4MDP"
     },
     {
       "slug": "legend-trading",
@@ -8637,7 +8860,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0X2GR7S"
     },
     {
       "slug": "legion",
@@ -8670,7 +8894,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-06DH99V"
     },
     {
       "slug": "leonod",
@@ -8727,7 +8952,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-019",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-10R8EIO"
     },
     {
       "slug": "lgt-bank-ag",
@@ -8773,7 +8999,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1QUGL50"
     },
     {
       "slug": "lightspark-payments-europe-as",
@@ -8835,7 +9062,8 @@
       "companyRegisterCountry": "EE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-16WRKY8"
     },
     {
       "slug": "lightyear-europe-as",
@@ -8896,7 +9124,8 @@
       "companyRegisterCountry": "EE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1CXUQ6I"
     },
     {
       "slug": "lunar-block",
@@ -8929,7 +9158,8 @@
       "companyRegisterCountry": "DK",
       "ncaNumberStatus": "register",
       "ncaNumber": "10900",
-      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)",
+      "ctId": "CT-1U9WAUB"
     },
     {
       "slug": "madison-six-crypto4me",
@@ -8993,7 +9223,8 @@
       "companyRegisterCountry": "SK",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-021APHL"
     },
     {
       "slug": "meatal-gear",
@@ -9051,7 +9282,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2025-004",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-15ARD7L"
     },
     {
       "slug": "meria",
@@ -9093,7 +9325,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-020",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1B0J2KP"
     },
     {
       "slug": "minos-global",
@@ -9129,7 +9362,8 @@
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1T3DGA3"
     },
     {
       "slug": "mipsoftware-s-r-o",
@@ -9161,7 +9395,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0BQXD57"
     },
     {
       "slug": "mlp-banking-ag",
@@ -9191,7 +9426,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-12YE0UU"
     },
     {
       "slug": "monflo",
@@ -9226,7 +9462,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000025",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-06JNK0C"
     },
     {
       "slug": "moonpay-europe-b-v",
@@ -9287,7 +9524,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000002",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0HELG83"
     },
     {
       "slug": "mp-developers-s-r-o",
@@ -9321,7 +9559,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0UT5583"
     },
     {
       "slug": "myntkaup",
@@ -9354,7 +9593,8 @@
       "companyRegisterCountry": "IS",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0GL5ZB4"
     },
     {
       "slug": "myriad-capital",
@@ -9387,7 +9627,8 @@
       "companyRegisterCountry": "LT",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1YMOUXE"
     },
     {
       "slug": "n26-bank-se",
@@ -9423,7 +9664,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0HLFSQ9"
     },
     {
       "slug": "naga-x",
@@ -9460,7 +9702,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1HL4A8X"
     },
     {
       "slug": "nbx",
@@ -9524,7 +9767,8 @@
       "companyRegisterCountry": "NO",
       "ncaNumberStatus": "register",
       "ncaNumber": "201280",
-      "ncaNumberLabel": "Finanstilsynet registry ID"
+      "ncaNumberLabel": "Finanstilsynet registry ID",
+      "ctId": "CT-07NLIBN"
     },
     {
       "slug": "neverless",
@@ -9587,7 +9831,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-04469FG"
     },
     {
       "slug": "newrails",
@@ -9646,7 +9891,8 @@
       "companyRegisterCountry": "LT",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1FL1R3U"
     },
     {
       "slug": "nexdesk",
@@ -9707,7 +9953,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1OGP7ZP"
     },
     {
       "slug": "nodu-digital",
@@ -9767,7 +10014,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-05T7EGG"
     },
     {
       "slug": "noemon-finance-ltd",
@@ -9832,7 +10080,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0O9JDT7"
     },
     {
       "slug": "noemon-tech-ltd",
@@ -9899,7 +10148,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0XT4CAL"
     },
     {
       "slug": "northcrypto",
@@ -9934,7 +10184,8 @@
       "companyRegisterCountry": "FI",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1NV3S9H"
     },
     {
       "slug": "northstake",
@@ -9995,7 +10246,8 @@
       "companyRegisterCountry": "DK",
       "ncaNumberStatus": "register",
       "ncaNumber": "10905",
-      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)",
+      "ctId": "CT-0XODZGM"
     },
     {
       "slug": "okazio",
@@ -10058,7 +10310,8 @@
       "companyRegisterCountry": "SK",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0SMQOE4"
     },
     {
       "slug": "okx",
@@ -10124,7 +10377,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1FXWZ91"
     },
     {
       "slug": "olmipay",
@@ -10158,7 +10412,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-03K5DYE"
     },
     {
       "slug": "one-trading-exchange-b-v",
@@ -10218,7 +10473,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000034",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-0V6Z1GF"
     },
     {
       "slug": "op-digital",
@@ -10281,7 +10537,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0XD91OB"
     },
     {
       "slug": "openbank",
@@ -10313,7 +10570,8 @@
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-097VRPF"
     },
     {
       "slug": "orcabay",
@@ -10342,7 +10600,8 @@
       "companyRegisterCountry": "SI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1Y7K4E0"
     },
     {
       "slug": "osl-eu",
@@ -10404,7 +10663,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0XEVUOI"
     },
     {
       "slug": "partners-banka-a-s",
@@ -10434,7 +10694,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0D4GZDO"
     },
     {
       "slug": "paybis",
@@ -10498,7 +10759,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1AF85I9"
     },
     {
       "slug": "payhound",
@@ -10560,7 +10822,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0QRZQBD"
     },
     {
       "slug": "paymium",
@@ -10622,7 +10885,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-018",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-01QKJ61"
     },
     {
       "slug": "paymonade",
@@ -10682,7 +10946,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-083UI1J"
     },
     {
       "slug": "paytop",
@@ -10745,7 +11010,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-015",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0LE1NO8"
     },
     {
       "slug": "pelican-exchange-europe-cy-ltd",
@@ -10807,7 +11073,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0KCP9K8"
     },
     {
       "slug": "penning",
@@ -10872,7 +11139,8 @@
       "companyRegisterCountry": "DK",
       "ncaNumberStatus": "register",
       "ncaNumber": "10902",
-      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)",
+      "ctId": "CT-0DYNC3Q"
     },
     {
       "slug": "pluso-a-s",
@@ -10905,7 +11173,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1SAEOH0"
     },
     {
       "slug": "plutos-vermogensverwaltung-ag",
@@ -10935,7 +11204,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-04T8JCP"
     },
     {
       "slug": "pm-mtf-ltd",
@@ -10997,7 +11267,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0L9G49F"
     },
     {
       "slug": "prosegur-crypto",
@@ -11029,7 +11300,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1FKNTCG"
     },
     {
       "slug": "push-aave-push",
@@ -11088,7 +11360,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0AHPXE6"
     },
     {
       "slug": "qwarks",
@@ -11122,7 +11395,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-014",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1GJBSB0"
     },
     {
       "slug": "raiffeisebank-auerbach-freihung-eg",
@@ -11152,7 +11426,39 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-14MYURX"
+    },
+    {
+      "slug": "raiffeisenbank-aidlingen-eg",
+      "name": "Raiffeisenbank Aidlingen eG",
+      "legalName": "Raiffeisenbank Aidlingen eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900JEKLBM7SSTQS98",
+      "leiCountry": "DE",
+      "address": "Hauptstraße 8, 71134 Aidlingen, Württ",
+      "website": "www.IhrZiel.de",
+      "websiteHref": "https://www.IhrZiel.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-08-07",
+      "authDateRaw": "07/08/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-08-07",
+      "lastUpdateRaw": "07/08/2026",
+      "companyRegisterNumber": "GnR 240102",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-1K468B2"
     },
     {
       "slug": "raiffeisenbank-falkenstein-worth",
@@ -11182,7 +11488,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-16DBUCZ"
     },
     {
       "slug": "raiffeisenbank-kreis-kelheim-eg",
@@ -11212,7 +11519,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0OZN4MD"
     },
     {
       "slug": "ramp-network",
@@ -11271,7 +11579,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1P9OO4I"
     },
     {
       "slug": "rcube-asset-management",
@@ -11307,7 +11616,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "N2026-007",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1FWN8RJ"
     },
     {
       "slug": "relai",
@@ -11362,7 +11672,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2025-006",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-01UYZ6A"
     },
     {
       "slug": "renta-4",
@@ -11394,7 +11705,8 @@
       "companyRegisterCountry": "ES",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1GFJDXC"
     },
     {
       "slug": "revolut",
@@ -11457,7 +11769,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0HRQ0MG"
     },
     {
       "slug": "ripple-payments-europe-s-a",
@@ -11517,7 +11830,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000014",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-0B9WSPO"
     },
     {
       "slug": "riv-digital",
@@ -11549,7 +11863,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1YNDYYN"
     },
     {
       "slug": "robinhood",
@@ -11610,7 +11925,8 @@
       "companyRegisterCountry": "LT",
       "ncaNumberStatus": "register",
       "ncaNumber": "LB002294",
-      "ncaNumberLabel": "Lietuvos bankas licence number"
+      "ncaNumberLabel": "Lietuvos bankas licence number",
+      "ctId": "CT-0BD5U61"
     },
     {
       "slug": "ronin-em-ltd",
@@ -11672,7 +11988,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0LEBEX9"
     },
     {
       "slug": "rufiji",
@@ -11714,7 +12031,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-016",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0IC0ZYG"
     },
     {
       "slug": "rulematch",
@@ -11755,7 +12073,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1WXE81W"
     },
     {
       "slug": "safello-ab",
@@ -11788,7 +12107,8 @@
       "companyRegisterCountry": "SE",
       "ncaNumberStatus": "register",
       "ncaNumber": "55632",
-      "ncaNumberLabel": "Finansinspektionen institution number"
+      "ncaNumberLabel": "Finansinspektionen institution number",
+      "ctId": "CT-1L0SOCJ"
     },
     {
       "slug": "safelynx",
@@ -11847,7 +12167,8 @@
       "companyRegisterCountry": "DK",
       "ncaNumberStatus": "register",
       "ncaNumber": "10909",
-      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)"
+      "ncaNumberLabel": "Finanstilsynet reference (FT-nr.)",
+      "ctId": "CT-0A7SZA9"
     },
     {
       "slug": "scalable-capital-bank-gmbh",
@@ -11877,7 +12198,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-05Z74DT"
     },
     {
       "slug": "shares",
@@ -11922,7 +12244,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-028 / N2026-009",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-1520WEP"
     },
     {
       "slug": "simple-coin-s-r-o",
@@ -11955,7 +12278,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0X7U3CK"
     },
     {
       "slug": "simplex",
@@ -12016,7 +12340,8 @@
       "companyRegisterCountry": "LT",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0KMQJGL"
     },
     {
       "slug": "sino-aktiengesellschaft",
@@ -12046,7 +12371,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-11IQWF6"
     },
     {
       "slug": "skrill-neteller",
@@ -12108,7 +12434,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0LK1K40"
     },
     {
       "slug": "smart-valor",
@@ -12171,7 +12498,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0XLXBRT"
     },
     {
       "slug": "smartbroker-ag",
@@ -12201,7 +12529,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-110O3QM"
     },
     {
       "slug": "societe-generale-forge",
@@ -12260,7 +12589,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2025-007 / N2025-003",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0841AR9"
     },
     {
       "slug": "socios-com",
@@ -12321,7 +12651,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-09CJU2P"
     },
     {
       "slug": "solidgate-sg-digital-assets",
@@ -12356,7 +12687,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-115VRW5"
     },
     {
       "slug": "spar-und-kreditbank-rheinstetten-eg",
@@ -12386,7 +12718,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0RZOSHK"
     },
     {
       "slug": "stable-mint-ltd",
@@ -12417,7 +12750,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1GKXEOC"
     },
     {
       "slug": "standard-chartered",
@@ -12477,7 +12811,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000010",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-1HNW4K3"
     },
     {
       "slug": "stokr",
@@ -12536,7 +12871,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000009",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-1AXC6B6"
     },
     {
       "slug": "stonex",
@@ -12600,7 +12936,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-101J5PI"
     },
     {
       "slug": "strike",
@@ -12662,7 +12999,8 @@
       "companyRegisterCountry": null,
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0AGMS0F"
     },
     {
       "slug": "sutor-bank-gmbh",
@@ -12692,7 +13030,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0XYLEXC"
     },
     {
       "slug": "swissborg",
@@ -12755,7 +13094,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-011",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-048DVUC"
     },
     {
       "slug": "swissquote",
@@ -12815,7 +13155,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000008",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-1K147LG"
     },
     {
       "slug": "sygnum-europe",
@@ -12877,7 +13218,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-01A4TJR"
     },
     {
       "slug": "tangany-gmbh",
@@ -12934,7 +13276,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0GX14I2"
     },
     {
       "slug": "teroxx-digital-asset-ltd",
@@ -13000,7 +13343,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0N60FVS"
     },
     {
       "slug": "tesseract",
@@ -13063,7 +13407,8 @@
       "companyRegisterCountry": "FI",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-03GMMRP"
     },
     {
       "slug": "tothemoon",
@@ -13099,7 +13444,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": "023/26",
-      "ncaNumberLabel": "CySEC licence number"
+      "ncaNumberLabel": "CySEC licence number",
+      "ctId": "CT-0K7Z3TA"
     },
     {
       "slug": "trade-republic-bank-gmbh",
@@ -13161,7 +13507,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": "10150368",
-      "ncaNumberLabel": "BaFin-ID"
+      "ncaNumberLabel": "BaFin-ID",
+      "ctId": "CT-0MZJW3M"
     },
     {
       "slug": "traders-place-gmbh-co-kgaa",
@@ -13191,7 +13538,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-153R78P"
     },
     {
       "slug": "tradevest",
@@ -13222,7 +13570,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0Q9JVDB"
     },
     {
       "slug": "tradevest-markets-ag",
@@ -13257,7 +13606,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-08QASJQ"
     },
     {
       "slug": "tradias-gmbh",
@@ -13319,7 +13669,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-03L4WIY"
     },
     {
       "slug": "trading-212",
@@ -13381,7 +13732,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1BKKQXM"
     },
     {
       "slug": "trading-com",
@@ -13445,7 +13797,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0MO0F5Q"
     },
     {
       "slug": "tradu",
@@ -13506,7 +13859,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0QZ17K9"
     },
     {
       "slug": "tria-bridge",
@@ -13572,7 +13926,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-19JO2LH"
     },
     {
       "slug": "twino",
@@ -13615,7 +13970,8 @@
       "companyRegisterCountry": "LV",
       "ncaNumberStatus": "register",
       "ncaNumber": "27-55/2025/7",
-      "ncaNumberLabel": "Latvijas Banka licence number"
+      "ncaNumberLabel": "Latvijas Banka licence number",
+      "ctId": "CT-1PQYVF8"
     },
     {
       "slug": "tyr-markets-as",
@@ -13648,7 +14004,8 @@
       "companyRegisterCountry": "NO",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0BJZPP3"
     },
     {
       "slug": "unlimit-crypto-ltd-ex-stable-defi-ltd",
@@ -13684,7 +14041,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0MWG6L2"
     },
     {
       "slug": "v-bank-ag",
@@ -13716,7 +14074,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-08HCJ09"
     },
     {
       "slug": "validvent",
@@ -13759,7 +14118,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1J36QL6"
     },
     {
       "slug": "vbu-volksbank-im-unterland-eg",
@@ -13789,7 +14149,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1K2KNFY"
     },
     {
       "slug": "vermogensbutler-gmbh",
@@ -13820,7 +14181,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0DBXPJC"
     },
     {
       "slug": "virtu-financial-ireland-limited",
@@ -13880,7 +14242,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-09TDK4M"
     },
     {
       "slug": "vivid-money-b-v",
@@ -13940,7 +14303,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000035",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1MFVYJY"
     },
     {
       "slug": "volksbank-beilstein-ilsfeld-abstatt-eg",
@@ -13970,7 +14334,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0UKCFET"
     },
     {
       "slug": "volksbank-eg-die-gestalterbank",
@@ -14000,7 +14365,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0ALGQ6W"
     },
     {
       "slug": "volksbank-heiden-eg",
@@ -14030,7 +14396,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0XE712R"
     },
     {
       "slug": "volksbank-mittlerer-schwarzwald-eg",
@@ -14060,7 +14427,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1QZ6B6P"
     },
     {
       "slug": "volksbank-raiffeisenbank-bayern-mitte-eg",
@@ -14091,7 +14459,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0BC3BC4"
     },
     {
       "slug": "volksbank-raiffeisenbank-oberbayern-sudost-eg",
@@ -14121,7 +14490,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0EX5ELZ"
     },
     {
       "slug": "volksbank-raiffeisenbank-wurzburg-eg",
@@ -14151,7 +14521,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0417OCN"
     },
     {
       "slug": "volksbank-schwarzwald-donau-neckar-eg",
@@ -14181,7 +14552,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1AZKI9T"
     },
     {
       "slug": "vr-bank-schleswig-holstein-mitte-eg",
@@ -14211,7 +14583,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0R04K4A"
     },
     {
       "slug": "vr-bank-sudpfalz-eg",
@@ -14241,7 +14614,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0HP2MHD"
     },
     {
       "slug": "vr-teilhaberbank-metropolregion-nurnberg-eg",
@@ -14271,7 +14645,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-01ALAY4"
     },
     {
       "slug": "vr-bank-augsburg-ostallgau-eg",
@@ -14301,7 +14676,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1P9PUQ9"
     },
     {
       "slug": "vr-bank-erding-eg",
@@ -14331,7 +14707,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1GMKFF9"
     },
     {
       "slug": "vr-bank-landau-mengkofen-eg",
@@ -14361,7 +14738,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-13S10QQ"
     },
     {
       "slug": "vr-bank-rottal-inn-eg",
@@ -14391,7 +14769,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1OHO2D8"
     },
     {
       "slug": "wbtcb-cz-s-r-o",
@@ -14421,7 +14800,8 @@
       "companyRegisterCountry": "CZ",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0WIXVKM"
     },
     {
       "slug": "webot",
@@ -14457,7 +14837,8 @@
       "companyRegisterCountry": "IE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0JIRT9M"
     },
     {
       "slug": "webull-webull-europe",
@@ -14488,7 +14869,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000091",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-11EUHN3"
     },
     {
       "slug": "westerwald-bank-eg-volks-und-raiffeisenbank",
@@ -14518,7 +14900,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0GOUVL0"
     },
     {
       "slug": "white-tech-ltd",
@@ -14553,7 +14936,8 @@
       "companyRegisterCountry": "HR",
       "ncaNumberStatus": "register",
       "ncaNumber": "R118357",
-      "ncaNumberLabel": "HANFA register number"
+      "ncaNumberLabel": "HANFA register number",
+      "ctId": "CT-00AF3ZW"
     },
     {
       "slug": "whitebit-eu",
@@ -14615,7 +14999,8 @@
       "companyRegisterCountry": "AT",
       "ncaNumberStatus": "none",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1WXPEO2"
     },
     {
       "slug": "woorton",
@@ -14671,7 +15056,8 @@
       "companyRegisterCountry": "FR",
       "ncaNumberStatus": "register",
       "ncaNumber": "A2026-027",
-      "ncaNumberLabel": "AMF authorisation/notification number"
+      "ncaNumberLabel": "AMF authorisation/notification number",
+      "ctId": "CT-0GLAYSZ"
     },
     {
       "slug": "wsw-portfoliomanagement-ag",
@@ -14701,7 +15087,8 @@
       "companyRegisterCountry": "DE",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1OADUZX"
     },
     {
       "slug": "wyden-capital-ag",
@@ -14731,7 +15118,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1NXSJ0O"
     },
     {
       "slug": "xcoins",
@@ -14764,7 +15152,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-1U4O4MJ"
     },
     {
       "slug": "xtb-limited",
@@ -14825,7 +15214,8 @@
       "companyRegisterCountry": "CY",
       "ncaNumberStatus": "register",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0FZ4NGM"
     },
     {
       "slug": "young-platform",
@@ -14863,7 +15253,8 @@
       "companyRegisterCountry": "IT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0YOE5GX"
     },
     {
       "slug": "zbx",
@@ -14928,7 +15319,8 @@
       "companyRegisterCountry": "MT",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-19Y9327"
     },
     {
       "slug": "zebedee-europe-b-v",
@@ -14989,7 +15381,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000001",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-1WDQI1Q"
     },
     {
       "slug": "zerohash-europe",
@@ -15052,7 +15445,8 @@
       "companyRegisterCountry": "NL",
       "ncaNumberStatus": "register",
       "ncaNumber": "41000042",
-      "ncaNumberLabel": "AFM authorisation number"
+      "ncaNumberLabel": "AFM authorisation number",
+      "ctId": "CT-030IHD0"
     },
     {
       "slug": "zeus-anstalt-fur-vermogensverwaltung",
@@ -15082,7 +15476,8 @@
       "companyRegisterCountry": "LI",
       "ncaNumberStatus": "informal",
       "ncaNumber": null,
-      "ncaNumberLabel": null
+      "ncaNumberLabel": null,
+      "ctId": "CT-0ZN03WY"
     },
     {
       "slug": "zodia",
@@ -15142,7 +15537,8 @@
       "companyRegisterCountry": "LU",
       "ncaNumberStatus": "register",
       "ncaNumber": "N00000006",
-      "ncaNumberLabel": "CSSF licence number"
+      "ncaNumberLabel": "CSSF licence number",
+      "ctId": "CT-0QXFTDG"
     }
   ]
 }
