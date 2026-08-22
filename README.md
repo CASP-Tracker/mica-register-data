@@ -11,7 +11,7 @@ Cleaned, machine-readable datasets from the European Securities and Markets Auth
 |---|---|---|---|
 | [`data/casps.json`](data/casps.json) | Authorised CASPs | **331** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
 | [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **167** | Non-compliant entities flagged by national regulators |
-| [`data/emts.json`](data/emts.json) | EMT issuers | **23** issuers (40 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
+| [`data/emts.json`](data/emts.json) | EMT issuers | **23** issuers (43 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
 
 `source/` holds the raw ESMA CSV snapshots the datasets are built from (`CASPS.csv`, `NCASP.csv`, `EMTWP.csv`, `ARTZZ.csv`). Filenames are stable, so **the git history of this repository doubles as a changelog of the ESMA registers**: every refresh commit shows exactly which entries were added or changed. ESMA itself does not publish register history.
@@ -34,7 +34,15 @@ Full methodology: the **CASP Tracker Verification Protocol**, described at <http
 
 ## Schema
 
-All JSON files share the same top level: `generatedAt` (build timestamp), `source` (ESMA CSV URL), `count`, and `items[]`. `casps.json` additionally carries `lastDataUpdate` (the newest record date inside the register).
+All JSON files share the same top level: `generatedAt` (build timestamp), `lastChanged`, `source` (ESMA CSV URL), `count`, and `items[]`. `casps.json` additionally carries `lastDataUpdate` (the newest record date inside the register).
+
+Three dates that are easy to confuse, and deliberately are not the same thing:
+
+- **`lastChanged`** is the date this dataset's content last actually changed. A refresh that finds the register unchanged does not move it, so it is the honest answer to "when was this modified" and it is what feeds `dateModified` in the site's structured data.
+- **`lastDataUpdate`** (`casps.json` only) is the newest record stamp *inside* ESMA's register. It says how current the source records are, not when we published them: ESMA can stamp a batch weeks before we pick it up.
+- **`generatedAt`** is merely when the build ran, and moves on every rebuild even when nothing changed.
+
+The date each dataset was last verified against the live ESMA source, whether or not anything changed, is published at the top of this file and on the site.
 
 ### `data/casps.json` (authorised CASPs)
 
@@ -92,7 +100,7 @@ Note: the warning list is fed by a small number of national authorities (current
 
 ### `data/emts.json` (e-money token issuers)
 
-One item per issuer, merged by LEI and legal name from ESMA's register of EMT white papers (one source row per white paper).
+One item per issuer, merged by LEI and legal name from ESMA's register of EMT white papers (one source row per white paper). `wpCount` is the number of white-paper rows in the register itself; the per-issuer `whitepapers` arrays hold slightly fewer entries (currently 40 of 43), because an issuer can notify the same white paper more than once under an identical URL, date and note, and those are collapsed. Same distinction as `sourceRows` vs `count` in `casps.json`: the register's figure and ours are not the same number.
 
 | Field | Meaning |
 |---|---|
