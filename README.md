@@ -2,16 +2,16 @@
 
 Cleaned, machine-readable datasets from the European Securities and Markets Authority (ESMA) interim registers under the EU's **MiCA** regulation (Markets in Crypto-Assets, Regulation (EU) 2023/1114). Maintained by [CASP Tracker](https://casptracker.eu), a searchable directory of MiCA-licensed crypto-asset service providers.
 
-- Last verified against the live ESMA source: **2026-08-18**
-- Newest record date inside the CASP register: **2026-08-17**
+- Last verified against the live ESMA source: **2026-08-22**
+- Newest record date inside the CASP register: **2026-08-20**
 
 ## Datasets
 
 | File | Register | Entries | Description |
 |---|---|---|---|
-| [`data/casps.json`](data/casps.json) | Authorised CASPs | **326** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
+| [`data/casps.json`](data/casps.json) | Authorised CASPs | **331** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
 | [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **167** | Non-compliant entities flagged by national regulators |
-| [`data/emts.json`](data/emts.json) | EMT issuers | **23** issuers (43 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
+| [`data/emts.json`](data/emts.json) | EMT issuers | **23** issuers (40 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
 
 `source/` holds the raw ESMA CSV snapshots the datasets are built from (`CASPS.csv`, `NCASP.csv`, `EMTWP.csv`, `ARTZZ.csv`). Filenames are stable, so **the git history of this repository doubles as a changelog of the ESMA registers**: every refresh commit shows exactly which entries were added or changed. ESMA itself does not publish register history.
