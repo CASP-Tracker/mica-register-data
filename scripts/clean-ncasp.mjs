@@ -16,6 +16,8 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { DATASET_ATTRIBUTION } from "../src/lib/provenance.js";
+import { resolveLastChanged } from "./last-changed.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -118,12 +120,20 @@ for (let i = 1; i < rows.length; i++) {
   });
 }
 
-const out = {
-  generatedAt: new Date().toISOString(),
+const body = {
   source: "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
   note: "Entities flagged by national competent authorities (CONSOB/IT, AFM/NL, NBS/SK only) as providing crypto-asset services without MiCA authorisation. NOT a complete EU blacklist: absence does not imply authorisation.",
+  attribution: DATASET_ATTRIBUTION,
   count: items.length,
   items,
+};
+
+// Seed = the last refresh that actually changed this register (164 -> 167 CONSOB
+// entries). See scripts/last-changed.mjs.
+const out = {
+  generatedAt: new Date().toISOString(),
+  lastChanged: resolveLastChanged(OUT_JSON, body, "2026-08-03"),
+  ...body,
 };
 
 writeFileSync(OUT_JSON, JSON.stringify(out, null, 2), "utf8");

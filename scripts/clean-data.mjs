@@ -6,6 +6,7 @@ import { dirname, join } from "node:path";
 import { detectServices } from "../src/lib/services.js";
 import { normalizeCountry } from "../src/lib/countries.js";
 import { DATASET_ATTRIBUTION, ctId } from "../src/lib/provenance.js";
+import { resolveLastChanged } from "./last-changed.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -551,8 +552,7 @@ const lastDataUpdate = items
   .sort()
   .at(-1);
 
-const out = {
-  generatedAt: new Date().toISOString(),
+const body = {
   source:
     "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
   attribution: DATASET_ATTRIBUTION,
@@ -565,6 +565,15 @@ const out = {
   sourceRows: parsed.length,
   count: items.length,
   items,
+};
+
+// dateModified on the Dataset JSON-LD comes from this, NOT from lastDataUpdate
+// (ESMA's record stamp) and NOT from DATA_LAST_SYNCED (when we last looked).
+// See scripts/last-changed.mjs for why.
+const out = {
+  generatedAt: new Date().toISOString(),
+  lastChanged: resolveLastChanged(OUT_JSON, body, "2026-08-22"),
+  ...body,
 };
 
 writeFileSync(OUT_JSON, JSON.stringify(out, null, 2), "utf8");

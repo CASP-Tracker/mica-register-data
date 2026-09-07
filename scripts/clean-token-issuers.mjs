@@ -23,6 +23,8 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { DATASET_ATTRIBUTION, ctId } from "../src/lib/provenance.js";
+import { resolveLastChanged } from "./last-changed.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -237,14 +239,25 @@ const emtItems = [...emtByKey.values()].sort(
     a.name.localeCompare(b.name),
 );
 
-const emtOut = {
-  generatedAt: new Date().toISOString(),
+// Per-record provenance key, derived from the issuer's (stable) LEI so it
+// survives refreshes and re-sorts. See ctId() in src/lib/provenance.js.
+for (const it of emtItems) it.ctId = ctId(it.lei);
+
+const emtBody = {
   source: "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   note: "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
+  attribution: DATASET_ATTRIBUTION,
   count: emtItems.length,
   wpCount,
   countries: [...new Set(emtItems.map((e) => e.homeState))].length,
   items: emtItems,
+};
+// Seed = the last refresh that actually changed this register (22 -> 23 issuers,
+// Bridge Building S.A.). See scripts/last-changed.mjs.
+const emtOut = {
+  generatedAt: new Date().toISOString(),
+  lastChanged: resolveLastChanged(OUT_EMT, emtBody, "2026-08-12"),
+  ...emtBody,
 };
 writeFileSync(OUT_EMT, JSON.stringify(emtOut, null, 2), "utf8");
 console.log(
@@ -295,12 +308,20 @@ const artItems = [...artByKey.values()].sort(
     (a.authDate || "9999").localeCompare(b.authDate || "9999") ||
     a.name.localeCompare(b.name),
 );
-const artOut = {
-  generatedAt: new Date().toISOString(),
+const artBody = {
   source: "https://www.esma.europa.eu/sites/default/files/2024-12/ARTZZ.csv",
   note: "Issuers of asset-referenced tokens (ART) under MiCA Title III from ESMA's interim register. The register has been empty since launch: no ART issuer has been authorised in the EU yet.",
+  attribution: DATASET_ATTRIBUTION,
   count: artItems.length,
   items: artItems,
+};
+// Seed = when this dataset was first generated. The ART register has never held a
+// single entry, so its content has genuinely never changed and its dateModified
+// must NOT creep forward on every sync. See scripts/last-changed.mjs.
+const artOut = {
+  generatedAt: new Date().toISOString(),
+  lastChanged: resolveLastChanged(OUT_ART, artBody, "2026-07-08"),
+  ...artBody,
 };
 writeFileSync(OUT_ART, JSON.stringify(artOut, null, 2), "utf8");
 console.log(`Wrote ${artItems.length} ART issuers -> ${OUT_ART}`);

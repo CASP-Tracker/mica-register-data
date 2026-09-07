@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T09:25:03.286Z",
-  "lastChanged": "2026-08-12",
+  "generatedAt": "2026-09-07T18:32:32.777Z",
+  "lastChanged": "2026-09-07",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
   "attribution": {
@@ -14,7 +14,7 @@
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
   "count": 23,
-  "wpCount": 43,
+  "wpCount": 45,
   "countries": 13,
   "items": [
     {
@@ -622,11 +622,16 @@
       "tokens": [],
       "entityAuthDate": "2018-12-21",
       "firstWpDate": "2025-10-22",
-      "lastUpdate": "2025-12-18",
+      "lastUpdate": "2026-08-28",
       "whitepapers": [
         {
           "url": "https://www.bettrsettlementtoken.com/policy",
           "date": "2025-10-22",
+          "note": ""
+        },
+        {
+          "url": "https://www.bettrsettlementtoken.com/policy",
+          "date": "2026-09-22",
           "note": ""
         }
       ],
