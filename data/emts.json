@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T18:32:32.777Z",
-  "lastChanged": "2026-09-07",
+  "generatedAt": "2026-09-11T05:58:13.023Z",
+  "lastChanged": "2026-09-11",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
   "attribution": {
@@ -13,9 +13,9 @@
     "terms": "https://casptracker.eu/llms.txt",
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
-  "count": 23,
-  "wpCount": 45,
-  "countries": 13,
+  "count": 24,
+  "wpCount": 47,
+  "countries": 14,
   "items": [
     {
       "lei": "743700KYSSTKZYGEUF50",
@@ -490,11 +490,12 @@
       "tokens": [
         "EURAU",
         "CHFAU",
-        "SEKAU"
+        "SEKAU",
+        "USDAU"
       ],
       "entityAuthDate": "2026-01-19",
       "firstWpDate": "2025-06-20",
-      "lastUpdate": "2026-06-11",
+      "lastUpdate": "2026-09-04",
       "whitepapers": [
         {
           "url": "https://allunity.com/whitepaper",
@@ -515,6 +516,11 @@
           "url": "https://allunity.com/whitepaper",
           "date": "2026-06-09",
           "note": "CHFAU, V1.2"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "date": "2026-06-09",
+          "note": "USDAU, V.1.0"
         }
       ],
       "dti": [
@@ -533,7 +539,13 @@
         "35PTC5Z63",
         "GCN4ZMN5R",
         "PGBKBZRH2",
-        "5Z0LL4J7S"
+        "5Z0LL4J7S",
+        "25XRLGD08",
+        "Q9MZ20BGM",
+        "S19Z4M49R",
+        "67JKQ4MKT",
+        "3RH5FHFMR",
+        "95139NRZ1"
       ],
       "dtiFfg": [],
       "caspSlug": null,
@@ -806,6 +818,36 @@
       "caspSlug": null,
       "caspWebsite": "",
       "ctId": "CT-0QXVQ36"
+    },
+    {
+      "lei": "549300V4H4USWZUCE073",
+      "leiName": "BISON BANK, S.A.",
+      "name": "BISON BANK, S.A.",
+      "homeState": "PT",
+      "authority": "Banco de Portugal (BdP)",
+      "address": "Rua Barata Salgueiro, 33, Piso 0, 1250-042 Lisboa",
+      "website": "bisonbank.com",
+      "websiteHref": "https://bisonbank.com/",
+      "type": "credit",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "entityAuthDate": "2014-02-11",
+      "firstWpDate": "2026-03-12",
+      "lastUpdate": "2026-03-12",
+      "whitepapers": [
+        {
+          "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-USB-White-Paper_20260312-1.pdf",
+          "date": "2026-03-12",
+          "note": ""
+        }
+      ],
+      "dti": [],
+      "dtiFfg": [],
+      "caspSlug": "bison-bank",
+      "caspWebsite": "bisonbank.com",
+      "ctId": "CT-0KP9UI4"
     },
     {
       "lei": "6488GKH17O8XT1326F66",

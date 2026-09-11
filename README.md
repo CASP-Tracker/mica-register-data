@@ -2,16 +2,16 @@
 
 Cleaned, machine-readable datasets from the European Securities and Markets Authority (ESMA) interim registers under the EU's **MiCA** regulation (Markets in Crypto-Assets, Regulation (EU) 2023/1114). Maintained by [CASP Tracker](https://casptracker.eu), a searchable directory of MiCA-licensed crypto-asset service providers.
 
-- Last verified against the live ESMA source: **2026-09-07**
-- Newest record date inside the CASP register: **2026-09-02**
+- Last verified against the live ESMA source: **2026-09-11**
+- Newest record date inside the CASP register: **2026-09-08**
 
 ## Datasets
 
 | File | Register | Entries | Description |
 |---|---|---|---|
-| [`data/casps.json`](data/casps.json) | Authorised CASPs | **338** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
+| [`data/casps.json`](data/casps.json) | Authorised CASPs | **343** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
 | [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **167** | Non-compliant entities flagged by national regulators |
-| [`data/emts.json`](data/emts.json) | EMT issuers | **23** issuers (45 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
+| [`data/emts.json`](data/emts.json) | EMT issuers | **24** issuers (47 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
 
 `source/` holds the raw ESMA CSV snapshots the datasets are built from (`CASPS.csv`, `NCASP.csv`, `EMTWP.csv`, `ARTZZ.csv`). Filenames are stable, so **the git history of this repository doubles as a changelog of the ESMA registers**: every refresh commit shows exactly which entries were added or changed. ESMA itself does not publish register history.
@@ -100,7 +100,7 @@ Note: the warning list is fed by a small number of national authorities (current
 
 ### `data/emts.json` (e-money token issuers)
 
-One item per issuer, merged by LEI and legal name from ESMA's register of EMT white papers (one source row per white paper). `wpCount` is the number of white-paper rows in the register itself; the per-issuer `whitepapers` arrays hold slightly fewer entries (currently 41 of 45), because an issuer can notify the same white paper more than once under an identical URL, date and note, and those are collapsed. Same distinction as `sourceRows` vs `count` in `casps.json`: the register's figure and ours are not the same number.
+One item per issuer, merged by LEI and legal name from ESMA's register of EMT white papers (one source row per white paper). `wpCount` is the number of white-paper rows in the register itself; the per-issuer `whitepapers` arrays hold slightly fewer entries (currently 43 of 47), because an issuer can notify the same white paper more than once under an identical URL, date and note, and those are collapsed. Same distinction as `sourceRows` vs `count` in `casps.json`: the register's figure and ours are not the same number.
 
 | Field | Meaning |
 |---|---|

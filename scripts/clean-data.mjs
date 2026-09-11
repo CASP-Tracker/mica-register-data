@@ -123,6 +123,10 @@ const WEBSITE_BY_LEI = {
   // Source col 7 is "www-vrbank-obb-so.de" (dashes instead of dots; does not
   // resolve). Real site verified 2026-08-03: https://www.vrbank-obb-so.de
   "5299005O2LPWV9IP2Z21": "https://www.vrbank-obb-so.de", // Volksbank Raiffeisenbank Oberbayern Suedost eG
+  // Source site "www.voba-raiba-dachau.de" refuses HTTPS (port 443 closed); over
+  // plain HTTP it only redirects to vr-dachau.de, whose page title names the
+  // bank. Verified 2026-09-11.
+  "391200TWGO2RBL7WG010": "https://www.vr-dachau.de", // Volksbank Raiffeisenbank Dachau eG
 };
 
 // Override the display name when the source commercial-name field is a junk list

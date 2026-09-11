@@ -44,7 +44,8 @@ const TOKENS_BY_LEI = {
   "7245008P1HPUPVM7XL94": ["EURQ", "USDQ", "EURD", "PLNQ", "GBPQ", "RONQ"], // Quantoz Payments B.V.
   "984500AA0OCA9CE0D796": ["EURR", "USDR"], // StablR Ltd
   "213800W1NGBLERUS6M39": ["EURI"], // Banking Circle S.A. (Eurite)
-  "3912007G8L8CD3HFIV26": ["EURAU", "CHFAU", "SEKAU"], // AllUnity GmbH
+  // USDAU added 2026-09-11: the register's own wp_comments name it ("USDAU, V.1.0").
+  "3912007G8L8CD3HFIV26": ["EURAU", "CHFAU", "SEKAU", "USDAU"], // AllUnity GmbH
   "724500GVWT7QULV8CR59": ["ENEUR", "ENGBP", "ENUSD"], // Fiat Republic Netherlands
   "9695002I9DJHZ3449O66": ["EUROD"], // Oddo BHF SCA
   "969500SGAEBRXYUAJ739": ["EURØP"], // SALVUS (Schuman Financial)
