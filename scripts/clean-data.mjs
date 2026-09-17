@@ -278,9 +278,9 @@ export const NCA_NUMBER_BY_LEI = {
   "724500B2I1LR33CAWG54": "41000001", // Zebedee Europe B.V.
   "724500G7QSOMFR1GQA47": "41000042", // zerohash europe B.V.
   // France - AMF white list official CSV export (data.gouv.fr, live 2026-08-12,
-  // 34/35 FR entities matched by LEI - the one gap, APLO SAS, shares its LEI
-  // with FLOWDESK EUROPE SAS by a known ESMA source error, see
-  // NCA_NUMBER_BY_SLUG below for how that one is resolved instead).
+  // 35/35 FR entities matched by LEI since 2026-09-17. Until then APLO SAS was
+  // the one gap, listed by ESMA under FLOWDESK EUROPE SAS's LEI, see
+  // NCA_NUMBER_BY_SLUG below for how that one used to be resolved).
   "969500ULPB59U51BG334": "A2026-021", // ALPHACAP DIGITAL ASSETS SAS
   "969500A4IPKVUBH3CA90": "N2025-004", // BANQUE DELUBAC ET CIE
   "894500RKZ3TVTPIF7V84": "A2025-003", // BITSTACK DIGITAL ASSETS SAS
@@ -291,6 +291,7 @@ export const NCA_NUMBER_BY_LEI = {
   "969500OYUDADGZKCR583": "N2026-005", // CIRCLE INTERNET FINANCIAL EUROPE SAS
   "969500E5GFHK2RKF8251": "A2026-013", // COINHOUSE SAS
   "969500DBF3ZL9U0KUA51": "N2025-002", // COINSHARES ASSET MANAGEMENT
+  "969500YKHZ31GZ7AAU02": "A2026-023", // APLO SAS (own LEI since ESMA's 2026-09 fix, see NCA_NUMBER_BY_SLUG)
   "894500R5KSX3ZKIHSA46": "A2025-008", // COMETH SAS
   "254900XTUI35BGIBXP21": "A2025-001", // DEBLOCK SAS
   "969500QH6WD4FO79B261": "A2026-012", // DESKOIN SAS
@@ -361,27 +362,25 @@ export const NCA_NUMBER_BY_LEI = {
   "984500856AF4DF5FAT57": "27-55/2025/7", // AS TWINO Investments
 };
 
-// Same regulator number as above, but keyed by SLUG instead of LEI - needed
-// for the ONE case where two DIFFERENT French entities share one (erroneous)
-// LEI in ESMA's own CSV (see the "Duplicate register rows merged" bullet
-// above): APLO SAS's real LEI (per AMF's own CSV, which does distinguish the
-// two) is 969500YKHZ31GZ7AAU02, but ESMA's CASPS.csv instead gives it
-// FLOWDESK EUROPE SAS's LEI (984500AB011S3AEF6706). Keying APLO's number by
-// that shared LEI would silently overwrite/collide with FLOWDESK's own
-// (correct) entry above, so it must be looked up by slug instead. Checked
+// Same regulator number as above, but keyed by SLUG instead of LEI - the
+// escape hatch for two DIFFERENT entities sharing one (erroneous) LEI in ESMA's
+// own CSV, where a LEI-keyed lookup can only ever resolve one of them. Checked
 // FIRST in the per-item loop, before NCA_NUMBER_BY_LEI.
-export const NCA_NUMBER_BY_SLUG = {
-  aplo: "A2026-023", // APLO SAS - AMF CSV, live 2026-08-12
-};
+//
+// EMPTY since 2026-09-17, and that is the expected state. The one case it was
+// built for is closed: until then ESMA listed APLO SAS under FLOWDESK EUROPE
+// SAS's LEI (984500AB011S3AEF6706). The register row stamped 15/09/2026 now
+// carries APLO's own LEI, 969500YKHZ31GZ7AAU02, which three independent sources
+// confirm: GLEIF (legal name APLO, RCS 878929405), the AMF CSV (A2026-023 under
+// that LEI) and ESMA itself. Both values we had patched in by hand matched them
+// exactly, so APLO moved into NCA_NUMBER_BY_LEI above and resolves its register
+// number through GLEIF like everyone else. Keep both maps: a slug is the only
+// safe key the next time the source hands two firms one LEI.
+export const NCA_NUMBER_BY_SLUG = {};
 
-// Same LEI-collision problem, but for the GLEIF-sourced company register
-// number: APLO's shared (wrong) LEI resolves to FLOWDESK's French RCS via
-// GLEIF/register-numbers.json, so APLO needs its own override here too.
-// Confirmed via the same AMF CSV row (which lists APLO's real RCS despite
-// ESMA's LEI mix-up).
-export const COMPANY_REGISTER_BY_SLUG = {
-  aplo: { number: "878929405", registerName: "Register of Companies (Sirene)", country: "FR" },
-};
+// Same escape hatch for the GLEIF-sourced company register number. Empty for
+// the same reason (see above).
+export const COMPANY_REGISTER_BY_SLUG = {};
 
 // Looks like a real web address (has a dot-separated host with a TLD).
 const looksLikeDomain = (s) =>
@@ -481,8 +480,11 @@ for (let i = 1; i < rows.length; i++) {
 // --- Merge duplicate register rows for the SAME entity (same LEI + same legal
 // name). ESMA lists a second row when an authorisation is extended with new
 // services (DekaBank, EUWAX) or plain-duplicates a row (NAGA X). Keyed on LEI
-// AND legal name: different companies that share an LEI by source error
-// (APLO SAS / FLOWDESK EUROPE SAS) must stay separate entries.
+// AND legal name: different companies that share an LEI by source error must
+// stay separate entries. That has really happened: ESMA listed APLO SAS under
+// FLOWDESK EUROPE SAS's LEI (first recorded here on 2026-07-08) until it
+// corrected the row in September 2026, and a LEI-only key would have fused the
+// two firms for those ten weeks.
 const byEntity = new Map();
 const items = [];
 for (const it of parsed) {

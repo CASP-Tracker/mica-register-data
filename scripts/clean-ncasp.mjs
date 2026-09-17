@@ -8,15 +8,21 @@
 // https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv), mirroring
 // the local-file pattern of the CASP pipeline so the build stays offline.
 //
-// IMPORTANT: only 3 NCAs currently contribute (CONSOB/IT, AFM/NL, NBS/SK), so
-// this is NOT a complete EU blacklist. Absence from it must never be presented
-// as "compliant". We expose `domains` per row so provider pages can match a
-// brand to a warning by EXACT domain (avoids false positives from scam clones
-// such as "htxcoin-az.com" vs the real "htx.com").
+// IMPORTANT: only a handful of NCAs contribute, so this is NOT a complete EU
+// blacklist. Absence from it must never be presented as "compliant". WHICH
+// regulators contribute is never written down by hand: it is derived from the
+// rows into the `regulators` field below, and both the dataset `note` and the
+// site copy read it from there. It was hardcoded as "CONSOB/IT, AFM/NL, NBS/SK
+// only" until 2026-09-17, when Belgium's FSMA and the Czech National Bank filed
+// their first entries and that sentence silently became false in the dataset
+// itself and on two pages. We expose `domains` per row so provider pages can
+// match a brand to a warning by EXACT domain (avoids false positives from scam
+// clones such as "htxcoin-az.com" vs the real "htx.com").
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { DATASET_ATTRIBUTION } from "../src/lib/provenance.js";
+import { regulatorShort } from "../src/lib/regulator.js";
 import { resolveLastChanged } from "./last-changed.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -120,11 +126,31 @@ for (let i = 1; i < rows.length; i++) {
   });
 }
 
+// Which regulators actually report to the register, derived from the rows and
+// sorted by how many entries each one filed (name breaks ties, so the order is
+// stable between runs). Single source of truth for the dataset note below and
+// for every sentence on the site that names the contributors.
+const byAuthority = new Map();
+for (const it of items) {
+  const cur = byAuthority.get(it.authority) || {
+    authority: it.authority,
+    short: regulatorShort(it.authority),
+    homeState: it.homeState,
+    count: 0,
+  };
+  cur.count++;
+  byAuthority.set(it.authority, cur);
+}
+const regulators = [...byAuthority.values()].sort(
+  (a, b) => b.count - a.count || a.short.localeCompare(b.short),
+);
+
 const body = {
   source: "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
-  note: "Entities flagged by national competent authorities (CONSOB/IT, AFM/NL, NBS/SK only) as providing crypto-asset services without MiCA authorisation. NOT a complete EU blacklist: absence does not imply authorisation.",
+  note: `Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only ${regulators.length} authorities have reported entries so far (${regulators.map((r) => `${r.short}/${r.homeState} ${r.count}`).join(", ")}), so this is NOT a complete EU blacklist: absence does not imply authorisation.`,
   attribution: DATASET_ATTRIBUTION,
   count: items.length,
+  regulators,
   items,
 };
 

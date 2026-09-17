@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T05:58:13.023Z",
-  "lastChanged": "2026-09-11",
+  "generatedAt": "2026-09-17T08:45:48.122Z",
+  "lastChanged": "2026-09-17",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
   "attribution": {
@@ -14,7 +14,7 @@
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
   "count": 24,
-  "wpCount": 47,
+  "wpCount": 49,
   "countries": 14,
   "items": [
     {
@@ -493,9 +493,9 @@
         "SEKAU",
         "USDAU"
       ],
-      "entityAuthDate": "2026-01-19",
+      "entityAuthDate": "2026-06-20",
       "firstWpDate": "2025-06-20",
-      "lastUpdate": "2026-09-04",
+      "lastUpdate": "2026-09-14",
       "whitepapers": [
         {
           "url": "https://allunity.com/whitepaper",
@@ -521,6 +521,11 @@
           "url": "https://allunity.com/whitepaper",
           "date": "2026-06-09",
           "note": "USDAU, V.1.0"
+        },
+        {
+          "url": "https://allunity.com/whitepaper",
+          "date": "2026-05-06",
+          "note": "SEKAU, V.1.1"
         }
       ],
       "dti": [
@@ -545,7 +550,8 @@
         "S19Z4M49R",
         "67JKQ4MKT",
         "3RH5FHFMR",
-        "95139NRZ1"
+        "95139NRZ1",
+        "JPJHD47F4"
       ],
       "dtiFfg": [],
       "caspSlug": null,
@@ -837,6 +843,11 @@
       "firstWpDate": "2026-03-12",
       "lastUpdate": "2026-03-12",
       "whitepapers": [
+        {
+          "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-EUB-White-Paper_20260312-1.pdf",
+          "date": "2026-03-12",
+          "note": ""
+        },
         {
           "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-USB-White-Paper_20260312-1.pdf",
           "date": "2026-03-12",

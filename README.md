@@ -2,16 +2,16 @@
 
 Cleaned, machine-readable datasets from the European Securities and Markets Authority (ESMA) interim registers under the EU's **MiCA** regulation (Markets in Crypto-Assets, Regulation (EU) 2023/1114). Maintained by [CASP Tracker](https://casptracker.eu), a searchable directory of MiCA-licensed crypto-asset service providers.
 
-- Last verified against the live ESMA source: **2026-09-11**
-- Newest record date inside the CASP register: **2026-09-08**
+- Last verified against the live ESMA source: **2026-09-17**
+- Newest record date inside the CASP register: **2026-09-15**
 
 ## Datasets
 
 | File | Register | Entries | Description |
 |---|---|---|---|
-| [`data/casps.json`](data/casps.json) | Authorised CASPs | **343** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
-| [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **167** | Non-compliant entities flagged by national regulators |
-| [`data/emts.json`](data/emts.json) | EMT issuers | **24** issuers (47 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
+| [`data/casps.json`](data/casps.json) | Authorised CASPs | **349** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
+| [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **174** | Non-compliant entities flagged by national regulators |
+| [`data/emts.json`](data/emts.json) | EMT issuers | **24** issuers (49 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
 
 `source/` holds the raw ESMA CSV snapshots the datasets are built from (`CASPS.csv`, `NCASP.csv`, `EMTWP.csv`, `ARTZZ.csv`). Filenames are stable, so **the git history of this repository doubles as a changelog of the ESMA registers**: every refresh commit shows exactly which entries were added or changed. ESMA itself does not publish register history.
@@ -28,7 +28,7 @@ The official interim CSVs are hard to consume programmatically. The cleaning scr
 - the 10 MiCA services are detected by distinctive phrases in the text, because the letter prefixes in the source are unreliable and often missing;
 - dates converted from `dd/mm/yyyy` to ISO 8601.
 
-We normalise, we never edit facts. Genuine source errors (for example two different French firms sharing one LEI in the register) are preserved and documented in the scripts.
+We normalise, we never edit facts. Genuine source errors are preserved and documented in the scripts, and this repository's history shows them coming and going. Two examples: until ESMA corrected the row in September 2026, two different French firms (APLO SAS and FLOWDESK EUROPE SAS) shared one LEI in the register, and until August 2026 one German bank's row carried another company's brand name. Run `git log -p source/CASPS.csv` to see both the error and the fix. Other errors are still there: as of 2026-09-17, 10 LEIs in the source file fail the ISO 17442 checksum.
 
 Full methodology: the **CASP Tracker Verification Protocol**, described at <https://casptracker.eu/about/#methodology>. Each refresh starts by downloading the live CSVs from esma.europa.eu and comparing SHA-256 hashes byte for byte; the datasets are regenerated whenever the source changes.
 
@@ -96,11 +96,13 @@ The 10 MiCA crypto-asset services (Art. 3(1)(16) MiCA):
 | `reason`, `comments` | Free text from the register |
 | `decisionDate`, `lastUpdate` | ISO dates |
 
-Note: the warning list is fed by a small number of national authorities (currently 165 of 167 entries come from Italy's CONSOB, plus one each from the Dutch AFM and Slovakia's NBS). It is **not** a complete EU-wide blacklist, and absence from it is not a clean bill of health.
+The top level of this file additionally carries `regulators`: one object per national authority that has filed at least one entry (`authority`, `short`, `homeState`, `count`), sorted by entries filed. It is derived from the rows on every build, and the `note` field quotes it, so neither can drift from the data.
+
+Note: the warning list is fed by a small number of national authorities. Currently 5 have filed entries: 165 of 174 come from Italy's CONSOB, 6 from Belgium's FSMA, and one each from the Dutch AFM, the Czech National Bank and Slovakia's NBS. FSMA and the Czech National Bank filed their first entries in September 2026; until then the list had three contributors. It is **not** a complete EU-wide blacklist, and absence from it is not a clean bill of health.
 
 ### `data/emts.json` (e-money token issuers)
 
-One item per issuer, merged by LEI and legal name from ESMA's register of EMT white papers (one source row per white paper). `wpCount` is the number of white-paper rows in the register itself; the per-issuer `whitepapers` arrays hold slightly fewer entries (currently 43 of 47), because an issuer can notify the same white paper more than once under an identical URL, date and note, and those are collapsed. Same distinction as `sourceRows` vs `count` in `casps.json`: the register's figure and ours are not the same number.
+One item per issuer, merged by LEI and legal name from ESMA's register of EMT white papers (one source row per white paper). `wpCount` is the number of white-paper rows in the register itself; the per-issuer `whitepapers` arrays hold slightly fewer entries (currently 45 of 49), because an issuer can notify the same white paper more than once under an identical URL, date and note, and those are collapsed. Same distinction as `sourceRows` vs `count` in `casps.json`: the register's figure and ours are not the same number.
 
 | Field | Meaning |
 |---|---|

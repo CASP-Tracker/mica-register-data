@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T21:22:32.953Z",
-  "lastChanged": "2026-08-03",
+  "generatedAt": "2026-09-17T08:45:47.823Z",
+  "lastChanged": "2026-09-17",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
-  "note": "Entities flagged by national competent authorities (CONSOB/IT, AFM/NL, NBS/SK only) as providing crypto-asset services without MiCA authorisation. NOT a complete EU blacklist: absence does not imply authorisation.",
+  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 5 authorities have reported entries so far (CONSOB/IT 165, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
   "attribution": {
     "source": "CASP Tracker",
     "url": "https://casptracker.eu",
@@ -13,8 +13,138 @@
     "terms": "https://casptracker.eu/llms.txt",
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
-  "count": 167,
+  "count": 174,
+  "regulators": [
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "short": "CONSOB",
+      "homeState": "IT",
+      "count": 165
+    },
+    {
+      "authority": "Financial Services and Markets Authority (FSMA)",
+      "short": "FSMA",
+      "homeState": "BE",
+      "count": 6
+    },
+    {
+      "authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "short": "AFM",
+      "homeState": "NL",
+      "count": 1
+    },
+    {
+      "authority": "Czech National Bank",
+      "short": "Czech National Bank",
+      "homeState": "CZ",
+      "count": 1
+    },
+    {
+      "authority": "National Bank of Slovakia (NBS)",
+      "short": "NBS",
+      "homeState": "SK",
+      "count": 1
+    }
+  ],
   "items": [
+    {
+      "authority": "Financial Services and Markets Authority (FSMA)",
+      "homeState": "BE",
+      "leiName": "Bank Bit",
+      "commercialName": "Bank Bit",
+      "website": "www.bank-bit.com",
+      "domains": [
+        "bank-bit.com"
+      ],
+      "reason": "Bank Bit provides crypto-asset services in Belgium without the required MiCAR license. Bank Bit is in breach of section 59 MiCAR",
+      "decisionDate": "2026-06-29",
+      "comments": "The FSMA issued a public warning against Bank Bit https://www.fsma.be/en/warnings/beware-unauthorized-crypto-asset-service-providers",
+      "lastUpdate": "2026-09-07"
+    },
+    {
+      "authority": "Financial Services and Markets Authority (FSMA)",
+      "homeState": "BE",
+      "leiName": "Bithf Pro",
+      "commercialName": "Bithf Pro",
+      "website": "www.bitfpro.org",
+      "domains": [
+        "bitfpro.org"
+      ],
+      "reason": "Bithf Pro provides crypto-asset services in Belgium without the required MiCAR license. Bithf Pro is in breach of section 59 MiCAR",
+      "decisionDate": "2026-06-29",
+      "comments": "The FSMA issued a public warning against Bithf Pro https://www.fsma.be/en/warnings/beware-unauthorized-crypto-asset-service-providers",
+      "lastUpdate": "2026-09-07"
+    },
+    {
+      "authority": "Financial Services and Markets Authority (FSMA)",
+      "homeState": "BE",
+      "leiName": "Dxago",
+      "commercialName": "Dxago",
+      "website": "www.dxago.com",
+      "domains": [
+        "dxago.com"
+      ],
+      "reason": "Dxago provides crypto-asset services in Belgium without the required MiCAR license. Dxago is in breach of section 59 MiCAR",
+      "decisionDate": "2026-06-29",
+      "comments": "The FSMA issued a public warning against Dxago https://www.fsma.be/en/warnings/beware-unauthorized-crypto-asset-service-providers",
+      "lastUpdate": "2026-09-07"
+    },
+    {
+      "authority": "Financial Services and Markets Authority (FSMA)",
+      "homeState": "BE",
+      "leiName": "Global Dynamic Trade",
+      "commercialName": "Global Dynamic Trade",
+      "website": "www.globaldynamictrade.org",
+      "domains": [
+        "globaldynamictrade.org"
+      ],
+      "reason": "Global Dynamic Trade provides crypto-asset services in Belgium without the required MiCAR license. Global Dynamic Trade is in breach of section 59 MiCAR",
+      "decisionDate": "2026-06-29",
+      "comments": "The FSMA issued a public warning against Global Dynamic Trade https://www.fsma.be/en/warnings/beware-unauthorized-crypto-asset-service-providers",
+      "lastUpdate": "2026-09-07"
+    },
+    {
+      "authority": "Financial Services and Markets Authority (FSMA)",
+      "homeState": "BE",
+      "leiName": "ZeriaFunding",
+      "commercialName": "ZeriaFunding",
+      "website": "www.zeriafunding.com",
+      "domains": [
+        "zeriafunding.com"
+      ],
+      "reason": "ZeriaFunding provides crypto-asset services in Belgium without the required MiCAR license. ZeriaFunding is in breach of section 59 MiCAR",
+      "decisionDate": "2026-06-29",
+      "comments": "The FSMA issued a public warning against ZeriaFunding https://www.fsma.be/en/warnings/beware-unauthorized-crypto-asset-service-providers",
+      "lastUpdate": "2026-09-07"
+    },
+    {
+      "authority": "Financial Services and Markets Authority (FSMA)",
+      "homeState": "BE",
+      "leiName": "Aurum Foundation",
+      "commercialName": "Aurum Foundation",
+      "website": "www.aurum.foundation",
+      "domains": [
+        "aurum.foundation"
+      ],
+      "reason": "Aurum Foundation provides crypto-asset services in Belgium without the required MiCAR license. Aurum Foundation is in breach of section 59 MiCAR",
+      "decisionDate": "2026-06-29",
+      "comments": "The FSMA issued a public warning against Aurum Foundation https://www.fsma.be/en/warnings/beware-unauthorized-crypto-asset-service-providers",
+      "lastUpdate": "2026-09-07"
+    },
+    {
+      "authority": "Czech National Bank",
+      "homeState": "CZ",
+      "leiName": "White Mint Financial Company s.r.o.",
+      "commercialName": "White Mint Financial Company s.r.o.",
+      "website": "https://algosone.ai/",
+      "domains": [
+        "algosone.ai"
+      ],
+      "reason": "White Mint Financial Company provides crypto-asset services without the required MiCA licence.",
+      "decisionDate": "2026-08-25",
+      "comments": "The CNB issued a public warning.",
+      "lastUpdate": "2026-09-14"
+    },
     {
       "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
       "homeState": "IT",
