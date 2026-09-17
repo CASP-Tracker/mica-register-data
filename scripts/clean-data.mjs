@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { detectServices } from "../src/lib/services.js";
+import { detectServices, unmatchedServiceLabels } from "../src/lib/services.js";
 import { normalizeCountry } from "../src/lib/countries.js";
 import { DATASET_ATTRIBUTION, ctId } from "../src/lib/provenance.js";
 import { resolveLastChanged } from "./last-changed.mjs";
@@ -434,6 +434,10 @@ function uniqueSlug(base, homeState) {
 }
 
 const parsed = [];
+// Service labels that resolved to no service at all, reported at the end of the
+// run. Silence here is what let 16 providers ship without service d for weeks
+// (see EXCHANGE_STUB in src/lib/services.js).
+const unmatchedLabels = [];
 for (let i = 1; i < rows.length; i++) {
   const r = rows[i];
   if (!r || r.every((c) => !clean(c))) continue;
@@ -444,6 +448,7 @@ for (let i = 1; i < rows.length; i++) {
   const commercial = clean(r[5]);
   const name = NAME_BY_LEI[lei] || commercial || legalName;
   if (!name) continue;
+  for (const label of unmatchedServiceLabels(r[11] || "")) unmatchedLabels.push({ name, label });
 
   const homeState = normalizeCountry(r[1]) || clean(r[1]).toUpperCase();
   const website = normalizeWebsite(r[7], r[8], lei);
@@ -589,3 +594,12 @@ const noServices = items.filter((i) => i.services.length === 0).length;
 const noCountries = items.filter((i) => i.countries.length === 0).length;
 console.log(`Records with no detected services: ${noServices}`);
 console.log(`Records with no passporting countries: ${noCountries}`);
+if (unmatchedLabels.length) {
+  console.warn(
+    `\n!! ${unmatchedLabels.length} service label(s) matched NO MiCA service and were dropped. ` +
+      "Check each against the home regulator's register, then teach src/lib/services.js the wording:",
+  );
+  for (const u of unmatchedLabels) console.warn(`   ${u.name}: ${JSON.stringify(u.label)}`);
+} else {
+  console.log("Service labels that matched no MiCA service: 0");
+}
