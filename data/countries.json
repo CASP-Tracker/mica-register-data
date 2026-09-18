@@ -1,0 +1,1104 @@
+{
+  "generatedAt": "2026-09-18T08:10:06.574Z",
+  "lastChanged": "2026-09-17",
+  "source": {
+    "casps": "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv",
+    "ncasps": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
+    "emts": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv"
+  },
+  "note": "Per-country statistics DERIVED by CASP Tracker from the cleaned ESMA registers (casps.json, ncasps.json, emts.json); none of these figures exists in ESMA's own files. One record per EEA state (EU-27 plus Iceland, Liechtenstein and Norway), sorted by licences issued. `licences` counts entries by home state, authorisations and Article 60 notifications together, exactly as ESMA lists them. `serving` = home licences + providers passported in from other states. `exchanges` = licences covering MiCA services b, c or d. `banks` is a legal-name heuristic, not a register field. `future` entries carry an authorisation date after the last verification and are included in `licences`. `warnings` counts NCASP entries filed by the country's regulator; only five regulators report to that list, so 0 means none reported, not none issued.",
+  "attribution": {
+    "source": "CASP Tracker",
+    "url": "https://casptracker.eu",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseNote": "CC BY 4.0: reuse requires attribution to CASP Tracker with a link to https://casptracker.eu.",
+    "citation": "Source: CASP Tracker (casptracker.eu), based on the ESMA MiCA interim registers.",
+    "methodology": "https://casptracker.eu/about/#methodology",
+    "terms": "https://casptracker.eu/llms.txt",
+    "repository": "https://github.com/CASP-Tracker/mica-register-data"
+  },
+  "count": 30,
+  "totals": {
+    "count": 349,
+    "sourceRows": 352,
+    "lastDataUpdate": "2026-09-15",
+    "states": 30,
+    "countriesWith": 26,
+    "zeroStates": [
+      "GR",
+      "HU",
+      "PL",
+      "RO"
+    ],
+    "regulators": 27,
+    "futureDated": 4,
+    "exchanges": 190,
+    "banks": 66
+  },
+  "items": [
+    {
+      "cc": "DE",
+      "name": "Germany",
+      "slug": "germany",
+      "licences": 91,
+      "share": 26.1,
+      "passportedIn": 180,
+      "serving": 271,
+      "exchanges": 16,
+      "exchangesServing": 148,
+      "tradingPlatforms": 2,
+      "custody": 17,
+      "banks": 54,
+      "onlyExecution": 46,
+      "capitalClasses": [
+        65,
+        24,
+        2
+      ],
+      "avgServices": 1.88,
+      "medianMarkets": 1,
+      "homeOnly": 74,
+      "first": "2025-01-17",
+      "latest": "2026-09-17",
+      "future": 4,
+      "last12mo": 68,
+      "regulators": [
+        {
+          "full": "Federal Financial Supervisory Authority (BaFin)",
+          "short": "BaFin"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "FR",
+      "name": "France",
+      "slug": "france",
+      "licences": 35,
+      "share": 10,
+      "passportedIn": 160,
+      "serving": 195,
+      "exchanges": 22,
+      "exchangesServing": 142,
+      "tradingPlatforms": 1,
+      "custody": 27,
+      "banks": 2,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        4,
+        30,
+        1
+      ],
+      "avgServices": 4.09,
+      "medianMarkets": 14,
+      "homeOnly": 5,
+      "first": "2025-05-23",
+      "latest": "2026-07-28",
+      "future": 0,
+      "last12mo": 28,
+      "regulators": [
+        {
+          "full": "Autorité des Marchés Financiers (AMF)",
+          "short": "AMF"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 6
+    },
+    {
+      "cc": "NL",
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "licences": 29,
+      "share": 8.3,
+      "passportedIn": 169,
+      "serving": 198,
+      "exchanges": 17,
+      "exchangesServing": 144,
+      "tradingPlatforms": 3,
+      "custody": 21,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        2,
+        24,
+        3
+      ],
+      "avgServices": 3.07,
+      "medianMarkets": 30,
+      "homeOnly": 5,
+      "first": "2024-12-30",
+      "latest": "2026-07-16",
+      "future": 0,
+      "last12mo": 15,
+      "regulators": [
+        {
+          "full": "Netherlands Authority for the Financial Markets (AFM)",
+          "short": "AFM"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 1,
+      "emtIssuers": 2
+    },
+    {
+      "cc": "CY",
+      "name": "Cyprus",
+      "slug": "cyprus",
+      "licences": 25,
+      "share": 7.2,
+      "passportedIn": 149,
+      "serving": 174,
+      "exchanges": 21,
+      "exchangesServing": 130,
+      "tradingPlatforms": 2,
+      "custody": 24,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        1,
+        22,
+        2
+      ],
+      "avgServices": 5.88,
+      "medianMarkets": 30,
+      "homeOnly": 4,
+      "first": "2025-01-16",
+      "latest": "2026-07-20",
+      "future": 0,
+      "last12mo": 24,
+      "regulators": [
+        {
+          "full": "Cyprus Securities and Exchange Commission (CySEC)",
+          "short": "CySEC"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "MT",
+      "name": "Malta",
+      "slug": "malta",
+      "licences": 22,
+      "share": 6.3,
+      "passportedIn": 148,
+      "serving": 170,
+      "exchanges": 16,
+      "exchangesServing": 125,
+      "tradingPlatforms": 3,
+      "custody": 21,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        1,
+        18,
+        3
+      ],
+      "avgServices": 4.95,
+      "medianMarkets": 29,
+      "homeOnly": 4,
+      "first": "2025-01-27",
+      "latest": "2026-06-30",
+      "future": 0,
+      "last12mo": 15,
+      "regulators": [
+        {
+          "full": "Malta Financial Services Authority (MFSA)",
+          "short": "MFSA"
+        }
+      ],
+      "ncaNumberStatus": "informal",
+      "warnings": 0,
+      "emtIssuers": 2
+    },
+    {
+      "cc": "ES",
+      "name": "Spain",
+      "slug": "spain",
+      "licences": 15,
+      "share": 4.3,
+      "passportedIn": 184,
+      "serving": 199,
+      "exchanges": 6,
+      "exchangesServing": 140,
+      "tradingPlatforms": 0,
+      "custody": 11,
+      "banks": 3,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        2,
+        13,
+        0
+      ],
+      "avgServices": 3.13,
+      "medianMarkets": 1,
+      "homeOnly": 8,
+      "first": "2025-03-05",
+      "latest": "2026-07-31",
+      "future": 0,
+      "last12mo": 12,
+      "regulators": [
+        {
+          "full": "Comision Nacional del Mercado de Valores (CNMV)",
+          "short": "CNMV"
+        }
+      ],
+      "ncaNumberStatus": "none",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "LU",
+      "name": "Luxembourg",
+      "slug": "luxembourg",
+      "licences": 13,
+      "share": 3.7,
+      "passportedIn": 173,
+      "serving": 186,
+      "exchanges": 8,
+      "exchangesServing": 136,
+      "tradingPlatforms": 1,
+      "custody": 10,
+      "banks": 1,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        12,
+        1
+      ],
+      "avgServices": 3.69,
+      "medianMarkets": 29,
+      "homeOnly": 0,
+      "first": "2025-02-07",
+      "latest": "2026-07-03",
+      "future": 0,
+      "last12mo": 10,
+      "regulators": [
+        {
+          "full": "Commission de Surveillance du Secteur Financier (CSSF)",
+          "short": "CSSF"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 3
+    },
+    {
+      "cc": "CZ",
+      "name": "Czechia",
+      "slug": "czechia",
+      "licences": 12,
+      "share": 3.4,
+      "passportedIn": 170,
+      "serving": 182,
+      "exchanges": 9,
+      "exchangesServing": 136,
+      "tradingPlatforms": 2,
+      "custody": 9,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        2,
+        8,
+        2
+      ],
+      "avgServices": 4,
+      "medianMarkets": 1,
+      "homeOnly": 8,
+      "first": "2026-02-11",
+      "latest": "2026-07-29",
+      "future": 0,
+      "last12mo": 12,
+      "regulators": [
+        {
+          "full": "Czech National Bank (CNB)",
+          "short": "CNB"
+        }
+      ],
+      "ncaNumberStatus": "none",
+      "warnings": 1,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "IE",
+      "name": "Ireland",
+      "slug": "ireland",
+      "licences": 12,
+      "share": 3.4,
+      "passportedIn": 166,
+      "serving": 178,
+      "exchanges": 11,
+      "exchangesServing": 129,
+      "tradingPlatforms": 2,
+      "custody": 5,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        1,
+        9,
+        2
+      ],
+      "avgServices": 3.17,
+      "medianMarkets": 30,
+      "homeOnly": 0,
+      "first": "2025-06-25",
+      "latest": "2026-04-28",
+      "future": 0,
+      "last12mo": 10,
+      "regulators": [
+        {
+          "full": "Central Bank of Ireland (CBI)",
+          "short": "CBI"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "LI",
+      "name": "Liechtenstein",
+      "slug": "liechtenstein",
+      "licences": 12,
+      "share": 3.4,
+      "passportedIn": 148,
+      "serving": 160,
+      "exchanges": 7,
+      "exchangesServing": 119,
+      "tradingPlatforms": 2,
+      "custody": 9,
+      "banks": 3,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        2,
+        8,
+        2
+      ],
+      "avgServices": 3.5,
+      "medianMarkets": 25.5,
+      "homeOnly": 3,
+      "first": "2025-12-01",
+      "latest": "2026-07-10",
+      "future": 0,
+      "last12mo": 12,
+      "regulators": [
+        {
+          "full": "Finanzmarktaufsicht (FMA)",
+          "short": "FMA"
+        }
+      ],
+      "ncaNumberStatus": "informal",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "AT",
+      "name": "Austria",
+      "slug": "austria",
+      "licences": 11,
+      "share": 3.2,
+      "passportedIn": 168,
+      "serving": 179,
+      "exchanges": 9,
+      "exchangesServing": 132,
+      "tradingPlatforms": 0,
+      "custody": 9,
+      "banks": 0,
+      "onlyExecution": 1,
+      "capitalClasses": [
+        2,
+        9,
+        0
+      ],
+      "avgServices": 4.09,
+      "medianMarkets": 29,
+      "homeOnly": 1,
+      "first": "2025-04-09",
+      "latest": "2026-07-07",
+      "future": 0,
+      "last12mo": 9,
+      "regulators": [
+        {
+          "full": "Austrian Financial Market Authority (FMA)",
+          "short": "FMA"
+        }
+      ],
+      "ncaNumberStatus": "none",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "LV",
+      "name": "Latvia",
+      "slug": "latvia",
+      "licences": 10,
+      "share": 2.9,
+      "passportedIn": 158,
+      "serving": 168,
+      "exchanges": 9,
+      "exchangesServing": 127,
+      "tradingPlatforms": 1,
+      "custody": 8,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        9,
+        1
+      ],
+      "avgServices": 4.2,
+      "medianMarkets": 30,
+      "homeOnly": 0,
+      "first": "2025-12-03",
+      "latest": "2026-07-08",
+      "future": 0,
+      "last12mo": 10,
+      "regulators": [
+        {
+          "full": "Latvijas Banka",
+          "short": "Latvijas Banka"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "IT",
+      "name": "Italy",
+      "slug": "italy",
+      "licences": 9,
+      "share": 2.6,
+      "passportedIn": 186,
+      "serving": 195,
+      "exchanges": 7,
+      "exchangesServing": 143,
+      "tradingPlatforms": 0,
+      "custody": 7,
+      "banks": 1,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        9,
+        0
+      ],
+      "avgServices": 4.11,
+      "medianMarkets": 1,
+      "homeOnly": 6,
+      "first": "2026-04-27",
+      "latest": "2026-06-30",
+      "future": 0,
+      "last12mo": 9,
+      "regulators": [
+        {
+          "full": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+          "short": "CONSOB"
+        }
+      ],
+      "ncaNumberStatus": "informal",
+      "warnings": 165,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "DK",
+      "name": "Denmark",
+      "slug": "denmark",
+      "licences": 7,
+      "share": 2,
+      "passportedIn": 164,
+      "serving": 171,
+      "exchanges": 4,
+      "exchangesServing": 126,
+      "tradingPlatforms": 0,
+      "custody": 4,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        7,
+        0
+      ],
+      "avgServices": 3.43,
+      "medianMarkets": 30,
+      "homeOnly": 0,
+      "first": "2025-09-15",
+      "latest": "2026-06-30",
+      "future": 0,
+      "last12mo": 7,
+      "regulators": [
+        {
+          "full": "Finanstilsynet",
+          "short": "Finanstilsynet"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "HR",
+      "name": "Croatia",
+      "slug": "croatia",
+      "licences": 6,
+      "share": 1.7,
+      "passportedIn": 166,
+      "serving": 172,
+      "exchanges": 5,
+      "exchangesServing": 130,
+      "tradingPlatforms": 0,
+      "custody": 4,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        6,
+        0
+      ],
+      "avgServices": 2.67,
+      "medianMarkets": 2,
+      "homeOnly": 3,
+      "first": "2026-04-09",
+      "latest": "2026-06-17",
+      "future": 0,
+      "last12mo": 6,
+      "regulators": [
+        {
+          "full": "Croatian Financial Services Supervisory Agency (HANFA)",
+          "short": "HANFA"
+        },
+        {
+          "full": "Croatian National Bank",
+          "short": "Croatian National Bank"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "LT",
+      "name": "Lithuania",
+      "slug": "lithuania",
+      "licences": 6,
+      "share": 1.7,
+      "passportedIn": 168,
+      "serving": 174,
+      "exchanges": 3,
+      "exchangesServing": 130,
+      "tradingPlatforms": 0,
+      "custody": 6,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        6,
+        0
+      ],
+      "avgServices": 3.5,
+      "medianMarkets": 29,
+      "homeOnly": 2,
+      "first": "2025-05-13",
+      "latest": "2026-02-26",
+      "future": 0,
+      "last12mo": 4,
+      "regulators": [
+        {
+          "full": "Bank of Lithuania (LSC)",
+          "short": "LSC"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 2
+    },
+    {
+      "cc": "NO",
+      "name": "Norway",
+      "slug": "norway",
+      "licences": 6,
+      "share": 1.7,
+      "passportedIn": 151,
+      "serving": 157,
+      "exchanges": 4,
+      "exchangesServing": 116,
+      "tradingPlatforms": 2,
+      "custody": 5,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        1,
+        3,
+        2
+      ],
+      "avgServices": 4.17,
+      "medianMarkets": 4,
+      "homeOnly": 1,
+      "first": "2026-02-02",
+      "latest": "2026-06-29",
+      "future": 0,
+      "last12mo": 6,
+      "regulators": [
+        {
+          "full": "Norwegian Financial Supervisory Authority (Finanstilsynet)",
+          "short": "Finanstilsynet"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "SK",
+      "name": "Slovakia",
+      "slug": "slovakia",
+      "licences": 6,
+      "share": 1.7,
+      "passportedIn": 164,
+      "serving": 170,
+      "exchanges": 5,
+      "exchangesServing": 131,
+      "tradingPlatforms": 0,
+      "custody": 6,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        6,
+        0
+      ],
+      "avgServices": 4.83,
+      "medianMarkets": 30,
+      "homeOnly": 0,
+      "first": "2025-12-18",
+      "latest": "2026-01-15",
+      "future": 0,
+      "last12mo": 6,
+      "regulators": [
+        {
+          "full": "National Bank of Slovakia (NBS)",
+          "short": "NBS"
+        }
+      ],
+      "ncaNumberStatus": "none",
+      "warnings": 1,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "BG",
+      "name": "Bulgaria",
+      "slug": "bulgaria",
+      "licences": 5,
+      "share": 1.4,
+      "passportedIn": 164,
+      "serving": 169,
+      "exchanges": 4,
+      "exchangesServing": 128,
+      "tradingPlatforms": 1,
+      "custody": 4,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        4,
+        1
+      ],
+      "avgServices": 5,
+      "medianMarkets": 1,
+      "homeOnly": 5,
+      "first": "2025-12-22",
+      "latest": "2026-09-10",
+      "future": 0,
+      "last12mo": 5,
+      "regulators": [
+        {
+          "full": "Financial Supervision Commission (FSC)",
+          "short": "FSC"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "FI",
+      "name": "Finland",
+      "slug": "finland",
+      "licences": 5,
+      "share": 1.4,
+      "passportedIn": 167,
+      "serving": 172,
+      "exchanges": 2,
+      "exchangesServing": 128,
+      "tradingPlatforms": 0,
+      "custody": 4,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        5,
+        0
+      ],
+      "avgServices": 3.6,
+      "medianMarkets": 3,
+      "homeOnly": 1,
+      "first": "2025-07-02",
+      "latest": "2025-12-02",
+      "future": 0,
+      "last12mo": 2,
+      "regulators": [
+        {
+          "full": "Finanssivalvonta (FIN-FSA)",
+          "short": "FIN-FSA"
+        }
+      ],
+      "ncaNumberStatus": "none",
+      "warnings": 0,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "SI",
+      "name": "Slovenia",
+      "slug": "slovenia",
+      "licences": 4,
+      "share": 1.1,
+      "passportedIn": 168,
+      "serving": 172,
+      "exchanges": 1,
+      "exchangesServing": 130,
+      "tradingPlatforms": 0,
+      "custody": 3,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        1,
+        3,
+        0
+      ],
+      "avgServices": 3.25,
+      "medianMarkets": 16.5,
+      "homeOnly": 1,
+      "first": "2025-10-04",
+      "latest": "2026-08-24",
+      "future": 0,
+      "last12mo": 4,
+      "regulators": [
+        {
+          "full": "Securities Market Agency (ATVP)",
+          "short": "ATVP"
+        }
+      ],
+      "ncaNumberStatus": "informal",
+      "warnings": 0,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "EE",
+      "name": "Estonia",
+      "slug": "estonia",
+      "licences": 3,
+      "share": 0.9,
+      "passportedIn": 167,
+      "serving": 170,
+      "exchanges": 1,
+      "exchangesServing": 128,
+      "tradingPlatforms": 0,
+      "custody": 3,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        3,
+        0
+      ],
+      "avgServices": 3,
+      "medianMarkets": 30,
+      "homeOnly": 1,
+      "first": "2025-11-17",
+      "latest": "2026-06-15",
+      "future": 0,
+      "last12mo": 3,
+      "regulators": [
+        {
+          "full": "Estonian Financial Supervision Authority (EFSA)",
+          "short": "EFSA"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "BE",
+      "name": "Belgium",
+      "slug": "belgium",
+      "licences": 2,
+      "share": 0.6,
+      "passportedIn": 189,
+      "serving": 191,
+      "exchanges": 0,
+      "exchangesServing": 139,
+      "tradingPlatforms": 0,
+      "custody": 2,
+      "banks": 1,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        2,
+        0
+      ],
+      "avgServices": 2.5,
+      "medianMarkets": 1,
+      "homeOnly": 2,
+      "first": "2026-07-20",
+      "latest": "2026-07-20",
+      "future": 0,
+      "last12mo": 1,
+      "regulators": [
+        {
+          "full": "National Bank of Belgium (NBB)",
+          "short": "NBB"
+        }
+      ],
+      "ncaNumberStatus": "none",
+      "warnings": 6,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "IS",
+      "name": "Iceland",
+      "slug": "iceland",
+      "licences": 1,
+      "share": 0.3,
+      "passportedIn": 147,
+      "serving": 148,
+      "exchanges": 1,
+      "exchangesServing": 111,
+      "tradingPlatforms": 0,
+      "custody": 1,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        1,
+        0
+      ],
+      "avgServices": 4,
+      "medianMarkets": 1,
+      "homeOnly": 1,
+      "first": "2026-06-25",
+      "latest": "2026-06-25",
+      "future": 0,
+      "last12mo": 1,
+      "regulators": [
+        {
+          "full": "Central Bank of Iceland",
+          "short": "Central Bank of Iceland"
+        }
+      ],
+      "ncaNumberStatus": "none",
+      "warnings": 0,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "PT",
+      "name": "Portugal",
+      "slug": "portugal",
+      "licences": 1,
+      "share": 0.3,
+      "passportedIn": 180,
+      "serving": 181,
+      "exchanges": 1,
+      "exchangesServing": 135,
+      "tradingPlatforms": 0,
+      "custody": 1,
+      "banks": 1,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        1,
+        0
+      ],
+      "avgServices": 8,
+      "medianMarkets": 6,
+      "homeOnly": 0,
+      "first": "2026-05-19",
+      "latest": "2026-05-19",
+      "future": 0,
+      "last12mo": 1,
+      "regulators": [
+        {
+          "full": "Banco de Portugal",
+          "short": "Banco de Portugal"
+        }
+      ],
+      "ncaNumberStatus": "none",
+      "warnings": 0,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "SE",
+      "name": "Sweden",
+      "slug": "sweden",
+      "licences": 1,
+      "share": 0.3,
+      "passportedIn": 174,
+      "serving": 175,
+      "exchanges": 1,
+      "exchangesServing": 129,
+      "tradingPlatforms": 0,
+      "custody": 1,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        1,
+        0
+      ],
+      "avgServices": 6,
+      "medianMarkets": 1,
+      "homeOnly": 1,
+      "first": "2025-10-13",
+      "latest": "2025-10-13",
+      "future": 0,
+      "last12mo": 1,
+      "regulators": [
+        {
+          "full": "Finansinspektionen",
+          "short": "Finansinspektionen"
+        }
+      ],
+      "ncaNumberStatus": "register",
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "GR",
+      "name": "Greece",
+      "slug": "greece",
+      "licences": 0,
+      "share": 0,
+      "passportedIn": 170,
+      "serving": 170,
+      "exchanges": 0,
+      "exchangesServing": 127,
+      "tradingPlatforms": 0,
+      "custody": 0,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        0,
+        0
+      ],
+      "avgServices": 0,
+      "medianMarkets": 0,
+      "homeOnly": 0,
+      "first": null,
+      "latest": null,
+      "future": 0,
+      "last12mo": 0,
+      "regulators": [],
+      "ncaNumberStatus": null,
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "HU",
+      "name": "Hungary",
+      "slug": "hungary",
+      "licences": 0,
+      "share": 0,
+      "passportedIn": 167,
+      "serving": 167,
+      "exchanges": 0,
+      "exchangesServing": 126,
+      "tradingPlatforms": 0,
+      "custody": 0,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        0,
+        0
+      ],
+      "avgServices": 0,
+      "medianMarkets": 0,
+      "homeOnly": 0,
+      "first": null,
+      "latest": null,
+      "future": 0,
+      "last12mo": 0,
+      "regulators": [],
+      "ncaNumberStatus": null,
+      "warnings": 0,
+      "emtIssuers": 0
+    },
+    {
+      "cc": "PL",
+      "name": "Poland",
+      "slug": "poland",
+      "licences": 0,
+      "share": 0,
+      "passportedIn": 173,
+      "serving": 173,
+      "exchanges": 0,
+      "exchangesServing": 130,
+      "tradingPlatforms": 0,
+      "custody": 0,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        0,
+        0
+      ],
+      "avgServices": 0,
+      "medianMarkets": 0,
+      "homeOnly": 0,
+      "first": null,
+      "latest": null,
+      "future": 0,
+      "last12mo": 0,
+      "regulators": [],
+      "ncaNumberStatus": null,
+      "warnings": 0,
+      "emtIssuers": 1
+    },
+    {
+      "cc": "RO",
+      "name": "Romania",
+      "slug": "romania",
+      "licences": 0,
+      "share": 0,
+      "passportedIn": 166,
+      "serving": 166,
+      "exchanges": 0,
+      "exchangesServing": 126,
+      "tradingPlatforms": 0,
+      "custody": 0,
+      "banks": 0,
+      "onlyExecution": 0,
+      "capitalClasses": [
+        0,
+        0,
+        0
+      ],
+      "avgServices": 0,
+      "medianMarkets": 0,
+      "homeOnly": 0,
+      "first": null,
+      "latest": null,
+      "future": 0,
+      "last12mo": 0,
+      "regulators": [],
+      "ncaNumberStatus": null,
+      "warnings": 0,
+      "emtIssuers": 0
+    }
+  ]
+}

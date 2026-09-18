@@ -13,6 +13,7 @@ Cleaned, machine-readable datasets from the European Securities and Markets Auth
 | [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **174** | Non-compliant entities flagged by national regulators |
 | [`data/emts.json`](data/emts.json) | EMT issuers | **24** issuers (49 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
+| [`data/countries.json`](data/countries.json) | Licences by country (derived) | **30** EEA states | Per-country statistics derived from the three datasets above: licences by home state, providers passported in, licensed exchanges, regulators, warnings, EMT issuers. No ESMA counterpart |
 
 `source/` holds the raw ESMA CSV snapshots the datasets are built from (`CASPS.csv`, `NCASP.csv`, `EMTWP.csv`, `ARTZZ.csv`). Filenames are stable, so **the git history of this repository doubles as a changelog of the ESMA registers**: every refresh commit shows exactly which entries were added or changed. ESMA itself does not publish register history.
 
@@ -35,7 +36,7 @@ Full methodology: the **CASP Tracker Verification Protocol**, described at <http
 
 ## Schema
 
-All JSON files share the same top level: `generatedAt` (build timestamp), `lastChanged`, `source` (ESMA CSV URL), `count`, and `items[]`. `casps.json` additionally carries `lastDataUpdate` (the newest record date inside the register).
+All JSON files share the same top level: `generatedAt` (build timestamp), `lastChanged`, `source` (the ESMA CSV URL, or for the derived `countries.json` the three URLs it is built from), `count`, and `items[]`. `casps.json` additionally carries `lastDataUpdate` (the newest record date inside the register).
 
 Three dates that are easy to confuse, and deliberately are not the same thing:
 
@@ -123,6 +124,29 @@ One item per issuer, merged by LEI and legal name from ESMA's register of EMT wh
 
 Same top-level shape; `items` is empty because no ART issuer has been authorised in the EU yet.
 
+### `data/countries.json` (MiCA licences by country, derived)
+
+Unlike the four datasets above, this one has no ESMA counterpart: every figure is derived by CASP Tracker from `casps.json`, `ncasps.json` and `emts.json`, one item per EEA state (EU-27 plus Iceland, Liechtenstein and Norway), sorted by licences issued. It feeds <https://casptracker.eu/crypto-license-in-europe-by-country/>. Next to `count` and `items` the top level carries `totals` (register-wide figures: `count`, `sourceRows`, `lastDataUpdate`, `states`, `countriesWith`, `zeroStates`, `regulators`, `futureDated`, `exchanges`, `banks`), and `source` lists the three ESMA CSVs the inputs come from. "Last verification" below means the date at the top of this file.
+
+| Field | Meaning |
+|---|---|
+| `cc`, `name`, `slug` | ISO 3166-1 alpha-2 code, English name, URL segment of the country page (`/crypto-license-in-<slug>/`) |
+| `licences` | Entries whose home state (`ae_homeMemberState`) is this country. Authorisations and Article 60 notifications are counted together, exactly as ESMA lists them in `ac_authorisationNotificationDate` |
+| `share` | `licences` as a percentage of all entries in `casps.json`, one decimal |
+| `passportedIn` | Entries licensed in another EEA state that list this country in their passporting column (`ac_serviceCode_cou`) |
+| `serving` | `licences` + `passportedIn`: every provider allowed to serve the country's residents |
+| `exchanges`, `exchangesServing` | Licences covering a trading platform or exchange services (MiCA services b, c or d), among home licences and among `serving` |
+| `tradingPlatforms`, `custody` | Home licences covering service b, and service a |
+| `banks` | Home licences whose legal name reads as a bank (bank, Volksbank, Raiffeisen, Sparkasse, eG and similar). A heuristic, not a register field |
+| `onlyExecution` | Home licences whose only service is e (execution of orders) |
+| `capitalClasses` | `[class 1, class 2, class 3]` counts per MiCA Annex IV (EUR 50,000 / 125,000 / 150,000), the highest class implied by each service set |
+| `avgServices`, `medianMarkets`, `homeOnly` | Average number of services per home licence, median number of EEA markets a home licence is notified to (no passporting counts as 1), and home licences notified to no other market |
+| `first`, `latest`, `future`, `last12mo` | Earliest and most recent authorisation dates (`latest` ignores rows dated after the last verification), rows dated after the last verification (still counted in `licences`), and rows dated within 12 months before the newest record |
+| `regulators` | Distinct authorities among home licences: `{full, short}` |
+| `ncaNumberStatus` | Whether the home regulator assigns a MiCA reference number (`register`, `informal`, `none`), `null` for states with no licences |
+| `warnings` | NCASP entries filed by this country's regulator. Only five regulators report to that list, so 0 means none reported, not none issued |
+| `emtIssuers` | Authorised e-money token issuers based in the country |
+
 ## Scripts
 
 `scripts/` contains the cleaning scripts exactly as used in the casptracker.eu build pipeline, published for transparency of the methodology:
@@ -130,6 +154,7 @@ Same top-level shape; `items` is empty because no ART issuer has been authorised
 - `clean-data.mjs`: `CASPS.csv` to `casps.json` (also joins in the company-register and NCA-reference numbers below)
 - `clean-ncasp.mjs`: `NCASP.csv` to `ncasps.json`
 - `clean-token-issuers.mjs`: `EMTWP.csv` + `ARTZZ.csv` to `emts.json` + `arts.json`
+- `build-country-stats.mjs`: `casps.json` + `ncasps.json` + `emts.json` to `countries.json` (the derived per-country statistics; the field definitions are in its header)
 - `fetch-register-numbers.mjs`: resolves every CASP's national company-register number from the free public GLEIF API by LEI
 - `fetch-nca-numbers.mjs`: fetches MiCA-specific regulator reference numbers in bulk from the five national sources confirmed machine-readable so far (Netherlands/AFM, France/AMF, Luxembourg/CSSF, Croatia/HANFA, Denmark/Finanstilsynet); prints a diff against the hand-curated overrides in `clean-data.mjs` rather than writing data directly, so each new number gets a sanity check before it ships
 
@@ -151,4 +176,5 @@ Note on source stability: ESMA has announced that the interim CSV registers will
 - ESMA crypto warning list: <https://casptracker.eu/esma-crypto-warning-list/>
 - MiCA stablecoin (EMT) list: <https://casptracker.eu/e-money-token-list-under-mica/>
 - Asset-referenced tokens (ART): <https://casptracker.eu/asset-referenced-tokens-art/>
+- MiCA licences by country: <https://casptracker.eu/crypto-license-in-europe-by-country/>
 - Contact: <contact@casptracker.eu>
