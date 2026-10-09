@@ -162,6 +162,31 @@ const LEI_FIX = {
   "724500YJVIN0Q94ZZG5": "724500YJVIN0Q94ZZG58", // WEB3 Technology B.V. (Ari10)
 };
 
+// Year typos in ESMA's date columns, keyed by LEI. Each field carries
+// [wrong raw value, corrected raw value]: the fix applies ONLY while the source
+// still holds the wrong value, so it goes inert by itself the moment ESMA
+// corrects the row (or changes it to anything else) and can never overwrite a
+// legitimate later date. The drawer prints the RAW text, so both `iso` and `raw`
+// are replaced.
+const DATE_FIX_BY_LEI = {
+  // ESMA (2026-09-24) lists REGULAR FINANCE SAS with authorisation date AND record
+  // stamp 11/09/2028. AMF's own register (data.gouv.fr, agrement MiCA A2026-030)
+  // gives 2026-09-11, so it is a year typo. Left as is, it added ~24 empty months
+  // to the /what-is-casp/ timeline, moved the "last 12 months" window in
+  // countries.json two years ahead, and put "Newest record: 2028-09-11" into llms.txt.
+  "969500Y5SNO2WBYDB059": {
+    authDate: ["11/09/2028", "11/09/2026"],
+    lastUpdate: ["11/09/2028", "11/09/2026"],
+  },
+};
+const dateFixesApplied = [];
+function fixDate(lei, field, name, parsedDate) {
+  const fix = DATE_FIX_BY_LEI[lei]?.[field];
+  if (!fix || parsedDate.raw !== fix[0]) return parsedDate;
+  dateFixesApplied.push(`${name}: ${field} ${fix[0]} -> ${fix[1]}`);
+  return parseDate(fix[1]);
+}
+
 // Whether (and how) each home state's regulator assigns its OWN reference
 // number for a MiCA authorisation - a THIRD identifier, distinct from both
 // the LEI (global, ESMA-published) and the GLEIF-sourced company register
@@ -278,7 +303,8 @@ export const NCA_NUMBER_BY_LEI = {
   "724500B2I1LR33CAWG54": "41000001", // Zebedee Europe B.V.
   "724500G7QSOMFR1GQA47": "41000042", // zerohash europe B.V.
   // France - AMF white list official CSV export (data.gouv.fr, live 2026-08-12,
-  // 35/35 FR entities matched by LEI since 2026-09-17. Until then APLO SAS was
+  // 36/36 FR entities matched by LEI since 2026-09-24 (35/35 from 2026-09-17,
+  // when REGULAR FINANCE SAS had not been listed by ESMA yet). Until 09-17 APLO SAS was
   // the one gap, listed by ESMA under FLOWDESK EUROPE SAS's LEI, see
   // NCA_NUMBER_BY_SLUG below for how that one used to be resolved).
   "969500ULPB59U51BG334": "A2026-021", // ALPHACAP DIGITAL ASSETS SAS
@@ -311,6 +337,7 @@ export const NCA_NUMBER_BY_LEI = {
   "969500VA4A8CRCS2N988": "A2026-015", // PAYTOP SAS
   "969500CMLNBIVUUD9A09": "A2026-014", // QWARKS SAS
   "529900X4PRL0DZNPT990": "N2026-007", // RCUBE ASSET MANAGEMENT
+  "969500Y5SNO2WBYDB059": "A2026-030", // REGULAR FINANCE SAS (AMF CSV 2026-09-24, agrement 2026-09-11)
   "9695003EKRFOMYXJQL11": "A2025-006", // RELAI EU SASU
   "969500FUWSKQEO5J7H72": "A2026-016", // RUFIJI CAPITAL SAS
   "9695001LQMTTVPIIQI05": "A2026-028 / N2026-009", // SHARES FINANCIAL ASSETS SAS
@@ -452,9 +479,9 @@ for (let i = 1; i < rows.length; i++) {
 
   const homeState = normalizeCountry(r[1]) || clean(r[1]).toUpperCase();
   const website = normalizeWebsite(r[7], r[8], lei);
-  const auth = parseDate(r[9]);
+  const auth = fixDate(lei, "authDate", name, parseDate(r[9]));
   const end = parseDate(r[10]);
-  const update = parseDate(r[14]);
+  const update = fixDate(lei, "lastUpdate", name, parseDate(r[14]));
   const brand = BRAND_BY_LEI[lei];
 
   parsed.push({
@@ -590,6 +617,10 @@ const out = {
 writeFileSync(OUT_JSON, JSON.stringify(out, null, 2), "utf8");
 console.log(`Wrote ${items.length} CASPs -> ${OUT_JSON}`);
 console.log(`Latest data update in source: ${lastDataUpdate}`);
+if (dateFixesApplied.length) {
+  console.log(`Source date typos corrected (DATE_FIX_BY_LEI): ${dateFixesApplied.length}`);
+  for (const f of dateFixesApplied) console.log(`   ${f}`);
+}
 const noServices = items.filter((i) => i.services.length === 0).length;
 const noCountries = items.filter((i) => i.countries.length === 0).length;
 console.log(`Records with no detected services: ${noServices}`);
