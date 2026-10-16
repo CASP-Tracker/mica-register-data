@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-09T06:54:29.823Z",
-  "lastChanged": "2026-09-24",
+  "generatedAt": "2026-10-16T16:11:29.479Z",
+  "lastChanged": "2026-10-16",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
-  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 5 authorities have reported entries so far (CONSOB/IT 164, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
+  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 5 authorities have reported entries so far (CONSOB/IT 169, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
   "attribution": {
     "source": "CASP Tracker",
     "url": "https://casptracker.eu",
@@ -13,13 +13,13 @@
     "terms": "https://casptracker.eu/llms.txt",
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
-  "count": 173,
+  "count": 178,
   "regulators": [
     {
       "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
       "short": "CONSOB",
       "homeState": "IT",
-      "count": 164
+      "count": 169
     },
     {
       "authority": "Financial Services and Markets Authority (FSMA)",
@@ -2515,6 +2515,76 @@
       "decisionDate": "2026-09-15",
       "comments": "",
       "lastUpdate": "2026-09-16"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "ASWD78",
+      "commercialName": "ASWD78",
+      "website": "https://aswd78.it",
+      "domains": [
+        "aswd78.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-10-14",
+      "comments": "",
+      "lastUpdate": "2026-10-15"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "CDZG36",
+      "commercialName": "CDZG36",
+      "website": "https://cdzg36.it",
+      "domains": [
+        "cdzg36.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-10-14",
+      "comments": "",
+      "lastUpdate": "2026-10-15"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "EZWQ66",
+      "commercialName": "EZWQ66",
+      "website": "https://ezwq66.it",
+      "domains": [
+        "ezwq66.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-10-14",
+      "comments": "",
+      "lastUpdate": "2026-10-15"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "HREE25",
+      "commercialName": "HREE25",
+      "website": "https://hree25.it",
+      "domains": [
+        "hree25.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-10-14",
+      "comments": "",
+      "lastUpdate": "2026-10-15"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "K9C3Y",
+      "commercialName": "K9C3Y",
+      "website": "https://k9c3y.fr",
+      "domains": [
+        "k9c3y.fr"
+      ],
+      "reason": "",
+      "decisionDate": "2026-10-14",
+      "comments": "",
+      "lastUpdate": "2026-10-15"
     },
     {
       "authority": "Netherlands Authority for the Financial Markets (AFM)",

@@ -2,15 +2,15 @@
 
 Cleaned, machine-readable datasets from the European Securities and Markets Authority (ESMA) interim registers under the EU's **MiCA** regulation (Markets in Crypto-Assets, Regulation (EU) 2023/1114). Maintained by [CASP Tracker](https://casptracker.eu), a searchable directory of MiCA-licensed crypto-asset service providers.
 
-- Last verified against the live ESMA source: **2026-10-09**
-- Newest record date inside the CASP register: **2026-10-06**
+- Last verified against the live ESMA source: **2026-10-16**
+- Newest record date inside the CASP register: **2026-10-15**
 
 ## Datasets
 
 | File | Register | Entries | Description |
 |---|---|---|---|
-| [`data/casps.json`](data/casps.json) | Authorised CASPs | **367** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
-| [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **173** | Non-compliant entities flagged by national regulators |
+| [`data/casps.json`](data/casps.json) | Authorised CASPs | **375** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
+| [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **178** | Non-compliant entities flagged by national regulators |
 | [`data/emts.json`](data/emts.json) | EMT issuers | **25** issuers (50 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
 | [`data/countries.json`](data/countries.json) | Licences by country (derived) | **30** EEA states | Per-country statistics derived from the three datasets above: licences by home state, providers passported in, licensed exchanges, regulators, warnings, EMT issuers. No ESMA counterpart |
@@ -100,7 +100,7 @@ The 10 MiCA crypto-asset services (Art. 3(1)(16) MiCA):
 
 The top level of this file additionally carries `regulators`: one object per national authority that has filed at least one entry (`authority`, `short`, `homeState`, `count`), sorted by entries filed. It is derived from the rows on every build, and the `note` field quotes it, so neither can drift from the data.
 
-Note: the warning list is fed by a small number of national authorities. Currently 5 have filed entries: 164 of 173 come from Italy's CONSOB, 6 from Belgium's FSMA, and one each from the Dutch AFM, the Czech National Bank and Slovakia's NBS. FSMA and the Czech National Bank filed their first entries in September 2026; until then the list had three contributors. It is **not** a complete EU-wide blacklist, and absence from it is not a clean bill of health.
+Note: the warning list is fed by a small number of national authorities. Currently 5 have filed entries: 169 of 178 come from Italy's CONSOB, 6 from Belgium's FSMA, and one each from the Dutch AFM, the Czech National Bank and Slovakia's NBS. FSMA and the Czech National Bank filed their first entries in September 2026; until then the list had three contributors. It is **not** a complete EU-wide blacklist, and absence from it is not a clean bill of health.
 
 ### `data/emts.json` (e-money token issuers)
 

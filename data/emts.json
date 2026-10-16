@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T06:54:30.292Z",
+  "generatedAt": "2026-10-16T16:11:29.858Z",
   "lastChanged": "2026-10-01",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",

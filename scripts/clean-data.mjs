@@ -178,6 +178,21 @@ const DATE_FIX_BY_LEI = {
     authDate: ["11/09/2028", "11/09/2026"],
     lastUpdate: ["11/09/2028", "11/09/2026"],
   },
+  // ESMA (2026-10-16 download) printed ten CONSOB (IT) authorisation dates as
+  // "DD-Mon" with the year dropped (a spreadsheet auto-format of the cell), so the
+  // dd/mm/yyyy parser returned null. Nine of them were dd/mm/2026 in every earlier
+  // download (same day and month, so the year is certain), YouHodler Italy is new:
+  // CONSOB resolution n. 24156 and the firm's press release give 8 October 2026.
+  "549300I7OIUB41P86L19": { authDate: ["27-Apr", "27/04/2026"] }, // Banca Sella
+  "8156006C715AAACC5D19": { authDate: ["06-May", "06/05/2026"] }, // CheckSig
+  "81560042B094A85D8F89": { authDate: ["04-Jun", "04/06/2026"] }, // CoinFlip
+  "8945000EH59XYZHK0B92": { authDate: ["16-Jun", "16/06/2026"] }, // Conio
+  "815600C7E86B02BBE483": { authDate: ["24-Jun", "24/06/2026"] }, // Cryptosmart
+  "984500AEBA8A0HQ44988": { authDate: ["30-Jun", "30/06/2026"] }, // Hercle
+  "9845006D4F5D2E5F8554": { authDate: ["30-Jun", "30/06/2026"] }, // Hodli
+  "815600DCB0E8882D2314": { authDate: ["10-Jun", "10/06/2026"] }, // RIV-Digital
+  "894500I5LYET12OFII30": { authDate: ["08-Oct", "08/10/2026"] }, // YouHodler Italy
+  "815600F1E30AAB016171": { authDate: ["30-Jun", "30/06/2026"] }, // Young Platform
 };
 const dateFixesApplied = [];
 function fixDate(lei, field, name, parsedDate) {
