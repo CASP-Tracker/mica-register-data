@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T06:13:24.768Z",
-  "lastChanged": "2026-10-01",
+  "generatedAt": "2026-10-20T18:24:02.355Z",
+  "lastChanged": "2026-10-20",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
   "attribution": {
@@ -213,7 +213,10 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "EURSM",
+        "USDSM"
+      ],
       "entityAuthDate": "2024-08-05",
       "firstWpDate": "2024-08-08",
       "lastUpdate": "2025-03-24",
@@ -447,7 +450,9 @@
       "ex484": true,
       "ex485": true,
       "exempt": true,
-      "tokens": [],
+      "tokens": [
+        "CZKI"
+      ],
       "entityAuthDate": "2017-04-26",
       "firstWpDate": "2025-05-17",
       "lastUpdate": "2025-10-30",
@@ -571,7 +576,9 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "BLUEUR"
+      ],
       "entityAuthDate": "2022-10-11",
       "firstWpDate": "2025-08-01",
       "lastUpdate": "2025-04-18",
@@ -637,7 +644,11 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "BREUR",
+        "BRUSD",
+        "BRGBP"
+      ],
       "entityAuthDate": "2018-12-21",
       "firstWpDate": "2025-10-22",
       "lastUpdate": "2026-08-28",
@@ -803,7 +814,9 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "HEURO"
+      ],
       "entityAuthDate": "2021-12-02",
       "firstWpDate": "2026-02-26",
       "lastUpdate": "2026-03-02",
@@ -811,7 +824,7 @@
         {
           "url": "https://www.heuro.com/about",
           "date": "2026-02-26",
-          "note": ""
+          "note": "HEURO"
         }
       ],
       "dti": [
@@ -838,7 +851,10 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "EUB",
+        "USB"
+      ],
       "entityAuthDate": "2014-02-11",
       "firstWpDate": "2026-03-12",
       "lastUpdate": "2026-03-12",
@@ -846,12 +862,12 @@
         {
           "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-EUB-White-Paper_20260312-1.pdf",
           "date": "2026-03-12",
-          "note": ""
+          "note": "EUB"
         },
         {
           "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-USB-White-Paper_20260312-1.pdf",
           "date": "2026-03-12",
-          "note": ""
+          "note": "USB"
         }
       ],
       "dti": [],
@@ -873,7 +889,10 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "EUR.PA",
+        "USD.PA"
+      ],
       "entityAuthDate": "2025-12-10",
       "firstWpDate": "2026-04-21",
       "lastUpdate": "2026-03-21",
@@ -881,12 +900,12 @@
         {
           "url": "https://gr8.money/eur.pa/wp",
           "date": "2026-04-21",
-          "note": ""
+          "note": "EUR.PA"
         },
         {
           "url": "https://gr8.money/usd.pa/wp",
           "date": "2026-04-21",
-          "note": ""
+          "note": "USD.PA"
         }
       ],
       "dti": [
@@ -914,7 +933,9 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "WEUR"
+      ],
       "entityAuthDate": null,
       "firstWpDate": "2026-06-25",
       "lastUpdate": "2026-05-26",
@@ -944,7 +965,9 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "EURXT"
+      ],
       "entityAuthDate": "1979-05-19",
       "firstWpDate": "2026-06-30",
       "lastUpdate": "2026-06-30",
@@ -978,7 +1001,9 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "EURR"
+      ],
       "entityAuthDate": "2026-07-23",
       "firstWpDate": "2026-07-23",
       "lastUpdate": "2026-07-29",
@@ -986,7 +1011,7 @@
         {
           "url": "https://bridge.xyz/transparency/EURR",
           "date": "2026-07-23",
-          "note": "N/A"
+          "note": "EURR"
         }
       ],
       "dti": [
@@ -1019,7 +1044,9 @@
       "ex484": false,
       "ex485": false,
       "exempt": false,
-      "tokens": [],
+      "tokens": [
+        "EURGH"
+      ],
       "entityAuthDate": "2021-11-02",
       "firstWpDate": "2026-09-01",
       "lastUpdate": "2026-08-07",
@@ -1027,7 +1054,7 @@
         {
           "url": "https://dinaro.si/mica-eurgh-whitepaper",
           "date": "2026-09-01",
-          "note": ""
+          "note": "EURGH"
         }
       ],
       "dti": [

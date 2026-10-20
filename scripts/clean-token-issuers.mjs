@@ -50,6 +50,19 @@ const TOKENS_BY_LEI = {
   "9695002I9DJHZ3449O66": ["EUROD"], // Oddo BHF SCA
   "969500SGAEBRXYUAJ739": ["EURØP"], // SALVUS (Schuman Financial)
   "875500AX7AO0XVYSQD64": ["EURW"], // Newrails, UAB
+  // Added 2026-10-20, each read in the issuer's OWN document (never from a third-party
+  // graphic, which differed from the white papers in several places, see the notes below):
+  "984500A64C0EA64BC554": ["EURSM", "USDSM"], // Stable Mint Ltd. Its EUR white paper B.2 spells "EURsm", the USD one "USDSM", its site and G.1 use EURSM/USDSM, so the uppercase form is used for both
+  "315700IJDQF91J9C8B68": ["CZKI"], // Payment Corporation SE (Stable Labs), white paper "CZKI White Paper", Art. 48 exemption white paper (the page keeps its "limited network" tag next to it)
+  "254900XFMACGD0L7AI73": ["BLUEUR"], // UAB BLUE EMI LT, white paper B.2
+  "254900VUR90QF0G3T387": ["BREUR", "BRUSD", "BRGBP"], // AIEU Services Limited S.A. (Bettr Settlement Token), three white papers on its policy page, B.2 each. A third-party graphic listed only BREUR
+  "984500DB91E5A48E7F26": ["HEURO"], // Heuro SAS (OuiTrust). White paper B.1 = HEURO, but B.2 "Abbreviation" = HEUR (3 mentions against 161 of HEURO), the token is HEURO everywhere else, so HEURO is shown
+  "549300V4H4USWZUCE073": ["EUB", "USB"], // Bison Bank, S.A., white papers: Bison EUR E-Money Token ("EUB"), Bison USD E-Money Token ("USB")
+  "6488GKH17O8XT1326F66": ["EUR.PA", "USD.PA"], // GR8 Pay SIA (GR8.money), white paper B.2 reads EUR.PA / USD.PA (a third-party graphic printed EURpa / USDpa, which no GR8 document uses)
+  "72450039GAIN4MNI4V12": ["WEUR"], // Aplauz NL B.V., weur.io (the URL the register lists): "WEUR is a euro-denominated e-money token issued by Aplauz NL B.V."
+  "96950023SCR9X9F3L662": ["EURXT"], // CACEIS Bank, the issuer's own announcement ("EURXT (EURO eXchange Token)"). The white paper site stable-xt.io renders client-side and its B.2 could not be extracted
+  "254900MVWQXMF77YZP65": ["EURR"], // Bridge Building S.A. (Revolut Euro), white paper B.2. The register's own URL bridge.xyz/transparency/EURR now answers 404, the paper lives at reserves.bridge.xyz
+  "48510062OP64BYKPNO22": ["EURGH"], // Dinaro, the page the register lists is titled "EURGH White Paper" (USDGH is announced there as "on the way", not notified, so not listed)
 };
 
 // Nicer display names where the source's commercial_name is empty or awkward.
@@ -143,7 +156,8 @@ function splitCodes(raw) {
 // or a long free-text explanation.
 function wpNote(raw) {
   const s = clean(raw);
-  if (!s || /^no comment/i.test(s) || s.length > 64) return "";
+  // "N/A" (Bridge Building's row) is not a note, so the URL-ticker fallback can label it
+  if (!s || /^(no comment|n\/a$)/i.test(s) || s.length > 64) return "";
   return s;
 }
 
