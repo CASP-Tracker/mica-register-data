@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T06:13:08.947Z",
-  "lastChanged": "2026-10-20",
+  "generatedAt": "2026-10-22T19:52:26.175Z",
+  "lastChanged": "2026-10-22",
   "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
   "attribution": {
     "source": "CASP Tracker",
@@ -12,9 +12,9 @@
     "terms": "https://casptracker.eu/llms.txt",
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
-  "lastDataUpdate": "2026-10-15",
-  "sourceRows": 379,
-  "count": 376,
+  "lastDataUpdate": "2026-10-20",
+  "sourceRows": 387,
+  "count": 384,
   "items": [
     {
       "slug": "21bitcoin",
@@ -12553,6 +12553,37 @@
       "ctId": "CT-1K468B2"
     },
     {
+      "slug": "raiffeisenbank-eifel-eg",
+      "name": "Raiffeisenbank Eifel eG",
+      "legalName": "Raiffeisenbank Eifel eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "5299007Y7UJE5QV9QD03",
+      "leiCountry": "DE",
+      "address": "Hauptstraße 76, 52152 Simmerath",
+      "website": "www.rb-eifel.de",
+      "websiteHref": "https://www.rb-eifel.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-10-19",
+      "authDateRaw": "19/10/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-10-19",
+      "lastUpdateRaw": "19/10/2026",
+      "companyRegisterNumber": "GnR 248",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-1LQGTXE"
+    },
+    {
       "slug": "raiffeisenbank-falkenstein-worth",
       "name": "Raiffeisenbank Falkenstein-Wörth",
       "legalName": "Raiffeisenbank Falkenstein-Wörth",
@@ -14090,6 +14121,37 @@
       "ncaNumber": null,
       "ncaNumberLabel": null,
       "ctId": "CT-0RZOSHK"
+    },
+    {
+      "slug": "sparda-bank-baden-wurttemberg-eg",
+      "name": "Sparda-Bank Baden-Württemberg eG",
+      "legalName": "Sparda-Bank Baden-Württemberg eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "5299004HBAECUACNWN98",
+      "leiCountry": "DE",
+      "address": "Am Hauptbahnhof 3, 70173 Stuttgart",
+      "website": "www.sparda-bw.de",
+      "websiteHref": "https://www.sparda-bw.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-10-19",
+      "authDateRaw": "19/10/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-10-19",
+      "lastUpdateRaw": "19/10/2026",
+      "companyRegisterNumber": "GnR 236",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-0O4A9LS"
     },
     {
       "slug": "stable-mint-ltd",
@@ -15931,7 +15993,7 @@
       "homeState": "DE",
       "lei": "529900DCW7IO492RBC56",
       "leiCountry": "DE",
-      "address": "Kennedydamm 10 31134 Hildesheim",
+      "address": "Kennedydamm 10, 31134 Hildesheim",
       "website": "www.vb-eg.de",
       "websiteHref": "https://www.vb-eg.de",
       "services": [
@@ -16079,6 +16141,130 @@
       "ctId": "CT-0XE712R"
     },
     {
+      "slug": "volksbank-in-der-hohen-mark-eg",
+      "name": "Volksbank in der Hohen Mark eG",
+      "legalName": "Volksbank in der Hohen Mark eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900NK7TIIGQEJ6L07",
+      "leiCountry": "DE",
+      "address": "Hauptstraße 13, 48734 Reken",
+      "website": "www.vb-hm.de",
+      "websiteHref": "https://www.vb-hm.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-10-30",
+      "authDateRaw": "30/10/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-10-20",
+      "lastUpdateRaw": "20/10/2026",
+      "companyRegisterNumber": "GnR 150",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-0NGOEQ8"
+    },
+    {
+      "slug": "volksbank-in-der-region-eg",
+      "name": "Volksbank in der Region eG",
+      "legalName": "Volksbank in der Region eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "5299006E6UGNN6YEPU72",
+      "leiCountry": "DE",
+      "address": "Herrenberger Straße 1-5, 72070 Tübingen",
+      "website": "www.vbidr.de",
+      "websiteHref": "https://www.vbidr.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-08-27",
+      "authDateRaw": "27/08/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-10-16",
+      "lastUpdateRaw": "16/10/2026",
+      "companyRegisterNumber": "GnR 240103",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-107S8RE"
+    },
+    {
+      "slug": "volksbank-in-ostwestfalen-eg",
+      "name": "Volksbank in Ostwestfalen eG",
+      "legalName": "Volksbank in Ostwestfalen eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900PUK9IU39VCWK54",
+      "leiCountry": "DE",
+      "address": "Kesselbrink 1, 33602 Bielefeld",
+      "website": "www.volksbankinostwestfalen.de",
+      "websiteHref": "https://www.volksbankinostwestfalen.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-11-18",
+      "authDateRaw": "18/11/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-10-20",
+      "lastUpdateRaw": "20/10/2026",
+      "companyRegisterNumber": "GnR 262",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-1STPZE1"
+    },
+    {
+      "slug": "volksbank-mittlerer-neckar-eg",
+      "name": "Volksbank Mittlerer Neckar eG",
+      "legalName": "Volksbank Mittlerer Neckar eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900HHCMGEXXJAGA76",
+      "leiCountry": "DE",
+      "address": "Fabrikstraße 5, 73728 Esslingen",
+      "website": "www.v-mn.de",
+      "websiteHref": "https://www.v-mn.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-08-27",
+      "authDateRaw": "27/08/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-10-16",
+      "lastUpdateRaw": "16/10/2026",
+      "companyRegisterNumber": "GnR 220002",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-0369G0N"
+    },
+    {
       "slug": "volksbank-mittlerer-schwarzwald-eg",
       "name": "Volksbank Mittlerer Schwarzwald eG",
       "legalName": "Volksbank Mittlerer Schwarzwald eG",
@@ -16108,6 +16294,68 @@
       "ncaNumber": null,
       "ncaNumberLabel": null,
       "ctId": "CT-1QZ6B6P"
+    },
+    {
+      "slug": "volksbank-niederrhein-eg",
+      "name": "Volksbank Niederrhein eG",
+      "legalName": "Volksbank Niederrhein eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900SH7SAVJN3TFQ06",
+      "leiCountry": "DE",
+      "address": "Lindenallee 11-15, 46519 Alpen",
+      "website": "www.Volksbank-niederrhein.de",
+      "websiteHref": "https://www.Volksbank-niederrhein.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-10-22",
+      "authDateRaw": "22/10/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-10-09",
+      "lastUpdateRaw": "09/10/2026",
+      "companyRegisterNumber": "GnR 136",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-07DCQ5N"
+    },
+    {
+      "slug": "volksbank-oberberg-eg",
+      "name": "Volksbank Oberberg eG",
+      "legalName": "Volksbank Oberberg eG",
+      "authority": "Federal Financial Supervisory Authority (BaFin)",
+      "homeState": "DE",
+      "lei": "529900OSV01JOCMF4Z23",
+      "leiCountry": "DE",
+      "address": "Bahnhofstraße 3, 51674 Wiehl",
+      "website": "www.vb-oberberg.de",
+      "websiteHref": "https://www.vb-oberberg.de",
+      "services": [
+        "e"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "authDate": "2026-11-19",
+      "authDateRaw": "19/11/2026",
+      "endDate": null,
+      "comments": "",
+      "lastUpdate": "2026-10-20",
+      "lastUpdateRaw": "20/10/2026",
+      "companyRegisterNumber": "GnR 759",
+      "companyRegisterName": "Commercial Register (Handelsregister)",
+      "companyRegisterCountry": "DE",
+      "ncaNumberStatus": "register",
+      "ncaNumber": null,
+      "ncaNumberLabel": null,
+      "ctId": "CT-13M32EC"
     },
     {
       "slug": "volksbank-olpe-wenden-drolshagen-eg",
