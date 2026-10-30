@@ -114,6 +114,7 @@ One item per issuer, merged by LEI and legal name from ESMA's register of EMT wh
 | `type` | `emi` (e-money institution) or `credit` (credit institution, i.e. a bank) |
 | `ex484`, `ex485`, `exempt` | Art. 48(4)/48(5) MiCA exemption flags |
 | `tokens` | Token tickers from a hand-verified map (the source has **no** ticker column; see `scripts/clean-token-issuers.mjs`, issuers we could not verify get an empty list) |
+| `currencies` | Reference currency (ISO 4217) of each token in `tokens`, as an object keyed by ticker. Read from the issuer's own white paper or page where one exists, otherwise inferred from the ticker |
 | `entityAuthDate` | Date of the underlying e-money or banking licence (can far predate MiCA) |
 | `firstWpDate`, `lastUpdate` | First white paper notification and last record update |
 | `whitepapers` | Every notified white paper: `{url, date, note}` |

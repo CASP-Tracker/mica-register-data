@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T18:24:02.355Z",
-  "lastChanged": "2026-10-20",
+  "generatedAt": "2026-10-30T14:11:03.781Z",
+  "lastChanged": "2026-10-30",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
   "attribution": {
@@ -35,6 +35,11 @@
         "EUROe",
         "eUSD"
       ],
+      "currencies": {
+        "USDG": "USD",
+        "EUROe": "EUR",
+        "eUSD": "USD"
+      },
       "entityAuthDate": "2022-11-23",
       "firstWpDate": "2024-06-29",
       "lastUpdate": "2026-04-28",
@@ -87,6 +92,10 @@
         "USDC",
         "EURC"
       ],
+      "currencies": {
+        "USDC": "USD",
+        "EURC": "EUR"
+      },
       "entityAuthDate": "2024-07-01",
       "firstWpDate": "2024-07-01",
       "lastUpdate": "2026-09-15",
@@ -169,6 +178,10 @@
         "EURCV",
         "USDCV"
       ],
+      "currencies": {
+        "EURCV": "EUR",
+        "USDCV": "USD"
+      },
       "entityAuthDate": "2024-07-01",
       "firstWpDate": "2024-07-01",
       "lastUpdate": "2025-10-14",
@@ -217,6 +230,10 @@
         "EURSM",
         "USDSM"
       ],
+      "currencies": {
+        "EURSM": "EUR",
+        "USDSM": "USD"
+      },
       "entityAuthDate": "2024-08-05",
       "firstWpDate": "2024-08-08",
       "lastUpdate": "2025-03-24",
@@ -254,6 +271,9 @@
       "tokens": [
         "EURI"
       ],
+      "currencies": {
+        "EURI": "EUR"
+      },
       "entityAuthDate": "2019-10-29",
       "firstWpDate": "2024-08-28",
       "lastUpdate": null,
@@ -286,6 +306,9 @@
       "tokens": [
         "EURØP"
       ],
+      "currencies": {
+        "EURØP": "EUR"
+      },
       "entityAuthDate": "2024-11-22",
       "firstWpDate": "2024-11-22",
       "lastUpdate": "2026-03-23",
@@ -325,6 +348,11 @@
         "ENGBP",
         "ENUSD"
       ],
+      "currencies": {
+        "ENEUR": "EUR",
+        "ENGBP": "GBP",
+        "ENUSD": "USD"
+      },
       "entityAuthDate": "2021-11-29",
       "firstWpDate": "2024-12-02",
       "lastUpdate": "2025-03-24",
@@ -372,6 +400,14 @@
         "GBPQ",
         "RONQ"
       ],
+      "currencies": {
+        "EURQ": "EUR",
+        "USDQ": "USD",
+        "EURD": "EUR",
+        "PLNQ": "PLN",
+        "GBPQ": "GBP",
+        "RONQ": "RON"
+      },
       "entityAuthDate": "2023-10-13",
       "firstWpDate": "2025-03-24",
       "lastUpdate": "2026-04-15",
@@ -427,6 +463,7 @@
       "ex485": false,
       "exempt": false,
       "tokens": [],
+      "currencies": {},
       "entityAuthDate": "2025-02-17",
       "firstWpDate": "2025-04-10",
       "lastUpdate": null,
@@ -453,6 +490,9 @@
       "tokens": [
         "CZKI"
       ],
+      "currencies": {
+        "CZKI": "CZK"
+      },
       "entityAuthDate": "2017-04-26",
       "firstWpDate": "2025-05-17",
       "lastUpdate": "2025-10-30",
@@ -498,6 +538,12 @@
         "SEKAU",
         "USDAU"
       ],
+      "currencies": {
+        "EURAU": "EUR",
+        "CHFAU": "CHF",
+        "SEKAU": "SEK",
+        "USDAU": "USD"
+      },
       "entityAuthDate": "2026-06-20",
       "firstWpDate": "2025-06-20",
       "lastUpdate": "2026-09-14",
@@ -579,6 +625,9 @@
       "tokens": [
         "BLUEUR"
       ],
+      "currencies": {
+        "BLUEUR": "EUR"
+      },
       "entityAuthDate": "2022-10-11",
       "firstWpDate": "2025-08-01",
       "lastUpdate": "2025-04-18",
@@ -611,6 +660,9 @@
       "tokens": [
         "EUROD"
       ],
+      "currencies": {
+        "EUROD": "EUR"
+      },
       "entityAuthDate": "2007-06-26",
       "firstWpDate": "2025-10-15",
       "lastUpdate": "2026-01-27",
@@ -649,6 +701,11 @@
         "BRUSD",
         "BRGBP"
       ],
+      "currencies": {
+        "BREUR": "EUR",
+        "BRUSD": "USD",
+        "BRGBP": "GBP"
+      },
       "entityAuthDate": "2018-12-21",
       "firstWpDate": "2025-10-22",
       "lastUpdate": "2026-08-28",
@@ -684,6 +741,7 @@
       "ex485": false,
       "exempt": false,
       "tokens": [],
+      "currencies": {},
       "entityAuthDate": "2019-04-23",
       "firstWpDate": "2025-10-30",
       "lastUpdate": "2025-09-08",
@@ -711,6 +769,10 @@
         "EURR",
         "USDR"
       ],
+      "currencies": {
+        "EURR": "EUR",
+        "USDR": "USD"
+      },
       "entityAuthDate": "2024-06-21",
       "firstWpDate": "2025-11-14",
       "lastUpdate": "2025-12-03",
@@ -743,6 +805,9 @@
       "tokens": [
         "EURe"
       ],
+      "currencies": {
+        "EURe": "EUR"
+      },
       "entityAuthDate": "2019-09-25",
       "firstWpDate": "2026-01-09",
       "lastUpdate": "2026-01-09",
@@ -785,6 +850,9 @@
       "tokens": [
         "EURW"
       ],
+      "currencies": {
+        "EURW": "EUR"
+      },
       "entityAuthDate": "2020-06-04",
       "firstWpDate": "2026-01-26",
       "lastUpdate": "2026-01-13",
@@ -817,6 +885,9 @@
       "tokens": [
         "HEURO"
       ],
+      "currencies": {
+        "HEURO": "EUR"
+      },
       "entityAuthDate": "2021-12-02",
       "firstWpDate": "2026-02-26",
       "lastUpdate": "2026-03-02",
@@ -855,9 +926,13 @@
         "EUB",
         "USB"
       ],
+      "currencies": {
+        "EUB": "EUR",
+        "USB": "USD"
+      },
       "entityAuthDate": "2014-02-11",
       "firstWpDate": "2026-03-12",
-      "lastUpdate": "2026-03-12",
+      "lastUpdate": "2026-10-21",
       "whitepapers": [
         {
           "url": "https://bisonbank.com/wp-content/uploads/2026/04/Bison-Bank-EUB-White-Paper_20260312-1.pdf",
@@ -870,8 +945,14 @@
           "note": "USB"
         }
       ],
-      "dti": [],
-      "dtiFfg": [],
+      "dti": [
+        "H5MHNTQW9",
+        "F6CCFFX18"
+      ],
+      "dtiFfg": [
+        "JQNWG6VL5",
+        "5HSDQW767"
+      ],
       "caspSlug": "bison-bank",
       "caspWebsite": "bisonbank.com",
       "ctId": "CT-0KP9UI4"
@@ -893,6 +974,10 @@
         "EUR.PA",
         "USD.PA"
       ],
+      "currencies": {
+        "EUR.PA": "EUR",
+        "USD.PA": "USD"
+      },
       "entityAuthDate": "2025-12-10",
       "firstWpDate": "2026-04-21",
       "lastUpdate": "2026-03-21",
@@ -936,6 +1021,9 @@
       "tokens": [
         "WEUR"
       ],
+      "currencies": {
+        "WEUR": "EUR"
+      },
       "entityAuthDate": null,
       "firstWpDate": "2026-06-25",
       "lastUpdate": "2026-05-26",
@@ -968,6 +1056,9 @@
       "tokens": [
         "EURXT"
       ],
+      "currencies": {
+        "EURXT": "EUR"
+      },
       "entityAuthDate": "1979-05-19",
       "firstWpDate": "2026-06-30",
       "lastUpdate": "2026-06-30",
@@ -1004,6 +1095,9 @@
       "tokens": [
         "EURR"
       ],
+      "currencies": {
+        "EURR": "EUR"
+      },
       "entityAuthDate": "2026-07-23",
       "firstWpDate": "2026-07-23",
       "lastUpdate": "2026-07-29",
@@ -1047,6 +1141,9 @@
       "tokens": [
         "EURGH"
       ],
+      "currencies": {
+        "EURGH": "EUR"
+      },
       "entityAuthDate": "2021-11-02",
       "firstWpDate": "2026-09-01",
       "lastUpdate": "2026-08-07",

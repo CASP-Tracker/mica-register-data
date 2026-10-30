@@ -65,6 +65,52 @@ const TOKENS_BY_LEI = {
   "48510062OP64BYKPNO22": ["EURGH"], // Dinaro, the page the register lists is titled "EURGH White Paper" (USDGH is announced there as "on the way", not notified, so not listed)
 };
 
+// Reference currency (ISO 4217) of each token, keyed by issuer LEI then ticker. Feeds the
+// currency filter on the stablecoin list page (added 2026-10-21). Read in the issuer's own
+// document (white paper B.1/I.06 or the issuer's own page), checked 2026-10-21. A token in
+// TOKENS_BY_LEI without an entry here makes the script throw, so a new ticker cannot ship
+// without its currency being looked up.
+const CURRENCY_BY_LEI = {
+  "969500OYUDADGZKCR583": { USDC: "USD", EURC: "EUR" }, // Circle: "pegged to the USD" / "pegged to the EUR"
+  "969500FX8K40ZDW4F377": { EURCV: "EUR", USDCV: "USD" }, // SG Forge: "denominated in Euro" / "denominated in USD"
+  "743700KYSSTKZYGEUF50": { USDG: "USD", EUROe: "EUR", eUSD: "USD" }, // Paxos: USDG "1 US Dollar", EUROe redeemable "for EUR fiat" (paxos.com notice), eUSD inferred
+  "2549003QDNZWASSSCY31": { EURe: "EUR" }, // Monerium: "denominated in euro"
+  "7245008P1HPUPVM7XL94": { EURQ: "EUR", USDQ: "USD", EURD: "EUR", PLNQ: "PLN", GBPQ: "GBP", RONQ: "RON" }, // Quantoz: "denominated in euros / US dollars / PLN / pounds", EURD "Euro", RONQ inferred
+  "984500AA0OCA9CE0D796": { EURR: "EUR", USDR: "USD" }, // StablR: "pegged to the value of the Euro / the USD"
+  "213800W1NGBLERUS6M39": { EURI: "EUR" }, // Banking Circle: "Eurite Euro Token", "pegged to the EUR"
+  "3912007G8L8CD3HFIV26": { EURAU: "EUR", CHFAU: "CHF", SEKAU: "SEK", USDAU: "USD" }, // AllUnity: "denominated in EUR / CHF / SEK / USD" (four white papers)
+  "724500GVWT7QULV8CR59": { ENEUR: "EUR", ENGBP: "GBP", ENUSD: "USD" }, // Fiat Republic: "EagleNet Euro (ENEUR) and EagleNet GBP (ENGBP)", ENUSD inferred
+  "9695002I9DJHZ3449O66": { EUROD: "EUR" }, // Oddo BHF: "pegged to the EUR"
+  "969500SGAEBRXYUAJ739": { "EURØP": "EUR" }, // Schuman: "1 EUR" in the white paper
+  "875500AX7AO0XVYSQD64": { EURW: "EUR" }, // Newrails: inferred, the register's white paper URL answers 404
+  "984500A64C0EA64BC554": { EURSM: "EUR", USDSM: "USD" }, // Stable Mint: "Stable Mint Euro" / "Stable Mint United States Dollar" (B.1)
+  "315700IJDQF91J9C8B68": { CZKI: "CZK" }, // Stable Labs: "pegged 1:1 to the Czech crown (CZK)"
+  "254900XFMACGD0L7AI73": { BLUEUR: "EUR" }, // BLUE EMI: "BLUE EMI EUR EMT", references the euro 1:1
+  "254900VUR90QF0G3T387": { BREUR: "EUR", BRUSD: "USD", BRGBP: "GBP" }, // AIEU: B.1 "EUR / USD / GBP Bettr Settlement Token"
+  "984500DB91E5A48E7F26": { HEURO: "EUR" }, // Heuro: white paper "1 EUR for 1 HEUR"
+  "549300V4H4USWZUCE073": { EUB: "EUR", USB: "USD" }, // Bison: B.1 "Bison EUR / USD E-Money Token"
+  "6488GKH17O8XT1326F66": { "EUR.PA": "EUR", "USD.PA": "USD" }, // GR8 Pay: "1 EUR" / "1 USD" (I.06)
+  "72450039GAIN4MNI4V12": { WEUR: "EUR" }, // Aplauz: "a euro-denominated e-money token" (weur.io)
+  "96950023SCR9X9F3L662": { EURXT: "EUR" }, // CACEIS: "Euro-Denominated Stablecoin" (issuer announcement)
+  "254900MVWQXMF77YZP65": { EURR: "EUR" }, // Bridge Building: "Revolut Euro (EURR)", euro-denominated
+  "48510062OP64BYKPNO22": { EURGH: "EUR" }, // Dinaro: "Each EURGH is backed 1:1 by EUR"
+};
+// Tokens whose currency could NOT be read in an issuer document on 2026-10-21, so it was taken
+// from the ticker (the issuer's document is gone, a notice page, or not published). They are
+// listed in the build log every run, so they get replaced when a document appears:
+// eUSD (Membrane's white paper URL now serves a notice page), ENUSD (landing page names only
+// ENEUR and ENGBP), RONQ (no document on quantoz.com), EURW (URL answers 404).
+const CURRENCY_INFERRED = new Set(["eUSD", "ENUSD", "RONQ", "EURW"]);
+const currenciesFor = (lei) => {
+  const map = CURRENCY_BY_LEI[lei] || {};
+  const out = {};
+  for (const tok of TOKENS_BY_LEI[lei] || []) {
+    if (!map[tok]) throw new Error(`No reference currency for token ${tok} (LEI ${lei}): add it to CURRENCY_BY_LEI after reading the issuer's document`);
+    out[tok] = map[tok];
+  }
+  return out;
+};
+
 // Nicer display names where the source's commercial_name is empty or awkward.
 const DISPLAY_BY_LEI = {
   "969500OYUDADGZKCR583": "Circle",
@@ -202,6 +248,8 @@ for (let i = 1; i < emtRows.length; i++) {
       ex485: /^yes$/i.test(clean(r[11])),
       exempt: /^yes$/i.test(clean(r[10])) || /^yes$/i.test(clean(r[11])),
       tokens: TOKENS_BY_LEI[lei] || [],
+      // ticker -> ISO 4217 reference currency (see CURRENCY_BY_LEI above)
+      currencies: currenciesFor(lei),
       // Date the ENTITY got its underlying EMI/banking authorisation (can far
       // predate MiCA, e.g. CACEIS 1979); label it as the licence date, never
       // as "issuing since".
@@ -280,6 +328,13 @@ console.log(
 );
 const alsoCasp = emtItems.filter((e) => e.caspSlug).length;
 console.log(`EMT issuers that are also licensed CASPs: ${alsoCasp}`);
+{
+  const allTokens = [...emtByKey.values()].flatMap((e) => Object.entries(e.currencies));
+  const byCur = {};
+  for (const [, c] of allTokens) byCur[c] = (byCur[c] || 0) + 1;
+  const inferred = [...emtByKey.values()].flatMap((e) => Object.keys(e.currencies).filter((t) => CURRENCY_INFERRED.has(t)));
+  console.log(`Token currencies: ${allTokens.length} tokens (${Object.entries(byCur).map(([c, n]) => `${c} ${n}`).join(", ")}), ${inferred.length} inferred from the ticker: ${inferred.join(", ") || "none"}`);
+}
 
 // --- ART register (empty so far; keep the shape ready for the first entry) ---
 const artRows = parseCSV(readFileSync(ART_CSV, "utf8").replace(/^﻿/, ""));
