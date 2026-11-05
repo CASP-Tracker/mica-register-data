@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-30T14:05:37.365Z",
-  "lastChanged": "2026-10-30",
+  "generatedAt": "2026-11-05T15:08:11.029Z",
+  "lastChanged": "2026-11-05",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
-  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 5 authorities have reported entries so far (CONSOB/IT 179, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
+  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 5 authorities have reported entries so far (CONSOB/IT 180, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
   "attribution": {
     "source": "CASP Tracker",
     "url": "https://casptracker.eu",
@@ -13,13 +13,13 @@
     "terms": "https://casptracker.eu/llms.txt",
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
-  "count": 188,
+  "count": 189,
   "regulators": [
     {
       "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
       "short": "CONSOB",
       "homeState": "IT",
-      "count": 179
+      "count": 180
     },
     {
       "authority": "Financial Services and Markets Authority (FSMA)",
@@ -2726,6 +2726,29 @@
       "decisionDate": "2026-10-28",
       "comments": "",
       "lastUpdate": "2026-10-29"
+    },
+    {
+      "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "homeState": "IT",
+      "leiName": "Renditanzia",
+      "commercialName": "Renditanzia",
+      "website": "https://renditanziait.com|https://renditanzia-it.com|https://renditanziaai.com|https://renditanziaaibot.com|https://renditanziabot.com|https://renditanzia.xyz| https://renditanziaofficial.com|https://renditanzia.online|https://renditanzia.sbs|https://renditanzia.it",
+      "domains": [
+        "renditanziait.com",
+        "renditanzia-it.com",
+        "renditanziaai.com",
+        "renditanziaaibot.com",
+        "renditanziabot.com",
+        "renditanzia.xyz",
+        "renditanziaofficial.com",
+        "renditanzia.online",
+        "renditanzia.sbs",
+        "renditanzia.it"
+      ],
+      "reason": "",
+      "decisionDate": "2026-11-04",
+      "comments": "",
+      "lastUpdate": "2026-11-05"
     },
     {
       "authority": "Netherlands Authority for the Financial Markets (AFM)",
