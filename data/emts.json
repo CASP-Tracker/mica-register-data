@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T14:11:03.781Z",
-  "lastChanged": "2026-10-30",
+  "generatedAt": "2026-11-12T08:18:58.244Z",
+  "lastChanged": "2026-11-12",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   "note": "Issuers of e-money tokens (EMT) under MiCA Title IV, merged from ESMA's interim register of EMT white papers (one source row per white paper). Tickers come from the hand-verified TOKENS_BY_LEI map in scripts/clean-token-issuers.mjs, not from the source file.",
   "attribution": {
@@ -13,8 +13,8 @@
     "terms": "https://casptracker.eu/llms.txt",
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
-  "count": 25,
-  "wpCount": 50,
+  "count": 26,
+  "wpCount": 51,
   "countries": 14,
   "items": [
     {
@@ -184,7 +184,7 @@
       },
       "entityAuthDate": "2024-07-01",
       "firstWpDate": "2024-07-01",
-      "lastUpdate": "2025-10-14",
+      "lastUpdate": "2026-09-30",
       "whitepapers": [
         {
           "url": "https://www.sgforge.com/wp-content/uploads/2025/10/EURCV-WP-Ethereum-Solana_XRPL_Stellar_2025.10.14.pdf",
@@ -202,8 +202,10 @@
         "3NG1PDSJM",
         "LTJP3BH2R",
         "24QFRJ6Q9",
+        "BWFR5658W",
         "9XDHG5RZQ",
-        "8TF1FZX7H"
+        "8TF1FZX7H",
+        "7MV60JJTP"
       ],
       "dtiFfg": [
         "9W5C49FJV",
@@ -353,7 +355,7 @@
         "ENGBP": "GBP",
         "ENUSD": "USD"
       },
-      "entityAuthDate": "2021-11-29",
+      "entityAuthDate": null,
       "firstWpDate": "2024-12-02",
       "lastUpdate": "2025-03-24",
       "whitepapers": [
@@ -408,7 +410,7 @@
         "GBPQ": "GBP",
         "RONQ": "RON"
       },
-      "entityAuthDate": "2023-10-13",
+      "entityAuthDate": null,
       "firstWpDate": "2025-03-24",
       "lastUpdate": "2026-04-15",
       "whitepapers": [
@@ -640,7 +642,7 @@
       ],
       "dti": [],
       "dtiFfg": [],
-      "caspSlug": "blue-emi",
+      "caspSlug": "blue-emi-checkout-com",
       "caspWebsite": "blueemi.com",
       "ctId": "CT-1EELBL0"
     },
@@ -1012,8 +1014,8 @@
       "homeState": "NL",
       "authority": "De Nederlansche Bank (DNB)",
       "address": "Keizersgracht 555 - 1017DR Amsterdam",
-      "website": "weur.io",
-      "websiteHref": "https://weur.io/",
+      "website": "aplauz.com",
+      "websiteHref": "https://aplauz.com/",
       "type": "emi",
       "ex484": false,
       "ex485": false,
@@ -1163,6 +1165,41 @@
       "caspSlug": null,
       "caspWebsite": "",
       "ctId": "CT-06V103N"
+    },
+    {
+      "lei": "724500LOOWQMIDXTS391",
+      "leiName": "Qivalis B.V.",
+      "name": "Qivalis B.V.",
+      "homeState": "NL",
+      "authority": "De Nederlansche Bank (DNB)",
+      "address": "Strawinskylaan 1457 - 1077XX Amsterdam",
+      "website": "qivalis.eu",
+      "websiteHref": "https://qivalis.eu/",
+      "type": "emi",
+      "ex484": false,
+      "ex485": false,
+      "exempt": false,
+      "tokens": [],
+      "currencies": {},
+      "entityAuthDate": null,
+      "firstWpDate": "2026-10-21",
+      "lastUpdate": "2026-10-21",
+      "whitepapers": [
+        {
+          "url": "https://qivalis.eu/trust-center/white-paper",
+          "date": "2026-10-21",
+          "note": "EURqi white paper"
+        }
+      ],
+      "dti": [
+        "V456JNMB3"
+      ],
+      "dtiFfg": [
+        "NL71R0228"
+      ],
+      "caspSlug": null,
+      "caspWebsite": "",
+      "ctId": "CT-10WG9Q3"
     }
   ]
 }

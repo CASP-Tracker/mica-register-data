@@ -2,16 +2,16 @@
 
 Cleaned, machine-readable datasets from the European Securities and Markets Authority (ESMA) interim registers under the EU's **MiCA** regulation (Markets in Crypto-Assets, Regulation (EU) 2023/1114). Maintained by [CASP Tracker](https://casptracker.eu), a searchable directory of MiCA-licensed crypto-asset service providers.
 
-- Last verified against the live ESMA source: **2026-11-05**
-- Newest record date inside the CASP register: **2026-11-03**
+- Last verified against the live ESMA source: **2026-11-12**
+- Newest record date inside the CASP register: **2026-11-11**
 
 ## Datasets
 
 | File | Register | Entries | Description |
 |---|---|---|---|
-| [`data/casps.json`](data/casps.json) | Authorised CASPs | **394** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
-| [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **189** | Non-compliant entities flagged by national regulators |
-| [`data/emts.json`](data/emts.json) | EMT issuers | **25** issuers (50 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
+| [`data/casps.json`](data/casps.json) | Authorised CASPs | **404** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
+| [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **216** | Non-compliant entities flagged by national regulators |
+| [`data/emts.json`](data/emts.json) | EMT issuers | **26** issuers (51 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
 | [`data/countries.json`](data/countries.json) | Licences by country (derived) | **30** EEA states | Per-country statistics derived from the three datasets above: licences by home state, providers passported in, licensed exchanges, regulators, warnings, EMT issuers. No ESMA counterpart |
 
@@ -100,11 +100,11 @@ The 10 MiCA crypto-asset services (Art. 3(1)(16) MiCA):
 
 The top level of this file additionally carries `regulators`: one object per national authority that has filed at least one entry (`authority`, `short`, `homeState`, `count`), sorted by entries filed. It is derived from the rows on every build, and the `note` field quotes it, so neither can drift from the data.
 
-Note: the warning list is fed by a small number of national authorities. Currently 5 have filed entries: 180 of 189 come from Italy's CONSOB, 6 from Belgium's FSMA, and one each from the Dutch AFM, the Czech National Bank and Slovakia's NBS. FSMA and the Czech National Bank filed their first entries in September 2026; until then the list had three contributors. It is **not** a complete EU-wide blacklist, and absence from it is not a clean bill of health.
+Note: the warning list is fed by a small number of national authorities. Currently 6 have filed entries: 180 of 216 come from Italy's CONSOB, 27 from the Bank of Lithuania (LSC), 6 from Belgium's FSMA, and one each from the Dutch AFM, the Czech National Bank and Slovakia's NBS. FSMA and the Czech National Bank filed their first entries in September 2026, the Bank of Lithuania in November 2026. Until September the list had three contributors. It is **not** a complete EU-wide blacklist, and absence from it is not a clean bill of health.
 
 ### `data/emts.json` (e-money token issuers)
 
-One item per issuer, merged by LEI and legal name from ESMA's register of EMT white papers (one source row per white paper). `wpCount` is the number of white-paper rows in the register itself; the per-issuer `whitepapers` arrays hold slightly fewer entries (currently 46 of 50), because an issuer can notify the same white paper more than once under an identical URL, date and note, and those are collapsed. Same distinction as `sourceRows` vs `count` in `casps.json`: the register's figure and ours are not the same number.
+One item per issuer, merged by LEI and legal name from ESMA's register of EMT white papers (one source row per white paper). `wpCount` is the number of white-paper rows in the register itself; the per-issuer `whitepapers` arrays hold slightly fewer entries (currently 47 of 51), because an issuer can notify the same white paper more than once under an identical URL, date and note, and those are collapsed. Same distinction as `sourceRows` vs `count` in `casps.json`: the register's figure and ours are not the same number.
 
 | Field | Meaning |
 |---|---|
@@ -145,7 +145,7 @@ Unlike the four datasets above, this one has no ESMA counterpart: every figure i
 | `first`, `latest`, `future`, `last12mo` | Earliest and most recent authorisation dates (`latest` ignores rows dated after the last verification), rows dated after the last verification (still counted in `licences`), and rows dated within 12 months before the newest record |
 | `regulators` | Distinct authorities among home licences: `{full, short}` |
 | `ncaNumberStatus` | Whether the home regulator assigns a MiCA reference number (`register`, `informal`, `none`), `null` for states with no licences |
-| `warnings` | NCASP entries filed by this country's regulator. Only five regulators report to that list, so 0 means none reported, not none issued |
+| `warnings` | NCASP entries filed by this country's regulator. Only six regulators report to that list, so 0 means none reported, not none issued |
 | `emtIssuers` | Authorised e-money token issuers based in the country |
 
 ## Scripts

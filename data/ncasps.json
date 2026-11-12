@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-05T15:08:11.029Z",
-  "lastChanged": "2026-11-05",
+  "generatedAt": "2026-11-12T08:18:09.297Z",
+  "lastChanged": "2026-11-12",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
-  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 5 authorities have reported entries so far (CONSOB/IT 180, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
+  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 6 authorities have reported entries so far (CONSOB/IT 180, LSC/LT 27, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
   "attribution": {
     "source": "CASP Tracker",
     "url": "https://casptracker.eu",
@@ -13,13 +13,19 @@
     "terms": "https://casptracker.eu/llms.txt",
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
-  "count": 189,
+  "count": 216,
   "regulators": [
     {
       "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
       "short": "CONSOB",
       "homeState": "IT",
       "count": 180
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "short": "LSC",
+      "homeState": "LT",
+      "count": 27
     },
     {
       "authority": "Financial Services and Markets Authority (FSMA)",
@@ -2749,6 +2755,384 @@
       "decisionDate": "2026-11-04",
       "comments": "",
       "lastUpdate": "2026-11-05"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "TONWEX UAB",
+      "commercialName": "Tonwex",
+      "website": "https://tonwex.com",
+      "domains": [
+        "tonwex.com"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets",
+      "decisionDate": "2026-10-27",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Blocknet Finance UAB",
+      "commercialName": "Bnfex",
+      "website": "https://bnfex.com/lt",
+      "domains": [
+        "bnfex.com"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | b. operation of a trading platform for crypto-assets | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets",
+      "decisionDate": "2026-10-27",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "UAB SwiftHorizon",
+      "commercialName": "Swift Horizon",
+      "website": "https://www.swifthorizon.net",
+      "domains": [
+        "swifthorizon.net"
+      ],
+      "reason": "c. exchange of crypto-assets for funds | e. execution of orders for crypto-assets on behalf of clients | g. reception and transmission of orders for crypto-assets on behalf of clients",
+      "decisionDate": "2026-10-27",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Flipchain UAB",
+      "commercialName": "Flipchain",
+      "website": "https://flipchain.io/",
+      "domains": [
+        "flipchain.io"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-10-27",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "UAB \"E-gates\"",
+      "commercialName": "E-gates",
+      "website": "https://e-gates.io",
+      "domains": [
+        "e-gates.io"
+      ],
+      "reason": "c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-10-27",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Coailray UAB",
+      "commercialName": "Sends Plus",
+      "website": "https://sends.plus",
+      "domains": [
+        "sends.plus"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Bitstore Europe UAB",
+      "commercialName": "Bit.Store",
+      "website": "https://bit.store/home",
+      "domains": [
+        "bit.store"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "UAB Veetrblox",
+      "commercialName": "Veetrblox",
+      "website": "https://veetrblox.com/",
+      "domains": [
+        "veetrblox.com"
+      ],
+      "reason": "c. exchange of crypto-assets for funds",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "MultiExchange UAB",
+      "commercialName": "MultiExchange",
+      "website": "https://www.multiexc.com",
+      "domains": [
+        "multiexc.com"
+      ],
+      "reason": "c. exchange of crypto-assets for funds | e. execution of orders for crypto-assets on behalf of clients | g. reception and transmission of orders for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "UAB \"Sapion Solution\"",
+      "commercialName": "Sapion",
+      "website": "https://sapion.org",
+      "domains": [
+        "sapion.org"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "UAB \"Coincierge holdings\"",
+      "commercialName": "Coincierge",
+      "website": "https://www.coincierge.io",
+      "domains": [
+        "coincierge.io"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | f. placing of crypto-assets | g. reception and transmission of orders for crypto-assets on behalf of clients | h. providing advice on crypto-assets| i. providing portfolio management on crypto-assets",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Liq Finance UAB",
+      "commercialName": "Rize",
+      "website": "https://rize.hk",
+      "domains": [
+        "rize.hk"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds| e. execution of orders for crypto-assets on behalf of clients |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "UAB IO Ready",
+      "commercialName": "BitReadyPay",
+      "website": "https://bitreadypay.com",
+      "domains": [
+        "bitreadypay.com"
+      ],
+      "reason": "c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Orange stream UAB",
+      "commercialName": "Cryptoorange",
+      "website": "https://cryptoorange.lt",
+      "domains": [
+        "cryptoorange.lt"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | b. operation of a trading platform for crypto-assets | c. exchange of crypto-assets for funds |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "FundFy Investment Club UAB",
+      "commercialName": "Fundfy",
+      "website": "https://fundfy.io",
+      "domains": [
+        "fundfy.io"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | i. providing portfolio management on crypto-assets |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "UAB \"Unich Global\"",
+      "commercialName": "Unich",
+      "website": "https://token.unich.com",
+      "domains": [
+        "token.unich.com"
+      ],
+      "reason": "b. operation of a trading platform for crypto-assets | d. exchange of crypto-assets for other crypto-assets | f. placing of crypto-assets | g. reception and transmission of orders for crypto-assets on behalf of clients |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "HUMB UAB",
+      "commercialName": "Humb",
+      "website": "https://humb.io",
+      "domains": [
+        "humb.io"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | b. operation of a trading platform for crypto-assets | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | e. execution of orders for crypto-assets on behalf of clients | f. placing of crypto-assets",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Cvetpay UAB",
+      "commercialName": "Cvetpay",
+      "website": "https://www.cvetpay.com/buy",
+      "domains": [
+        "cvetpay.com"
+      ],
+      "reason": "c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Wct pay UAB",
+      "commercialName": "WCT Pay",
+      "website": "https://www.wctpay.com/",
+      "domains": [
+        "wctpay.com"
+      ],
+      "reason": "c. exchange of crypto-assets for funds | e. execution of orders for crypto-assets on behalf of clients | g. reception and transmission of orders for crypto-assets on behalf of clients |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "GoFin Technology UAB",
+      "commercialName": "GoFinans",
+      "website": "https://gofinans.com",
+      "domains": [
+        "gofinans.com"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | e. execution of orders for crypto-assets on behalf of clients | f. placing of crypto-assets |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Euchanges UAB",
+      "commercialName": "Orizon Finanse",
+      "website": "https://www.orizon.finance/about",
+      "domains": [
+        "orizon.finance"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | e. execution of orders for crypto-assets on behalf of clients | g. reception and transmission of orders for crypto-assets on behalf of clients |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Beaver Dealer UAB",
+      "commercialName": "Beaver Dealer",
+      "website": "https://beaverdealer.com",
+      "domains": [
+        "beaverdealer.com"
+      ],
+      "reason": "c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "BlackFort Pay UAB",
+      "commercialName": "BlackFort Pay",
+      "website": "https://www.blackfortpay.com",
+      "domains": [
+        "blackfortpay.com"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "POD Europe UAB",
+      "commercialName": "POD Part Of Dream",
+      "website": "https://partofdream.io",
+      "domains": [
+        "partofdream.io"
+      ],
+      "reason": "b. operation of a trading platform for crypto-assets | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | f. placing of crypto-assets",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Europe Exchange UAB",
+      "commercialName": "UAB Exchange",
+      "website": "https://uabexchange.com",
+      "domains": [
+        "uabexchange.com"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | e. execution of orders for crypto-assets on behalf of clients |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "Xpay Global UAB",
+      "commercialName": "Xpay Global",
+      "website": "https://www.xpayglobal.io",
+      "domains": [
+        "xpayglobal.io"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | g. reception and transmission of orders for crypto-assets on behalf of clients |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
+    },
+    {
+      "authority": "Bank of Lithuania (LSC)",
+      "homeState": "LT",
+      "leiName": "UAB ROQQU TECHNOLOGIES",
+      "commercialName": "Roqqu",
+      "website": "https://internalwebsite.roqqu.com",
+      "domains": [
+        "internalwebsite.roqqu.com"
+      ],
+      "reason": "a. providing custody and administration of crypto-assets on behalf of clients | c. exchange of crypto-assets for funds | d. exchange of crypto-assets for other crypto-assets | e. execution of orders for crypto-assets on behalf of clients |j. providing transfer services for crypto-assets on behalf of clients",
+      "decisionDate": "2026-11-03",
+      "comments": "",
+      "lastUpdate": "2026-11-06"
     },
     {
       "authority": "Netherlands Authority for the Financial Markets (AFM)",

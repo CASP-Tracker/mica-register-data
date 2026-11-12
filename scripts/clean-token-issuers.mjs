@@ -159,6 +159,14 @@ function clean(s) {
   return String(s).replace(/\s+/g, " ").trim();
 }
 
+// A legal-name cell that repeats the same name on several lines (first seen
+// 2026-11-12: Qivalis B.V. printed three times in one EMT cell) collapses to one
+// copy. Lines that differ are all kept, joined by a space, exactly as clean() would.
+function cleanName(s) {
+  const lines = String(s ?? "").split(/\r?\n/).map(clean).filter(Boolean);
+  return [...new Set(lines)].join(" ");
+}
+
 // dd/mm/yyyy -> ISO (yyyy-mm-dd), or null
 function parseDateIso(s) {
   const m = clean(s).match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
@@ -222,7 +230,7 @@ for (let i = 1; i < emtRows.length; i++) {
   const r = emtRows[i];
   if (!r || r.length < 19 || r.every((c) => !clean(c))) continue;
   const lei = clean(r[3]);
-  const leiName = clean(r[2]);
+  const leiName = cleanName(r[2]);
   if (!leiName) continue;
   wpCount++;
 
@@ -343,7 +351,7 @@ for (let i = 1; i < artRows.length; i++) {
   const r = artRows[i];
   if (!r || r.length < 16 || r.every((c) => !clean(c))) continue;
   const lei = clean(r[3]);
-  const leiName = clean(r[2]);
+  const leiName = cleanName(r[2]);
   if (!leiName) continue;
 
   const key = `${lei}|${leiName}`;

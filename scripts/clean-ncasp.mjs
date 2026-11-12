@@ -71,12 +71,26 @@ function clean(s) {
   return String(s).replace(/\s+/g, " ").trim();
 }
 
-// dd/mm/yyyy -> ISO (yyyy-mm-dd), or null
+// dd/mm/yyyy -> ISO (yyyy-mm-dd), or null.
+// Since the 2026-11-12 file ESMA also prints a few dates as Excel serial day
+// numbers (MEXC "45916" = 16/09/2025, LWEX "45698" = 10/02/2025, the same dates
+// the earlier files printed as dd/mm/yyyy). Day 0 of that scale is 1899-12-30.
+// Only 5-digit values in a plausible range (2009 to 2064) are read this way, so
+// any other stray number still comes out as null. Every conversion is logged.
+const serialDates = [];
 function parseDateIso(s) {
-  const m = clean(s).match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
-  if (!m) return null;
-  const [, d, mo, y] = m;
-  return `${y}-${mo.padStart(2, "0")}-${d.padStart(2, "0")}`;
+  const v = clean(s);
+  const m = v.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (m) {
+    const [, d, mo, y] = m;
+    return `${y}-${mo.padStart(2, "0")}-${d.padStart(2, "0")}`;
+  }
+  if (/^\d{5}$/.test(v) && +v >= 40000 && +v <= 60000) {
+    const iso = new Date(Date.UTC(1899, 11, 30) + +v * 86400000).toISOString().slice(0, 10);
+    serialDates.push(`${v} -> ${iso}`);
+    return iso;
+  }
+  return null;
 }
 
 // Extract clean lowercased hostnames from the website field, which may pack
@@ -166,3 +180,6 @@ writeFileSync(OUT_JSON, JSON.stringify(out, null, 2), "utf8");
 console.log(`Wrote ${items.length} non-compliant entities -> ${OUT_JSON}`);
 const withDomains = items.filter((i) => i.domains.length).length;
 console.log(`Rows with at least one parseable domain: ${withDomains}`);
+if (serialDates.length) {
+  console.log(`Excel serial dates read from the source: ${serialDates.length} (${serialDates.join(", ")})`);
+}
