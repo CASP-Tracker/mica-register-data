@@ -160,6 +160,21 @@ const items = curated.items.map((e) => {
   return out;
 });
 
+// The /about/ page renders the log in 7 locales from src/data/corrections-i18n.json.
+// A missing translation falls back to English there, so report every gap.
+{
+  const tr = JSON.parse(readFileSync(join(ROOT, "src", "data", "corrections-i18n.json"), "utf8"));
+  for (const lang of ["pl", "de", "fr", "es", "it", "nl"]) {
+    for (const i of items) {
+      const x = tr.items?.[lang]?.[i.id];
+      if (!x) warnings.push(`${i.id}: no ${lang} translation in corrections-i18n.json (the ${lang} page shows English).`);
+      else if ((x.evidence || []).length !== i.evidence.length || !!x.note !== !!i.note || !x.title)
+        warnings.push(`${i.id}: ${lang} translation is incomplete (title, evidence count or note).`);
+      if (!tr.fields?.[lang]?.[i.field]) warnings.push(`field "${i.field}": no ${lang} translation.`);
+    }
+  }
+}
+
 // Every LEI touched by a value override must be logged (or explained).
 function leisIn(file, constName) {
   const text = readFileSync(join(ROOT, "scripts", file), "utf8");
@@ -219,7 +234,12 @@ const body = {
   items,
 };
 const lastChanged = resolveLastChanged(OUT_JSON, body, null);
-writeFileSync(OUT_JSON, JSON.stringify({ generatedAt: new Date().toISOString(), lastChanged, ...body }, null, 2) + "\n");
+// U+FFFD (one entry quotes ESMA's broken characters) is written as the �
+// escape, so the file stays plain ASCII there and no tool mistakes it for damage.
+writeFileSync(
+  OUT_JSON,
+  JSON.stringify({ generatedAt: new Date().toISOString(), lastChanged, ...body }, null, 2).split("�").join("\\ufffd") + "\n",
+);
 
 console.log(
   `Wrote ${items.length} logged source defects -> ${OUT_JSON} (corrected ${summary.corrected}, repaired ${summary.repaired}, flagged ${summary.flagged}; ESMA still carries ${summary.open}, ESMA fixed ${summary.fixedByEsma}; our fix public first in ${summary.fixedByUsFirst}, ${summary.leadDaysMin} to ${summary.leadDaysMax} days ahead).`,

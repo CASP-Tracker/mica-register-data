@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T09:20:01.384Z",
+  "generatedAt": "2026-11-12T09:38:09.644Z",
   "lastChanged": "2026-11-12",
   "about": "Defects CASP Tracker found in ESMA's MiCA register files, with the evidence, the date our fix became public in the data repository, and whether ESMA has since corrected its own file. `status` is recomputed against the current ESMA files on every build. `leadDays` is how long our fix was public before ESMA's file stopped carrying the defect, as a range between two of our downloads.",
   "kinds": {
@@ -38,6 +38,7 @@
     {
       "id": "ari10-lei",
       "kind": "corrected",
+      "title": "Ari10's LEI cut to 19 characters",
       "register": "CASPS",
       "field": "LEI",
       "entities": [
@@ -83,6 +84,7 @@
     {
       "id": "regular-finance-dates",
       "kind": "corrected",
+      "title": "REGULAR FINANCE SAS dated 2028 instead of 2026",
       "register": "CASPS",
       "field": "Authorisation date and record date",
       "entities": [
@@ -128,6 +130,7 @@
     {
       "id": "consob-dates-without-year",
       "kind": "corrected",
+      "title": "Ten Italian authorisation dates without a year",
       "register": "CASPS",
       "field": "Authorisation date",
       "entities": [
@@ -196,6 +199,7 @@
     {
       "id": "webull-name",
       "kind": "corrected",
+      "title": "Another firm's brands in Webull's name",
       "register": "CASPS",
       "field": "Commercial name",
       "entities": [
@@ -241,6 +245,7 @@
     {
       "id": "website-vrbank-oberbayern",
       "kind": "corrected",
+      "title": "Bank website with dashes instead of dots",
       "register": "CASPS",
       "field": "Website",
       "entities": [
@@ -278,6 +283,7 @@
     {
       "id": "website-vr-dachau",
       "kind": "corrected",
+      "title": "Bank website that no longer serves the bank",
       "register": "CASPS",
       "field": "Website",
       "entities": [
@@ -315,6 +321,7 @@
     {
       "id": "website-n26-commerzbank",
       "kind": "corrected",
+      "title": "No usable website for N26 and Commerzbank",
       "register": "CASPS",
       "field": "Website",
       "entities": [
@@ -363,6 +370,7 @@
     {
       "id": "coinbase-url-typo",
       "kind": "repaired",
+      "title": "Typo in Coinbase Luxembourg's web address",
       "register": "CASPS",
       "field": "Website",
       "entities": [
@@ -399,6 +407,7 @@
     {
       "id": "slovenia-code-sl",
       "kind": "repaired",
+      "title": "Slovenia coded as SL, the code of Sierra Leone",
       "register": "CASPS",
       "field": "Passporting countries",
       "entities": [
@@ -447,6 +456,7 @@
     {
       "id": "kraken-encoding",
       "kind": "repaired",
+      "title": "Broken characters in Kraken's name",
       "register": "CASPS",
       "field": "Commercial name",
       "entities": [
@@ -455,7 +465,7 @@
       "leis": [
         "254900641D8KNHUZYX24"
       ],
-      "esmaValue": "Kraken Digital Asset Exchange (�Kraken�), the quotation marks lost to a broken character encoding",
+      "esmaValue": "Kraken Digital Asset Exchange (\ufffdKraken\ufffd), the quotation marks lost to a broken character encoding",
       "ourValue": "Kraken Digital Asset Exchange (“Kraken”)",
       "evidence": [
         {
@@ -473,7 +483,7 @@
       "override": "fixEncoding() in scripts/clean-data.mjs",
       "check": {
         "file": "CASPS",
-        "contains": "�Kraken�"
+        "contains": "\ufffdKraken\ufffd"
       },
       "count": 1,
       "status": "open",
@@ -483,6 +493,7 @@
     {
       "id": "service-d-cut-short",
       "kind": "repaired",
+      "title": "Service d label cut short",
       "register": "CASPS",
       "field": "Authorised services (service d)",
       "entities": [
@@ -558,6 +569,7 @@
     {
       "id": "naga-x-duplicate",
       "kind": "repaired",
+      "title": "NAGA X listed twice",
       "register": "CASPS",
       "field": "Duplicate row",
       "entities": [
@@ -606,6 +618,7 @@
     {
       "id": "ncasp-excel-dates",
       "kind": "repaired",
+      "title": "Warning-list dates as spreadsheet numbers",
       "register": "NCASP",
       "field": "Decision date and record date",
       "entities": [
@@ -648,6 +661,7 @@
     {
       "id": "qivalis-name",
       "kind": "repaired",
+      "title": "Qivalis's legal name written three times",
       "register": "EMTWP",
       "field": "Legal name",
       "entities": [
@@ -691,6 +705,7 @@
     {
       "id": "invalid-lei-checksums",
       "kind": "flagged",
+      "title": "LEIs that fail their check digits",
       "register": "CASPS",
       "field": "LEI",
       "entities": [
@@ -740,6 +755,7 @@
     {
       "id": "bitpanda-retired-lei",
       "kind": "flagged",
+      "title": "Bitpanda listed under a retired LEI",
       "register": "CASPS",
       "field": "LEI",
       "entities": [
@@ -772,6 +788,7 @@
     {
       "id": "aplo-shared-lei",
       "kind": "flagged",
+      "title": "Two French firms under one LEI",
       "register": "CASPS",
       "field": "LEI",
       "entities": [
@@ -818,6 +835,7 @@
     {
       "id": "360t-brand-name",
       "kind": "flagged",
+      "title": "360T listed under flatexDEGIRO's name",
       "register": "CASPS",
       "field": "Commercial name",
       "entities": [
@@ -862,6 +880,7 @@
     {
       "id": "greek-rows-without-lei",
       "kind": "flagged",
+      "title": "Three Greek providers without an LEI",
       "register": "CASPS",
       "field": "LEI",
       "entities": [
@@ -909,6 +928,7 @@
     {
       "id": "dnb-name-typo",
       "kind": "flagged",
+      "title": "Dutch central bank's name misspelled",
       "register": "EMTWP",
       "field": "Regulator name",
       "entities": [
@@ -939,6 +959,7 @@
     {
       "id": "webull-legal-basis",
       "kind": "flagged",
+      "title": "Webull's legal basis differs from the AFM register",
       "register": "CASPS",
       "field": "Legal basis",
       "entities": [

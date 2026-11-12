@@ -155,7 +155,7 @@ One item per defect found in ESMA's files. The top level carries `summary` (coun
 
 | Field | Meaning |
 |---|---|
-| `id`, `kind` | Stable key, and `corrected` (a value we publish differs from ESMA's, backed by a second, named source), `repaired` (a format defect read correctly without changing any fact) or `flagged` (reported, not changed) |
+| `id`, `title`, `kind` | Stable key, a one-line headline, and `corrected` (a value we publish differs from ESMA's, backed by a second, named source), `repaired` (a format defect read correctly without changing any fact) or `flagged` (reported, not changed) |
 | `register`, `field` | Which ESMA file (`CASPS`, `NCASP`, `EMTWP`) and which field |
 | `entities`, `leis`, `count` | The providers concerned |
 | `esmaValue`, `ourValue`, `evidence` | What ESMA's file says, what we publish, and the named source behind it |
