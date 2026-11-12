@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T08:19:16.884Z",
+  "generatedAt": "2026-11-12T08:40:39.221Z",
   "lastChanged": "2026-11-12",
   "source": {
     "casps": "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv",
@@ -938,7 +938,7 @@
           "short": "MNB"
         }
       ],
-      "ncaNumberStatus": "unknown",
+      "ncaNumberStatus": "register",
       "warnings": 0,
       "emtIssuers": 0
     },

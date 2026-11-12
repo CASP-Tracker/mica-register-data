@@ -134,6 +134,13 @@ const WEBSITE_BY_LEI = {
 const NAME_BY_LEI = {
   // commercial name is "Change, Change Invest, getchange.com, ChangePro, ..."
   "7245009PUAT6U71IXZ51": "Change", // Change Securities B.V.
+  // Webull Securities (Europe) B.V.: ESMA's commercial name reads "Webull |
+  // Webull Europe | Cashify | RGLTD", but Cashify and RGLTD are Ari10's names.
+  // AFM's own register (register-cryptopartijen.xlsx, read 2026-11-12) lists
+  // "Webull, Webull Europe" for this LEI (AFM no. 41000091) and "ARI10 NL, ARI10,
+  // WEB3 Technology B.V., RGLTD Cashify" for WEB3 Technology B.V., so the last two
+  // brands leaked into this row in ESMA's file. Drop the override once ESMA fixes it.
+  "894500CUU8Y0ZBG8DX95": "Webull",
 };
 
 // Brand / "also known as" info for entities that hold the ESMA-registered CASP
@@ -260,6 +267,17 @@ export const NCA_NUMBER_POLICY = {
   // Banco de Portugal shows only the entity's tax number (NIPC).
   PT: { status: "none" },
   SE: { status: "register", label: "Finansinspektionen institution number" },
+  // Added 2026-11-12 with the first Hungarian entry. MNB references each MiCA
+  // authorisation by its licensing decision number (format H-EN-III-NNN/YYYY,
+  // the same kind of reference as BG's FSC decision number): CoinCash / Tiwala
+  // Solutions Kft. holds decision no. H-EN-III-450/2026 of 20 July 2026, stated
+  // in the licensee's own legal notice (coincash.eu/about-us, read 2026-11-12)
+  // and in Economx and Penzcentrum (23-24 July 2026). NOT yet read from MNB
+  // itself: its Intezmenykereso register sits behind a reCAPTCHA and no MNB
+  // publication of the decision was found, so the number stays out of
+  // NCA_NUMBER_BY_LEI (regulator-sourced only) and the drawer says MNB assigns
+  // one that we have not added yet, which is what the evidence supports.
+  HU: { status: "register", label: "MNB decision number" },
 };
 
 // Verified regulator reference numbers, keyed by LEI (stable across

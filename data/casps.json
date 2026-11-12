@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T08:16:37.877Z",
+  "generatedAt": "2026-11-12T08:40:38.208Z",
   "lastChanged": "2026-11-12",
   "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
   "attribution": {
@@ -4299,7 +4299,7 @@
       "companyRegisterNumber": "01-09-343101",
       "companyRegisterName": "National Company Register and Company Information System (Országos Cégnyilvántartó és Céginformációs Rendszer)",
       "companyRegisterCountry": "HU",
-      "ncaNumberStatus": "unknown",
+      "ncaNumberStatus": "register",
       "ncaNumber": null,
       "ncaNumberLabel": null,
       "ctId": "CT-0LPV7NB"
@@ -18025,8 +18025,8 @@
       "ctId": "CT-0JIRT9M"
     },
     {
-      "slug": "webull-webull-europe-cashify-rgltd",
-      "name": "Webull | Webull Europe | Cashify | RGLTD",
+      "slug": "webull",
+      "name": "Webull",
       "legalName": "Webull Securities (Europe) B.V.",
       "authority": "Netherlands Authority for the Financial Markets (AFM)",
       "homeState": "NL",
@@ -18054,7 +18054,7 @@
       "ncaNumberStatus": "register",
       "ncaNumber": "41000091",
       "ncaNumberLabel": "AFM authorisation number",
-      "ctId": "CT-1B4JAT5"
+      "ctId": "CT-0EC36O4"
     },
     {
       "slug": "westerwald-bank-eg-volks-und-raiffeisenbank",
