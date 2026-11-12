@@ -13,6 +13,7 @@ Cleaned, machine-readable datasets from the European Securities and Markets Auth
 | [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **216** | Non-compliant entities flagged by national regulators |
 | [`data/emts.json`](data/emts.json) | EMT issuers | **26** issuers (51 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
+| [`data/corrections.json`](data/corrections.json) | Corrections log (derived) | **21** defects | Defects CASP Tracker found in ESMA's register files, with the evidence, the dates and ESMA's own status. Readable version: [`CORRECTIONS.md`](CORRECTIONS.md). No ESMA counterpart |
 | [`data/countries.json`](data/countries.json) | Licences by country (derived) | **30** EEA states | Per-country statistics derived from the three datasets above: licences by home state, providers passported in, licensed exchanges, regulators, warnings, EMT issuers. No ESMA counterpart |
 
 `source/` holds the raw ESMA CSV snapshots the datasets are built from (`CASPS.csv`, `NCASP.csv`, `EMTWP.csv`, `ARTZZ.csv`). Filenames are stable, so **the git history of this repository doubles as a changelog of the ESMA registers**: every refresh commit shows exactly which entries were added or changed. ESMA itself does not publish register history.
@@ -30,7 +31,7 @@ The official interim CSVs are hard to consume programmatically. The cleaning scr
 - service labels that arrive cut short (the AMF submits `d. exchange of crypto-assets for other`, the Bulgarian FSC `d. exchange of crypto-assets`), which a plain phrase match drops without a trace. Until 2026-09-17 that cost 16 providers their service d in this dataset. Every one was checked against the home regulator's own register before the fix, and the cleaning script now prints any label it cannot place;
 - dates converted from `dd/mm/yyyy` to ISO 8601.
 
-We normalise, we never edit facts. Genuine source errors are preserved and documented in the scripts, and this repository's history shows them coming and going. Two examples: until ESMA corrected the row in September 2026, two different French firms (APLO SAS and FLOWDESK EUROPE SAS) shared one LEI in the register, and until August 2026 one German bank's row carried another company's brand name. Run `git log -p source/CASPS.csv` to see both the error and the fix. Other errors are still there: as of 2026-09-17, 10 LEIs in the source file fail the ISO 17442 checksum.
+We normalise, and we change a value only against a second, named source. Every defect we have found in ESMA's files, whether we corrected it or only flagged it, is logged in [`CORRECTIONS.md`](CORRECTIONS.md) (as data: [`data/corrections.json`](data/corrections.json)) with the evidence, the commit of this repository in which our fix first appeared, and whether ESMA has since corrected its own file. On 2026-11-12 the log held 21 defects. ESMA had corrected 8 of them in its own file, and in 5 cases our fix was public here first, between 4 and 102 days before ESMA's. Every correction in the scripts is coded to switch itself off the moment ESMA fixes the row, and the build stops if a correction has no entry in the log. Run `git log -p source/CASPS.csv` to see a defect and its later fix in ESMA's own file.
 
 Full methodology: the **CASP Tracker Verification Protocol**, described at <https://casptracker.eu/about/#methodology>. Each refresh starts by downloading the live CSVs from esma.europa.eu and comparing SHA-256 hashes byte for byte; the datasets are regenerated whenever the source changes.
 
@@ -148,6 +149,22 @@ Unlike the four datasets above, this one has no ESMA counterpart: every figure i
 | `warnings` | NCASP entries filed by this country's regulator. Only six regulators report to that list, so 0 means none reported, not none issued |
 | `emtIssuers` | Authorised e-money token issuers based in the country |
 
+### `data/corrections.json` (corrections log, derived)
+
+One item per defect found in ESMA's files. The top level carries `summary` (counts by kind and status, and the range of days by which our fixes came first). Readable version with the same content: [`CORRECTIONS.md`](CORRECTIONS.md).
+
+| Field | Meaning |
+|---|---|
+| `id`, `kind` | Stable key, and `corrected` (a value we publish differs from ESMA's, backed by a second, named source), `repaired` (a format defect read correctly without changing any fact) or `flagged` (reported, not changed) |
+| `register`, `field` | Which ESMA file (`CASPS`, `NCASP`, `EMTWP`) and which field |
+| `entities`, `leis`, `count` | The providers concerned |
+| `esmaValue`, `ourValue`, `evidence` | What ESMA's file says, what we publish, and the named source behind it |
+| `foundOn`, `inSourceSince` | When we found it, and the first ESMA file in which we saw it (this repository starts on 2026-07-20) |
+| `publicSince` | First commit of this repository whose data carries our fix (`date`, `commit`, `url`), `null` when we did not change the value |
+| `esmaFixed` | The last of our ESMA downloads that still had the defect (`after`) and the first that no longer did (`by`), with the commit |
+| `status`, `aheadOfEsma`, `leadDays` | Recomputed against ESMA's current files on every build: `open` or `fixed-by-esma`, whether our fix was public before ESMA's, and by how many days (`min` to `max`) |
+| `check`, `override`, `note` | The test run against the source, the place in the scripts that applies the fix, and remarks |
+
 ## Scripts
 
 `scripts/` contains the cleaning scripts exactly as used in the casptracker.eu build pipeline, published for transparency of the methodology:
@@ -156,6 +173,7 @@ Unlike the four datasets above, this one has no ESMA counterpart: every figure i
 - `clean-ncasp.mjs`: `NCASP.csv` to `ncasps.json`
 - `clean-token-issuers.mjs`: `EMTWP.csv` + `ARTZZ.csv` to `emts.json` + `arts.json`
 - `build-country-stats.mjs`: `casps.json` + `ncasps.json` + `emts.json` to `countries.json` (the derived per-country statistics; the field definitions are in its header)
+- `build-corrections.mjs`: checks every logged defect against the current ESMA files, writes `corrections.json` and `CORRECTIONS.md`, and stops the build if a correction in the cleaning scripts has no entry in the log
 - `fetch-register-numbers.mjs`: resolves every CASP's national company-register number from the free public GLEIF API by LEI
 - `fetch-nca-numbers.mjs`: fetches MiCA-specific regulator reference numbers in bulk from the five national sources confirmed machine-readable so far (Netherlands/AFM, France/AMF, Luxembourg/CSSF, Croatia/HANFA, Denmark/Finanstilsynet); prints a diff against the hand-curated overrides in `clean-data.mjs` rather than writing data directly, so each new number gets a sanity check before it ships
 

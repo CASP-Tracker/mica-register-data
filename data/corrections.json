@@ -1,0 +1,979 @@
+{
+  "generatedAt": "2026-11-12T09:20:01.384Z",
+  "lastChanged": "2026-11-12",
+  "about": "Defects CASP Tracker found in ESMA's MiCA register files, with the evidence, the date our fix became public in the data repository, and whether ESMA has since corrected its own file. `status` is recomputed against the current ESMA files on every build. `leadDays` is how long our fix was public before ESMA's file stopped carrying the defect, as a range between two of our downloads.",
+  "kinds": {
+    "corrected": "A value we publish differs from ESMA's file, backed by a second, named source.",
+    "repaired": "A format defect we read correctly without changing any fact.",
+    "flagged": "A defect we report but do not change."
+  },
+  "sources": [
+    "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv",
+    "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
+    "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv"
+  ],
+  "attribution": {
+    "source": "CASP Tracker",
+    "url": "https://casptracker.eu",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseNote": "CC BY 4.0: reuse requires attribution to CASP Tracker with a link to https://casptracker.eu.",
+    "citation": "Source: CASP Tracker (casptracker.eu), based on the ESMA MiCA interim registers.",
+    "methodology": "https://casptracker.eu/about/#methodology",
+    "terms": "https://casptracker.eu/llms.txt",
+    "repository": "https://github.com/CASP-Tracker/mica-register-data"
+  },
+  "summary": {
+    "total": 21,
+    "corrected": 7,
+    "repaired": 7,
+    "flagged": 7,
+    "open": 13,
+    "fixedByEsma": 8,
+    "fixedByUsFirst": 5,
+    "leadDaysMin": 4,
+    "leadDaysMax": 102
+  },
+  "count": 21,
+  "items": [
+    {
+      "id": "ari10-lei",
+      "kind": "corrected",
+      "register": "CASPS",
+      "field": "LEI",
+      "entities": [
+        "WEB3 Technology B.V. (Ari10)"
+      ],
+      "leis": [
+        "724500YJVIN0Q94ZZG58"
+      ],
+      "esmaValue": "724500YJVIN0Q94ZZG5 (19 characters, fails the ISO 17442 check digits)",
+      "ourValue": "724500YJVIN0Q94ZZG58",
+      "evidence": [
+        {
+          "label": "GLEIF record of WEB3 Technology B.V.",
+          "url": "https://search.gleif.org/#/record/724500YJVIN0Q94ZZG58"
+        }
+      ],
+      "foundOn": "2026-08-12",
+      "inSourceSince": "2026-07-20",
+      "publicSince": {
+        "date": "2026-08-12",
+        "commit": "5937641",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/5937641"
+      },
+      "esmaFixed": {
+        "after": "2026-10-09",
+        "by": "2026-10-16",
+        "commit": "b0caa16",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/b0caa16"
+      },
+      "override": "LEI_FIX in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "contains": "724500YJVIN0Q94ZZG5,"
+      },
+      "count": 1,
+      "status": "fixed-by-esma",
+      "aheadOfEsma": true,
+      "leadDays": {
+        "min": 58,
+        "max": 65
+      }
+    },
+    {
+      "id": "regular-finance-dates",
+      "kind": "corrected",
+      "register": "CASPS",
+      "field": "Authorisation date and record date",
+      "entities": [
+        "REGULAR FINANCE SAS"
+      ],
+      "leis": [
+        "969500Y5SNO2WBYDB059"
+      ],
+      "esmaValue": "11/09/2028 in both fields (a date two years in the future)",
+      "ourValue": "11/09/2026",
+      "evidence": [
+        {
+          "label": "AMF register of authorised CASPs on data.gouv.fr, agrément MiCA A2026-030",
+          "url": "https://www.data.gouv.fr/api/1/datasets/r/e03f8899-2499-4826-aaae-6842f520bdac"
+        }
+      ],
+      "foundOn": "2026-09-24",
+      "inSourceSince": "2026-09-24",
+      "publicSince": {
+        "date": "2026-10-01",
+        "commit": "558a8c1",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/558a8c1"
+      },
+      "esmaFixed": {
+        "after": "2026-10-09",
+        "by": "2026-10-16",
+        "commit": "b0caa16",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/b0caa16"
+      },
+      "override": "DATE_FIX_BY_LEI in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "contains": "11/09/2028"
+      },
+      "count": 1,
+      "status": "fixed-by-esma",
+      "aheadOfEsma": true,
+      "leadDays": {
+        "min": 8,
+        "max": 15
+      }
+    },
+    {
+      "id": "consob-dates-without-year",
+      "kind": "corrected",
+      "register": "CASPS",
+      "field": "Authorisation date",
+      "entities": [
+        "Banca Sella",
+        "CheckSig",
+        "CoinFlip (Olliv Italia)",
+        "Conio",
+        "Cryptosmart",
+        "Hercle",
+        "Hodli (Hodlie)",
+        "RIV-Digital",
+        "YouHodler Italy",
+        "Young Platform"
+      ],
+      "leis": [
+        "549300I7OIUB41P86L19",
+        "8156006C715AAACC5D19",
+        "81560042B094A85D8F89",
+        "8945000EH59XYZHK0B92",
+        "815600C7E86B02BBE483",
+        "984500AEBA8A0HQ44988",
+        "9845006D4F5D2E5F8554",
+        "815600DCB0E8882D2314",
+        "894500I5LYET12OFII30",
+        "815600F1E30AAB016171"
+      ],
+      "esmaValue": "Day and month only, e.g. 27-Apr (the year was dropped)",
+      "ourValue": "The full date, e.g. 27/04/2026",
+      "evidence": [
+        {
+          "label": "The same dates, with the year, in every earlier ESMA file (nine providers)"
+        },
+        {
+          "label": "CONSOB resolution no. 24156 of 8 October 2026 (YouHodler Italy, new in that file)"
+        }
+      ],
+      "foundOn": "2026-10-16",
+      "inSourceSince": "2026-10-16",
+      "publicSince": {
+        "date": "2026-10-16",
+        "commit": "b0caa16",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/b0caa16"
+      },
+      "esmaFixed": {
+        "after": "2026-10-20",
+        "by": "2026-10-22",
+        "commit": "63ff21f",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/63ff21f"
+      },
+      "override": "DATE_FIX_BY_LEI in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "test": {
+          "col": 9,
+          "re": "^\\d{1,2}-[A-Za-z]{3}$"
+        }
+      },
+      "count": 10,
+      "status": "fixed-by-esma",
+      "aheadOfEsma": true,
+      "leadDays": {
+        "min": 4,
+        "max": 6
+      }
+    },
+    {
+      "id": "webull-name",
+      "kind": "corrected",
+      "register": "CASPS",
+      "field": "Commercial name",
+      "entities": [
+        "Webull Securities (Europe) B.V."
+      ],
+      "leis": [
+        "894500CUU8Y0ZBG8DX95"
+      ],
+      "esmaValue": "Webull | Webull Europe | Cashify | RGLTD",
+      "ourValue": "Webull",
+      "evidence": [
+        {
+          "label": "AFM register of crypto-asset service providers: \"Webull, Webull Europe\" for this LEI, Cashify and RGLTD listed under WEB3 Technology B.V. (Ari10)",
+          "url": "https://www.afm.nl/~/profmedia/files/registers/register-cryptopartijen.xlsx"
+        }
+      ],
+      "foundOn": "2026-11-12",
+      "inSourceSince": "2026-10-01",
+      "publicSince": {
+        "date": "2026-11-12",
+        "commit": "d0b63d0",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/d0b63d0"
+      },
+      "esmaFixed": null,
+      "override": "NAME_BY_LEI in scripts/clean-data.mjs",
+      "note": "In ESMA's file since 1 October 2026. We caught it on 12 November.",
+      "check": {
+        "file": "CASPS",
+        "where": {
+          "col": 3,
+          "re": "^894500CUU8Y0ZBG8DX95$"
+        },
+        "test": {
+          "col": 5,
+          "re": "Cashify"
+        }
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "website-vrbank-oberbayern",
+      "kind": "corrected",
+      "register": "CASPS",
+      "field": "Website",
+      "entities": [
+        "Volksbank Raiffeisenbank Oberbayern Südost eG"
+      ],
+      "leis": [
+        "5299005O2LPWV9IP2Z21"
+      ],
+      "esmaValue": "www-vrbank-obb-so.de (dashes instead of dots, does not resolve)",
+      "ourValue": "https://www.vrbank-obb-so.de",
+      "evidence": [
+        {
+          "label": "The bank's own website, checked 3 August 2026",
+          "url": "https://www.vrbank-obb-so.de"
+        }
+      ],
+      "foundOn": "2026-08-03",
+      "inSourceSince": "2026-08-03",
+      "publicSince": {
+        "date": "2026-08-05",
+        "commit": "442d9ce",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/442d9ce"
+      },
+      "esmaFixed": null,
+      "override": "WEBSITE_BY_LEI in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "contains": "www-vrbank-obb-so"
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "website-vr-dachau",
+      "kind": "corrected",
+      "register": "CASPS",
+      "field": "Website",
+      "entities": [
+        "Volksbank Raiffeisenbank Dachau eG"
+      ],
+      "leis": [
+        "391200TWGO2RBL7WG010"
+      ],
+      "esmaValue": "www.voba-raiba-dachau.de (refuses HTTPS, over plain HTTP it only redirects to vr-dachau.de)",
+      "ourValue": "https://www.vr-dachau.de",
+      "evidence": [
+        {
+          "label": "Redirect target, whose page title names the bank, checked 11 September 2026",
+          "url": "https://www.vr-dachau.de"
+        }
+      ],
+      "foundOn": "2026-09-11",
+      "inSourceSince": "2026-09-11",
+      "publicSince": {
+        "date": "2026-09-11",
+        "commit": "7308035",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/7308035"
+      },
+      "esmaFixed": null,
+      "override": "WEBSITE_BY_LEI in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "contains": "voba-raiba-dachau"
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "website-n26-commerzbank",
+      "kind": "corrected",
+      "register": "CASPS",
+      "field": "Website",
+      "entities": [
+        "N26 Bank SE",
+        "Commerzbank AG"
+      ],
+      "leis": [
+        "529900JB9XYZ8E87N345",
+        "851WYGNLUQLFZBSYGB56"
+      ],
+      "esmaValue": "No usable web address in either website column",
+      "ourValue": "https://n26.com and https://www.commerzbank.com",
+      "evidence": [
+        {
+          "label": "The banks' official websites"
+        }
+      ],
+      "foundOn": null,
+      "inSourceSince": "2026-07-20",
+      "publicSince": {
+        "date": "2026-07-20",
+        "commit": "e91762b",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/e91762b"
+      },
+      "esmaFixed": null,
+      "override": "WEBSITE_BY_LEI in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "where": {
+          "col": 3,
+          "re": "^(529900JB9XYZ8E87N345|851WYGNLUQLFZBSYGB56)$"
+        },
+        "test": {
+          "cols": [
+            7,
+            8
+          ],
+          "notRe": "[a-z0-9-]+\\.[a-z]{2,}"
+        }
+      },
+      "count": 2,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "coinbase-url-typo",
+      "kind": "repaired",
+      "register": "CASPS",
+      "field": "Website",
+      "entities": [
+        "Coinbase Luxembourg S.A."
+      ],
+      "leis": [
+        "984500F14CA4571AAC11"
+      ],
+      "esmaValue": "https.//coinbase.com",
+      "ourValue": "https://coinbase.com",
+      "evidence": [
+        {
+          "label": "A full stop typed instead of a colon"
+        }
+      ],
+      "foundOn": null,
+      "inSourceSince": "2026-07-20",
+      "publicSince": {
+        "date": "2026-07-20",
+        "commit": "e91762b",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/e91762b"
+      },
+      "esmaFixed": null,
+      "override": "pickUrl() in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "contains": "https.//"
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "slovenia-code-sl",
+      "kind": "repaired",
+      "register": "CASPS",
+      "field": "Passporting countries",
+      "entities": [
+        "AMINA (Austria) AG",
+        "FIOR Digital GmbH"
+      ],
+      "leis": [],
+      "esmaValue": "SL for Slovenia (SL is the ISO code of Sierra Leone)",
+      "ourValue": "SI",
+      "evidence": [
+        {
+          "label": "ISO 3166-1 country codes",
+          "url": "https://www.iso.org/obp/ui/#iso:code:3166:SI"
+        }
+      ],
+      "foundOn": null,
+      "inSourceSince": "2026-07-20",
+      "publicSince": {
+        "date": "2026-07-20",
+        "commit": "e91762b",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/e91762b"
+      },
+      "esmaFixed": {
+        "after": "2026-10-22",
+        "by": "2026-10-30",
+        "commit": "9fff69c",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/9fff69c"
+      },
+      "override": "normalizeCountry() in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "test": {
+          "col": 12,
+          "split": "[|,/]",
+          "re": "^\\s*SL\\s*$"
+        }
+      },
+      "count": 2,
+      "status": "fixed-by-esma",
+      "aheadOfEsma": true,
+      "leadDays": {
+        "min": 94,
+        "max": 102
+      }
+    },
+    {
+      "id": "kraken-encoding",
+      "kind": "repaired",
+      "register": "CASPS",
+      "field": "Commercial name",
+      "entities": [
+        "Payward Europe Solutions Limited (Kraken)"
+      ],
+      "leis": [
+        "254900641D8KNHUZYX24"
+      ],
+      "esmaValue": "Kraken Digital Asset Exchange (�Kraken�), the quotation marks lost to a broken character encoding",
+      "ourValue": "Kraken Digital Asset Exchange (“Kraken”)",
+      "evidence": [
+        {
+          "label": "U+FFFD replacement characters in the export"
+        }
+      ],
+      "foundOn": null,
+      "inSourceSince": "2026-07-20",
+      "publicSince": {
+        "date": "2026-07-20",
+        "commit": "e91762b",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/e91762b"
+      },
+      "esmaFixed": null,
+      "override": "fixEncoding() in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "contains": "�Kraken�"
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "service-d-cut-short",
+      "kind": "repaired",
+      "register": "CASPS",
+      "field": "Authorised services (service d)",
+      "entities": [
+        "FF Digital",
+        "GOIN",
+        "BITSTACK",
+        "FINCTEK",
+        "BANQUE DELUBAC",
+        "FIPTO",
+        "HEXARQ",
+        "DESKOIN",
+        "COINHOUSE",
+        "QWARKS",
+        "KEYROCK",
+        "PAYMIUM",
+        "FLOWDESK EUROPE",
+        "APLO",
+        "WOORTON",
+        "FEEL MINING / WIGL ET OTHILA"
+      ],
+      "leis": [
+        "648851FOKWX4PG639059",
+        "894500LM6DICD790FQ34",
+        "894500RKZ3TVTPIF7V84",
+        "969500PTJJZTCE0I3B60",
+        "969500A4IPKVUBH3CA90",
+        "969500A0DYUNF5NX9R84",
+        "969500TD4VXAOPXPVW02",
+        "969500QH6WD4FO79B261",
+        "969500E5GFHK2RKF8251",
+        "969500CMLNBIVUUD9A09",
+        "9845001BAFC53ODN8C90",
+        "969500D241WXU9J7MI33",
+        "984500AB011S3AEF6706",
+        "969500YKHZ31GZ7AAU02",
+        "213800RF9FDNJ92AE175",
+        "9695000VFDEG5Z4JIY48"
+      ],
+      "esmaValue": "The label of service d cut short: \"d. exchange of crypto-assets for other\" (AMF rows) or \"d. exchange of crypto-assets\" (Bulgarian FSC row)",
+      "ourValue": "Service d (exchange of crypto-assets for other crypto-assets) shown for these providers",
+      "evidence": [
+        {
+          "label": "AMF register of authorised CASPs: crypto-to-crypto exchange listed for all 15 French firms",
+          "url": "https://www.data.gouv.fr/api/1/datasets/r/e03f8899-2499-4826-aaae-6842f520bdac"
+        },
+        {
+          "label": "Bulgarian FSC licensing decision for FF Digital"
+        }
+      ],
+      "foundOn": "2026-09-17",
+      "inSourceSince": "2026-07-20",
+      "publicSince": {
+        "date": "2026-09-17",
+        "commit": "164e1b7",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/164e1b7"
+      },
+      "esmaFixed": null,
+      "override": "EXCHANGE_STUB in src/lib/services.js",
+      "note": "Our own miss: from at least 20 July to 17 September 2026 our published data showed 10 to 15 of these providers without service d. Found by comparing a new entry with the regulator's own decision.",
+      "check": {
+        "file": "CASPS",
+        "test": {
+          "col": 11,
+          "split": "\\|",
+          "re": "^\\s*d\\.\\s*exchange of crypto-assets( for other)?\\s*$"
+        }
+      },
+      "count": 16,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "naga-x-duplicate",
+      "kind": "repaired",
+      "register": "CASPS",
+      "field": "Duplicate row",
+      "entities": [
+        "NAGA X"
+      ],
+      "leis": [
+        "984500DCB2AF415E5Y71"
+      ],
+      "esmaValue": "The same entity listed twice with identical rows",
+      "ourValue": "One entry",
+      "evidence": [
+        {
+          "label": "Byte-identical rows in the export"
+        }
+      ],
+      "foundOn": "2026-07-08",
+      "inSourceSince": "2026-07-20",
+      "publicSince": {
+        "date": "2026-07-20",
+        "commit": "e91762b",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/e91762b"
+      },
+      "esmaFixed": {
+        "after": "2026-07-24",
+        "by": "2026-08-05",
+        "commit": "442d9ce",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/442d9ce"
+      },
+      "override": "duplicate-row merge in scripts/clean-data.mjs",
+      "check": {
+        "file": "CASPS",
+        "where": {
+          "col": 2,
+          "re": "^NAGA X$"
+        },
+        "minRows": 2
+      },
+      "count": 1,
+      "status": "fixed-by-esma",
+      "aheadOfEsma": true,
+      "leadDays": {
+        "min": 4,
+        "max": 16
+      }
+    },
+    {
+      "id": "ncasp-excel-dates",
+      "kind": "repaired",
+      "register": "NCASP",
+      "field": "Decision date and record date",
+      "entities": [
+        "MEXC (AFM warning)",
+        "LWEX (NBS warning)"
+      ],
+      "leis": [],
+      "esmaValue": "Spreadsheet serial numbers, e.g. 45916",
+      "ourValue": "Calendar dates, e.g. 16/09/2025, the same dates as in earlier ESMA files",
+      "evidence": [
+        {
+          "label": "Earlier ESMA files print the same rows as dd/mm/yyyy"
+        }
+      ],
+      "foundOn": "2026-11-12",
+      "inSourceSince": "2026-11-12",
+      "publicSince": {
+        "date": "2026-11-12",
+        "commit": "f13ed47",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/f13ed47"
+      },
+      "esmaFixed": null,
+      "override": "parseDateIso() in scripts/clean-ncasp.mjs",
+      "check": {
+        "file": "NCASP",
+        "test": {
+          "cols": [
+            9,
+            11
+          ],
+          "any": true,
+          "re": "^\\s*\\d{5}\\s*$"
+        }
+      },
+      "count": 2,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "qivalis-name",
+      "kind": "repaired",
+      "register": "EMTWP",
+      "field": "Legal name",
+      "entities": [
+        "Qivalis B.V."
+      ],
+      "leis": [
+        "724500LOOWQMIDXTS391"
+      ],
+      "esmaValue": "\"Qivalis B.V.\" written three times in one cell",
+      "ourValue": "Qivalis B.V.",
+      "evidence": [
+        {
+          "label": "The repeated lines are identical"
+        }
+      ],
+      "foundOn": "2026-11-12",
+      "inSourceSince": "2026-11-12",
+      "publicSince": {
+        "date": "2026-11-12",
+        "commit": "f13ed47",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/f13ed47"
+      },
+      "esmaFixed": null,
+      "override": "cleanName() in scripts/clean-token-issuers.mjs",
+      "check": {
+        "file": "EMTWP",
+        "where": {
+          "col": 3,
+          "re": "^724500LOOWQMIDXTS391$"
+        },
+        "test": {
+          "col": 2,
+          "re": "Qivalis B\\.V\\.\\s*\\n\\s*Qivalis"
+        }
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "invalid-lei-checksums",
+      "kind": "flagged",
+      "register": "CASPS",
+      "field": "LEI",
+      "entities": [
+        "OSL EU GmbH",
+        "Noemon Finance Ltd",
+        "Raiffeisenbank Falkenstein-Wörth",
+        "Volksbank Sauerland eG",
+        "PROSEGUR CUSTODIA DE ACTIVOS DIGITALES S.L.U.",
+        "FINTECH PAYMENTS PSC S.L.",
+        "Ramp Swaps (Ireland) Limited",
+        "B2C2 Europe Sarl",
+        "Zap (Strike) Europe Limited",
+        "EU Internet Ventures B.V."
+      ],
+      "leis": [
+        "8945001TKX2A5OJMNR45",
+        "25490004TC93R20KW073",
+        "391200236O6D9SGBE882",
+        "5299001O5S0MLDXH7A21",
+        "59800G0P3PV13KLX615",
+        "549300746K71T6YJCV41",
+        "89450036UW3ID72T1M84.",
+        "969500OA6NVZB5BXAB29",
+        "984500457TABOA3BZ224",
+        "69940000HAL9ODW3IMO22"
+      ],
+      "esmaValue": "LEIs that fail the ISO 17442 check digits (wrong length, a trailing full stop or wrong check digits)",
+      "ourValue": "Shown as ESMA prints them. A LEI is corrected only when GLEIF confirms the right value, which so far happened once (Ari10).",
+      "evidence": [
+        {
+          "label": "ISO 17442 check digits (ISO 7064 MOD 97-10), which anyone can recompute"
+        }
+      ],
+      "foundOn": "2026-08-12",
+      "inSourceSince": "2026-07-20",
+      "publicSince": null,
+      "esmaFixed": null,
+      "check": {
+        "file": "CASPS",
+        "special": "invalidLei"
+      },
+      "count": 10,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "bitpanda-retired-lei",
+      "kind": "flagged",
+      "register": "CASPS",
+      "field": "LEI",
+      "entities": [
+        "Bitpanda GmbH"
+      ],
+      "leis": [
+        "5493007WZ7IFULIL8G21"
+      ],
+      "esmaValue": "5493007WZ7IFULIL8G21, which GLEIF shows as RETIRED (entity inactive)",
+      "ourValue": "ESMA's LEI is kept. The company register number comes from the successor LEI 98450086582EV2FFC109.",
+      "evidence": [
+        {
+          "label": "GLEIF record, checked 12 November 2026",
+          "url": "https://search.gleif.org/#/record/5493007WZ7IFULIL8G21"
+        }
+      ],
+      "foundOn": "2026-08-12",
+      "inSourceSince": "2026-07-20",
+      "publicSince": null,
+      "esmaFixed": null,
+      "check": {
+        "file": "CASPS",
+        "contains": "5493007WZ7IFULIL8G21"
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "aplo-shared-lei",
+      "kind": "flagged",
+      "register": "CASPS",
+      "field": "LEI",
+      "entities": [
+        "APLO SAS",
+        "FLOWDESK EUROPE SAS"
+      ],
+      "leis": [
+        "969500YKHZ31GZ7AAU02"
+      ],
+      "esmaValue": "APLO SAS listed under FLOWDESK EUROPE SAS's LEI",
+      "ourValue": "Kept as two separate entries, with APLO's own AMF number (A2026-023) and company register number attached by hand",
+      "evidence": [
+        {
+          "label": "GLEIF and the AMF register list APLO SAS under its own LEI 969500YKHZ31GZ7AAU02",
+          "url": "https://search.gleif.org/#/record/969500YKHZ31GZ7AAU02"
+        }
+      ],
+      "foundOn": "2026-08-12",
+      "inSourceSince": "2026-07-20",
+      "publicSince": null,
+      "esmaFixed": {
+        "after": "2026-09-11",
+        "by": "2026-09-17",
+        "commit": "e3ae2c6",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/e3ae2c6"
+      },
+      "note": "Our data kept ESMA's LEI until ESMA corrected the row, so this is not counted as a fix ahead of ESMA. APLO's own numbers were public from 12 August 2026 (commit 5937641).",
+      "check": {
+        "file": "CASPS",
+        "where": {
+          "col": 2,
+          "re": "\\bAPLO\\b"
+        },
+        "test": {
+          "col": 3,
+          "notRe": "^969500YKHZ31GZ7AAU02$"
+        }
+      },
+      "count": 2,
+      "status": "fixed-by-esma",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "360t-brand-name",
+      "kind": "flagged",
+      "register": "CASPS",
+      "field": "Commercial name",
+      "entities": [
+        "360 Treasury Systems AG"
+      ],
+      "leis": [
+        "529900P0204W9HA8JP36"
+      ],
+      "esmaValue": "flatexDEGIRO Bank AG, another company's name, so the register showed two flatexDEGIRO entries",
+      "ourValue": "Shown as ESMA printed it and flagged, no name override",
+      "evidence": [
+        {
+          "label": "GLEIF record of this LEI: 360 Treasury Systems AG",
+          "url": "https://search.gleif.org/#/record/529900P0204W9HA8JP36"
+        }
+      ],
+      "foundOn": "2026-07-08",
+      "inSourceSince": "2026-07-20",
+      "publicSince": null,
+      "esmaFixed": {
+        "after": "2026-08-18",
+        "by": "2026-08-22",
+        "commit": "3b625b1",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/3b625b1"
+      },
+      "check": {
+        "file": "CASPS",
+        "where": {
+          "col": 3,
+          "re": "^529900P0204W9HA8JP36$"
+        },
+        "test": {
+          "col": 5,
+          "re": "flatex"
+        }
+      },
+      "count": 1,
+      "status": "fixed-by-esma",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "greek-rows-without-lei",
+      "kind": "flagged",
+      "register": "CASPS",
+      "field": "LEI",
+      "entities": [
+        "BCASH",
+        "CAPITAL WALLET GREECE",
+        "XENIOS BLOCKCHAIN GROUP (XBG)"
+      ],
+      "leis": [
+        "984500C5A9YK55041179",
+        "213800VHQNZ72RU8CW51",
+        "2138009N1SHZPPM84705"
+      ],
+      "esmaValue": "No LEI at all, the first rows in the register without one",
+      "ourValue": "Shown without LEI or company register number until ESMA added them",
+      "evidence": [
+        {
+          "label": "MiCA Art. 109(5)(a) requires the LEI in the register"
+        }
+      ],
+      "foundOn": "2026-09-24",
+      "inSourceSince": "2026-09-24",
+      "publicSince": null,
+      "esmaFixed": {
+        "after": "2026-10-09",
+        "by": "2026-10-16",
+        "commit": "b0caa16",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/b0caa16"
+      },
+      "check": {
+        "file": "CASPS",
+        "where": {
+          "col": 0,
+          "re": "Hellenic Capital"
+        },
+        "test": {
+          "col": 3,
+          "re": "^\\s*$"
+        }
+      },
+      "count": 3,
+      "status": "fixed-by-esma",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "dnb-name-typo",
+      "kind": "flagged",
+      "register": "EMTWP",
+      "field": "Regulator name",
+      "entities": [
+        "Rows of Dutch EMT issuers"
+      ],
+      "leis": [],
+      "esmaValue": "De Nederlansche Bank (DNB)",
+      "ourValue": "Shown as ESMA prints it, the short name DNB is correct",
+      "evidence": [
+        {
+          "label": "The bank's name is De Nederlandsche Bank",
+          "url": "https://www.dnb.nl/en/"
+        }
+      ],
+      "foundOn": "2026-11-12",
+      "inSourceSince": "2026-07-20",
+      "publicSince": null,
+      "esmaFixed": null,
+      "check": {
+        "file": "EMTWP",
+        "contains": "Nederlansche"
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "webull-legal-basis",
+      "kind": "flagged",
+      "register": "CASPS",
+      "field": "Legal basis",
+      "entities": [
+        "Webull Securities (Europe) B.V."
+      ],
+      "leis": [
+        "894500CUU8Y0ZBG8DX95"
+      ],
+      "esmaValue": "Article 63, CASP authorisation",
+      "ourValue": "Not shown on the site. AFM's register lists a notification under Article 60 by a MiFID II firm.",
+      "evidence": [
+        {
+          "label": "AFM register of crypto-asset service providers",
+          "url": "https://www.afm.nl/~/profmedia/files/registers/register-cryptopartijen.xlsx"
+        }
+      ],
+      "foundOn": "2026-11-12",
+      "inSourceSince": "2026-10-01",
+      "publicSince": null,
+      "esmaFixed": null,
+      "check": {
+        "file": "CASPS",
+        "where": {
+          "col": 3,
+          "re": "^894500CUU8Y0ZBG8DX95$"
+        },
+        "test": {
+          "col": 15,
+          "re": "Article 63"
+        }
+      },
+      "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    }
+  ]
+}
