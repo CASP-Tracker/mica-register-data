@@ -209,6 +209,55 @@ function fixDate(lei, field, name, parsedDate) {
   return parseDate(fix[1]);
 }
 
+// Rows that ESMA's current file no longer prints although a second, named
+// source shows the authorisation still stands. Keyed by LEI. `row` is the row
+// exactly as ESMA last printed it (the snapshot is in the history of
+// source/CASPS.csv in the data repository), `lastInSource` is the last download
+// that had it and `missingSince` the first that did not. A kept row is added
+// ONLY while its LEI is absent from the source, so it goes inert by itself the
+// day ESMA lists the entity again, with whatever values ESMA prints then. A kept
+// row is not counted in `sourceRows` (that stays the number of rows in ESMA's
+// current file), it is counted in `keptRows`, and its record carries `kept`.
+// Every LEI here needs an entry in src/data/source-corrections.json
+// (build-corrections.mjs stops the build otherwise). Re-check the second source
+// on every refresh: the row is dropped the day that source shows an end date.
+const KEPT_ROWS_BY_LEI = {
+  // ILIRIKA borzno posredniska hisa d.d. (SI, ATVP). ESMA's file of 2026-11-18
+  // (Last-Modified 15:01 GMT) has no row for it. Its position, the first row of
+  // the Slovenian block, holds a second, byte-identical copy of the row of
+  // Uphold Digital Assets Europe (PT), which ESMA added that day. ESMA marks a
+  // withdrawn authorisation by filling ac_authorisationEndDate and keeping the
+  // row (Decubate B.V., Stratos Europe Ltd), it does not delete it. The AMF
+  // list of authorised CASPs (data.gouv.fr, published 2026-11-18) still shows
+  // ILIRIKA's MiCA passport as "Agréé" with no end date, and ilirika.si still
+  // presents the firm as a MiCA provider supervised by ATVP. ATVP's own site
+  // could not be read that day (bot check). User decision 2026-11-18: keep it.
+  "529900OSVFQK3XISEQ85": {
+    lastInSource: "2026-11-18",
+    missingSince: "2026-11-18",
+    correction: "ilirika-row-replaced",
+    row: [
+      "Securities Market Agency (ATVP)",
+      "SI",
+      "ILIRIKA borzno posredniška hiša d.d.",
+      "529900OSVFQK3XISEQ85",
+      "SI",
+      "Ilirika",
+      "Slovenska cesta 54A 1000 Ljubljana Slovenia",
+      "https://www.ilirika.si/",
+      "",
+      "04/10/2025",
+      "",
+      "a. providing custody and administration of crypto-assets on behalf of clients|e. execution of orders for crypto-assets on behalf of clients|g. reception and transmission of orders for crypto-assets on behalf of clients|i. providing portfolio management on crypto-assets",
+      "AT|BE|BG|CY|CZ|DE|DK|EE|EL|ES|FI|FR|HR|HU|IE|IS|IT|LI|LT|LU|LV|MT|NL|NO|PL|PT|RO|SE|SI|SK",
+      "",
+      "25/08/2026",
+      "",
+      "",
+    ],
+  },
+};
+
 // Whether (and how) each home state's regulator assigns its OWN reference
 // number for a MiCA authorisation - a THIRD identifier, distinct from both
 // the LEI (global, ESMA-published) and the GLEIF-sourced company register
@@ -479,6 +528,22 @@ const rows = parseCSV(raw);
 const header = rows[0];
 console.log(`Parsed ${rows.length - 1} raw rows, ${header.length} columns.`);
 
+// Add the kept rows whose LEI the current file no longer carries (see
+// KEPT_ROWS_BY_LEI). They go after the last source row, so no existing slug moves.
+const keptByRow = new Map();
+const keptInert = [];
+{
+  const leisInSource = new Set(rows.slice(1).map((r) => LEI_FIX[clean(r[3])] || clean(r[3])));
+  for (const [lei, k] of Object.entries(KEPT_ROWS_BY_LEI)) {
+    if (leisInSource.has(lei)) {
+      keptInert.push({ lei, ...k });
+      continue;
+    }
+    rows.push(k.row);
+    keptByRow.set(k.row, { lei, ...k });
+  }
+}
+
 const usedSlugs = new Map();
 function uniqueSlug(base, homeState) {
   let slug = base || "casp";
@@ -516,6 +581,7 @@ for (let i = 1; i < rows.length; i++) {
   const end = parseDate(r[10]);
   const update = fixDate(lei, "lastUpdate", name, parseDate(r[14]));
   const brand = BRAND_BY_LEI[lei];
+  const kept = keptByRow.get(r);
 
   parsed.push({
     slug: null, // assigned after duplicate rows are merged
@@ -539,6 +605,10 @@ for (let i = 1; i < rows.length; i++) {
     comments: clean(r[13]),
     lastUpdate: update.iso,
     lastUpdateRaw: update.raw,
+    // Only on a row kept from an earlier ESMA file (KEPT_ROWS_BY_LEI).
+    ...(kept
+      ? { kept: { missingSince: kept.missingSince, lastInSource: kept.lastInSource, correction: kept.correction } }
+      : {}),
   });
 }
 
@@ -633,7 +703,11 @@ const body = {
   // parsing the official CSV directly gets `sourceRows`, so a third party
   // publishing `count` is publishing OUR derived figure. Surfaced in
   // public/llms.txt (scripts/build-llms.mjs) so the distinction is on the record.
-  sourceRows: parsed.length,
+  // `keptRows` = rows ESMA's current file no longer prints that we keep
+  // (KEPT_ROWS_BY_LEI), never part of `sourceRows`, so
+  // count = sourceRows - merged duplicates + keptRows.
+  sourceRows: parsed.length - keptByRow.size,
+  keptRows: keptByRow.size,
   count: items.length,
   items,
 };
@@ -654,6 +728,15 @@ if (dateFixesApplied.length) {
   console.log(`Source date typos corrected (DATE_FIX_BY_LEI): ${dateFixesApplied.length}`);
   for (const f of dateFixesApplied) console.log(`   ${f}`);
 }
+if (keptByRow.size) {
+  console.log(`Rows kept although ESMA's current file no longer prints them (KEPT_ROWS_BY_LEI): ${keptByRow.size}`);
+  for (const k of keptByRow.values())
+    console.log(`   ${k.row[2]} (LEI ${k.lei}), missing since ${k.missingSince}. Re-check its second source on every refresh.`);
+}
+for (const k of keptInert)
+  console.log(
+    `!! KEPT_ROWS_BY_LEI: ESMA lists ${k.row[2]} (LEI ${k.lei}) again, the kept row is inert. Record esmaFixed in source-corrections.json.`,
+  );
 const noServices = items.filter((i) => i.services.length === 0).length;
 const noCountries = items.filter((i) => i.countries.length === 0).length;
 console.log(`Records with no detected services: ${noServices}`);

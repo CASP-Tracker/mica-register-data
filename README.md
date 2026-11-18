@@ -9,7 +9,7 @@ Cleaned, machine-readable datasets from the European Securities and Markets Auth
 
 | File | Register | Entries | Description |
 |---|---|---|---|
-| [`data/casps.json`](data/casps.json) | Authorised CASPs | **405** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
+| [`data/casps.json`](data/casps.json) | Authorised CASPs | **406** | Crypto-asset service providers holding a MiCA (CASP) authorisation |
 | [`data/ncasps.json`](data/ncasps.json) | NCASP warning list | **217** | Non-compliant entities flagged by national regulators |
 | [`data/emts.json`](data/emts.json) | EMT issuers | **26** issuers (51 white papers) | E-money token (stablecoin) issuers under MiCA Title IV |
 | [`data/arts.json`](data/arts.json) | ART issuers | **0** | Asset-referenced token issuers under MiCA Title III (the register has been empty since launch) |
@@ -31,13 +31,13 @@ The official interim CSVs are hard to consume programmatically. The cleaning scr
 - service labels that arrive cut short (the AMF submits `d. exchange of crypto-assets for other`, the Bulgarian FSC `d. exchange of crypto-assets`), which a plain phrase match drops without a trace. Until 2026-09-17 that cost 16 providers their service d in this dataset. Every one was checked against the home regulator's own register before the fix, and the cleaning script now prints any label it cannot place;
 - dates converted from `dd/mm/yyyy` to ISO 8601.
 
-We normalise, and we change a value only against a second, named source. Every defect we have found in ESMA's files, whether we corrected it or only flagged it, is logged in [`CORRECTIONS.md`](CORRECTIONS.md) (as data: [`data/corrections.json`](data/corrections.json)) with the evidence, the commit of this repository in which our fix first appeared, and whether ESMA has since corrected its own file. On 2026-11-12 the log held 21 defects. ESMA had corrected 8 of them in its own file, and in 5 cases our fix was public here first, between 4 and 102 days before ESMA's. Every correction in the scripts is coded to switch itself off the moment ESMA fixes the row, and the build stops if a correction has no entry in the log. Run `git log -p source/CASPS.csv` to see a defect and its later fix in ESMA's own file.
+We normalise, and we change a value only against a second, named source. A row that vanishes from ESMA's file while a second, named source shows the authorisation still stands is kept with the values ESMA last printed and marked `kept` (so far once: ILIRIKA, 18 November 2026). Every defect we have found in ESMA's files, whether we corrected it or only flagged it, is logged in [`CORRECTIONS.md`](CORRECTIONS.md) (as data: [`data/corrections.json`](data/corrections.json)) with the evidence, the commit of this repository in which our fix first appeared, and whether ESMA has since corrected its own file. On 2026-11-12 the log held 21 defects. ESMA had corrected 8 of them in its own file, and in 5 cases our fix was public here first, between 4 and 102 days before ESMA's. Every correction in the scripts is coded to switch itself off the moment ESMA fixes the row, and the build stops if a correction has no entry in the log. Run `git log -p source/CASPS.csv` to see a defect and its later fix in ESMA's own file.
 
 Full methodology: the **CASP Tracker Verification Protocol**, described at <https://casptracker.eu/about/#methodology>. Each refresh starts by downloading the live CSVs from esma.europa.eu and comparing SHA-256 hashes byte for byte; the datasets are regenerated whenever the source changes.
 
 ## Schema
 
-All JSON files share the same top level: `generatedAt` (build timestamp), `lastChanged`, `source` (the ESMA CSV URL, or for the derived `countries.json` the three URLs it is built from), `count`, and `items[]`. `casps.json` additionally carries `lastDataUpdate` (the newest record date inside the register).
+All JSON files share the same top level: `generatedAt` (build timestamp), `lastChanged`, `source` (the ESMA CSV URL, or for the derived `countries.json` the three URLs it is built from), `count`, and `items[]`. `casps.json` additionally carries `lastDataUpdate` (the newest record date inside the register), `sourceRows` (the data rows in ESMA's current CSV) and `keptRows` (rows that file no longer prints and we keep, see `kept` below), so `count` equals `sourceRows` minus the merged duplicate rows plus `keptRows`.
 
 Three dates that are easy to confuse, and deliberately are not the same thing:
 
@@ -69,6 +69,7 @@ The date each dataset was last verified against the live ESMA source, whether or
 | `companyRegisterNumber`, `companyRegisterName`, `companyRegisterCountry` | The entity's national commercial-register identifier (e.g. a German Handelsregister number, a Dutch KvK number), resolved from [GLEIF](https://www.gleif.org)'s public API by LEI. This is **not** the LEI and **not** a MiCA-specific number: every company has one, licensed or not. Present for most, but not all, entries. |
 | `ncaNumberStatus` | Whether the home regulator assigns a MiCA-specific reference number at all: `register` (a public, browsable register exists), `informal` (only per-decision references exist, no browsable register), or `none` (confirmed not to assign a separate number). |
 | `ncaNumber`, `ncaNumberLabel` | The regulator-assigned MiCA reference number and its label (e.g. `"41000007"` / `"AFM authorisation number"`), where known. An entity in a `register`-status country without a value here simply means we have not sourced that specific number yet, not that one doesn't exist. |
+| `kept` | Present only on an entry whose row ESMA's current file no longer prints, while a second, named source shows the authorisation still stands: `missingSince` (the first ESMA file without the row), `lastInSource` (the last file that had it) and `correction` (the id of its entry in the corrections log). Every other field holds the value ESMA last printed. The entry returns to ESMA's own values the day ESMA lists it again |
 
 ESMA's own register carries only the LEI (MiCA Art. 109(5)(a)); the two extra identifier fields above are purely national artifacts, researched and joined by CASP Tracker per-country. See `scripts/fetch-register-numbers.mjs` and `scripts/fetch-nca-numbers.mjs` below.
 
@@ -128,7 +129,7 @@ Same top-level shape; `items` is empty because no ART issuer has been authorised
 
 ### `data/countries.json` (MiCA licences by country, derived)
 
-Unlike the four datasets above, this one has no ESMA counterpart: every figure is derived by CASP Tracker from `casps.json`, `ncasps.json` and `emts.json`, one item per EEA state (EU-27 plus Iceland, Liechtenstein and Norway), sorted by licences issued. It feeds <https://casptracker.eu/crypto-license-in-europe-by-country/>. Next to `count` and `items` the top level carries `totals` (register-wide figures: `count`, `sourceRows`, `lastDataUpdate`, `states`, `countriesWith`, `zeroStates`, `regulators`, `futureDated`, `exchanges`, `banks`), and `source` lists the three ESMA CSVs the inputs come from. "Last verification" below means the date at the top of this file.
+Unlike the four datasets above, this one has no ESMA counterpart: every figure is derived by CASP Tracker from `casps.json`, `ncasps.json` and `emts.json`, one item per EEA state (EU-27 plus Iceland, Liechtenstein and Norway), sorted by licences issued. It feeds <https://casptracker.eu/crypto-license-in-europe-by-country/>. Next to `count` and `items` the top level carries `totals` (register-wide figures: `count`, `sourceRows`, `keptRows`, `lastDataUpdate`, `states`, `countriesWith`, `zeroStates`, `regulators`, `futureDated`, `exchanges`, `banks`), and `source` lists the three ESMA CSVs the inputs come from. "Last verification" below means the date at the top of this file.
 
 | Field | Meaning |
 |---|---|

@@ -133,6 +133,9 @@ const countries = EEA_STATES.map((cc) => {
 const totals = {
   count: casps.count,
   sourceRows: casps.sourceRows,
+  // Rows ESMA's current file no longer prints that casps.json keeps (see
+  // KEPT_ROWS_BY_LEI in clean-data.mjs): count = sourceRows - merged duplicates + keptRows.
+  keptRows: casps.keptRows || 0,
   lastDataUpdate: casps.lastDataUpdate,
   states: EEA_STATES.length,
   countriesWith: countries.filter((c) => c.licences > 0).length,
@@ -152,7 +155,7 @@ const body = {
     emts: "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
   },
   note:
-    "Per-country statistics DERIVED by CASP Tracker from the cleaned ESMA registers (casps.json, ncasps.json, emts.json); none of these figures exists in ESMA's own files. One record per EEA state (EU-27 plus Iceland, Liechtenstein and Norway), sorted by licences issued. `licences` counts entries by home state, authorisations and Article 60 notifications together, exactly as ESMA lists them. `serving` = home licences + providers passported in from other states. `exchanges` = licences covering MiCA services b, c or d. `banks` is a legal-name heuristic, not a register field. `future` entries carry an authorisation date after the last verification and are included in `licences`. `warnings` counts NCASP entries filed by the country's regulator; only five regulators report to that list, so 0 means none reported, not none issued.",
+    "Per-country statistics DERIVED by CASP Tracker from the cleaned ESMA registers (casps.json, ncasps.json, emts.json); none of these figures exists in ESMA's own files. One record per EEA state (EU-27 plus Iceland, Liechtenstein and Norway), sorted by licences issued. `licences` counts entries by home state, authorisations and Article 60 notifications together, exactly as ESMA lists them. `serving` = home licences + providers passported in from other states. `exchanges` = licences covering MiCA services b, c or d. `banks` is a legal-name heuristic, not a register field. `future` entries carry an authorisation date after the last verification and are included in `licences`. `warnings` counts NCASP entries filed by the country's regulator; only a handful of regulators report to that list, so 0 means none reported, not none issued.",
   attribution: DATASET_ATTRIBUTION,
   count: countries.length,
   totals,
