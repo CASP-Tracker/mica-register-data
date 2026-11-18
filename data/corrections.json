@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T09:38:09.644Z",
+  "generatedAt": "2026-11-18T19:24:42.005Z",
   "lastChanged": "2026-11-12",
   "about": "Defects CASP Tracker found in ESMA's MiCA register files, with the evidence, the date our fix became public in the data repository, and whether ESMA has since corrected its own file. `status` is recomputed against the current ESMA files on every build. `leadDays` is how long our fix was public before ESMA's file stopped carrying the defect, as a range between two of our downloads.",
   "kinds": {

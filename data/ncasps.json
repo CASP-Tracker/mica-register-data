@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-12T08:18:09.297Z",
-  "lastChanged": "2026-11-12",
+  "generatedAt": "2026-11-18T19:24:21.086Z",
+  "lastChanged": "2026-11-18",
   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
-  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 6 authorities have reported entries so far (CONSOB/IT 180, LSC/LT 27, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
+  "note": "Entities flagged by national competent authorities as providing crypto-asset services without MiCA authorisation. Only 7 authorities have reported entries so far (CONSOB/IT 180, LSC/LT 27, FSMA/BE 6, AFM/NL 1, Czech National Bank/CZ 1, EFSA/EE 1, NBS/SK 1), so this is NOT a complete EU blacklist: absence does not imply authorisation.",
   "attribution": {
     "source": "CASP Tracker",
     "url": "https://casptracker.eu",
@@ -13,7 +13,7 @@
     "terms": "https://casptracker.eu/llms.txt",
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
-  "count": 216,
+  "count": 217,
   "regulators": [
     {
       "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
@@ -43,6 +43,12 @@
       "authority": "Czech National Bank",
       "short": "Czech National Bank",
       "homeState": "CZ",
+      "count": 1
+    },
+    {
+      "authority": "Estonian Financial Supervision Authority (EFSA)",
+      "short": "EFSA",
+      "homeState": "EE",
       "count": 1
     },
     {
@@ -150,6 +156,20 @@
       "decisionDate": "2026-08-25",
       "comments": "The CNB issued a public warning.",
       "lastUpdate": "2026-09-14"
+    },
+    {
+      "authority": "Estonian Financial Supervision Authority (EFSA)",
+      "homeState": "EE",
+      "leiName": "Swipelux OÜ",
+      "commercialName": "Swipelux OÜ",
+      "website": "https://www.swipelux.com/",
+      "domains": [
+        "swipelux.com"
+      ],
+      "reason": "Swipelux OÜ’s website indicates that it may provide crypto-asset services which, pursuant to Regulation (EU) 2023/1114 of the European Parliament and Council and the Market in Crypto-Assets Act, require authorisation from Finantsinspektsioon. Finantsinspektsioon has not granted Swipelux OÜ such authorisation.",
+      "decisionDate": "2026-11-18",
+      "comments": "",
+      "lastUpdate": "2026-11-18"
     },
     {
       "authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",

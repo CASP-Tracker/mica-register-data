@@ -8,7 +8,7 @@ How to read it:
 - **Repaired**: A format defect we read correctly without changing any fact.
 - **Flagged**: A defect we report but do not change.
 - An ESMA file is dated by the day we downloaded it. "Fixed by ESMA between A and B" means our download of A still had the defect and our download of B no longer did. Our own fixes link to the commit of this repository in which they first appeared.
-- The status column is recomputed against ESMA's current files on every build, last on 2026-11-12. A fix that ESMA has made redundant switches itself off in the cleaning code, so we never overwrite a later, correct value.
+- The status column is recomputed against ESMA's current files on every build, last on 2026-11-18. A fix that ESMA has made redundant switches itself off in the cleaning code, so we never overwrite a later, correct value.
 
 ## Summary
 
