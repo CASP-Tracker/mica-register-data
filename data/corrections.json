@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T19:24:42.005Z",
-  "lastChanged": "2026-11-12",
+  "generatedAt": "2026-11-18T19:48:41.946Z",
+  "lastChanged": "2026-11-18",
   "about": "Defects CASP Tracker found in ESMA's MiCA register files, with the evidence, the date our fix became public in the data repository, and whether ESMA has since corrected its own file. `status` is recomputed against the current ESMA files on every build. `leadDays` is how long our fix was public before ESMA's file stopped carrying the defect, as a range between two of our downloads.",
   "kinds": {
     "corrected": "A value we publish differs from ESMA's file, backed by a second, named source.",
@@ -23,17 +23,17 @@
     "repository": "https://github.com/CASP-Tracker/mica-register-data"
   },
   "summary": {
-    "total": 21,
-    "corrected": 7,
+    "total": 22,
+    "corrected": 8,
     "repaired": 7,
     "flagged": 7,
-    "open": 13,
+    "open": 14,
     "fixedByEsma": 8,
     "fixedByUsFirst": 5,
     "leadDaysMin": 4,
     "leadDaysMax": 102
   },
-  "count": 21,
+  "count": 22,
   "items": [
     {
       "id": "ari10-lei",
@@ -238,6 +238,58 @@
         }
       },
       "count": 1,
+      "status": "open",
+      "aheadOfEsma": false,
+      "leadDays": null
+    },
+    {
+      "id": "ilirika-row-replaced",
+      "kind": "corrected",
+      "title": "ILIRIKA's row replaced by a second copy of Uphold's",
+      "register": "CASPS",
+      "field": "Missing row",
+      "entities": [
+        "ILIRIKA borzno posredniška hiša d.d.",
+        "Uphold Digital Assets Europe, Unipessoal Lda"
+      ],
+      "leis": [
+        "529900OSVFQK3XISEQ85",
+        "254900QWGNL1STBZDC19"
+      ],
+      "esmaValue": "No row for ILIRIKA. Its place in the file holds a second, identical copy of the row of Uphold Digital Assets Europe, added the same day",
+      "ourValue": "ILIRIKA kept with the values ESMA printed until 18 November 2026, Uphold listed once",
+      "evidence": [
+        {
+          "label": "AMF list of authorised CASPs on data.gouv.fr, published 18 November 2026: ILIRIKA's MiCA passport is listed as \"Agréé\" with no end date",
+          "url": "https://www.data.gouv.fr/api/1/datasets/r/e03f8899-2499-4826-aaae-6842f520bdac"
+        },
+        {
+          "label": "ESMA's own practice in this file: a withdrawn authorisation keeps its row and gets an end date (Decubate B.V., Stratos Europe Ltd)"
+        },
+        {
+          "label": "Both ESMA files in the history of source/CASPS.csv in our data repository",
+          "url": "https://github.com/CASP-Tracker/mica-register-data/commits/main/source/CASPS.csv"
+        },
+        {
+          "label": "ILIRIKA's own crypto page presents the firm as a MiCA provider supervised by ATVP (read 18 November 2026)",
+          "url": "https://www.ilirika.si/crypto"
+        }
+      ],
+      "foundOn": "2026-11-18",
+      "inSourceSince": "2026-11-18",
+      "publicSince": {
+        "date": "2026-11-18",
+        "commit": "04cc1b3",
+        "url": "https://github.com/CASP-Tracker/mica-register-data/commit/04cc1b3"
+      },
+      "esmaFixed": null,
+      "override": "KEPT_ROWS_BY_LEI in scripts/clean-data.mjs",
+      "note": "ATVP's own website answered our requests with a bot check on 18 November 2026, so the second source is the French regulator's list of passported providers. Our data repository followed ESMA's file for a short time that evening (commit 9a8c0ae) before the row was restored. The site never dropped it.",
+      "check": {
+        "file": "CASPS",
+        "absent": "529900OSVFQK3XISEQ85"
+      },
+      "count": 2,
       "status": "open",
       "aheadOfEsma": false,
       "leadDays": null

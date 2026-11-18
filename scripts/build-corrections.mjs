@@ -99,6 +99,8 @@ function runCheck(check) {
   const src = source[check.file];
   if (!src) throw new Error(`Unknown file in check: ${check.file}`);
   if (check.contains !== undefined) return { present: src.text.includes(check.contains), matches: [] };
+  // A row that went missing: the defect is present while the value (a LEI) is NOT in the file.
+  if (check.absent !== undefined) return { present: !src.text.includes(check.absent), matches: [] };
   if (check.special === "invalidLei") {
     const matches = src.rows
       .filter((r) => one(r[3]) && !leiValid(one(r[3])))
@@ -189,6 +191,7 @@ const overrides = [
   ["clean-data.mjs", "NAME_BY_LEI"],
   ["clean-data.mjs", "WEBSITE_BY_LEI"],
   ["clean-data.mjs", "DATE_FIX_BY_LEI"],
+  ["clean-data.mjs", "KEPT_ROWS_BY_LEI"],
   ["clean-token-issuers.mjs", "DISPLAY_BY_LEI"],
 ];
 for (const [file, name] of overrides)
